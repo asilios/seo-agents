@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-29-knowledge-uz",
+  "url": "https://forma-3d.uz/uz/knowledge",
+  "issue_ids": [
+    "h1-generic-001"
+  ],
+  "cluster": "Информационные кластеры (база знаний)",
+  "changes": [
+    {
+      "field": "h1",
+      "current": "G‘altakdan natijagacha",
+      "proposed": "3D-bosma va filament bo‘yicha bilimlar bazasi",
+      "reason": "H1-слоган без ключа; title «3D-bosma bo‘yicha bilimlar bazasi | Forma 3D» и description оставляем."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

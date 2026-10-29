@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-29-catalog-parts-uz",
+  "url": "https://forma-3d.uz/uz/catalog/parts",
+  "issue_ids": [
+    "long-desc-001",
+    "long-title-001",
+    "pagination-meta-001"
+  ],
+  "cluster": "Запчасти и расходники для Bambu Lab (хаб)",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Bambu Lab printerlari uchun ehtiyot qismlar | Forma 3D",
+      "proposed": "Bambu Lab ehtiyot qismlari Toshkentda | Forma 3D",
+      "reason": "48 символов. Запросы «bambu lab ehtiyot qismlar» и «… toshkent» из кластера."
+    },
+    {
+      "field": "meta_description",
+      "current": "Bambu Lab A1, P1S, X1C, H2D va boshqa printerlar uchun hotendlar va soplolar, bosma plastinalar, AMS qismlari, xizmat ko‘rsatish to‘plamlari va sarf materiallari.",
+      "proposed": "Bambu Lab A1, P1S, X1C, H2D uchun hotend va soplolar, bosma stollari, AMS qismlari. Toshkentda buyurtma kuni yoki ertasiga yetkazamiz. Modelga qarab tanlaymiz.",
+      "reason": "Сейчас 162 символа (long-desc-001). Новый — 159, с USP по доставке и призывом."
+    },
+    {
+      "field": "h1",
+      "current": "Ehtiyot qismlar",
+      "proposed": "Bambu Lab uchun ehtiyot qismlar va sarf materiallari",
+      "reason": "В H1 нет бренда Bambu Lab."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Bambu Lab A1 va A1 mini uchun hotendlar",
+      "target": "https://forma-3d.uz/uz/product/hotend-a1-04-steel",
+      "placement": "во вводном абзаце под H1 (подбор по модели)",
+      "reason": "У хотэндов меньше всего входящих ссылок; кластер приоритета 1."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "P1P va P1S uchun hotendlar",
+      "target": "https://forma-3d.uz/uz/product/hotend-p1-04",
+      "placement": "в том же абзаце",
+      "reason": "Поддержка кластера «Хотэнды и сопла»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "X1 va X1C uchun hotendlar",
+      "target": "https://forma-3d.uz/uz/product/hotend-x1-04",
+      "placement": "в том же абзаце",
+      "reason": "Поддержка кластера «Хотэнды и сопла»."
+    },
+    {
+      "field": "schema",
+      "type": "BreadcrumbList",
+      "proposed": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Bosh sahifa",
+            "item": "https://forma-3d.uz/uz"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Bambu Lab uchun ehtiyot qismlar va sarf materiallari"
+          }
+        ]
+      },
+      "reason": "Разметки на странице нет."
+    },
+    {
+      "field": "pagination_meta",
+      "urls": [
+        "https://forma-3d.uz/uz/catalog/parts?page=2",
+        "https://forma-3d.uz/uz/catalog/parts?page=3"
+      ],
+      "current": "title «Bambu Lab printerlari uchun ehtiyot qismlar — N-sahifa | Forma 3D» (>60), description 162 и H1 как у первой страницы",
+      "proposed": {
+        "title": "Bambu Lab ehtiyot qismlari — {N}-sahifa | Forma 3D",
+        "meta_description": "Bambu Lab ehtiyot qismlari, {N}-sahifa: hotendlar, soplolar, bosma stollari, AMS va ta’mirlash qismlari, Toshkent bo‘ylab yetkazib berish.",
+        "h1": "Bambu Lab uchun ehtiyot qismlar va sarf materiallari — {N}-sahifa",
+        "canonical": "self, в sitemap не добавлять"
+      },
+      "reason": "long-title-001, long-desc-001, pagination-meta-001."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

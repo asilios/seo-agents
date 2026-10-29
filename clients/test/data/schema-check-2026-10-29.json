@@ -1,0 +1,1950 @@
+{
+ "checked_at": "2026-10-29",
+ "note": "JSON-LD Product/Offer check by auditor (requests+bs4)",
+ "pages": [
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-green",
+   "has_product": true,
+   "has_offers": true,
+   "price": 249000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-gray-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-gray-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-orange",
+   "has_product": true,
+   "has_offers": true,
+   "price": 289000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-white",
+   "has_product": true,
+   "has_offers": true,
+   "price": 289000,
+   "currency": "UZS",
+   "availability": "https://schema.org/OutOfStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-white",
+   "has_product": true,
+   "has_offers": true,
+   "price": 269000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-gray-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-black",
+   "has_product": true,
+   "has_offers": true,
+   "price": 249000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-white-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-beige-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/textured-plate",
+   "has_product": true,
+   "has_offers": true,
+   "price": 329000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": false
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-transparent-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/glue-stick",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-blue-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-orange-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-red-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-green",
+   "has_product": true,
+   "has_offers": true,
+   "price": 249000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-yellow-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-beige-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-navy-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-gray-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-green-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/filament-dryer",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-transparent-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-gray-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-a1-02",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-h2c",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-x1-04",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-p1-04",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-p1-04-hardened",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-x1-06",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-a1-04-steel",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-a1-06",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-x1-04-hardened",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-h2d",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-p1-02",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-p2s",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-a1-04-hardened",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-x1c",
+   "has_product": true,
+   "has_offers": true,
+   "price": 189000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": false
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/textured-plate-180",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-p1-06",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-silicone-sock",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-orange",
+   "has_product": true,
+   "has_offers": true,
+   "price": 289000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-white",
+   "has_product": true,
+   "has_offers": true,
+   "price": 289000,
+   "currency": "UZS",
+   "availability": "https://schema.org/OutOfStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-black",
+   "has_product": true,
+   "has_offers": true,
+   "price": 249000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-gray-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-white-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-beige-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-white",
+   "has_product": true,
+   "has_offers": true,
+   "price": 269000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-blue",
+   "has_product": true,
+   "has_offers": true,
+   "price": 249000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-red-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-yellow-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-green-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-black-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-gray-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-white-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/textured-plate",
+   "has_product": true,
+   "has_offers": true,
+   "price": 329000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": false
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-transparent-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/glue-stick",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-blue-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-orange-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-red-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-yellow-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-beige-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-navy-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-green-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/filament-dryer",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-transparent-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-a1-02",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-h2c",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-x1-04",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-x1c",
+   "has_product": true,
+   "has_offers": true,
+   "price": 189000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": false
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-p1-06",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-p2s",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-a1-04-steel",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-x1-04-hardened",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-x1-06",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-h2d",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-silicone-sock",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-p1-04",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-a1-04-hardened",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-p1-04-hardened",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-a1-06",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/textured-plate-180",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-p1-02",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-buffer",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/reusable-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/engineering-plate",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ptfe-tubes",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/smooth-pei-plate",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/desiccant",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/carbon-filter",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-2-pro",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/filament-cutter",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-hub",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/nozzle-cleaning-kit",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/cool-plate-supertack",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/lubrication-kit",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-lite",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-ht",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-feeding-rollers",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-thermistors",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-extruders",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-belts",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/vacuum-storage-bags",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-motors",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-fans",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-cables",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/maintenance-kit-p1s",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-boards",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/maintenance-kit-a1",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-green-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-yellow-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-white-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-red-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-black-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-gray-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-blue",
+   "has_product": true,
+   "has_offers": true,
+   "price": 249000,
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-beige-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-orange-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-transparent-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-transparent-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/abs-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-silk-choice-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/support-for-pla-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/tpu-95a-hf-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-black-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-cf-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-marble-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/tpu-95a-hf-white-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-metal-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-galaxy-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/asa-white-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/abs-white-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-white-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-sparkle-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-gray-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/asa-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-cf-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-glow-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pet-cf-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pc-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/paht-cf-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pva-support-w-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-wood-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pa6-cf-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-gray-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-black-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-green-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-navy-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-beige-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-white-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/smooth-pei-plate",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/nozzle-cleaning-kit",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/engineering-plate",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-hub",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/desiccant",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-2-pro",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-lite",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/lubrication-kit",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/reusable-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-ht",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/filament-cutter",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-feeding-rollers",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/cool-plate-supertack",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-buffer",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/carbon-filter",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ptfe-tubes",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-boards",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-thermistors",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/vacuum-storage-bags",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-belts",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-cables",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/maintenance-kit-p1s",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-extruders",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-motors",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/maintenance-kit-a1",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-fans",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-sparkle-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-white-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-metal-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-silk-choice-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-cf-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-black-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-galaxy-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/tpu-95a-hf-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-transparent-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-marble-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/support-for-pla-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/abs-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/asa-white-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/asa-black-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/abs-white-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-gray-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/tpu-95a-hf-white-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-beige-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-transparent-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-orange-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-white-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-green-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-beige-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-navy-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-gray-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-black-refill",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pva-support-w-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-glow-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pc-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pa6-cf-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/paht-cf-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-cf-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-wood-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pet-cf-request-spool",
+   "has_product": true,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "price_on_request": true
+  }
+ ]
+}

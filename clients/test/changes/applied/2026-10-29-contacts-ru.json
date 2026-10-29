@@ -1,0 +1,173 @@
+{
+  "id": "2026-10-29-contacts-ru",
+  "url": "https://forma-3d.uz/ru/contacts",
+  "issue_ids": [
+    "h1-generic-001",
+    "contacts-001",
+    "schema-org-001"
+  ],
+  "cluster": "Магазин филамента и запчастей Bambu Lab в Ташкенте (главная)",
+  "depends_on": "2026-10-29-dev-contacts-nap — внедрять вместе, не раньше",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Контакты | Forma 3D",
+      "proposed": "Контакты и самовывоз в Ташкенте и Навои | Forma 3D",
+      "reason": "50 символов. Тип страницы + оба города с точками самовывоза (локальные запросы)."
+    },
+    {
+      "field": "meta_description",
+      "current": "Как связаться с Forma 3D: телефон, Telegram, адрес.",
+      "proposed": "Как связаться с Forma 3D: телефон, Telegram, часы работы и пункты самовывоза в Ташкенте и Навои. Поможем с выбором — напишите в Telegram!",
+      "reason": "138 символов. Перечисляет то, что реально будет на странице после dev-contacts-nap (телефон, Telegram, часы, две точки), + призыв. E-mail не упоминается — его пока нет."
+    },
+    {
+      "field": "h1",
+      "current": "Хорошей печати нужен хороший материал",
+      "proposed": "Контакты Forma 3D",
+      "reason": "H1-слоган не говорит, что это страница контактов."
+    },
+    {
+      "field": "contacts_block",
+      "placement": "под H1, вместо текущего слогана-абзаца",
+      "proposed": {
+        "block_1_title": "Как с нами связаться",
+        "block_1_lines": [
+          "Телефон: +998 99 454-19-13 (ссылка tel:+998994541913)",
+          "Telegram: @kemalsen (ссылка https://t.me/kemalsen) — поможем подобрать материал и запчасти",
+          "Работаем ежедневно с 09:00 до 21:00"
+        ],
+        "block_2_title": "Пункты самовывоза",
+        "point_1": {
+          "title": "Ташкент",
+          "address": "ул. Бобура, 42",
+          "hours": "Ежедневно 09:00–21:00",
+          "map_link": "[УТОЧНИТЬ: ссылка на карту — до получения кнопку «Открыть на карте» не выводить]"
+        },
+        "point_2": {
+          "title": "Навои",
+          "address": "ул. Спутник, 3",
+          "hours": "Ежедневно 09:00–21:00",
+          "map_link": "[УТОЧНИТЬ: ссылка на карту — до получения кнопку не выводить]"
+        },
+        "button": "Написать в Telegram → https://t.me/kemalsen",
+        "email_note": "E-mail не выводить; добавить строку «E-mail: …», когда появится."
+      },
+      "reason": "Сейчас на странице нет ни одного способа связи (contacts-001). Блок с двумя точками закрывает NAP и даёт локальный сигнал для Ташкента и Навои."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "условия доставки и самовывоза",
+      "target": "https://forma-3d.uz/ru/delivery",
+      "placement": "под блоком «Пункты самовывоза»",
+      "reason": "Связывает контакты со страницей доставки (кластер «Доставка и оплата»)."
+    },
+    {
+      "field": "schema",
+      "type": "Organization + Store ×2",
+      "proposed": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://forma-3d.uz/#organization",
+            "name": "Forma 3D",
+            "url": "https://forma-3d.uz/ru",
+            "sameAs": [
+              "https://t.me/kemalsen"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+998994541913",
+              "contactType": "customer service",
+              "areaServed": "UZ"
+            },
+            "department": [
+              {
+                "@id": "https://forma-3d.uz/#store-tashkent"
+              },
+              {
+                "@id": "https://forma-3d.uz/#store-navoi"
+              }
+            ]
+          },
+          {
+            "@type": "Store",
+            "@id": "https://forma-3d.uz/#store-tashkent",
+            "name": "Forma 3D — Ташкент",
+            "parentOrganization": {
+              "@id": "https://forma-3d.uz/#organization"
+            },
+            "url": "https://forma-3d.uz/ru/contacts",
+            "telephone": "+998994541913",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "ул. Бобура, 42",
+              "addressLocality": "Ташкент",
+              "addressCountry": "UZ"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "21:00"
+              }
+            ],
+            "hasMap": "[УТОЧНИТЬ: ссылка на карту — если нет, удалить поле]",
+            "currenciesAccepted": "UZS",
+            "paymentAccepted": "Payme, Click, Humo"
+          },
+          {
+            "@type": "Store",
+            "@id": "https://forma-3d.uz/#store-navoi",
+            "name": "Forma 3D — Навои",
+            "parentOrganization": {
+              "@id": "https://forma-3d.uz/#organization"
+            },
+            "url": "https://forma-3d.uz/ru/contacts",
+            "telephone": "+998994541913",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "ул. Спутник, 3",
+              "addressLocality": "Навои",
+              "addressCountry": "UZ"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "21:00"
+              }
+            ],
+            "hasMap": "[УТОЧНИТЬ: ссылка на карту — если нет, удалить поле]",
+            "currenciesAccepted": "UZS",
+            "paymentAccepted": "Payme, Click, Humo"
+          }
+        ]
+      },
+      "reason": "Те же @id, что на главной: поисковик склеит узлы в одну организацию с двумя точками. Схема Organization + Store через department/parentOrganization — см. schema_notes в dev-contacts-nap. E-mail и postalCode не указаны намеренно. hasMap — единственный плейсхолдер; без ссылки поле удалить, это не блокер."
+    }
+  ],
+  "notes_for_other_agents": "thin-content-001 (143 слова): после блока контактов и точек страница станет полнее; при необходимости — content-writer (как добраться до точек).",
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

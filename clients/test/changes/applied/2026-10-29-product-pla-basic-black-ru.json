@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-29-product-pla-basic-black-ru",
+  "url": "https://forma-3d.uz/ru/product/pla-basic-black",
+  "issue_ids": [
+    "dup-product-001",
+    "dup-h1-001"
+  ],
+  "cluster": "PLA пластик Bambu Lab (PLA Basic, PLA Matte, Silk и др.)",
+  "note": "Пример применения шаблона из 2026-10-29-dev-product-meta-template к ключевой карточке (key_urls). Правки по остальным карточкам — в CSV. Решение катушка/рефилл — в 2026-10-29-dev-spool-refill-duplicates (здесь значения для варианта A).",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Bambu Lab PLA Basic, Чёрный — купить в Ташкенте | Forma 3D",
+      "proposed": "Bambu Lab PLA Basic чёрный, катушка 1 кг | Forma 3D",
+      "reason": "51 символ. Сейчас совпадает с title рефилла /ru/product/pla-basic-black-refill — добавлен формат. Формат подтверждён: подпись карточки на сайте «Чёрный · катушка · 1 кг» (скриншот клиента и листинг /ru/catalog)."
+    },
+    {
+      "field": "meta_description",
+      "current": "Купить Bambu Lab PLA Basic, Чёрный, 1 кг — 249 000 сум. Доставка курьером по Ташкенту и в регионы Узбекистана. Forma 3D — всё для 3D-печати.",
+      "proposed": "Bambu Lab PLA Basic чёрный на катушке, 1 кг, 1,75 мм. Оригинальный филамент, доставка по Ташкенту в день заказа или на следующий. Цена 249 000 сум.",
+      "reason": "148 символов. Цена — та, что видна на странице и в Offer (249 000 сум, «В наличии»); в шаблоне подставляется из поля price, вручную не вписывается. Формат и диаметр отличают карточку от рефилла."
+    },
+    {
+      "field": "h1",
+      "current": "Bambu Lab PLA Basic",
+      "proposed": "Bambu Lab PLA Basic чёрный — 1 кг на катушке",
+      "reason": "H1 «Bambu Lab PLA Basic» стоит на 40 URL. В H1 нужны цвет и формат."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Этот цвет без катушки (рефилл)",
+      "target": "https://forma-3d.uz/ru/product/pla-basic-black-refill",
+      "placement": "рядом с выбором цвета / полем «Формат»",
+      "reason": "Перекрёстная ссылка в паре катушка/рефилл (вариант A)."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

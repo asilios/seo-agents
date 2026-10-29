@@ -1,0 +1,85 @@
+{
+  "id": "2026-10-29-catalog-uz",
+  "url": "https://forma-3d.uz/uz/catalog",
+  "issue_ids": [
+    "long-title-001",
+    "h1-generic-001",
+    "pagination-meta-001"
+  ],
+  "cluster": "Филамент Bambu Lab / пластик для 3D-принтера в Ташкенте (хаб)",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Bambu Lab filamenti katalogi — PLA, PETG, ABS va boshqalar | Forma 3D",
+      "proposed": "Bambu Lab filament sotib olish, Toshkent | Forma 3D",
+      "reason": "51 символ (сейчас длиннее 60). Запросы кластера «bambu lab filament», «filament sotib olish», «filament toshkent»; бренд в конце."
+    },
+    {
+      "field": "meta_description",
+      "current": "Bambu Lab filamenti: PLA, PETG, ABS, TPU va boshqa materiallar. Rang, material va printer modeli bo‘yicha tanlash.",
+      "proposed": "Toshkentda Bambu Lab filamenti 1,75 mm: PLA, PETG, ABS, ASA, TPU va muhandislik plastiklari. Buyurtma kuni yoki ertasiga yetkazamiz. Rangni tanlang!",
+      "reason": "148 символов. Диаметр, гео, USP по доставке и призыв к действию."
+    },
+    {
+      "field": "h1",
+      "current": "Filament",
+      "proposed": "3D-printer uchun Bambu Lab filamenti",
+      "reason": "H1 из одного слова. Новый закрывает «bambu lab filament» и «3d printer uchun plastik/filament»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "refill uchun qayta ishlatiladigan g‘altak",
+      "target": "https://forma-3d.uz/uz/product/reusable-spool",
+      "placement": "во вводном абзаце под H1 («Filament 1 kg g‘altakda yoki g‘altaksiz refill sifatida sotiladi — refill uchun [анкор] kerak.»)",
+      "reason": "Разводит интенты катушка/рефилл и поддерживает кластер «Рефилл и многоразовая катушка»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "biznes uchun ulgurji filament",
+      "target": "https://forma-3d.uz/uz/business",
+      "placement": "в конце вводного абзаца или над пагинацией",
+      "reason": "Ссылка на B2B-страницу из хаба."
+    },
+    {
+      "field": "schema",
+      "type": "BreadcrumbList",
+      "proposed": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Bosh sahifa",
+            "item": "https://forma-3d.uz/uz"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "3D-printer uchun Bambu Lab filamenti"
+          }
+        ]
+      },
+      "reason": "Разметки на страницах каталога нет."
+    },
+    {
+      "field": "pagination_meta",
+      "urls": [
+        "https://forma-3d.uz/uz/catalog?page=2",
+        "https://forma-3d.uz/uz/catalog?page=3",
+        "https://forma-3d.uz/uz/catalog?page=4"
+      ],
+      "current": "title «Bambu Lab filamenti katalogi — PLA, PETG, ABS va boshqalar — N-sahifa | Forma 3D» (>60), description и H1 как у первой страницы",
+      "proposed": {
+        "title": "Bambu Lab filament — {N}-sahifa | Forma 3D",
+        "meta_description": "Bambu Lab filamenti katalogi, {N}-sahifa: PLA, PETG, ABS, ASA, TPU va muhandislik plastiklari, Toshkent bo‘ylab yetkazib berish.",
+        "h1": "3D-printer uchun Bambu Lab filamenti — {N}-sahifa",
+        "canonical": "self, в sitemap не добавлять"
+      },
+      "reason": "pagination-meta-001 и long-title-001."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

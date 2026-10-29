@@ -1,0 +1,33 @@
+# Карточка клиента. Заполняется вручную при подключении.
+
+name: ""                    # название компании
+domain: ""                  # https://example.uz
+cms: ""                     # wordpress | tilda | bitrix | custom | ...
+region: "Tashkent, Uzbekistan"
+languages: [ru]             # ru | uz-Latn | uz-Cyrl | en
+report_language: ru
+
+services:                   # ключевые услуги / товары
+  - ""
+
+key_urls:                   # главные страницы для замера скорости (3–10 шт.)
+  - ""
+
+competitors:                # 3–5 сайтов конкурентов
+  - ""
+
+gsc_site: ""                # sc-domain:example.uz или https://example.uz/ — если есть доступ к Search Console
+yandex_webmaster: false     # есть ли доступ к Яндекс.Вебмастеру
+
+brand_tone: ""              # например: "дружелюбно, на «вы», без канцелярита"
+usp: []                     # преимущества, которые можно упоминать
+prices_public: false        # можно ли указывать цены в текстах
+forbidden_claims: []        # что нельзя обещать (например: "самые низкие цены")
+
+contacts:
+  phone: ""
+  address: ""
+  telegram: ""
+
+content_per_month: 2
+started: ""                 # YYYY-MM-DD — дата подключения

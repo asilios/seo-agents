@@ -1,0 +1,179 @@
+{
+  "id": "2026-10-29-home-ru",
+  "url": "https://forma-3d.uz/ru",
+  "issue_ids": [
+    "h1-generic-001",
+    "img-alt-001",
+    "schema-org-001"
+  ],
+  "cluster": "Магазин филамента и запчастей Bambu Lab в Ташкенте (главная)",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Forma 3D — филамент и запчасти Bambu Lab в Ташкенте",
+      "proposed": "Филамент и запчасти Bambu Lab в Ташкенте | Forma 3D",
+      "reason": "51 символ. Главный запрос в начале, бренд в конце (сейчас бренд первым). Брендовый запрос «forma 3d» по-прежнему в title."
+    },
+    {
+      "field": "meta_description",
+      "current": "Филамент Bambu Lab, расходники и запчасти для 3D-принтеров в Ташкенте с доставкой по Узбекистану. Оптовые условия для бизнеса и учебных заведений.",
+      "proposed": "Оригинальный филамент Bambu Lab, хотэнды, столы и запчасти в Ташкенте. Доставка в день заказа или на следующий, опт для бизнеса. Выберите материал в каталоге.",
+      "reason": "159 символов. Добавлены выгоды из USP (оригинальная продукция, доставка в день заказа или на следующий, опт) и призыв к действию. Навои здесь не добавляем: главная целится в «Ташкент», точка в Навои упоминается на /contacts и /delivery (без переспама)."
+    },
+    {
+      "field": "h1",
+      "current": "Всё для вашей 3D-печати. *",
+      "proposed": "Филамент и запчасти Bambu Lab в Ташкенте",
+      "reason": "Сейчас H1 — слоган без ключа и со звёздочкой-сноской внутри заголовка. Слоган «Всё для вашей 3D-печати» можно оставить крупным текстом над/под H1, но не в теге <h1>. Звёздочку убрать из H1 (сноску перенести в абзац)."
+    },
+    {
+      "field": "img_alt",
+      "selector": "img[src*='/images/clients/baxt-textile.png']",
+      "current": "",
+      "proposed": "Логотип клиента Baxt Textile",
+      "reason": "Логотип без alt. Название взято из имени файла — [УТОЧНИТЬ: точное написание названия компании]."
+    },
+    {
+      "field": "img_alt",
+      "selector": "img[src*='/images/clients/ngmk.png']",
+      "current": "",
+      "proposed": "Логотип клиента NGMK",
+      "reason": "Логотип без alt. [УТОЧНИТЬ: точное название компании, как её подписывать — «НГМК» или полное название]."
+    },
+    {
+      "field": "img_alt",
+      "selector": "img[src*='/images/clients/nzbt.png']",
+      "current": "",
+      "proposed": "Логотип клиента NZBT",
+      "reason": "Логотип без alt. [УТОЧНИТЬ: точное название компании]."
+    },
+    {
+      "field": "img_alt",
+      "selector": "img[src*='/images/clients/narbahor-textile.png']",
+      "current": "",
+      "proposed": "Логотип клиента Narbahor Textile",
+      "reason": "Логотип без alt. [УТОЧНИТЬ: точное написание названия компании]."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "филамент оптом для бизнеса и учебных заведений",
+      "target": "https://forma-3d.uz/ru/business",
+      "placement": "в блоке с логотипами клиентов (подпись под логотипами: «Работаем с компаниями и учебными заведениями — [анкор]»)",
+      "reason": "Поддержать приоритетную B2B-страницу ключевым анкором; блок логотипов — естественное место для ссылки на опт."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "хотэнды и сопла для A1, P1 и X1",
+      "target": "https://forma-3d.uz/ru/catalog/parts",
+      "placement": "в первом экране под H1, рядом со ссылкой на каталог филамента",
+      "reason": "Хотэнды — приоритетный кластер, у карточек хотэндов меньше всего входящих ссылок (по 3). Ссылка с главной на раздел запчастей с анкором под кластер."
+    },
+    {
+      "field": "schema",
+      "type": "Organization + Store ×2",
+      "proposed": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://forma-3d.uz/#organization",
+            "name": "Forma 3D",
+            "alternateName": "Форма-3D",
+            "url": "https://forma-3d.uz/ru",
+            "logo": "[УТОЧНИТЬ: абсолютный URL логотипа]",
+            "description": "Филамент Bambu Lab, хотэнды, печатные столы, AMS и запчасти. Оптовые поставки для бизнеса и учебных заведений.",
+            "sameAs": [
+              "https://t.me/kemalsen"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+998994541913",
+              "contactType": "customer service",
+              "areaServed": "UZ"
+            },
+            "department": [
+              {
+                "@id": "https://forma-3d.uz/#store-tashkent"
+              },
+              {
+                "@id": "https://forma-3d.uz/#store-navoi"
+              }
+            ]
+          },
+          {
+            "@type": "Store",
+            "@id": "https://forma-3d.uz/#store-tashkent",
+            "name": "Forma 3D — Ташкент",
+            "parentOrganization": {
+              "@id": "https://forma-3d.uz/#organization"
+            },
+            "url": "https://forma-3d.uz/ru/contacts",
+            "telephone": "+998994541913",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "ул. Бобура, 42",
+              "addressLocality": "Ташкент",
+              "addressCountry": "UZ"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "21:00"
+              }
+            ],
+            "currenciesAccepted": "UZS",
+            "paymentAccepted": "Payme, Click, Humo"
+          },
+          {
+            "@type": "Store",
+            "@id": "https://forma-3d.uz/#store-navoi",
+            "name": "Forma 3D — Навои",
+            "parentOrganization": {
+              "@id": "https://forma-3d.uz/#organization"
+            },
+            "url": "https://forma-3d.uz/ru/contacts",
+            "telephone": "+998994541913",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "ул. Спутник, 3",
+              "addressLocality": "Навои",
+              "addressCountry": "UZ"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "21:00"
+              }
+            ],
+            "currenciesAccepted": "UZS",
+            "paymentAccepted": "Payme, Click, Humo"
+          }
+        ]
+      },
+      "reason": "На главной нет Organization/LocalBusiness. Схема: одна Organization + Store на каждую точку самовывоза, связь через department/parentOrganization (обоснование — schema_notes в 2026-10-29-dev-contacts-nap). Данные клиента: телефон +998994541913, Telegram https://t.me/kemalsen, ежедневно 09:00–21:00, точки: Ташкент, ул. Бобура, 42 и Навои, ул. Спутник, 3. E-mail и postalCode намеренно не указаны (их нет); email добавить, когда появится. Вставлять одновременно с видимыми контактами (dev-contacts-nap). Поле logo: заполнить или удалить перед публикацией — плейсхолдер в продакшн не выкладывать."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-29-catalog-parts-ru",
+  "url": "https://forma-3d.uz/ru/catalog/parts",
+  "issue_ids": [
+    "long-desc-001",
+    "long-title-001",
+    "pagination-meta-001",
+    "schema-org-001"
+  ],
+  "cluster": "Запчасти и расходники для Bambu Lab (хаб)",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Запчасти и расходники для принтеров Bambu Lab | Forma 3D",
+      "proposed": "Запчасти Bambu Lab в Ташкенте — хотэнды, столы | Forma 3D",
+      "reason": "57 символов. Запрос «запчасти bambu lab» в начале, гео из кластера, «хотэнды» — приоритетный подкластер."
+    },
+    {
+      "field": "meta_description",
+      "current": "Хотэнды и сопла, печатные пластины, компоненты AMS, наборы обслуживания и расходники для принтеров Bambu Lab A1, P1S, X1C, H2D и других. Подбор по модели принтера.",
+      "proposed": "Хотэнды и сопла, печатные столы, AMS и детали для ремонта Bambu Lab A1, P1S, X1C, H2D. Доставка по Ташкенту в день заказа или на следующий. Подберём по модели.",
+      "reason": "Сейчас 163 символа (long-desc-001). Новый — 158, с USP по доставке и призывом."
+    },
+    {
+      "field": "h1",
+      "current": "Запчасти и расходники",
+      "proposed": "Запчасти и расходники для Bambu Lab",
+      "reason": "В H1 нет бренда, хотя специализация на Bambu Lab — главное отличие от конкурентов (keywords/clusters.md)."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "хотэнды для Bambu Lab A1 и A1 mini",
+      "target": "https://forma-3d.uz/ru/product/hotend-a1-04-steel",
+      "placement": "во вводном абзаце под H1 (2–3 предложения с подбором по модели: «Для A1 и A1 mini — [анкор], для P1P/P1S — …, для X1/X1C — …»)",
+      "reason": "У карточек хотэндов по 3 входящие ссылки — меньше всех на сайте. Отдельной страницы «Хотэнды» нет, поэтому ведём на самые ходовые карточки по моделям."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "хотэнды для P1P и P1S",
+      "target": "https://forma-3d.uz/ru/product/hotend-p1-04",
+      "placement": "в том же вводном абзаце",
+      "reason": "Поддержка кластера «Хотэнды и сопла Bambu Lab»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "хотэнды для X1 и X1C",
+      "target": "https://forma-3d.uz/ru/product/hotend-x1-04",
+      "placement": "в том же вводном абзаце",
+      "reason": "Поддержка кластера «Хотэнды и сопла Bambu Lab»."
+    },
+    {
+      "field": "schema",
+      "type": "BreadcrumbList",
+      "proposed": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://forma-3d.uz/ru"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Запчасти и расходники для Bambu Lab"
+          }
+        ]
+      },
+      "reason": "Разметки на странице нет (schema-org-001)."
+    },
+    {
+      "field": "pagination_meta",
+      "urls": [
+        "https://forma-3d.uz/ru/catalog/parts?page=2",
+        "https://forma-3d.uz/ru/catalog/parts?page=3"
+      ],
+      "current": "title «Запчасти и расходники для принтеров Bambu Lab — страница N | Forma 3D» (>60), description 163 и H1 как у первой страницы",
+      "proposed": {
+        "title": "Запчасти Bambu Lab — страница {N} | Forma 3D",
+        "meta_description": "Запчасти и расходники Bambu Lab, страница {N}: хотэнды, сопла, печатные столы, AMS и детали для ремонта с доставкой по Ташкенту.",
+        "h1": "Запчасти и расходники для Bambu Lab — страница {N}",
+        "canonical": "self, в sitemap не добавлять"
+      },
+      "reason": "long-title-001, long-desc-001, pagination-meta-001."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

@@ -1,0 +1,35 @@
+{
+  "start": "https://твой-сайт.uz",
+  "crawled_at": "2026-10-29 13:33",
+  "summary": {
+    "pages_crawled": 1,
+    "status_4xx_5xx": [],
+    "errors": [
+      "https://твой-сайт.uz"
+    ],
+    "redirected": [],
+    "missing_title": [],
+    "long_title": [],
+    "duplicate_titles": {},
+    "missing_description": [],
+    "long_description": [],
+    "duplicate_descriptions": {},
+    "no_h1": [],
+    "multiple_h1": [],
+    "thin_pages_lt250": [],
+    "noindex": [],
+    "images_without_alt_total": 0,
+    "orphan_like_pages": [],
+    "pages_with_schema": 0,
+    "pages_with_hreflang": 0,
+    "queue_left_unvisited": 0
+  },
+  "pages": [
+    {
+      "url": "https://твой-сайт.uz",
+      "status": null,
+      "error": "HTTPSConnectionPool(host='xn----8sbe2ac0axdh.uz', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='xn----8sbe2ac0axdh.uz', port=443): Failed to resolve",
+      "internal_links_in": 0
+    }
+  ]
+}

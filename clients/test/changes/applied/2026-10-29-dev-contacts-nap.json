@@ -1,0 +1,60 @@
+{
+  "id": "2026-10-29-dev-contacts-nap",
+  "kind": "dev_task",
+  "url": "https://forma-3d.uz/ru/contacts",
+  "urls_scope": "общий подвал всех страниц ru/uz + /ru/contacts, /uz/contacts",
+  "issue_ids": [
+    "contacts-001"
+  ],
+  "cluster": "Магазин филамента и запчастей Bambu Lab в Ташкенте (главная)",
+  "priority": "medium",
+  "changes": [
+    {
+      "field": "dev_task",
+      "title": "Добавить контакты (NAP) и две точки самовывоза в подвал и на страницу контактов",
+      "current": "На /ru, /uz, /ru/contacts нет tel:, ссылки t.me, улицы и часов работы — только «Ташкент, Узбекистан». При этом meta description /ru/contacts обещает «телефон, Telegram, адрес».",
+      "proposed": {
+        "data_from_client": {
+          "phone_display": "+998 99 454-19-13",
+          "phone_href": "tel:+998994541913",
+          "telegram_display": "@kemalsen",
+          "telegram_href": "https://t.me/kemalsen",
+          "email": "нет — поле не выводить ни в подвале, ни в разметке; добавить, когда появится",
+          "hours_ru": "Ежедневно 09:00–21:00",
+          "hours_uz": "Har kuni 09:00–21:00",
+          "pickup_points": [
+            {
+              "ru": "Ташкент, ул. Бобура, 42",
+              "uz": "Toshkent, Bobur ko‘chasi, 42"
+            },
+            {
+              "ru": "Навои, ул. Спутник, 3",
+              "uz": "Navoiy, Sputnik ko‘chasi, 3"
+            }
+          ],
+          "postal_code": "не указан — не выводить",
+          "map_links": "[УТОЧНИТЬ: ссылки на точки в Яндекс/Google Картах — не блокер, без них блок можно публиковать]"
+        },
+        "spec": [
+          "1. Подвал (ru и uz, все страницы): телефон ссылкой <a href=\"tel:+998994541913\">+998 99 454-19-13</a>; Telegram ссылкой <a href=\"https://t.me/kemalsen\">@kemalsen</a>; часы «Ежедневно 09:00–21:00» / «Har kuni 09:00–21:00»; строка «Самовывоз: Ташкент, ул. Бобура, 42 · Навои, ул. Спутник, 3» / «Olib ketish: Toshkent, Bobur ko‘chasi, 42 · Navoiy, Sputnik ko‘chasi, 3». Строку «Ташкент, Узбекистан» заменить этим блоком.",
+          "2. /ru/contacts и /uz/contacts: блок «Как связаться» (телефон, Telegram, часы) + блок «Пункты самовывоза» с двумя карточками точек. Тексты блоков — в 2026-10-29-contacts-ru и 2026-10-29-contacts-uz (поле contacts_block). Кнопка «Написать в Telegram» → https://t.me/kemalsen — подтверждает УТП «помощь с выбором материала в Telegram».",
+          "3. Ссылки «Открыть на карте» у точек — когда клиент пришлёт ссылки; до этого кнопку не выводить (не ставить пустую ссылку).",
+          "4. JSON-LD (готовый код в 2026-10-29-home-ru/uz и 2026-10-29-contacts-ru/uz): один узел Organization «Forma 3D» + два узла Store (Ташкент, Навои), связанные через department / parentOrganization. Вставлять одновременно с видимыми данными: разметка должна совпадать с тем, что на странице.",
+          "5. Новые meta /contacts внедрять вместе с этой задачей: текущий description обещает контакты, которых на странице пока нет.",
+          "6. E-mail: в подвале, на /contacts и в разметке не выводить. Когда появится — добавить mailto: в подвал и /contacts и поле email в узел Organization."
+        ],
+        "schema_notes": "Выбран стандартный для сети точек вариант schema.org: Organization (сама компания, сайт, логотип, Telegram в sameAs, общий телефон в contactPoint) + отдельный Store на каждую физическую точку со своим адресом, телефоном и часами; связь — Organization.department → Store и Store.parentOrganization → Organization. Так поисковик видит одну компанию и две локации, а не два разных магазина. Альтернатива «два независимых Store без Organization» хуже: теряется связь между точками и брендом. subOrganization не используем — он для юрлиц-дочек, а не для пунктов самовывоза.",
+        "acceptance": [
+          "В HTML /ru и /ru/contacts есть tel:+998994541913 и https://t.me/kemalsen (проверка краулером).",
+          "Обе точки самовывоза видны в подвале и на /contacts на обоих языках.",
+          "NAP в подвале, на /contacts и в JSON-LD совпадают символ в символ; Rich Results Test / Schema Markup Validator — без ошибок."
+        ]
+      },
+      "reason": "Локальный магазин без телефона, адреса и Telegram проигрывает по доверию и в локальном поиске конкурентам (у 3dbozor.uz и 3d-reality.uz контакты в подвале есть). Вторая точка в Навои даёт сигнал для локального поиска за пределами Ташкента."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29",
+  "note": "одобрено владельцем через site-brief-2026-10-29; внедрено по отчёту seo-report-2026-10-29"
+}

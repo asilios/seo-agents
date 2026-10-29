@@ -1,0 +1,179 @@
+{
+  "id": "2026-10-29-home-uz",
+  "url": "https://forma-3d.uz/uz",
+  "issue_ids": [
+    "long-title-001",
+    "h1-generic-001",
+    "img-alt-001",
+    "schema-org-001"
+  ],
+  "cluster": "Магазин филамента и запчастей Bambu Lab в Ташкенте (главная)",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Forma 3D — Toshkentda Bambu Lab filamenti va ehtiyot qismlari",
+      "proposed": "Bambu Lab filament va ehtiyot qismlar Toshkentda | Forma 3D",
+      "reason": "Сейчас 61 символ (long-title-001). Новый — 59: запрос «bambu lab filament» в начале, гео, бренд в конце."
+    },
+    {
+      "field": "meta_description",
+      "current": "Bambu Lab filamenti, 3D-printerlar uchun sarf materiallari va ehtiyot qismlar Toshkentda, O‘zbekiston bo‘ylab yetkazib berish bilan.",
+      "proposed": "Original Bambu Lab filamenti, hotendlar, stollar va ehtiyot qismlar Toshkentda. Buyurtma kuni yoki ertasiga yetkazamiz, biznes uchun ulgurji. Katalogni ko‘ring!",
+      "reason": "159 символов. Выгоды из USP (оригинальная продукция, доставка в день заказа или на следующий, опт) + призыв к действию. Navoiy — на /contacts и /delivery."
+    },
+    {
+      "field": "h1",
+      "current": "3D bosmangiz uchun hamma narsa. *",
+      "proposed": "Toshkentda Bambu Lab filamenti va ehtiyot qismlari",
+      "reason": "H1-слоган без ключа и со звёздочкой. Слоган оставить обычным текстом, звёздочку убрать из заголовка."
+    },
+    {
+      "field": "img_alt",
+      "selector": "img[src*='/images/clients/baxt-textile.png']",
+      "current": "",
+      "proposed": "Mijoz logotipi: Baxt Textile",
+      "reason": "Логотип без alt. [УТОЧНИТЬ: точное написание названия компании]."
+    },
+    {
+      "field": "img_alt",
+      "selector": "img[src*='/images/clients/ngmk.png']",
+      "current": "",
+      "proposed": "Mijoz logotipi: NGMK",
+      "reason": "Логотип без alt. [УТОЧНИТЬ: точное название компании]."
+    },
+    {
+      "field": "img_alt",
+      "selector": "img[src*='/images/clients/nzbt.png']",
+      "current": "",
+      "proposed": "Mijoz logotipi: NZBT",
+      "reason": "Логотип без alt. [УТОЧНИТЬ: точное название компании]."
+    },
+    {
+      "field": "img_alt",
+      "selector": "img[src*='/images/clients/narbahor-textile.png']",
+      "current": "",
+      "proposed": "Mijoz logotipi: Narbahor Textile",
+      "reason": "Логотип без alt. [УТОЧНИТЬ: точное написание названия компании]."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "biznes va ta’lim muassasalari uchun ulgurji filament",
+      "target": "https://forma-3d.uz/uz/business",
+      "placement": "в блоке с логотипами клиентов (подпись: «Kompaniyalar va ta’lim muassasalari bilan ishlaymiz — [анкор]»)",
+      "reason": "Поддержать B2B-страницу ключевым анкором на узбекском."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "A1, P1 va X1 uchun hotend va soplolar",
+      "target": "https://forma-3d.uz/uz/catalog/parts",
+      "placement": "в первом экране под H1, рядом со ссылкой на каталог филамента",
+      "reason": "Приоритетный кластер «хотэнды»; у карточек хотэндов меньше всего входящих ссылок."
+    },
+    {
+      "field": "schema",
+      "type": "Organization + Store ×2",
+      "proposed": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://forma-3d.uz/#organization",
+            "name": "Forma 3D",
+            "url": "https://forma-3d.uz/uz",
+            "logo": "[УТОЧНИТЬ: абсолютный URL логотипа]",
+            "description": "Bambu Lab filamenti, hotendlar, bosma stollari, AMS va ehtiyot qismlar. Biznes va ta’lim muassasalari uchun ulgurji yetkazib berish.",
+            "sameAs": [
+              "https://t.me/kemalsen"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+998994541913",
+              "contactType": "customer service",
+              "areaServed": "UZ"
+            },
+            "department": [
+              {
+                "@id": "https://forma-3d.uz/#store-tashkent"
+              },
+              {
+                "@id": "https://forma-3d.uz/#store-navoi"
+              }
+            ]
+          },
+          {
+            "@type": "Store",
+            "@id": "https://forma-3d.uz/#store-tashkent",
+            "name": "Forma 3D — Toshkent",
+            "parentOrganization": {
+              "@id": "https://forma-3d.uz/#organization"
+            },
+            "url": "https://forma-3d.uz/uz/contacts",
+            "telephone": "+998994541913",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Bobur ko‘chasi, 42",
+              "addressLocality": "Toshkent",
+              "addressCountry": "UZ"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "21:00"
+              }
+            ],
+            "currenciesAccepted": "UZS",
+            "paymentAccepted": "Payme, Click, Humo"
+          },
+          {
+            "@type": "Store",
+            "@id": "https://forma-3d.uz/#store-navoi",
+            "name": "Forma 3D — Navoiy",
+            "parentOrganization": {
+              "@id": "https://forma-3d.uz/#organization"
+            },
+            "url": "https://forma-3d.uz/uz/contacts",
+            "telephone": "+998994541913",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Sputnik ko‘chasi, 3",
+              "addressLocality": "Navoiy",
+              "addressCountry": "UZ"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "21:00"
+              }
+            ],
+            "currenciesAccepted": "UZS",
+            "paymentAccepted": "Payme, Click, Humo"
+          }
+        ]
+      },
+      "reason": "Те же @id, что на /ru (одна организация, две точки), адреса и названия — на узбекском. E-mail и postalCode не указаны (их нет). Вставлять вместе с dev-contacts-nap; logo заполнить или удалить перед публикацией."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

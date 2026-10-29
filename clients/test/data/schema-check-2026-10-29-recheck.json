@@ -1,0 +1,4460 @@
+{
+ "checked_at": "2026-10-29",
+ "note": "recheck: JSON-LD Product/Offer/Breadcrumb vs visible price/status, footer NAP/demo (requests+bs4)",
+ "pages": [
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-gray-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PETG HF сер",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/catalog",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/ru/catalog/parts",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/ru/business",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/uz",
+   "status": 200,
+   "schema_types": [
+    "Organization",
+    "Store",
+    "Store"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-beige-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte б",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/contacts",
+   "status": 200,
+   "schema_types": [
+    "Organization",
+    "Store",
+    "Store"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru/knowledge",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru/delivery",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru",
+   "status": 200,
+   "schema_types": [
+    "Organization",
+    "Store",
+    "Store"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru/cart",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-black",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "249000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "На складе в Ташкенте · 65 шт. Bambu Lab ",
+   "visible_price_on_request": false,
+   "visible_price": "249 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte ч",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/privacy",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru/account",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-gray-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic с",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PETG HF чёр",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-white",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "269000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "На складе в Ташкенте · 28 шт. Bambu Lab ",
+   "visible_price_on_request": false,
+   "visible_price": "269 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-white",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "289000",
+   "currency": "UZS",
+   "availability": "https://schema.org/PreOrder",
+   "visible_status": "Под заказ Bambu Lab PETG HF белый — 1 кг",
+   "visible_price_on_request": false,
+   "visible_price": "289 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-white-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic б",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/returns",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-gray-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte с",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-orange",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "289000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "На складе в Ташкенте · 16 шт. Bambu Lab ",
+   "visible_price_on_request": false,
+   "visible_price": "289 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/offer",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-green",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "249000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": null,
+   "visible_price_on_request": false,
+   "visible_price": "249 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-gray-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PETG HF сер",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/filament-dryer",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Сушилка для филамента",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/textured-plate",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "329000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "На складе в Ташкенте · 8 шт. Печатный ст",
+   "visible_price_on_request": false,
+   "visible_price": "329 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-transparent-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PETG HF про",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-gray-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PETG HF k",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/reusable-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Многоразовая катушка ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-gray-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic с",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/catalog?page=4",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-yellow-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic ж",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-green-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic з",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-yellow-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic ж",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/catalog",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-black-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic ч",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-red-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic к",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/catalog?page=3",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-blue",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "249000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "На складе в Ташкенте · 23 шт. Bambu Lab ",
+   "visible_price_on_request": false,
+   "visible_price": "249 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-blue-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic с",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-white-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic б",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-orange-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic о",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/catalog?page=2",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-red-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic к",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-p1-02",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Хотэнд / сопло 0,2 мм",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-a1-02",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Хотэнд / сопло 0,2 мм",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-p1-06",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Хотэнд / сопло 0,6 мм для Bamb",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-x1-06",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Хотэнд / сопло 0,6 мм для Bamb",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/catalog/parts",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-x1-04-hardened",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Закалённый хотэнд 0,4",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-h2c",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Хотэнд для Bambu Lab H2C Хотэн",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-h2d",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Хотэнд для Bambu Lab H2D Хотэн",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-p2s",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Хотэнд для Bambu Lab P2S Хотэн",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-x1c",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "189000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "На складе в Ташкенте · 12 шт. Хотэнд / с",
+   "visible_price_on_request": false,
+   "visible_price": "189 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-silicone-sock",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Силиконовый чехол на ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-p1-04",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Хотэнд в сборе 0,4 мм",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-x1-04",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Хотэнд в сборе 0,4 мм",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/catalog/parts?page=3",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-a1-04-hardened",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Закалённый хотэнд 0,4",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/catalog/parts?page=2",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-a1-04-steel",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Хотэнд для Bambu Lab ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-p1-04-hardened",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Закалённый хотэнд 0,4",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/hotend-a1-06",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Хотэнд / сопло 0,6 мм для Bamb",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/textured-plate-180",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Печатный стол Bambu L",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/business",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-black",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "249000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "Toshkent omborida · 65 dona Bambu Lab PL",
+   "visible_price_on_request": false,
+   "visible_price": "249 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-white-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PETG HF q",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-beige-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/delivery",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-gray-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/cart",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/uz/contacts",
+   "status": 200,
+   "schema_types": [
+    "Organization",
+    "Store",
+    "Store"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/uz/account",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-orange",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "289000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "Toshkent omborida · 16 dona Bambu Lab PE",
+   "visible_price_on_request": false,
+   "visible_price": "289 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-white",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "269000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "Toshkent omborida · 28 dona Bambu Lab PL",
+   "visible_price_on_request": false,
+   "visible_price": "269 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/offer",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-white",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "289000",
+   "currency": "UZS",
+   "availability": "https://schema.org/PreOrder",
+   "visible_status": "Buyurtma asosida Bambu Lab PETG HF oq — ",
+   "visible_price_on_request": false,
+   "visible_price": "289 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-green",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "249000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": null,
+   "visible_price_on_request": false,
+   "visible_price": "249 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-gray-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/privacy",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/uz/returns",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/uz/knowledge",
+   "status": 200,
+   "schema_types": [],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 0
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-beige-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte б",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/glue-stick",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Клей-карандаш для печ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-green-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte з",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-navy-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte т",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-transparent-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic п",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-beige-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic б",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-black-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte ч",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-black-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PETG HF чёр",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-white-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte б",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-white-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PETG HF бел",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-gray-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte с",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-gray-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PETG HF k",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-hf-transparent-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PETG HF про",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/filament-dryer",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi 1–2 g‘altak uchun f",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/textured-plate",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "329000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "Toshkent omborida · 8 dona Bambu Lab Tex",
+   "visible_price_on_request": false,
+   "visible_price": "329 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-transparent-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PETG HF s",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/reusable-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Refill uchun qayta ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-orange-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic о",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-transparent-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic п",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-basic-beige-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Basic б",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-gray-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pc-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PC (поликарбонат) — ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/petg-cf-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PETG-CF — под заказ,",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-wood-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PLA Wood — под заказ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-glow-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PLA Glow — под заказ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/paht-cf-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PAHT-CF — под заказ,",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pa6-cf-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PA6-CF — под заказ, ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pet-cf-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PET-CF — под заказ, ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pva-support-w-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PVA / Support W — по",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-yellow-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-green-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-yellow-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/catalog?page=3",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-black-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-red-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-red-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/catalog?page=4",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-blue",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "249000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "Toshkent omborida · 23 dona Bambu Lab PL",
+   "visible_price_on_request": false,
+   "visible_price": "249 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-white-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/catalog?page=2",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-orange-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-blue-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/asa-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab ASA чёрный ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/abs-white-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab ABS белый —",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-silk-choice-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Silk — ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/asa-white-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab ASA белый —",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-galaxy-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PLA Galaxy — под зак",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-cf-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA-CF чёрн",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-metal-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PLA Metal — под зака",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-sparkle-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PLA Sparkle — под за",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-marble-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Bambu Lab PLA Marble — под зак",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/tpu-95a-hf-white-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab TPU 95A HF ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/support-for-pla-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab Support for",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/tpu-95a-hf-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab TPU 95A HF ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/abs-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab ABS чёрный ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-navy-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte т",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/pla-matte-green-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Bambu Lab PLA Matte з",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-p1-02",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab P1P / P1S",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-a1-02",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab A1 / A1 m",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-p1-06",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab P1P / P1S uch",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-x1-06",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab X1 / X1C uchu",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/textured-plate-180",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab A1 mini u",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-x1-04-hardened",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab X1 / X1C ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-a1-04-hardened",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab A1 / A1 m",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-x1-04",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab X1 / X1C ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-p1-04-hardened",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab P1P / P1S",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/catalog/parts?page=2",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/uz/catalog/parts?page=3",
+   "status": 200,
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": false,
+   "footer_tel": true,
+   "breadcrumb_items": 2
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-x1c",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": true,
+   "price": "189000",
+   "currency": "UZS",
+   "availability": "https://schema.org/InStock",
+   "visible_status": "Toshkent omborida · 12 dona Bambu Lab X1",
+   "visible_price_on_request": false,
+   "visible_price": "189 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-p2s",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab P2S uchun hot",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-h2c",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab H2C uchun hot",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-p1-04",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab P1P / P1S",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-h2d",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab H2D uchun hot",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-a1-04-steel",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab A1 / A1 m",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-silicone-sock",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab hotend uc",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/hotend-a1-06",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab A1 / A1 mini ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-motors",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Моторы для 3D-принтеров Bambu ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-cables",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Кабели для 3D-принтеров Bambu ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/maintenance-kit-p1s",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Набор Forma 3D для об",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/maintenance-kit-a1",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Набор Forma 3D для об",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/vacuum-storage-bags",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Вакуумные пакеты для ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-extruders",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Экструдеры для 3D-принтеров Ba",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-fans",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Вентиляторы для 3D-принтеров B",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-belts",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Ремни для 3D-принтеров Bambu L",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-thermistors",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Термисторы для 3D-принтеров Ba",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/repair-boards",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Платы для 3D-принтеров Bambu L",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/engineering-plate",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Печатный стол Bambu Lab Engine",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-ht",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Система подачи филамента Bambu",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/desiccant",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Влагопоглотитель (сил",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-2-pro",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Система подачи филамента Bambu",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/carbon-filter",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Угольный фильтр для Bambu Lab ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/cool-plate-supertack",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Печатный стол Bambu L",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-hub",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Хабы AMS / AMS Lite для Bambu ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/smooth-pei-plate",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Печатный стол Bambu L",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-buffer",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Буфер AMS для Bambu Lab P1P / ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/nozzle-cleaning-kit",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Иглы и щётки для чист",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/lubrication-kit",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Набор смазки для 3D-п",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ptfe-tubes",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Тефлоновые трубки (PT",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/filament-cutter",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Наличие уточняется Нож для обрезки филам",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-feeding-rollers",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Подающие ролики AMS для Bambu ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/ru/product/ams-lite",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Под заказ Система AMS Lite для Bambu Lab",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-transparent-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-beige-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/glue-stick",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab bosma sto",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-black-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PETG HF q",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-green-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-beige-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-navy-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-gray-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-black-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-white-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-white-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PETG HF o",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-hf-transparent-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PETG HF s",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-orange-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-transparent-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-basic-beige-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Basic",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pc-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PC (polikarbo",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/petg-cf-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PETG-CF — buy",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-wood-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PLA Wood — bu",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-glow-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PLA Glow — bu",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/paht-cf-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PAHT-CF — buy",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pa6-cf-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PA6-CF — buyu",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pet-cf-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PET-CF — buyu",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pva-support-w-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PVA / Support",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-cf-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA-CF qo",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/support-for-pla-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab Support f",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-galaxy-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PLA Galaxy — ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-silk-choice-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Silk ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/abs-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab ABS qora ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-metal-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PLA Metal — b",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/asa-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab ASA qora ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-sparkle-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PLA Sparkle —",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-marble-request-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab PLA Marble — ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/abs-white-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab ABS oq — ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/asa-white-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab ASA oq — ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/tpu-95a-hf-white-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab TPU 95A H",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/tpu-95a-hf-black-spool",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab TPU 95A H",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-green-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/pla-matte-navy-refill",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab PLA Matte",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ptfe-tubes",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab uchun tef",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-lite",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab A1 / A1 mini ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-buffer",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab P1P / P1S / X",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/smooth-pei-plate",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab Smooth PE",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/cool-plate-supertack",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab Cool Plat",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/desiccant",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Filament saqlash uc",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-hub",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab uchun AMS / A",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/nozzle-cleaning-kit",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi 3D-printer soplosin",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/lubrication-kit",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab uchun moy",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-feeding-rollers",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab uchun AMS uza",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-2-pro",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab AMS 2 Pro fil",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/carbon-filter",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab P1S / X1C uch",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/engineering-plate",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab Engineering P",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/filament-cutter",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab A1, P1 va",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/ams-ht",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab AMS HT filame",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/maintenance-kit-p1s",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab P1S uchun",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/vacuum-storage-bags",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Filament g‘altaklar",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-thermistors",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab 3D-printerlar",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-boards",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab 3D-printerlar",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-belts",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab 3D-printerlar",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-motors",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab 3D-printerlar",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-cables",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab 3D-printerlar",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-fans",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab 3D-printerlar",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/repair-extruders",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Buyurtma asosida Bambu Lab 3D-printerlar",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  },
+  {
+   "url": "https://forma-3d.uz/uz/product/maintenance-kit-a1",
+   "status": 200,
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "demo_footer": true,
+   "demo_body": true,
+   "footer_tel": true,
+   "breadcrumb_items": 3,
+   "has_offers": false,
+   "price": null,
+   "currency": null,
+   "availability": null,
+   "visible_status": "Mavjudlik aniqlanadi Bambu Lab A1 uchun ",
+   "visible_price_on_request": true,
+   "visible_price": "25 000"
+  }
+ ]
+}

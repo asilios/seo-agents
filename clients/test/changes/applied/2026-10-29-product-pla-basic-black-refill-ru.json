@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-29-product-pla-basic-black-refill-ru",
+  "url": "https://forma-3d.uz/ru/product/pla-basic-black-refill",
+  "issue_ids": [
+    "dup-product-001",
+    "dup-h1-001",
+    "thin-content-001"
+  ],
+  "cluster": "Рефилл и многоразовая катушка Bambu Lab",
+  "note": "Вариант A из dev-spool-refill-duplicates. Цены на странице нет («Цена по запросу») — в текстах цена не указывается.",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Bambu Lab PLA Basic, Чёрный — купить в Ташкенте | Forma 3D",
+      "proposed": "Bambu Lab PLA Basic чёрный, рефилл без катушки | Forma 3D",
+      "reason": "57 символов. Сейчас title совпадает с катушкой /ru/product/pla-basic-black."
+    },
+    {
+      "field": "meta_description",
+      "current": "Купить Bambu Lab PLA Basic, Чёрный, 1 кг. Доставка курьером по Ташкенту и в регионы Узбекистана. Forma 3D — всё для 3D-печати.",
+      "proposed": "Рефилл Bambu Lab PLA Basic чёрный: 1 кг филамента 1,75 мм без катушки, для многоразовой катушки. Доставка по Ташкенту в день заказа или на следующий.",
+      "reason": "148 символов. Объясняет, чем рефилл отличается от катушки."
+    },
+    {
+      "field": "h1",
+      "current": "Bambu Lab PLA Basic",
+      "proposed": "Bambu Lab PLA Basic чёрный — рефилл 1 кг без катушки",
+      "reason": "Уникальный H1 с цветом и форматом (запросы «bambu lab refill», «филамент без катушки»)."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "многоразовая катушка для рефиллов",
+      "target": "https://forma-3d.uz/ru/product/reusable-spool",
+      "placement": "в блоке «Что такое рефилл» под кнопкой (текст блока — в dev-spool-refill-duplicates, п. 3)",
+      "reason": "Для рефилла нужна многоразовая катушка — прямая допродажа и поддержка кластера."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Этот цвет на катушке",
+      "target": "https://forma-3d.uz/ru/product/pla-basic-black",
+      "placement": "рядом с выбором цвета / полем «Формат»",
+      "reason": "Перекрёстная ссылка в паре."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

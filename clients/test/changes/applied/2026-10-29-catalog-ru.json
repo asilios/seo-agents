@@ -1,0 +1,86 @@
+{
+  "id": "2026-10-29-catalog-ru",
+  "url": "https://forma-3d.uz/ru/catalog",
+  "issue_ids": [
+    "long-title-001",
+    "h1-generic-001",
+    "pagination-meta-001",
+    "schema-org-001"
+  ],
+  "cluster": "Филамент Bambu Lab / пластик для 3D-принтера в Ташкенте (хаб)",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Каталог филамента Bambu Lab — PLA, PETG, ABS и др. | Forma 3D",
+      "proposed": "Филамент Bambu Lab купить в Ташкенте — PLA, PETG | Forma 3D",
+      "reason": "59 символов (сейчас длиннее 60). Главный запрос «филамент bambu lab» в начале, коммерческое «купить» и гео «Ташкент» из кластера, бренд в конце."
+    },
+    {
+      "field": "meta_description",
+      "current": "Филамент Bambu Lab: PLA, PETG, ABS, TPU и другие материалы. Выбор по цвету, материалу и модели принтера. Доставка по Ташкенту и Узбекистану.",
+      "proposed": "Филамент Bambu Lab 1,75 мм в Ташкенте: PLA, PETG, ABS, ASA, TPU и инженерные пластики. Доставка в день заказа или на следующий. Выберите материал и цвет.",
+      "reason": "153 символа. Добавлены диаметр 1,75 мм (запрос «филамент 1.75 мм»), ASA и инженерные пластики из ассортимента, USP по доставке и призыв к действию."
+    },
+    {
+      "field": "h1",
+      "current": "Филамент",
+      "proposed": "Филамент Bambu Lab для 3D-принтера",
+      "reason": "H1 из одного слова без бренда и без уточнения. Новый H1 закрывает «филамент bambu lab» и «филамент для 3d принтера»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "многоразовая катушка для рефиллов",
+      "target": "https://forma-3d.uz/ru/product/reusable-spool",
+      "placement": "в коротком вводном абзаце под H1 (1–2 предложения: «Филамент продаётся на катушке 1 кг или рефиллом без катушки — для рефилла нужна [анкор].»)",
+      "reason": "Разводит интенты катушка/рефилл (dup-product-001) и даёт ссылку на карточку кластера «Рефилл и многоразовая катушка»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "филамент оптом для бизнеса",
+      "target": "https://forma-3d.uz/ru/business",
+      "placement": "в конце вводного абзаца или над пагинацией",
+      "reason": "Ссылка на приоритетную B2B-страницу из хаба филамента."
+    },
+    {
+      "field": "schema",
+      "type": "BreadcrumbList",
+      "proposed": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://forma-3d.uz/ru"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Филамент Bambu Lab для 3D-принтера"
+          }
+        ]
+      },
+      "reason": "На страницах каталога разметки нет совсем (schema-org-001)."
+    },
+    {
+      "field": "pagination_meta",
+      "urls": [
+        "https://forma-3d.uz/ru/catalog?page=2",
+        "https://forma-3d.uz/ru/catalog?page=3",
+        "https://forma-3d.uz/ru/catalog?page=4"
+      ],
+      "current": "title «Каталог филамента Bambu Lab — PLA, PETG, ABS и др. — страница N | Forma 3D» (>60), description и H1 как у первой страницы",
+      "proposed": {
+        "title": "Филамент Bambu Lab — страница {N} | Forma 3D",
+        "meta_description": "Каталог филамента Bambu Lab, страница {N}: PLA, PETG, ABS, ASA, TPU и инженерные пластики с доставкой по Ташкенту.",
+        "h1": "Филамент Bambu Lab для 3D-принтера — страница {N}",
+        "canonical": "оставить self (как сейчас), в sitemap не добавлять"
+      },
+      "reason": "pagination-meta-001 (low) и long-title-001: короче 60 символов и не дублирует description первой страницы. Делается правкой шаблона пагинации."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

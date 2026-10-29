@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-29-business-uz",
+  "url": "https://forma-3d.uz/uz/business",
+  "issue_ids": [
+    "long-title-001",
+    "h1-generic-001"
+  ],
+  "cluster": "Филамент оптом для бизнеса, принт-ферм и учебных заведений",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Biznes va ta’lim muassasalari uchun ulgurji filament | Forma 3D",
+      "proposed": "Ulgurji filament Toshkentda — biznes va maktablar | Forma 3D",
+      "reason": "Сейчас 63 символа (long-title-001). Новый — 60: запрос «ulgurji filament toshkent» в начале."
+    },
+    {
+      "field": "meta_description",
+      "current": "Print-fermalar, ustaxonalar, maktab va oliygohlar uchun Bambu Lab filamenti va ehtiyot qismlarini ulgurji yetkazib berish.",
+      "proposed": "Print-fermalar, ustaxonalar, maktab va oliygohlar uchun Bambu Lab filamenti va ehtiyot qismlari ulgurji, 5 g‘altakdan. Hujjatlar bilan. Shartlarni so‘rang.",
+      "reason": "154 символа. Порог опта (от 5 катушек), документы и призыв к действию."
+    },
+    {
+      "field": "h1",
+      "current": "Ko‘proq bosma. Kamroq tashvish.",
+      "proposed": "Biznes va ta’lim muassasalari uchun Bambu Lab filamenti ulgurji",
+      "reason": "H1-слоган без ключа."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Bambu Lab filamenti katalogi",
+      "target": "https://forma-3d.uz/uz/catalog",
+      "placement": "в блоке условий опта",
+      "reason": "Связь B2B-страницы с хабом филамента."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Bambu Lab ehtiyot qismlari",
+      "target": "https://forma-3d.uz/uz/catalog/parts",
+      "placement": "там же, для принт-ферм",
+      "reason": "Поддержка хаба запчастей."
+    }
+  ],
+  "notes_for_other_agents": "thin-content-001 (192 слова) — задача content-writer.",
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

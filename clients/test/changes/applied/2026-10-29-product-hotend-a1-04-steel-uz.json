@@ -1,0 +1,60 @@
+{
+  "id": "2026-10-29-product-hotend-a1-04-steel-uz",
+  "url": "https://forma-3d.uz/uz/product/hotend-a1-04-steel",
+  "issue_ids": [
+    "long-title-001"
+  ],
+  "cluster": "Хотэнды и сопла Bambu Lab (A1, P1, X1, H2, P2S)",
+  "note": "Цены на странице нет — в тексты не пишем.",
+  "changes": [
+    {
+      "field": "title",
+      "current": "A1 hotend · 0.4 mm (po‘lat) · Bambu Lab A1 / A1 mini — sotib olish | Forma 3D",
+      "proposed": "Bambu Lab A1/A1 mini hotend 0.4 mm (po‘lat) | Forma 3D",
+      "reason": "54 символа. Запрос «a1 hotend», модели и диаметр."
+    },
+    {
+      "field": "meta_description",
+      "current": "A1 hotend · 0.4 mm (po‘lat) · Bambu Lab A1 / A1 mini. Narxi so‘rov bo‘yicha. Bambu Lab printerlari uchun ehtiyot qismlar Toshkentda.",
+      "proposed": "Bambu Lab A1 va A1 mini uchun hotend, soplo 0.4 mm (po‘lat). Original ehtiyot qism, Toshkentda buyurtma kuni yoki ertasiga yetkazamiz. Modelga qarab tanlaymiz.",
+      "reason": "159 символов. USP и призыв к действию; запрос «soplo 0.4 mm»."
+    },
+    {
+      "field": "h1",
+      "current": "Bambu Lab A1 hotend · 0.4 mm (po‘lat)",
+      "proposed": "Bambu Lab A1 / A1 mini uchun hotend, soplo 0.4 mm (po‘lat)",
+      "reason": "Модели принтера и слово «soplo» в H1."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "A1 uchun toblangan hotend 0.4 mm",
+      "target": "https://forma-3d.uz/uz/product/hotend-a1-04-hardened",
+      "placement": "блок «A1 / A1 mini uchun boshqa hotendlar» под описанием",
+      "reason": "Перелинковка хотэндов одной модели."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "A1 uchun hotend 0.2 mm",
+      "target": "https://forma-3d.uz/uz/product/hotend-a1-02",
+      "placement": "тот же блок",
+      "reason": "Перелинковка хотэндов одной модели."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "A1 uchun hotend 0.6 mm",
+      "target": "https://forma-3d.uz/uz/product/hotend-a1-06",
+      "placement": "тот же блок",
+      "reason": "Перелинковка хотэндов одной модели."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "A1 xizmat ko‘rsatish to‘plami",
+      "target": "https://forma-3d.uz/uz/product/maintenance-kit-a1",
+      "placement": "блок «Bu bilan birga olishadi»",
+      "reason": "Смежный товар для той же модели."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

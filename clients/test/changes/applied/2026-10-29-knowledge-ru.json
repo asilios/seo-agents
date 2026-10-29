@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-29-knowledge-ru",
+  "url": "https://forma-3d.uz/ru/knowledge",
+  "issue_ids": [
+    "h1-generic-001"
+  ],
+  "cluster": "Информационные кластеры (база знаний)",
+  "changes": [
+    {
+      "field": "h1",
+      "current": "От катушки к результату",
+      "proposed": "База знаний по 3D-печати и филаменту",
+      "reason": "H1-слоган без ключа; новый H1 совпадает по смыслу с title «База знаний по 3D-печати | Forma 3D» (title и description оставляем как есть — они в порядке)."
+    }
+  ],
+  "notes_for_other_agents": "На странице 5 заголовков статей без текста и ссылок (keywords/clusters.md). Статьи — задача content-writer; перелинковку из статей на карточки добавим после их публикации.",
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

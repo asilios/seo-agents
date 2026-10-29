@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-29-delivery-uz",
+  "url": "https://forma-3d.uz/uz/delivery",
+  "issue_ids": [
+    "h1-generic-001"
+  ],
+  "cluster": "Доставка и оплата филамента по Ташкенту и Узбекистану",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Yetkazish va to‘lov | Forma 3D",
+      "proposed": "Toshkent bo‘ylab filament yetkazish va to‘lov | Forma 3D",
+      "reason": "56 символов. Запрос «filament yetkazib berish toshkent»."
+    },
+    {
+      "field": "meta_description",
+      "current": "Toshkent bo‘ylab kuryer, olib ketish va viloyatlarga yetkazish. To‘lov usullari.",
+      "proposed": "Filamentni Toshkent bo‘ylab buyurtma kuni yoki ertasiga yetkazamiz, viloyatlarga jo‘natamiz. Olib ketish: Toshkent va Navoiy. To‘lov: Payme, Click, Humo.",
+      "reason": "153 символа. Сроки и оплата из USP, обе точки самовывоза."
+    },
+    {
+      "field": "h1",
+      "current": "Omborimizdan printeringizgacha",
+      "proposed": "Toshkent va O‘zbekiston bo‘ylab yetkazish va to‘lov",
+      "reason": "H1-слоган без ключа."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Toshkent va Navoiydagi olib ketish punktlari",
+      "target": "https://forma-3d.uz/uz/contacts",
+      "placement": "в разделе «Olib ketish» (адреса: Toshkent, Bobur ko‘chasi, 42; Navoiy, Sputnik ko‘chasi, 3; har kuni 09:00–21:00)",
+      "reason": "Связь доставки с контактами."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

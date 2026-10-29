@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "median_score": null,
+    "median_lcp_ms": null,
+    "measured": 0,
+    "failed": 8
+  },
+  "results": [],
+  "errors": [
+    {
+      "url": "https://forma-3d.uz/ru",
+      "error": "429 Client Error: Too Many Requests for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fforma-3d.uz%2Fru&strategy=mobile&category=performance"
+    },
+    {
+      "url": "https://forma-3d.uz/ru/catalog",
+      "error": "429 Client Error: Too Many Requests for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fforma-3d.uz%2Fru%2Fcatalog&strategy=mobile&category=performance"
+    },
+    {
+      "url": "https://forma-3d.uz/ru/catalog/parts",
+      "error": "429 Client Error: Too Many Requests for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fforma-3d.uz%2Fru%2Fcatalog%2Fparts&strategy=mobile&category=performance"
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/pla-basic-black",
+      "error": "429 Client Error: Too Many Requests for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fforma-3d.uz%2Fru%2Fproduct%2Fpla-basic-black&strategy=mobile&category=performance"
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/hotend-a1-04-steel",
+      "error": "429 Client Error: Too Many Requests for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fforma-3d.uz%2Fru%2Fproduct%2Fhotend-a1-04-steel&strategy=mobile&category=performance"
+    },
+    {
+      "url": "https://forma-3d.uz/ru/business",
+      "error": "429 Client Error: Too Many Requests for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fforma-3d.uz%2Fru%2Fbusiness&strategy=mobile&category=performance"
+    },
+    {
+      "url": "https://forma-3d.uz/ru/knowledge",
+      "error": "429 Client Error: Too Many Requests for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fforma-3d.uz%2Fru%2Fknowledge&strategy=mobile&category=performance"
+    },
+    {
+      "url": "https://forma-3d.uz/uz",
+      "error": "429 Client Error: Too Many Requests for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fforma-3d.uz%2Fuz&strategy=mobile&category=performance"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Write(clients/**)",
+      "Edit(clients/**)",
+      "Bash(python scripts/crawl.py:*)",
+      "Bash(python scripts/pagespeed.py:*)",
+      "Bash(python scripts/gsc.py:*)",
+      "Bash(cp -r clients/_template:*)",
+      "Bash(mkdir -p clients/:*)",
+      "Bash(mv clients/:*)"
+    ],
+    "deny": [
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(rm:*)",
+      "Write(.claude/**)",
+      "Write(scripts/**)",
+      "Edit(.claude/**)",
+      "Edit(scripts/**)"
+    ]
+  }
+}

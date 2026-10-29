@@ -1,0 +1,124 @@
+{
+  "id": "2026-10-29-schema-breadcrumbs",
+  "kind": "dev_task",
+  "url": "https://forma-3d.uz/ru/product/pla-basic-black",
+  "urls_scope": "все 216 карточек + /ru/catalog, /uz/catalog, /ru/catalog/parts, /uz/catalog/parts (и их ?page=N)",
+  "issue_ids": [
+    "schema-org-001"
+  ],
+  "cluster": "все товарные кластеры",
+  "priority": "medium",
+  "changes": [
+    {
+      "field": "schema",
+      "type": "BreadcrumbList",
+      "current": "Видимые хлебные крошки «Главная → Каталог → PLA Basic» есть, разметки BreadcrumbList нет нигде.",
+      "proposed": {
+        "rules": [
+          "Разметка повторяет видимые крошки, на языке страницы.",
+          "У каждого элемента, кроме последнего, должен быть item (URL). Промежуточный уровень без своей страницы (например «PLA Basic» — отдельной категории PLA на сайте нет) в разметку не включать, пока не появится URL категории.",
+          "Филамент: Главная → Каталог (/catalog) → товар. Запчасти: Главная → Запчасти (/catalog/parts) → товар.",
+          "Для ?page=N каталога — те же 2 уровня, что у первой страницы."
+        ],
+        "example_product_ru": {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://forma-3d.uz/ru"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Каталог",
+              "item": "https://forma-3d.uz/ru/catalog"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Bambu Lab PLA Basic чёрный — 1 кг на катушке"
+            }
+          ]
+        },
+        "example_product_uz": {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Bosh sahifa",
+              "item": "https://forma-3d.uz/uz"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Katalog",
+              "item": "https://forma-3d.uz/uz/catalog"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Bambu Lab PLA Basic qora — g‘altakda 1 kg"
+            }
+          ]
+        },
+        "example_part_ru": {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://forma-3d.uz/ru"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Запчасти и расходники",
+              "item": "https://forma-3d.uz/ru/catalog/parts"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Хотэнд для Bambu Lab A1 / A1 mini, сопло 0,4 мм (сталь)"
+            }
+          ]
+        },
+        "example_part_uz": {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Bosh sahifa",
+              "item": "https://forma-3d.uz/uz"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Ehtiyot qismlar",
+              "item": "https://forma-3d.uz/uz/catalog/parts"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Bambu Lab A1 / A1 mini uchun hotend, soplo 0.4 mm (po‘lat)"
+            }
+          ]
+        },
+        "note": "Названия уровней («Главная», «Каталог», «Bosh sahifa», «Katalog», «Ehtiyot qismlar») взять из текущих видимых крошек/меню сайта; если там другие формулировки — использовать их. Последний элемент = H1 страницы."
+      },
+      "reason": "BreadcrumbList даёт хлебные крошки в сниппете вместо длинного URL и помогает поисковику понять структуру каталога."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29",
+  "note": "одобрено владельцем через site-brief-2026-10-29; внедрено по отчёту seo-report-2026-10-29"
+}

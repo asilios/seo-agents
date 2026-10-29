@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-29-product-pla-basic-black-refill-uz",
+  "url": "https://forma-3d.uz/uz/product/pla-basic-black-refill",
+  "issue_ids": [
+    "dup-product-001",
+    "dup-h1-001"
+  ],
+  "cluster": "Рефилл и многоразовая катушка Bambu Lab",
+  "note": "Вариант A. Цены на странице нет — в текстах не указывается.",
+  "changes": [
+    {
+      "field": "title",
+      "current": "Bambu Lab PLA Basic, Qora — sotib olish | Forma 3D",
+      "proposed": "Bambu Lab PLA Basic qora, refill (g‘altaksiz) | Forma 3D",
+      "reason": "56 символов. Сейчас совпадает с катушкой."
+    },
+    {
+      "field": "meta_description",
+      "current": "Bambu Lab PLA Basic, Qora, 1 kg. Toshkent bo‘ylab kuryer va O‘zbekiston bo‘ylab yetkazib berish. Forma 3D — 3D-bosma uchun hamma narsa.",
+      "proposed": "Bambu Lab PLA Basic qora refill: 1 kg, 1,75 mm, g‘altaksiz — qayta ishlatiladigan g‘altak uchun. Toshkentda buyurtma kuni yoki ertasiga yetkazamiz.",
+      "reason": "147 символов. Объясняет формат."
+    },
+    {
+      "field": "h1",
+      "current": "Bambu Lab PLA Basic",
+      "proposed": "Bambu Lab PLA Basic qora — refill 1 kg, g‘altaksiz",
+      "reason": "Уникальный H1."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "refill uchun qayta ishlatiladigan g‘altak",
+      "target": "https://forma-3d.uz/uz/product/reusable-spool",
+      "placement": "в блоке «Refill nima?» под кнопкой",
+      "reason": "Допродажа и поддержка кластера."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Shu rang g‘altakda",
+      "target": "https://forma-3d.uz/uz/product/pla-basic-black",
+      "placement": "рядом с выбором цвета / полем «Format»",
+      "reason": "Перекрёстная ссылка в паре."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29"
+}

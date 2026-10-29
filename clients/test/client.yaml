@@ -1,0 +1,68 @@
+# Карточка клиента. Заполняется вручную при подключении.
+
+name: "Форма-3D"                    # название компании
+domain: "https://forma-3d.uz/"                  # https://example.uz
+cms: "custom"                     # wordpress | tilda | bitrix | custom | ...
+region: "Tashkent, Uzbekistan"
+languages: [ru, uz-Latn]    # ru | uz-Latn | uz-Cyrl | en — /ru/ и /uz/ (латиница), hreflang в sitemap
+report_language: ru
+
+services:                   # ключевые услуги / товары
+  - "филамент Bambu Lab 1.75 мм, катушки 1 кг"
+  - "PLA (Basic, Matte)"
+  - "PETG (PETG HF)"
+  - "ABS / ASA"
+  - "TPU"
+  - "спецпластики под заказ: PLA-CF, PETG-CF, PC, PA-CF, PVA"
+  - "хотэнды и сопла для Bambu Lab A1 / P1 / X1 / H2"
+  - "печатные столы (Textured PEI, Smooth PEI, Cool Plate, Engineering)"
+  - "AMS (AMS Lite, AMS 2 Pro, AMS HT) и аксессуары"
+  - "сушилки и хранение филамента"
+  - "запчасти для ремонта и сервисные наборы"
+  - "оптовые поставки для принт-ферм, мастерских и учебных заведений (от 5 катушек)"
+
+key_urls:                   # главные страницы для замера скорости (3–10 шт.)
+  - "https://forma-3d.uz/ru"
+  - "https://forma-3d.uz/ru/catalog"
+  - "https://forma-3d.uz/ru/catalog/parts"
+  - "https://forma-3d.uz/ru/product/pla-basic-black"
+  - "https://forma-3d.uz/ru/product/hotend-a1-04-steel"
+  - "https://forma-3d.uz/ru/business"
+  - "https://forma-3d.uz/ru/knowledge"
+  - "https://forma-3d.uz/uz"
+
+competitors:                # 3–5 сайтов конкурентов
+  - "https://diyshop.uz/"
+  - "https://www.filament.uz/"
+  - "https://3dbozor.uz/"
+  - "https://3d-reality.uz/"
+
+gsc_site: ""                # sc-domain:example.uz или https://example.uz/ — если есть доступ к Search Console
+yandex_webmaster: false     # есть ли доступ к Яндекс.Вебмастеру
+
+brand_tone: "дружелюбно и по делу, на «вы», помогаем выбрать материал, без канцелярита"
+usp:                        # преимущества, которые можно упоминать (взяты с сайта)
+  - "оригинальная продукция Bambu Lab"
+  - "всё в наличии, не под заказ"
+  - "доставка по Ташкенту в день заказа или на следующий день"
+  - "оптовые цены и документы для бизнеса"
+  - "помощь с выбором материала в Telegram"
+  - "оплата Payme, Click, Humo"
+prices_public: true         # цены в сумах опубликованы на сайте
+forbidden_claims:
+  - "самые низкие цены"
+  - "официальный дистрибьютор Bambu Lab (если нет подтверждения)"
+
+contacts:
+  phone: "+998 99 454-19-13"
+  email: ""                 # пока нет — появится, добавим
+  telegram: "@kemalsen"     # https://t.me/kemalsen
+  hours: "ежедневно 09:00–21:00"
+  pickup_points:            # точки самовывоза
+    - city: "Ташкент"
+      address: "ул. Бобура, 42"
+    - city: "Навои"
+      address: "ул. Спутник, 3"
+
+content_per_month: 2
+started: "2026-10-29"       # YYYY-MM-DD — дата подключения

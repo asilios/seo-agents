@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-29-dev-product-offers",
+  "kind": "dev_task",
+  "url": "https://forma-3d.uz/ru/product/hotend-a1-04-steel",
+  "urls_scope": "200 карточек без Offer из audits/issues.json → no-offer-001 (полный список там же; источник data/schema-check-2026-10-29.json)",
+  "issue_ids": [
+    "no-offer-001"
+  ],
+  "cluster": "все коммерческие кластеры (в первую очередь: хотэнды, PLA, PETG HF, AMS Lite / AMS 2 Pro)",
+  "priority": "high (по смыслу блокер, в аудите medium)",
+  "changes": [
+    {
+      "field": "dev_task",
+      "title": "Цена, наличие и Offer в JSON-LD Product на карточках",
+      "current": "200 из 216 карточек: на странице «Цена по запросу», «Наличие уточняется», кнопки покупки нет; в JSON-LD Product нет offers. Offer есть у 16 URL (pla-basic-green, pla-basic-black, pla-basic-blue, pla-matte-white, petg-hf-orange, petg-hf-white, textured-plate, hotend-x1c × ru/uz).",
+      "proposed": {
+        "data_from_client": "[УТОЧНИТЬ: прайс в сумах и остатки по 108 товарам (SKU). Агент цены не придумывает и в тексты их не вписывает — цена выводится только из поля товара в БД.]",
+        "spec": [
+          "1. Когда у товара в БД есть цена: показывать цену на странице (в сумах) и кнопку покупки/«В корзину»; убрать «Цена по запросу».",
+          "2. В JSON-LD Product выводить offers ТОЛЬКО при наличии реальной цены (шаблон ниже). Цена в разметке должна совпадать с видимой ценой на странице.",
+          "3. Если цены нет (товар под заказ): Offer НЕ выводить и не ставить фиктивную цену (0, 1 и т.п.). Product без offers допустим, просто не даст товарного сниппета.",
+          "4. availability брать из реальных остатков и согласовать с видимой надписью: «На складе…» / «В наличии» → InStock; нет в наличии → OutOfStock; «Под заказ» и *-request-spool → PreOrder (или BackOrder, если товар заказывается после оплаты).",
+          "5. Проверить логику флага «Цена по запросу»: по data/schema-check у pla-basic-black, pla-basic-green, pla-basic-blue, pla-matte-white, petg-hf-orange, petg-hf-white на странице одновременно есть Offer с ценой и признак «по запросу» (price_on_request: true). Видимый текст и разметка должны говорить одно и то же.",
+          "6. petg-hf-white: на странице наличие «Под заказ» (WebFetch 2026-10-29), а в Offer availability = OutOfStock. Привести Offer к PreOrder/BackOrder (п. 4). USP «всё в наличии» в текстах не использовать, пока это не так.",
+          "7. pla-basic-blue — это рефилл (подпись в листинге «Синий · рефилл · 1 кг»), у него есть цена 249 000 сум и наличие, а у катушки pla-basic-blue-spool — «Цена по запросу». Проверить, что цена в БД привязана к правильному SKU (PLA-BASIC-BLUE = рефилл), а не перепутана с катушкой.",
+          "8. В meta description карточки цену подставлять из того же поля (шаблон в 2026-10-29-dev-product-meta-template). Нет цены — нет цены в description."
+        ],
+        "jsonld_template": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "{{h1}}",
+          "sku": "{{sku}}",
+          "brand": {
+            "@type": "Brand",
+            "name": "{{brand}}"
+          },
+          "image": [
+            "{{image_url}}"
+          ],
+          "description": "{{meta_description}}",
+          "url": "{{canonical_url}}",
+          "offers": {
+            "@type": "Offer",
+            "url": "{{canonical_url}}",
+            "price": "{{price_number_without_spaces}}",
+            "priceCurrency": "UZS",
+            "availability": "https://schema.org/{{InStock|OutOfStock|PreOrder|BackOrder}}",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": {
+              "@id": "https://forma-3d.uz/#organization"
+            }
+          }
+        },
+        "notes": [
+          "brand: «Bambu Lab» для оригинальной продукции; для maintenance-kit-a1 / maintenance-kit-p1s — «Forma 3D» (собственные наборы, не выдавать за оригинал Bambu Lab).",
+          "seller ссылается на узел Organization из разметки главной (@id https://forma-3d.uz/#organization, см. 2026-10-29-home-ru).",
+          "Пример корректной разметки уже есть на /ru/product/pla-basic-black: price 249000, priceCurrency UZS, availability InStock."
+        ],
+        "acceptance": [
+          "Google Rich Results Test: на карточке с ценой — Product + Offer без ошибок.",
+          "На карточке без цены нет offers и нет фиктивной цены.",
+          "availability в Offer совпадает с видимой надписью о наличии.",
+          "schema-check при следующем аудите: has_offers совпадает с наличием видимой цены."
+        ]
+      },
+      "reason": "Без цены и Offer Google не покажет товарный сниппет с ценой, а запросы «… цена / narxi» на страницу «Цена по запросу» не конвертируются. У конкурента 3dbozor.uz цены на AMS и расходники открыты (keywords/clusters.md)."
+    }
+  ],
+  "status": "applied",
+  "approved_at": "2026-10-29",
+  "applied_at": "2026-10-29",
+  "note": "одобрено владельцем через site-brief-2026-10-29; внедрено по отчёту seo-report-2026-10-29"
+}
