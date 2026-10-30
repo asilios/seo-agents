@@ -1,0 +1,30 @@
+{
+  "id": "2026-10-29-dev-sitemap-xdefault",
+  "kind": "dev_task",
+  "url": "https://forma-3d.uz/sitemap.xml",
+  "urls_scope": "генератор sitemap.xml (все 236 <url>)",
+  "issue_ids": ["hreflang-xdefault-001"],
+  "cluster": "техническое (языковые версии), все кластеры",
+  "priority": "low",
+  "changes": [
+    {
+      "field": "dev_task",
+      "title": "Добавить hreflang x-default в sitemap, как в HTML",
+      "current": "<url>\n<loc>https://forma-3d.uz/ru</loc>\n<xhtml:link rel=\"alternate\" hreflang=\"ru\" href=\"https://forma-3d.uz/ru\" />\n<xhtml:link rel=\"alternate\" hreflang=\"uz\" href=\"https://forma-3d.uz/uz\" />\n<lastmod>…</lastmod>\n<priority>1</priority>\n</url>",
+      "proposed": {
+        "spec": [
+          "1. В каждый <url> sitemap (и для ru-, и для uz-адреса пары) добавить третью строку xhtml:link с hreflang=\"x-default\". Она указывает на ru-версию страницы, как уже сделано в HTML на всех 250 страницах.",
+          "2. Набор alternate у ru- и uz-URL одной пары должен быть одинаковым: ru, uz, x-default.",
+          "3. Коды ru и uz не менять (uz без -Latn допустим, пока нет кириллической версии)."
+        ],
+        "example_after": "<url>\n<loc>https://forma-3d.uz/ru</loc>\n<xhtml:link rel=\"alternate\" hreflang=\"ru\" href=\"https://forma-3d.uz/ru\" />\n<xhtml:link rel=\"alternate\" hreflang=\"uz\" href=\"https://forma-3d.uz/uz\" />\n<xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://forma-3d.uz/ru\" />\n<lastmod>…</lastmod>\n<priority>1</priority>\n</url>\n\n<url>\n<loc>https://forma-3d.uz/uz/delivery</loc>\n<xhtml:link rel=\"alternate\" hreflang=\"ru\" href=\"https://forma-3d.uz/ru/delivery\" />\n<xhtml:link rel=\"alternate\" hreflang=\"uz\" href=\"https://forma-3d.uz/uz/delivery\" />\n<xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://forma-3d.uz/ru/delivery\" />\n…\n</url>",
+        "acceptance": [
+          "В sitemap.xml у всех 236 <url> ровно три xhtml:link: ru, uz, x-default.",
+          "x-default в sitemap совпадает с x-default в HTML той же страницы (выборочно проверить /ru, /uz/delivery, /ru/product/pla-basic-black)."
+        ]
+      },
+      "reason": "Сейчас hreflang в HTML (ru/uz/x-default) и в sitemap (ru/uz) расходятся. Ошибкой это не считается, но поисковик получает два разных набора сигналов. Если привести их к одному виду, источник правды будет один."
+    }
+  ],
+  "status": "pending"
+}

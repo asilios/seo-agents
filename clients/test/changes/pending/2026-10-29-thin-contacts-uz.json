@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-29-thin-contacts-uz",
+  "url": "https://forma-3d.uz/uz/contacts",
+  "issue_ids": ["thin-content-001"],
+  "cluster": "Магазин филамента и запчастей Bambu Lab в Ташкенте (главная) + Доставка и оплата филамента по Ташкенту и Узбекистану",
+  "word_count_now": 224,
+  "word_count_target": "300+ (по crawl.py, вместе с меню и подвалом); блок ниже добавляет около 170 слов без учёта вопросов с [УТОЧНИТЬ]",
+  "changes": [
+    {
+      "field": "content_block",
+      "placement": "после блока «Biz — Forma 3D», перед подвалом",
+      "current": "На странице блоки «Biz bilan bog‘lanish», «Olib ketish punktlari», «Biz — Forma 3D» и ссылка на условия доставки. FAQ нет.",
+      "proposed": {
+        "heading_h2": "Ko‘p beriladigan savollar",
+        "items": [
+          {
+            "q_h3": "Biz bilan qanday tezroq bog‘lanish mumkin?",
+            "a": "Telegramda @kemalsen ga yozing yoki +998 99 454-19-13 raqamiga qo‘ng‘iroq qiling. Har kuni 09:00 dan 21:00 gacha aloqadamiz. Telegramda detal rasmini yoki printer modelini yuborish qulay: shunda kerakli narsani tezroq tanlaymiz."
+          },
+          {
+            "q_h3": "Buyurtmani o‘zim olib ketsam bo‘ladimi?",
+            "a": "Ha, olib ketish bepul. Punktlar: Toshkent, Bobur ko‘chasi, 42 va Navoiy, Sputnik ko‘chasi, 3, har kuni 09:00 dan 21:00 gacha. Menejer buyurtmani tasdiqlaganidan bir soat o‘tib uni olib ketishingiz mumkin. Muddat va to‘lov haqida batafsil — «Yetkazish va to‘lov» sahifasida."
+          },
+          {
+            "q_h3": "Buyurtmasiz kelib, mahsulotni ko‘rsam bo‘ladimi?",
+            "a": "[УТОЧНИТЬ: есть ли в пунктах выдачи витрина и можно ли купить на месте без заказа на сайте. До ответа этот вопрос не выводить]"
+          },
+          {
+            "q_h3": "Material yoki ehtiyot qism tanlashga yordam berasizmi?",
+            "a": "Ha. Qaysi Bambu Lab printerida bosayotganingizni (A1, A1 mini, P1S, X1C, H2D va boshqalar) va nima bosmoqchi ekaningizni yozing. Mos filamentni — PLA, PETG, ABS, ASA yoki TPU — yoki modelingizga mos hotend, soplo va bosma stolini tavsiya qilamiz."
+          },
+          {
+            "q_h3": "Kompaniyalar va ta’lim muassasalari bilan ishlaysizmi?",
+            "a": "Ha. Print-fermalar, ustaxonalar va ta’lim muassasalari uchun 5 ta g‘altakdan boshlab ulgurji narxlar va biznes uchun hujjatlar bor, hisob orqali to‘lash mumkin. Shartlar — «Biznes uchun ulgurji filament» sahifasida."
+          },
+          {
+            "q_h3": "Olib ketish punktlariga qanday borish mumkin?",
+            "a": "[УТОЧНИТЬ: ориентиры, вход и парковка у точек в Ташкенте (Bobur ko‘chasi, 42) и Навои (Sputnik ko‘chasi, 3). До ответа этот вопрос не выводить]"
+          }
+        ]
+      },
+      "reason": "thin-content-001: 224 слова вместе с меню и подвалом. Тот же FAQ, что на /ru/contacts, на узбекском (латиница). Факты из client.yaml и со страницы /uz/delivery (olib ketish bepul, tasdiqlangandan keyin 1 soat, kompaniyalar uchun hisob). Вопросы с [УТОЧНИТЬ] не публиковать до ответа владельца. FAQPage-разметку не предлагаю (см. ru-версию)."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Yetkazish va to‘lov",
+      "target": "https://forma-3d.uz/uz/delivery",
+      "placement": "в ответе «Buyurtmani o‘zim olib ketsam bo‘ladimi?»",
+      "reason": "Кластер «Доставка и оплата» (uz)."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Biznes uchun ulgurji filament",
+      "target": "https://forma-3d.uz/uz/business",
+      "placement": "в ответе «Kompaniyalar va ta’lim muassasalari bilan ishlaysizmi?»",
+      "reason": "B2B-кластер, запрос «ulgurji filament»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "hotend, soplo va bosma stolini",
+      "target": "https://forma-3d.uz/uz/catalog/parts",
+      "placement": "в ответе «Material yoki ehtiyot qism tanlashga yordam berasizmi?»",
+      "reason": "Хаб запчастей (uz)."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "mos filamentni",
+      "target": "https://forma-3d.uz/uz/catalog",
+      "placement": "в ответе «Material yoki ehtiyot qism tanlashga yordam berasizmi?»",
+      "reason": "Хаб филамента (uz)."
+    }
+  ],
+  "notes": "Title, description и H1 не меняем: уже внедрены (2026-10-29-contacts-uz, applied).",
+  "status": "pending"
+}

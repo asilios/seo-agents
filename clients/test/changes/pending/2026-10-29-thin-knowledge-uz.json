@@ -1,0 +1,113 @@
+{
+  "id": "2026-10-29-thin-knowledge-uz",
+  "url": "https://forma-3d.uz/uz/knowledge",
+  "issue_ids": ["thin-content-001"],
+  "cluster": "Информационные кластеры (база знаний): «qaysi filamentni tanlash», «petg yoki pla», «filamentni qanday saqlash», «bambu studio sozlash», «soplo qachon almashtiriladi»; поддержка «Рефилл и многоразовая катушка»",
+  "word_count_now": 203,
+  "word_count_target": "300+ (по crawl.py, вместе с меню и подвалом); три блока ниже добавляют около 210 слов",
+  "changes": [
+    {
+      "field": "content_block",
+      "placement": "вводный абзац сразу под H1 «3D-bosma va filament bo‘yicha bilimlar bazasi», перед карточками",
+      "current": "Под H1 сразу идут 5 карточек (sarlavha, belgi, o‘qish vaqti), вводного текста нет.",
+      "proposed": {
+        "paragraph": "Bu yerda Bambu Lab printerlarida 3D-bosma bo‘yicha amaliy maslahatlarni to‘playmiz: birinchi filamentni qanday tanlash, PLA va PETG farqi, g‘altaklarni bosmalar orasida qanday saqlash, Bambu Studio’da nimadan boshlash va soploni qachon almashtirish kerak. Javob topmadingizmi? Telegramda @kemalsen ga yozing: printeringiz modeliga mos material va ehtiyot qismni tavsiya qilamiz. Har kuni 09:00 dan 21:00 gacha aloqadamiz."
+      },
+      "reason": "Связный текст под темы информационных кластеров (uz) и способ получить ответ, пока статей нет. Факты из client.yaml."
+    },
+    {
+      "field": "content_block",
+      "placement": "анонс (1–2 предложения) под заголовком H3 каждой из 5 карточек",
+      "current": "У карточек только заголовок, метка и время чтения.",
+      "proposed": {
+        "cards": [
+          {
+            "h3": "Birinchi filamentni qanday tanlash kerak?",
+            "teaser": "Birinchi materialni tanlashda nimalarga e’tibor berish kerak va Bambu Lab PLA Basic hamda PLA Matte bir-biridan nimasi bilan farq qiladi."
+          },
+          {
+            "h3": "Detal uchun PETG yoki PLA?",
+            "teaser": "PLA va PETG’ni mustahkamlik, issiqlikka chidamlilik va bosish qulayligi bo‘yicha solishtiramiz — aniq detal uchun material tanlash oson bo‘ladi."
+          },
+          {
+            "h3": "Bosmalar orasida filamentni qanday saqlash kerak",
+            "teaser": "Plastik nega nam tortadi va bunga qanday yo‘l qo‘ymaslik mumkin: filament quritgich, vakuum paketlar va silikagel."
+          },
+          {
+            "h3": "Bambu Studio: dastlabki sozlamalar",
+            "teaser": "Bambu Lab slayserida nimadan boshlash kerak: filament profili, qatlam balandligi va asosiy bosma sozlamalari."
+          },
+          {
+            "h3": "Soploni qachon almashtirish kerak",
+            "teaser": "Soplo eskirganini qaysi belgilardan bilish mumkin va qachon po‘lat o‘rniga qattiqlashtirilgan soplo kerak bo‘ladi."
+          }
+        ]
+      },
+      "reason": "Анонсы с запросами uz-кластеров (qaysi filamentni tanlash, petg yoki pla, filamentni saqlash/quritish, bambu studio sozlash, soplo almashtirish, qattiqlashtirilgan soplo). Описывают будущие статьи, технических утверждений не содержат."
+    },
+    {
+      "field": "content_block",
+      "placement": "после карточек, перед подвалом",
+      "current": "Блока нет.",
+      "proposed": {
+        "heading_h2": "Katalogimizdagi materiallar haqida qisqacha",
+        "items": [
+          {
+            "q_h3": "Filament diametri qanday?",
+            "a": "Katalogimizdagi barcha Bambu Lab filamenti 1,75 mm diametrli, 1 kg li g‘altaklarda."
+          },
+          {
+            "q_h3": "Refill g‘altakdagi filamentdan nimasi bilan farq qiladi?",
+            "a": "Refill — o‘sha 1 kg filament, faqat g‘altaksiz. U qayta ishlatiladigan Bambu Lab g‘altagiga o‘rnatiladi, shuning uchun bunday g‘altagingiz bo‘lsa, har buyurtmada yangi g‘altak kerak emas."
+          },
+          {
+            "q_h3": "Qanday materiallarni sotib olish mumkin?",
+            "a": "Katalogda PLA (Basic va Matte), PETG HF, ABS, ASA va TPU bor. Muhandislik plastiklarini — PLA-CF, PETG-CF, PC, PA-CF va PVA — buyurtmaga olib kelamiz."
+          },
+          {
+            "q_h3": "Printerim uchun ehtiyot qismlar bormi?",
+            "a": "Bambu Lab A1, P1, X1 va H2 uchun hotend va soplolar, shuningdek bosma stollari, AMS va ta’mirlash qismlarini tanlaymiz. Printer modelini yozing — mosini aytamiz."
+          }
+        ]
+      },
+      "reason": "Те же факты, что в ru-версии (client.yaml и карточки сайта), на узбекском (латиница). Внутренние ссылки на коммерческие хабы."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Bambu Lab filamenti",
+      "target": "https://forma-3d.uz/uz/catalog",
+      "placement": "в ответе «Filament diametri qanday?»",
+      "reason": "Хаб филамента (uz), запрос «bambu lab filament»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "qayta ishlatiladigan Bambu Lab g‘altagi",
+      "target": "https://forma-3d.uz/uz/product/reusable-spool",
+      "placement": "в ответе «Refill g‘altakdagi filamentdan nimasi bilan farq qiladi?»",
+      "reason": "Кластер «Рефилл и многоразовая катушка», запрос «qayta ishlatiladigan g‘altak»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "hotend va soplolar",
+      "target": "https://forma-3d.uz/uz/catalog/parts",
+      "placement": "в ответе «Printerim uchun ehtiyot qismlar bormi?»",
+      "reason": "Хаб запчастей (uz)."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "filament quritgich",
+      "target": "https://forma-3d.uz/uz/product/filament-dryer",
+      "placement": "в анонсе карточки «Bosmalar orasida filamentni qanday saqlash kerak» (если карточка целиком ссылка — вынести во вводный абзац)",
+      "reason": "Кластер «Сушилка для филамента», запрос «filament quritgich»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "vakuum paketlar",
+      "target": "https://forma-3d.uz/uz/product/vacuum-storage-bags",
+      "placement": "в анонсе той же карточки (с той же оговоркой)",
+      "reason": "Кластер «Хранение филамента», запрос «vakuum paket filament»."
+    }
+  ],
+  "notes": "Title, description и H1 не меняем (уже внедрены, в норме). Карточки статей без ссылок до публикации статей.",
+  "status": "pending"
+}

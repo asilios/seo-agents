@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-29-thin-delivery-uz",
+  "url": "https://forma-3d.uz/uz/delivery",
+  "issue_ids": ["thin-content-001"],
+  "cluster": "Доставка и оплата филамента по Ташкенту и Узбекистану",
+  "word_count_now": 220,
+  "word_count_target": "300+ (по crawl.py, вместе с меню и подвалом); блок ниже добавляет около 190 слов без учёта текста в [УТОЧНИТЬ]",
+  "changes": [
+    {
+      "field": "content_block",
+      "placement": "после блока «To‘lov usullari», перед подвалом",
+      "current": "Блоки: «Toshkent bo‘ylab kuryer» (25 000 so‘m, 14:00 gacha — shu kuni), «O‘zbekiston viloyatlari» (1–4 kun, 45 000 so‘mdan), «Olib ketish» (bepul, tasdiqlangandan 1 soat keyin, Toshkent va Navoiy), «To‘lov usullari» (Payme, Click, UzCard, Humo). FAQ нет.",
+      "proposed": {
+        "heading_h2": "Yetkazish va to‘lov bo‘yicha savollar",
+        "items": [
+          {
+            "q_h3": "Buyurtmani qanday rasmiylashtirish va to‘lash mumkin?",
+            "a": "Mahsulotlarni savatga qo‘shing va saytda buyurtma bering. Menejer mahsulot borligini tasdiqlaydi va to‘lov havolasini yoki hisobni yuboradi. Payme, Click, UzCard va Humo orqali onlayn, kompaniyalar uchun hisob orqali yoki Toshkentda qabul qilishda to‘lash mumkin."
+          },
+          {
+            "q_h3": "Filamentni bugun olsam bo‘ladimi?",
+            "a": "Toshkentda — ha, agar buyurtmani 14:00 gacha bersangiz, kuryer uni shu kuni yetkazadi. 14:00 dan keyingi buyurtmalar ertasi kuni yetkaziladi. Bundan ham tezroq — olib ketish: menejer tasdiqlaganidan bir soat o‘tib buyurtmani olishingiz mumkin."
+          },
+          {
+            "q_h3": "O‘zbekistonning boshqa shaharlariga yetkazasizmi?",
+            "a": "Ha, viloyatlarga kuryerlik xizmati orqali jo‘natamiz, muddati — 1–4 kun. Narxi 45 000 so‘mdan boshlanadi va manzil hamda posilka vazniga bog‘liq, aniq summani menejer buyurtmadan keyin tasdiqlaydi. Navoiy sizga qulay bo‘lsa, buyurtmani Sputnik ko‘chasi, 3 dagi punktdan o‘zingiz olib keting."
+          },
+          {
+            "q_h3": "Viloyatda qabul qilishda to‘lasa bo‘ladimi?",
+            "a": "Qabul qilishda to‘lov Toshkentda mavjud. Viloyatlarga buyurtmalar onlayn yoki hisob orqali to‘lanadi. [УТОЧНИТЬ: подтвердить, что наложенного платежа в регионы нет]"
+          },
+          {
+            "q_h3": "Bepul yetkazish bormi?",
+            "a": "Toshkent va Navoiyda olib ketish har doim bepul. [УТОЧНИТЬ: есть ли бесплатная курьерская доставка от определённой суммы или для оптовых заказов. Если нет — оставить только первое предложение]"
+          },
+          {
+            "q_h3": "Buyurtmaga keltiriladigan materiallar qancha vaqtda keladi?",
+            "a": "Maxsus plastiklarni — PLA-CF, PETG-CF, PC, PA-CF va PVA — buyurtmaga olib kelamiz. Yetkazib berish muddatini menejer buyurtma paytida aytadi. [УТОЧНИТЬ: типичный срок поставки позиций «под заказ»; если его нельзя назвать заранее — оставить фразу про менеджера без срока]"
+          },
+          {
+            "q_h3": "Yuridik shaxslar bilan ishlaysizmi?",
+            "a": "Ha. Print-fermalar, ustaxonalar va ta’lim muassasalariga hisob beramiz, ulgurji narxlar 5 ta g‘altakdan boshlanadi. [УТОЧНИТЬ: какие закрывающие документы выдаёте юрлицам (счёт-фактура, накладная, договор)]. Batafsil — «Biznes uchun ulgurji filament» sahifasida."
+          },
+          {
+            "q_h3": "Mahsulotni qanday qaytarish mumkin?",
+            "a": "Qaytarish shartlari «Mahsulotni qaytarish» sahifasida yozilgan. Buyurtmada muammo bo‘lsa, Telegramda @kemalsen ga yozing — hal qilamiz."
+          }
+        ]
+      },
+      "client_question": "[УТОЧНИТЬ: тарифы на /uz/delivery (25 000 so‘m, 45 000 so‘mdan, 1–4 kun, olib ketish 1 soatda) — актуальные или примеры? Если примеры — цифры в FAQ заменить на «narxini menejer tasdiqlaydi»]",
+      "reason": "thin-content-001: 220 слов вместе с меню и подвалом. Перевод FAQ с /ru/delivery на узбекский (латиница), запросы кластера: «filament yetkazib berish toshkent», «o‘zbekiston bo‘ylab yetkazib berish», «payme click». Цифры — с текущей страницы /uz/delivery (WebFetch 2026-10-30), остальное — client.yaml."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Biznes uchun ulgurji filament",
+      "target": "https://forma-3d.uz/uz/business",
+      "placement": "в ответе «Yuridik shaxslar bilan ishlaysizmi?»",
+      "reason": "B2B-кластер (uz), запрос «ulgurji filament»."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Mahsulotni qaytarish",
+      "target": "https://forma-3d.uz/uz/returns",
+      "placement": "в ответе «Mahsulotni qanday qaytarish mumkin?»",
+      "reason": "Страница существует (в краулере 200). Анкор согласовать с фактическим H1 /uz/returns."
+    },
+    {
+      "field": "internal_link",
+      "anchor": "Maxsus plastiklarni — PLA-CF, PETG-CF, PC, PA-CF va PVA",
+      "target": "https://forma-3d.uz/uz/catalog",
+      "placement": "в ответе «Buyurtmaga keltiriladigan materiallar qancha vaqtda keladi?»",
+      "reason": "Категории инженерных пластиков пока нет, ведём на хаб /uz/catalog."
+    }
+  ],
+  "notes": "Title, description и H1 не меняем: уже внедрены (2026-10-29-delivery-uz, applied).",
+  "status": "pending"
+}

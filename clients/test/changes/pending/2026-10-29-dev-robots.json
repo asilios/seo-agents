@@ -1,0 +1,32 @@
+{
+  "id": "2026-10-29-dev-robots",
+  "kind": "dev_task",
+  "url": "https://forma-3d.uz/robots.txt",
+  "urls_scope": "robots.txt; /ru/cart, /uz/cart, /ru/account, /uz/account (meta robots не трогать)",
+  "issue_ids": ["robots-001"],
+  "cluster": "техническое (индексация)",
+  "priority": "low",
+  "changes": [
+    {
+      "field": "dev_task",
+      "title": "robots.txt: убрать Host и Disallow для корзины и кабинета (noindex остаётся)",
+      "current": "User-Agent: *\nAllow: /\nDisallow: /api/\nDisallow: /ru/cart\nDisallow: /uz/cart\nDisallow: /ru/account\nDisallow: /uz/account\n\nHost: https://forma-3d.uz\nSitemap: https://forma-3d.uz/sitemap.xml",
+      "proposed": {
+        "robots_txt": "User-Agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: https://forma-3d.uz/sitemap.xml",
+        "spec": [
+          "1. Удалить строку «Host: https://forma-3d.uz»: Яндекс не учитывает эту директиву с 2018 года, Google её никогда не поддерживал.",
+          "2. Удалить 4 строки Disallow для /ru/cart, /uz/cart, /ru/account, /uz/account.",
+          "3. На самих страницах cart и account оставить <meta name=\"robots\" content=\"noindex, follow\"> как есть. Теперь робот сможет их открыть, увидит noindex и не возьмёт их в индекс.",
+          "4. Disallow: /api/ оставить."
+        ],
+        "acceptance": [
+          "https://forma-3d.uz/robots.txt совпадает с proposed.robots_txt.",
+          "На /ru/cart, /uz/cart, /ru/account, /uz/account по-прежнему отдаётся meta robots noindex, follow.",
+          "Персональные данные на /account без авторизации не отдаются (проверить: робот без cookie должен получать форму входа, а не данные пользователя)."
+        ]
+      },
+      "reason": "Сейчас cart и account закрыты Disallow и одновременно помечены noindex. Робот не может открыть страницу и не видит noindex. Ссылки на эти страницы стоят на всех 250 страницах, поэтому URL могут попасть в индекс без содержимого. Host — мусорная директива. Оба изменения низкого риска."
+    }
+  ],
+  "status": "pending"
+}
