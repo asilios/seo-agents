@@ -3,7 +3,9 @@
   "kind": "dev_task",
   "url": "https://www.forma-3d.uz/ru",
   "urls_scope": "DNS-зона forma-3d.uz, TLS-сертификат и настройки веб-сервера/хостинга",
-  "issue_ids": ["www-dns-001"],
+  "issue_ids": [
+    "www-dns-001"
+  ],
   "cluster": "техническое (доступность), локальный кластер «Магазин в Ташкенте»",
   "priority": "low",
   "changes": [
@@ -19,9 +21,21 @@
           "4. Редирект должен быть в один шаг. Цепочка www → http → https недопустима. Корень https://www.forma-3d.uz/ можно отправлять сразу на https://forma-3d.uz/ru (сейчас корень отдаёт 301 на /ru) или на https://forma-3d.uz/ (тогда будет 2 шага), лучше сразу на /ru."
         ],
         "before_after": [
-          {"request": "https://www.forma-3d.uz/ru", "before": "DNS error (NameResolutionError)", "after": "301 Location: https://forma-3d.uz/ru"},
-          {"request": "http://www.forma-3d.uz/ru/product/pla-basic-black", "before": "DNS error", "after": "301 Location: https://forma-3d.uz/ru/product/pla-basic-black"},
-          {"request": "https://www.forma-3d.uz/", "before": "DNS error", "after": "301 Location: https://forma-3d.uz/ru"}
+          {
+            "request": "https://www.forma-3d.uz/ru",
+            "before": "DNS error (NameResolutionError)",
+            "after": "301 Location: https://forma-3d.uz/ru"
+          },
+          {
+            "request": "http://www.forma-3d.uz/ru/product/pla-basic-black",
+            "before": "DNS error",
+            "after": "301 Location: https://forma-3d.uz/ru/product/pla-basic-black"
+          },
+          {
+            "request": "https://www.forma-3d.uz/",
+            "before": "DNS error",
+            "after": "301 Location: https://forma-3d.uz/ru"
+          }
         ],
         "acceptance": [
           "Все три запроса из before_after отдают один 301 на указанный адрес, без ошибок сертификата.",
@@ -31,5 +45,6 @@
       "reason": "Часть пользователей по привычке набирает адрес с www или переходит по старым ссылкам с www и попадает на ошибку. Это потерянный трафик и минус к доверию. 301 склеит оба варианта в основной домен."
     }
   ],
-  "status": "pending"
+  "status": "approved",
+  "approved_at": "2026-10-30"
 }

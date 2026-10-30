@@ -1,7 +1,9 @@
 {
   "id": "2026-10-29-thin-knowledge-uz",
   "url": "https://forma-3d.uz/uz/knowledge",
-  "issue_ids": ["thin-content-001"],
+  "issue_ids": [
+    "thin-content-001"
+  ],
   "cluster": "Информационные кластеры (база знаний): «qaysi filamentni tanlash», «petg yoki pla», «filamentni qanday saqlash», «bambu studio sozlash», «soplo qachon almashtiriladi»; поддержка «Рефилл и многоразовая катушка»",
   "word_count_now": 203,
   "word_count_target": "300+ (по crawl.py, вместе с меню и подвалом); три блока ниже добавляют около 210 слов",
@@ -109,5 +111,6 @@
     }
   ],
   "notes": "Title, description и H1 не меняем (уже внедрены, в норме). Карточки статей без ссылок до публикации статей.",
-  "status": "pending"
+  "status": "approved",
+  "approved_at": "2026-10-30"
 }

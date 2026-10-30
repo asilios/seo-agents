@@ -3,7 +3,9 @@
   "kind": "dev_task",
   "url": "https://forma-3d.uz/sitemap.xml",
   "urls_scope": "генератор sitemap.xml (все 236 <url>)",
-  "issue_ids": ["sitemap-lastmod-001"],
+  "issue_ids": [
+    "sitemap-lastmod-001"
+  ],
   "cluster": "техническое (индексация), все кластеры",
   "priority": "low",
   "changes": [
@@ -33,5 +35,6 @@
       "reason": "Когда lastmod у всех URL совпадает и меняется при каждой генерации, Google перестаёт ему доверять и не использует его для приоритизации переобхода. Честный lastmod помогает быстрее переиндексировать изменённые карточки, например когда появятся цены (no-offer-001)."
     }
   ],
-  "status": "pending"
+  "status": "approved",
+  "approved_at": "2026-10-30"
 }

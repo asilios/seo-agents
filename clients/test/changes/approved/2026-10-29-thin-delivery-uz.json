@@ -78,5 +78,6 @@
     }
   ],
   "notes": "Title, description и H1 не меняем: уже внедрены (2026-10-29-delivery-uz, applied).",
-  "status": "pending"
+  "status": "approved",
+  "approved_at": "2026-10-30"
 }

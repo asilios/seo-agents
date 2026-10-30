@@ -78,5 +78,6 @@
     }
   ],
   "notes": "Title, description и H1 не меняем: уже внедрены (2026-10-29-delivery-ru, applied). Ссылка на /ru/contacts уже есть на странице.",
-  "status": "pending"
+  "status": "approved",
+  "approved_at": "2026-10-30"
 }

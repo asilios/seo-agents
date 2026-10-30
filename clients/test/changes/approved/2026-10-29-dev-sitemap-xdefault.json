@@ -3,7 +3,9 @@
   "kind": "dev_task",
   "url": "https://forma-3d.uz/sitemap.xml",
   "urls_scope": "генератор sitemap.xml (все 236 <url>)",
-  "issue_ids": ["hreflang-xdefault-001"],
+  "issue_ids": [
+    "hreflang-xdefault-001"
+  ],
   "cluster": "техническое (языковые версии), все кластеры",
   "priority": "low",
   "changes": [
@@ -26,5 +28,6 @@
       "reason": "Сейчас hreflang в HTML (ru/uz/x-default) и в sitemap (ru/uz) расходятся. Ошибкой это не считается, но поисковик получает два разных набора сигналов. Если привести их к одному виду, источник правды будет один."
     }
   ],
-  "status": "pending"
+  "status": "approved",
+  "approved_at": "2026-10-30"
 }

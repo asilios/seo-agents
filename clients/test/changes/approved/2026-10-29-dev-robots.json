@@ -3,7 +3,9 @@
   "kind": "dev_task",
   "url": "https://forma-3d.uz/robots.txt",
   "urls_scope": "robots.txt; /ru/cart, /uz/cart, /ru/account, /uz/account (meta robots не трогать)",
-  "issue_ids": ["robots-001"],
+  "issue_ids": [
+    "robots-001"
+  ],
   "cluster": "техническое (индексация)",
   "priority": "low",
   "changes": [
@@ -28,5 +30,6 @@
       "reason": "Сейчас cart и account закрыты Disallow и одновременно помечены noindex. Робот не может открыть страницу и не видит noindex. Ссылки на эти страницы стоят на всех 250 страницах, поэтому URL могут попасть в индекс без содержимого. Host — мусорная директива. Оба изменения низкого риска."
     }
   ],
-  "status": "pending"
+  "status": "approved",
+  "approved_at": "2026-10-30"
 }

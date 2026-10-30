@@ -1,7 +1,9 @@
 {
   "id": "2026-10-29-thin-knowledge-ru",
   "url": "https://forma-3d.uz/ru/knowledge",
-  "issue_ids": ["thin-content-001"],
+  "issue_ids": [
+    "thin-content-001"
+  ],
   "cluster": "Информационные кластеры (база знаний): «Какой филамент выбрать новичку», «PETG или PLA», «Как хранить и сушить филамент», «Настройки Bambu Studio», «Когда менять сопло»; поддержка «Рефилл и многоразовая катушка»",
   "word_count_now": 210,
   "word_count_target": "300+ (по crawl.py, вместе с меню и подвалом); три блока ниже добавляют около 240 слов",
@@ -109,5 +111,6 @@
     }
   ],
   "notes": "Title, description и H1 не меняем (H1 внедрён в 2026-10-29-knowledge-ru, applied; title и description в норме). Для программиста: по WebFetch не видно, куда ведут карточки статей. Если ссылок нет или они ведут на пустые страницы, оставить карточки без ссылок до публикации статей (content-writer).",
-  "status": "pending"
+  "status": "approved",
+  "approved_at": "2026-10-30"
 }
