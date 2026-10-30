@@ -25,11 +25,7 @@
           },
           {
             "q_h3": "O‘zbekistonning boshqa shaharlariga yetkazasizmi?",
-            "a": "Ha, viloyatlarga kuryerlik xizmati orqali jo‘natamiz, muddati — 1–4 kun. Narxi 45 000 so‘mdan boshlanadi va manzil hamda posilka vazniga bog‘liq, aniq summani menejer buyurtmadan keyin tasdiqlaydi. Navoiy sizga qulay bo‘lsa, buyurtmani Sputnik ko‘chasi, 3 dagi punktdan o‘zingiz olib keting."
-          },
-          {
-            "q_h3": "Viloyatda qabul qilishda to‘lasa bo‘ladimi?",
-            "a": "Qabul qilishda to‘lov Toshkentda mavjud. Viloyatlarga buyurtmalar onlayn yoki hisob orqali to‘lanadi. [УТОЧНИТЬ: подтвердить, что наложенного платежа в регионы нет]"
+            "a": "Ha, viloyatlarga kuryerlik xizmati orqali jo‘natamiz, muddati — 1–4 kun. Narxi — 50 000 so‘m. Navoiy sizga qulay bo‘lsa, buyurtmani Sputnik ko‘chasi, 3 dagi punktdan o‘zingiz olib keting."
           },
           {
             "q_h3": "Bepul yetkazish bormi?",
@@ -49,7 +45,6 @@
           }
         ]
       },
-      "client_question": "[УТОЧНИТЬ: тарифы на /uz/delivery (25 000 so‘m, 45 000 so‘mdan, 1–4 kun, olib ketish 1 soatda) — актуальные или примеры? Если примеры — цифры в FAQ заменить на «narxini menejer tasdiqlaydi»]",
       "reason": "thin-content-001: 220 слов вместе с меню и подвалом. Перевод FAQ с /ru/delivery на узбекский (латиница), запросы кластера: «filament yetkazib berish toshkent», «o‘zbekiston bo‘ylab yetkazib berish», «payme click». Цифры — с текущей страницы /uz/delivery (WebFetch 2026-10-30), остальное — client.yaml."
     },
     {
@@ -72,6 +67,14 @@
       "target": "https://forma-3d.uz/uz/catalog",
       "placement": "в ответе «Buyurtmaga keltiriladigan materiallar qancha vaqtda keladi?»",
       "reason": "Категории инженерных пластиков пока нет, ведём на хаб /uz/catalog."
+    },
+    {
+      "field": "text",
+      "url": "https://forma-3d.uz/uz/delivery",
+      "current": "«O‘zbekiston viloyatlari»: «45 000 so‘mdan»",
+      "proposed": "50 000 so‘m",
+      "placement": "карточка доставки в регионы на странице доставки",
+      "reason": "Владелец 2026-10-30: доставка в регионы стоит 50 000 сум; на сайте устаревшее «от 45 000»."
     }
   ],
   "notes": "Title, description и H1 не меняем: уже внедрены (2026-10-29-delivery-uz, applied).",

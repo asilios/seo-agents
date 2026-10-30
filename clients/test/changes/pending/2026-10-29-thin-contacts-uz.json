@@ -21,7 +21,7 @@
           },
           {
             "q_h3": "Buyurtmani o‘zim olib ketsam bo‘ladimi?",
-            "a": "Ha, olib ketish bepul. Punktlar: Toshkent, Bobur ko‘chasi, 42 va Navoiy, Sputnik ko‘chasi, 3, har kuni 09:00 dan 21:00 gacha. Menejer buyurtmani tasdiqlaganidan bir soat o‘tib uni olib ketishingiz mumkin. Muddat va to‘lov haqida batafsil — «Yetkazish va to‘lov» sahifasida."
+            "a": "Ha, olib ketish bepul. Punktlar: Toshkent, Bobur ko‘chasi, 42 va Navoiy, Sputnik ko‘chasi, 3, har kuni 09:00 dan 21:00 gacha. Menejer buyurtmani tasdiqlaganidan bir soat o‘tib uni olib ketishingiz mumkin. Muddat va to‘lov haqida batafsil — «Yetkazish va to‘lov» sahifasida. Olib ketish punktlari — bizning ofisimiz, shuning uchun buyurtmani kirish oldida topshiramiz."
           },
           {
             "q_h3": "Buyurtmasiz kelib, mahsulotni ko‘rsam bo‘ladimi?",
@@ -34,10 +34,6 @@
           {
             "q_h3": "Kompaniyalar va ta’lim muassasalari bilan ishlaysizmi?",
             "a": "Ha. Print-fermalar, ustaxonalar va ta’lim muassasalari uchun 5 ta g‘altakdan boshlab ulgurji narxlar va biznes uchun hujjatlar bor, hisob orqali to‘lash mumkin. Shartlar — «Biznes uchun ulgurji filament» sahifasida."
-          },
-          {
-            "q_h3": "Olib ketish punktlariga qanday borish mumkin?",
-            "a": "[УТОЧНИТЬ: ориентиры, вход и парковка у точек в Ташкенте (Bobur ko‘chasi, 42) и Навои (Sputnik ko‘chasi, 3). До ответа этот вопрос не выводить]"
           }
         ]
       },
