@@ -37,7 +37,7 @@ competitors:                # 3–5 сайтов конкурентов
   - "https://3dbozor.uz/"
   - "https://3d-reality.uz/"
 
-gsc_site: ""                # sc-domain:example.uz или https://example.uz/ — если есть доступ к Search Console
+gsc_site: "sc-domain:forma-3d.uz"                # sc-domain:example.uz или https://example.uz/ — если есть доступ к Search Console
 yandex_webmaster: false     # есть ли доступ к Яндекс.Вебмастеру
 
 brand_tone: "дружелюбно и по делу, на «вы», помогаем выбрать материал, без канцелярита"
