@@ -16,3 +16,4 @@
 2026-10-30 | оркестратор | /approve: 10 правок pending→approved (тексты contacts/delivery/knowledge ru+uz, dev: sitemap-lastmod, sitemap-xdefault, robots, www-dns); dev-demo-notice оставлен в pending — цены пока примеры | changes/approved/
 2026-10-30 | оркестратор | ТЗ №2 для сайта собрано из 10 одобренных правок | changes/site-brief-2026-10-30.md
 2026-10-30 | оркестратор | ТЗ №2 внедрено в код сайта (с разрешения владельца): ветка seo-brief-2 в kemalshen/forma-3d, коммит be0cd57; сборка и локальная проверка пройдены; на сайт НЕ выложено — ждёт слияния в main владельцем | changes/approved/ (10 файлов)
+2026-10-30 | оркестратор | ветка seo-brief-2 выложена: на живом сайте FAQ на 6 страницах, 50 000 сум, sitemap 238 URL с x-default и без lastmod, robots без Host; www → 301 через Cloudflare Redirect Rule; 10 правок approved→applied | changes/applied/

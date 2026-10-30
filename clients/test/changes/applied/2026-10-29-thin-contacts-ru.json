@@ -69,6 +69,7 @@
     }
   ],
   "notes": "Title, description и H1 не меняем: они уже внедрены (2026-10-29-contacts-ru, applied) и проходят проверку по длине.",
-  "status": "approved",
-  "approved_at": "2026-10-30"
+  "status": "applied",
+  "approved_at": "2026-10-30",
+  "applied_at": "2026-10-30"
 }

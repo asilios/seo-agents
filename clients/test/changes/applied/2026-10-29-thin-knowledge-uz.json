@@ -111,6 +111,7 @@
     }
   ],
   "notes": "Title, description и H1 не меняем (уже внедрены, в норме). Карточки статей без ссылок до публикации статей.",
-  "status": "approved",
-  "approved_at": "2026-10-30"
+  "status": "applied",
+  "approved_at": "2026-10-30",
+  "applied_at": "2026-10-30"
 }

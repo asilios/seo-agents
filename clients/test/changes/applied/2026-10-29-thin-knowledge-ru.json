@@ -111,6 +111,7 @@
     }
   ],
   "notes": "Title, description и H1 не меняем (H1 внедрён в 2026-10-29-knowledge-ru, applied; title и description в норме). Для программиста: по WebFetch не видно, куда ведут карточки статей. Если ссылок нет или они ведут на пустые страницы, оставить карточки без ссылок до публикации статей (content-writer).",
-  "status": "approved",
-  "approved_at": "2026-10-30"
+  "status": "applied",
+  "approved_at": "2026-10-30",
+  "applied_at": "2026-10-30"
 }
