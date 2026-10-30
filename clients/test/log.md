@@ -15,3 +15,4 @@
 2026-10-30 | оркестратор | ответы владельца: самовывоз — передача у входа офиса (убран FAQ «как добраться»), регионы 50 000 сум (+правка текста на /delivery), тарифы настоящие; вопрос про наложенный платёж в регионы убран (нет ответа); данные внесены в client.yaml | changes/pending/2026-10-29-thin-{contacts,delivery}-{ru,uz}.json, client.yaml
 2026-10-30 | оркестратор | /approve: 10 правок pending→approved (тексты contacts/delivery/knowledge ru+uz, dev: sitemap-lastmod, sitemap-xdefault, robots, www-dns); dev-demo-notice оставлен в pending — цены пока примеры | changes/approved/
 2026-10-30 | оркестратор | ТЗ №2 для сайта собрано из 10 одобренных правок | changes/site-brief-2026-10-30.md
+2026-10-30 | оркестратор | ТЗ №2 внедрено в код сайта (с разрешения владельца): ветка seo-brief-2 в kemalshen/forma-3d, коммит be0cd57; сборка и локальная проверка пройдены; на сайт НЕ выложено — ждёт слияния в main владельцем | changes/approved/ (10 файлов)
