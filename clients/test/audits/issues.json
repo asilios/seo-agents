@@ -1,109 +1,5 @@
 [
   {
-    "id": "demo-notice-001",
-    "type": "demo_site_notice",
-    "severity": "high",
-    "urls": [
-      "https://forma-3d.uz/ru",
-      "https://forma-3d.uz/uz",
-      "https://forma-3d.uz/ru/contacts",
-      "https://forma-3d.uz/ru/product/pla-basic-black",
-      "https://forma-3d.uz/ru/product/hotend-a1-04-steel"
-    ],
-    "details": "[Перепроверка 2026-10-29-recheck] Осталась (намеренно, ТЗ в changes/pending/2026-10-29-dev-demo-notice.json: цены пока примеры). «© 2026 Forma 3D. Демонстрационная версия.» / «Namoyish versiyasi.» есть в подвале всех 250 страниц, «Цены и остатки — примеры» / «Narx va qoldiqlar — namunalar» на всех 216 карточках. Партия «DEMO-2609» видна в карточках. || Было: В подвале всех проверенных страниц: «© 2026 Forma 3D. Демонстрационная версия.»; на карточках товара: «Демонстрационная версия. Цены и остатки — примеры.» Сайт сам объявляет цены и наличие ненастоящими, а это бьёт по доверию пользователей и по оценке качества поисковиками. Проверено через WebFetch и разбор HTML /ru.",
-    "first_seen": "2026-10-29",
-    "status": "open",
-    "last_checked": "2026-10-29-recheck"
-  },
-  {
-    "id": "dup-product-001",
-    "type": "duplicate_product_pages",
-    "severity": "high",
-    "urls": [
-      "https://forma-3d.uz/ru/product/petg-hf-black-refill",
-      "https://forma-3d.uz/ru/product/petg-hf-black-spool",
-      "https://forma-3d.uz/ru/product/petg-hf-gray-refill",
-      "https://forma-3d.uz/ru/product/petg-hf-gray-spool",
-      "https://forma-3d.uz/ru/product/petg-hf-transparent-refill",
-      "https://forma-3d.uz/ru/product/petg-hf-transparent-spool",
-      "https://forma-3d.uz/ru/product/petg-hf-white",
-      "https://forma-3d.uz/ru/product/petg-hf-white-refill",
-      "https://forma-3d.uz/ru/product/pla-basic-beige-refill",
-      "https://forma-3d.uz/ru/product/pla-basic-beige-spool",
-      "https://forma-3d.uz/ru/product/pla-basic-black",
-      "https://forma-3d.uz/ru/product/pla-basic-black-refill",
-      "https://forma-3d.uz/ru/product/pla-basic-blue",
-      "https://forma-3d.uz/ru/product/pla-basic-blue-spool",
-      "https://forma-3d.uz/ru/product/pla-basic-gray-refill",
-      "https://forma-3d.uz/ru/product/pla-basic-gray-spool",
-      "https://forma-3d.uz/ru/product/pla-basic-green",
-      "https://forma-3d.uz/ru/product/pla-basic-green-refill",
-      "https://forma-3d.uz/ru/product/pla-basic-orange-refill",
-      "https://forma-3d.uz/ru/product/pla-basic-orange-spool",
-      "https://forma-3d.uz/ru/product/pla-basic-red-refill",
-      "https://forma-3d.uz/ru/product/pla-basic-red-spool",
-      "https://forma-3d.uz/ru/product/pla-basic-transparent-refill",
-      "https://forma-3d.uz/ru/product/pla-basic-transparent-spool",
-      "https://forma-3d.uz/ru/product/pla-basic-white-refill",
-      "https://forma-3d.uz/ru/product/pla-basic-white-spool",
-      "https://forma-3d.uz/ru/product/pla-basic-yellow-refill",
-      "https://forma-3d.uz/ru/product/pla-basic-yellow-spool",
-      "https://forma-3d.uz/ru/product/pla-matte-beige-refill",
-      "https://forma-3d.uz/ru/product/pla-matte-beige-spool",
-      "https://forma-3d.uz/ru/product/pla-matte-black-refill",
-      "https://forma-3d.uz/ru/product/pla-matte-black-spool",
-      "https://forma-3d.uz/ru/product/pla-matte-gray-refill",
-      "https://forma-3d.uz/ru/product/pla-matte-gray-spool",
-      "https://forma-3d.uz/ru/product/pla-matte-green-refill",
-      "https://forma-3d.uz/ru/product/pla-matte-green-spool",
-      "https://forma-3d.uz/ru/product/pla-matte-navy-refill",
-      "https://forma-3d.uz/ru/product/pla-matte-navy-spool",
-      "https://forma-3d.uz/uz/product/petg-hf-black-refill",
-      "https://forma-3d.uz/uz/product/petg-hf-black-spool",
-      "https://forma-3d.uz/uz/product/petg-hf-gray-refill",
-      "https://forma-3d.uz/uz/product/petg-hf-gray-spool",
-      "https://forma-3d.uz/uz/product/petg-hf-transparent-refill",
-      "https://forma-3d.uz/uz/product/petg-hf-transparent-spool",
-      "https://forma-3d.uz/uz/product/petg-hf-white",
-      "https://forma-3d.uz/uz/product/petg-hf-white-refill",
-      "https://forma-3d.uz/uz/product/pla-basic-beige-refill",
-      "https://forma-3d.uz/uz/product/pla-basic-beige-spool",
-      "https://forma-3d.uz/uz/product/pla-basic-black",
-      "https://forma-3d.uz/uz/product/pla-basic-black-refill",
-      "https://forma-3d.uz/uz/product/pla-basic-blue",
-      "https://forma-3d.uz/uz/product/pla-basic-blue-spool",
-      "https://forma-3d.uz/uz/product/pla-basic-gray-refill",
-      "https://forma-3d.uz/uz/product/pla-basic-gray-spool",
-      "https://forma-3d.uz/uz/product/pla-basic-green",
-      "https://forma-3d.uz/uz/product/pla-basic-green-refill",
-      "https://forma-3d.uz/uz/product/pla-basic-orange-refill",
-      "https://forma-3d.uz/uz/product/pla-basic-orange-spool",
-      "https://forma-3d.uz/uz/product/pla-basic-red-refill",
-      "https://forma-3d.uz/uz/product/pla-basic-red-spool",
-      "https://forma-3d.uz/uz/product/pla-basic-transparent-refill",
-      "https://forma-3d.uz/uz/product/pla-basic-transparent-spool",
-      "https://forma-3d.uz/uz/product/pla-basic-white-refill",
-      "https://forma-3d.uz/uz/product/pla-basic-white-spool",
-      "https://forma-3d.uz/uz/product/pla-basic-yellow-refill",
-      "https://forma-3d.uz/uz/product/pla-basic-yellow-spool",
-      "https://forma-3d.uz/uz/product/pla-matte-beige-refill",
-      "https://forma-3d.uz/uz/product/pla-matte-beige-spool",
-      "https://forma-3d.uz/uz/product/pla-matte-black-refill",
-      "https://forma-3d.uz/uz/product/pla-matte-black-spool",
-      "https://forma-3d.uz/uz/product/pla-matte-gray-refill",
-      "https://forma-3d.uz/uz/product/pla-matte-gray-spool",
-      "https://forma-3d.uz/uz/product/pla-matte-green-refill",
-      "https://forma-3d.uz/uz/product/pla-matte-green-spool",
-      "https://forma-3d.uz/uz/product/pla-matte-navy-refill",
-      "https://forma-3d.uz/uz/product/pla-matte-navy-spool"
-    ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. В краулере 0 дублей title, 0 дублей description, 0 дублей H1 на 250 URL. Пары катушка/рефилл различаются в title/H1/Product.name («— 1 кг на катушке» / «— рефилл 1 кг без катушки»), есть взаимные ссылки «Этот цвет без катушки (рефилл)» / «Этот цвет на катушке». Canonical везде self. || Было: 38 групп товаров (ru+uz) с одинаковыми title, description и H1: пары катушка/рефилл (*-spool / *-refill, а также pla-basic-blue / pla-basic-blue-spool). Каждая страница self-canonical; на refill нет слов «рефилл/без катушки», цена «по запросу». Для поиска это почти дубли: Google может сам выбрать канонический URL или исключить страницы. Всего 76 URL.",
-    "first_seen": "2026-10-29",
-    "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
-    "fixed_on": "2026-10-29"
-  },
-  {
     "id": "no-offer-001",
     "type": "schema_product_no_offers",
     "severity": "medium",
@@ -309,10 +205,161 @@
       "https://forma-3d.uz/uz/product/repair-extruders",
       "https://forma-3d.uz/uz/product/maintenance-kit-a1"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Осталась, но разметка теперь честная. Offer есть на 16 из 216 карточек, и только там, где видна цена. Цены совпадают (16/16), availability совпадает с видимым статусом: 14 InStock = «На складе в Ташкенте · N шт.», 2 PreOrder = «Под заказ» (раньше было OutOfStock). На 200 карточках видно «Цена по запросу» и Offer нет, это правильно. Товарного сниппета у них не будет, пока на сайте не появятся цены: это решение клиента, не ошибка шаблона. || Было: 200 из 216 карточек: JSON-LD Product без offers (нет price/priceCurrency/availability), поэтому Google не покажет товарный сниппет и сочтёт разметку невалидной для расширенных результатов. На проверенных вручную страницах (hotend-a1-04-steel, pla-basic-black-refill) видно «Цена по запросу» и «Наличие уточняется», кнопки покупки нет. Это расходится с prices_public: true в client.yaml. Offer есть только у 16 URL. Источник: data/schema-check-2026-10-29.json.",
+    "details": "[Перепроверка 2026-10-30] Осталась (решение клиента). Offer на 28 из 218 карточек (было 16 из 216): 12 InStock, 16 PreOrder, валюта UZS. Цена из Offer видна на странице 28/28; InStock = «В наличии в Ташкенте · отправим сегодня или завтра», PreOrder = «Под заказ · 2–3 недели» (выборочно WebFetch). На 190 карточках «Цена по запросу», Offer нет — это правильно, но товарного сниппета с ценой у них не будет. || Было: Было: 200 из 216 карточек: JSON-LD Product без offers (нет price/priceCurrency/availability), поэтому Google не покажет товарный сниппет и сочтёт разметку невалидной для расширенных результатов. На проверенных вручную страницах (hotend-a1-04-steel, pla-basic-black-refill) видно «Цена по запросу» и «Наличие уточняется», кнопки покупки нет. Это расходится с prices_public: true в client.yaml. Offer есть только у 16 URL. Источник: data/schema-check-2026-10-29.json.",
     "first_seen": "2026-10-29",
     "status": "open",
-    "last_checked": "2026-10-29-recheck"
+    "last_checked": "2026-10-30"
+  },
+  {
+    "id": "removed-products-404-001",
+    "type": "status_4xx",
+    "severity": "medium",
+    "urls": [
+      "https://forma-3d.uz/ru/product/hotend-h2d",
+      "https://forma-3d.uz/uz/product/hotend-h2d",
+      "https://forma-3d.uz/ru/product/hotend-h2c",
+      "https://forma-3d.uz/uz/product/hotend-h2c",
+      "https://forma-3d.uz/ru/product/hotend-p2s",
+      "https://forma-3d.uz/uz/product/hotend-p2s",
+      "https://forma-3d.uz/ru/product/paht-cf-request-spool",
+      "https://forma-3d.uz/uz/product/paht-cf-request-spool"
+    ],
+    "details": "8 карточек (4 товара × 2 языка), которые в краулере 2026-10-29-recheck отдавали 200, теперь отдают 404 (meta robots noindex). Ссылок на них с сайта больше нет (в краулере 0 ошибок 4xx), в sitemap их нет. Вместо них появились hotend-h2-04-hardened, hotend-h2-06-hardened, paht-cf-black-spool, petg-basic-black-spool, petg-basic-gray-spool (ru/uz). Если старые URL успели попасть в индекс или в закладки/мессенджеры, посетитель увидит 404. Рекомендация: 301 на ближайшую замену (hotend-h2d/h2c → hotend-h2-04-hardened, paht-cf-request-spool → paht-cf-black-spool, hotend-p2s → карточка совместимого хотэнда или /catalog/parts). GSC не подключён, поэтому проверить, были ли они в индексе, нельзя.",
+    "first_seen": "2026-10-30",
+    "status": "open",
+    "last_checked": "2026-10-30"
+  },
+  {
+    "id": "redirect-chain-001",
+    "type": "redirect_chain",
+    "severity": "low",
+    "urls": [
+      "http://www.forma-3d.uz/",
+      "https://www.forma-3d.uz/",
+      "http://www.forma-3d.uz/ru",
+      "http://forma-3d.uz/"
+    ],
+    "details": "Цепочки редиректов на входных адресах (requests, allow_redirects): http://www.forma-3d.uz/ → 301 https://www.forma-3d.uz/ → 301 https://forma-3d.uz/ → 308 /ru (3 шага); https://www.forma-3d.uz/ → 301 https://forma-3d.uz/ → 308 /ru (2 шага); http://www.forma-3d.uz/<путь> → 301 https://www.… → 301 https://forma-3d.uz/<путь> (2 шага); http://forma-3d.uz/ → 301 https → 308 /ru (2 шага). Все цепочки ведут на 200 и состоят из постоянных редиректов, Google проходит до 10 шагов, внутренние ссылки, canonical и sitemap на www/http не ссылаются, поэтому на индексацию это почти не влияет. Улучшение: в Cloudflare сделать для host www.forma-3d.uz один редирект сразу на https://forma-3d.uz${path} до правила Always Use HTTPS (или Single Redirect, который ловит и http, и https), а корень / (www и без www) отправлять сразу на https://forma-3d.uz/ru.",
+    "first_seen": "2026-10-30",
+    "status": "open",
+    "last_checked": "2026-10-30"
+  },
+  {
+    "id": "long-desc-002",
+    "type": "long_description",
+    "severity": "low",
+    "urls": [
+      "https://forma-3d.uz/uz/product/hotend-a1-04-steel"
+    ],
+    "details": "meta description 165 символов (>160): «Bambu Lab A1 va A1 mini uchun hotend, soplo 0.4 mm (po‘lat). Original ehtiyot qism, Xitoydan 2–3 hafta ichida buyurtma asosida olib kelamiz. Modelga qarab tanlaymiz.» Появилось после смены текста о сроках (было 159 символов). Можно убрать «Modelga qarab tanlaymiz.» или сократить середину.",
+    "first_seen": "2026-10-30",
+    "status": "open",
+    "last_checked": "2026-10-30"
+  },
+  {
+    "id": "demo-notice-001",
+    "type": "demo_site_notice",
+    "severity": "high",
+    "urls": [
+      "https://forma-3d.uz/ru",
+      "https://forma-3d.uz/uz",
+      "https://forma-3d.uz/ru/contacts",
+      "https://forma-3d.uz/ru/product/pla-basic-black",
+      "https://forma-3d.uz/ru/product/hotend-a1-04-steel"
+    ],
+    "details": "[Перепроверка 2026-10-30] Закрыто (не через pending-ТЗ: владелец снял сам вместе с публикацией цен). «Демонстрационная версия» / «Namoyish versiyasi» в подвале — 0 из 250 страниц, «Цены и остатки — примеры» / «Narx va qoldiqlar — namunalar» — 0 из 218 карточек, «DEMO-2609» — 0. Подвал: «© 2026 Forma 3D». Остаток: /ru/account и /uz/account по-прежнему показывают «Это пример кабинета» и два примерных заказа, но страницы noindex, follow и больше не связаны ссылками с сайта (краулер их не нашёл). ТЗ changes/pending/2026-10-29-dev-demo-notice.json устарело. || Было: Было: В подвале всех проверенных страниц: «© 2026 Forma 3D. Демонстрационная версия.»; на карточках товара: «Демонстрационная версия. Цены и остатки — примеры.» Сайт сам объявляет цены и наличие ненастоящими, а это бьёт по доверию пользователей и по оценке качества поисковиками. Проверено через WebFetch и разбор HTML /ru.",
+    "first_seen": "2026-10-29",
+    "status": "fixed",
+    "last_checked": "2026-10-30",
+    "fixed_on": "2026-10-30"
+  },
+  {
+    "id": "dup-product-001",
+    "type": "duplicate_product_pages",
+    "severity": "high",
+    "urls": [
+      "https://forma-3d.uz/ru/product/petg-hf-black-refill",
+      "https://forma-3d.uz/ru/product/petg-hf-black-spool",
+      "https://forma-3d.uz/ru/product/petg-hf-gray-refill",
+      "https://forma-3d.uz/ru/product/petg-hf-gray-spool",
+      "https://forma-3d.uz/ru/product/petg-hf-transparent-refill",
+      "https://forma-3d.uz/ru/product/petg-hf-transparent-spool",
+      "https://forma-3d.uz/ru/product/petg-hf-white",
+      "https://forma-3d.uz/ru/product/petg-hf-white-refill",
+      "https://forma-3d.uz/ru/product/pla-basic-beige-refill",
+      "https://forma-3d.uz/ru/product/pla-basic-beige-spool",
+      "https://forma-3d.uz/ru/product/pla-basic-black",
+      "https://forma-3d.uz/ru/product/pla-basic-black-refill",
+      "https://forma-3d.uz/ru/product/pla-basic-blue",
+      "https://forma-3d.uz/ru/product/pla-basic-blue-spool",
+      "https://forma-3d.uz/ru/product/pla-basic-gray-refill",
+      "https://forma-3d.uz/ru/product/pla-basic-gray-spool",
+      "https://forma-3d.uz/ru/product/pla-basic-green",
+      "https://forma-3d.uz/ru/product/pla-basic-green-refill",
+      "https://forma-3d.uz/ru/product/pla-basic-orange-refill",
+      "https://forma-3d.uz/ru/product/pla-basic-orange-spool",
+      "https://forma-3d.uz/ru/product/pla-basic-red-refill",
+      "https://forma-3d.uz/ru/product/pla-basic-red-spool",
+      "https://forma-3d.uz/ru/product/pla-basic-transparent-refill",
+      "https://forma-3d.uz/ru/product/pla-basic-transparent-spool",
+      "https://forma-3d.uz/ru/product/pla-basic-white-refill",
+      "https://forma-3d.uz/ru/product/pla-basic-white-spool",
+      "https://forma-3d.uz/ru/product/pla-basic-yellow-refill",
+      "https://forma-3d.uz/ru/product/pla-basic-yellow-spool",
+      "https://forma-3d.uz/ru/product/pla-matte-beige-refill",
+      "https://forma-3d.uz/ru/product/pla-matte-beige-spool",
+      "https://forma-3d.uz/ru/product/pla-matte-black-refill",
+      "https://forma-3d.uz/ru/product/pla-matte-black-spool",
+      "https://forma-3d.uz/ru/product/pla-matte-gray-refill",
+      "https://forma-3d.uz/ru/product/pla-matte-gray-spool",
+      "https://forma-3d.uz/ru/product/pla-matte-green-refill",
+      "https://forma-3d.uz/ru/product/pla-matte-green-spool",
+      "https://forma-3d.uz/ru/product/pla-matte-navy-refill",
+      "https://forma-3d.uz/ru/product/pla-matte-navy-spool",
+      "https://forma-3d.uz/uz/product/petg-hf-black-refill",
+      "https://forma-3d.uz/uz/product/petg-hf-black-spool",
+      "https://forma-3d.uz/uz/product/petg-hf-gray-refill",
+      "https://forma-3d.uz/uz/product/petg-hf-gray-spool",
+      "https://forma-3d.uz/uz/product/petg-hf-transparent-refill",
+      "https://forma-3d.uz/uz/product/petg-hf-transparent-spool",
+      "https://forma-3d.uz/uz/product/petg-hf-white",
+      "https://forma-3d.uz/uz/product/petg-hf-white-refill",
+      "https://forma-3d.uz/uz/product/pla-basic-beige-refill",
+      "https://forma-3d.uz/uz/product/pla-basic-beige-spool",
+      "https://forma-3d.uz/uz/product/pla-basic-black",
+      "https://forma-3d.uz/uz/product/pla-basic-black-refill",
+      "https://forma-3d.uz/uz/product/pla-basic-blue",
+      "https://forma-3d.uz/uz/product/pla-basic-blue-spool",
+      "https://forma-3d.uz/uz/product/pla-basic-gray-refill",
+      "https://forma-3d.uz/uz/product/pla-basic-gray-spool",
+      "https://forma-3d.uz/uz/product/pla-basic-green",
+      "https://forma-3d.uz/uz/product/pla-basic-green-refill",
+      "https://forma-3d.uz/uz/product/pla-basic-orange-refill",
+      "https://forma-3d.uz/uz/product/pla-basic-orange-spool",
+      "https://forma-3d.uz/uz/product/pla-basic-red-refill",
+      "https://forma-3d.uz/uz/product/pla-basic-red-spool",
+      "https://forma-3d.uz/uz/product/pla-basic-transparent-refill",
+      "https://forma-3d.uz/uz/product/pla-basic-transparent-spool",
+      "https://forma-3d.uz/uz/product/pla-basic-white-refill",
+      "https://forma-3d.uz/uz/product/pla-basic-white-spool",
+      "https://forma-3d.uz/uz/product/pla-basic-yellow-refill",
+      "https://forma-3d.uz/uz/product/pla-basic-yellow-spool",
+      "https://forma-3d.uz/uz/product/pla-matte-beige-refill",
+      "https://forma-3d.uz/uz/product/pla-matte-beige-spool",
+      "https://forma-3d.uz/uz/product/pla-matte-black-refill",
+      "https://forma-3d.uz/uz/product/pla-matte-black-spool",
+      "https://forma-3d.uz/uz/product/pla-matte-gray-refill",
+      "https://forma-3d.uz/uz/product/pla-matte-gray-spool",
+      "https://forma-3d.uz/uz/product/pla-matte-green-refill",
+      "https://forma-3d.uz/uz/product/pla-matte-green-spool",
+      "https://forma-3d.uz/uz/product/pla-matte-navy-refill",
+      "https://forma-3d.uz/uz/product/pla-matte-navy-spool"
+    ],
+    "details": "[Перепроверка 2026-10-30] Держится, регрессии нет. || Было: Было: 38 групп товаров (ru+uz) с одинаковыми title, description и H1: пары катушка/рефилл (*-spool / *-refill, а также pla-basic-blue / pla-basic-blue-spool). Каждая страница self-canonical; на refill нет слов «рефилл/без катушки», цена «по запросу». Для поиска это почти дубли: Google может сам выбрать канонический URL или исключить страницы. Всего 76 URL.",
+    "first_seen": "2026-10-29",
+    "status": "fixed",
+    "last_checked": "2026-10-30",
+    "fixed_on": "2026-10-29"
   },
   {
     "id": "contacts-001",
@@ -323,10 +370,10 @@
       "https://forma-3d.uz/uz",
       "https://forma-3d.uz/ru/contacts"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. На всех 250 страницах в подвале: +998 99 454-19-13 (tel:+998994541913), Telegram @kemalsen (t.me/kemalsen), «Ежедневно 09:00–21:00», самовывоз Ташкент ул. Бобура 42 и Навои ул. Спутник 3. На /ru/contacts и /uz/contacts — блок двух точек. E-mail не выводится (у клиента его нет). || Было: Нет телефона (tel:), e-mail, ссылки на Telegram (t.me), улицы и часов работы, только «Ташкент, Узбекистан». При этом в УТП заявлена помощь с выбором в Telegram. Для локального магазина это минус по доверию и локальному поиску (Яндекс/Google Карты).",
+    "details": "[Перепроверка 2026-10-30] Держится: Organization + 2 Store на /ru, /uz, /ru/contacts, /uz/contacts. || Было: Было: Нет телефона (tel:), e-mail, ссылки на Telegram (t.me), улицы и часов работы, только «Ташкент, Узбекистан». При этом в УТП заявлена помощь с выбором в Telegram. Для локального магазина это минус по доверию и локальному поиску (Яндекс/Google Карты).",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -341,10 +388,10 @@
       "https://forma-3d.uz/ru/catalog",
       "https://forma-3d.uz/ru/catalog/parts"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. Organization + 2 Store (Ташкент, Навои: адрес, телефон, часы, оплата) на /ru, /uz, /ru/contacts, /uz/contacts. BreadcrumbList: 216 карточек (3 уровня) и 14 страниц каталога, включая пагинацию (2 уровня). Невалидного JSON-LD нет. На /business, /delivery, /knowledge и юр. страницах видимых хлебных крошек нет, поэтому и разметка не нужна. || Было: Schema.org есть только на 216 карточках (Product). На главной и в контактах нет Organization/LocalBusiness (Store). Видимые хлебные крошки (Главная → Каталог → …) нигде не размечены BreadcrumbList. На страницах каталога разметки нет совсем.",
+    "details": "[Перепроверка 2026-10-30] Держится, регрессии нет. || Было: Было: Schema.org есть только на 216 карточках (Product). На главной и в контактах нет Organization/LocalBusiness (Store). Видимые хлебные крошки (Главная → Каталог → …) нигде не размечены BreadcrumbList. На страницах каталога разметки нет совсем.",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -511,10 +558,10 @@
       "https://forma-3d.uz/uz/product/tpu-95a-hf-black-spool",
       "https://forma-3d.uz/uz/product/tpu-95a-hf-white-spool"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. 0 повторяющихся H1 на 250 URL, у всех страниц ровно один H1. H1 карточек содержит цвет и формат (пример: «Bambu Lab PLA Basic чёрный — 1 кг на катушке»). || Было: H1 карточки содержит только линейку без цвета/варианта: «Bambu Lab PLA Basic» стоит на 40 URL, «Bambu Lab PLA Matte» на 24, «Bambu Lab PETG HF» на 18. Затронуто 158 URL товаров.",
+    "details": "[Перепроверка 2026-10-30] Держится, регрессии нет. || Было: Было: H1 карточки содержит только линейку без цвета/варианта: «Bambu Lab PLA Basic» стоит на 40 URL, «Bambu Lab PLA Matte» на 24, «Bambu Lab PETG HF» на 18. Затронуто 158 URL товаров.",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -563,10 +610,10 @@
       "https://forma-3d.uz/uz/product/repair-motors",
       "https://forma-3d.uz/uz/product/repair-fans"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. Ни в одном title/description нет «Подбор по модели», «Для печатного стола», «Обслуживание принтера», «Для хранения». || Было: 40 title (20 ru + 20 uz) собраны по шаблону «<товар> · Bambu Lab <поле совместимости>», и в него попадает служебный текст: «Bambu Lab Подбор по модели», «Bambu Lab Для печатного стола», «Bambu Lab Обслуживание принтера».",
+    "details": "[Перепроверка 2026-10-30] Держится, регрессии нет. || Было: Было: 40 title (20 ru + 20 uz) собраны по шаблону «<товар> · Bambu Lab <поле совместимости>», и в него попадает служебный текст: «Bambu Lab Подбор по модели», «Bambu Lab Для печатного стола», «Bambu Lab Обслуживание принтера».",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -595,10 +642,10 @@
       "https://forma-3d.uz/uz/product/repair-motors",
       "https://forma-3d.uz/uz/product/repair-fans"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. 0 страниц /uz/ с кириллицей в title или description. || Было: 20 страниц /uz/ содержат русский текст (кириллицу) в title и description (тот же шаблонный хвост: «Подбор по модели», «Для хранения филамента» и т.п.). В узбекской версии (латиница) смешаны языки.",
+    "details": "[Перепроверка 2026-10-30] Держится: кириллицы нет ни в title/description, ни во всём видимом тексте 125 страниц /uz/ (проверка регэкспом по тексту без script/style). || Было: Было: 20 страниц /uz/ содержат русский текст (кириллицу) в title и description (тот же шаблонный хвост: «Подбор по модели», «Для хранения филамента» и т.п.). В узбекской версии (латиница) смешаны языки.",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -667,10 +714,10 @@
       "https://forma-3d.uz/uz/product/pla-matte-navy-refill",
       "https://forma-3d.uz/uz/product/pla-matte-navy-spool"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. 0 повторяющихся meta description на 250 URL. || Было: 60 карточек товара с повторяющимся meta description: в парах катушка/рефилл текст одинаковый, включая «1 кг». Связано с dup-product-001.",
+    "details": "[Перепроверка 2026-10-30] Держится, регрессии нет. || Было: Было: 60 карточек товара с повторяющимся meta description: в парах катушка/рефилл текст одинаковый, включая «1 кг». Связано с dup-product-001.",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -685,10 +732,11 @@
       "https://forma-3d.uz/ru/knowledge",
       "https://forma-3d.uz/uz/knowledge"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Частично. Было 60 URL, осталось 6. Все 216 карточек теперь ≥250 слов (минимум 267), /business 268/258. Меньше 250 слов: /ru/contacts 216, /uz/contacts 224, /ru/delivery 234, /uz/delivery 220, /ru/knowledge 210, /uz/knowledge 203 (слова с меню и подвалом). || Было: Коммерческие страницы <250 слов: 52 карточек (минимум 223 слова, в основном *-refill и *-spool без цены) и посадочные /business (200/192), /delivery (187/172), /knowledge (185/175), /contacts (143/145) (ru/uz). Краулер считает слова вместе с меню и подвалом, так что уникального текста ещё меньше.",
+    "details": "[Перепроверка 2026-10-30] Закрыто. После FAQ-блоков: /ru/contacts 432, /uz/contacts 429, /ru/delivery 456, /uz/delivery 431, /ru/knowledge 476, /uz/knowledge 453 слова (было 203–234). /ru/business 266, /uz/business 256. Все 218 карточек ≥250. <250 слов только юридические и служебные страницы (offer, privacy, returns, cart — 125–135 слов), они не коммерческие. || Было: Было: Коммерческие страницы <250 слов: 52 карточек (минимум 223 слова, в основном *-refill и *-spool без цены) и посадочные /business (200/192), /delivery (187/172), /knowledge (185/175), /contacts (143/145) (ru/uz). Краулер считает слова вместе с меню и подвалом, так что уникального текста ещё меньше.",
     "first_seen": "2026-10-29",
-    "status": "open",
-    "last_checked": "2026-10-29-recheck"
+    "status": "fixed",
+    "last_checked": "2026-10-30",
+    "fixed_on": "2026-10-30"
   },
   {
     "id": "long-title-001",
@@ -820,10 +868,10 @@
       "https://forma-3d.uz/uz/product/support-for-pla-request-spool",
       "https://forma-3d.uz/uz/product/pva-support-w-request-spool"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. 0 title >60 символов (максимум 60, было 164–166). || Было: 124 страниц с title >60 символов: 110 карточек, 12 страниц каталога, /uz и /uz/business. Максимум 164–166 символов (reusable-spool, перечислены 14 моделей принтеров). Хвост «— купить в Ташкенте | Forma 3D» добавляет около 30 символов.",
+    "details": "[Перепроверка 2026-10-30] Держится, регрессии нет. || Было: Было: 124 страниц с title >60 символов: 110 карточек, 12 страниц каталога, /uz и /uz/business. Максимум 164–166 символов (reusable-spool, перечислены 14 моделей принтеров). Хвост «— купить в Ташкенте | Forma 3D» добавляет около 30 символов.",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -841,10 +889,10 @@
       "https://forma-3d.uz/ru/product/reusable-spool",
       "https://forma-3d.uz/uz/product/reusable-spool"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. 0 description >160 символов. || Было: 9 страниц с description >160 символов: /catalog/parts (ru/uz, вместе с пагинацией) 162–163, uz pla-matte-white 165, reusable-spool 209 (ru) и 221 (uz).",
+    "details": "[Перепроверка 2026-10-30] Держится для исходных URL. Новый случай на /uz/product/hotend-a1-04-steel (165 симв.) заведён отдельно как long-desc-002. || Было: Было: 9 страниц с description >160 символов: /catalog/parts (ru/uz, вместе с пагинацией) 162–163, uz pla-matte-white 165, reusable-spool 209 (ru) и 221 (uz).",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -867,10 +915,10 @@
       "https://forma-3d.uz/uz/catalog?page=3",
       "https://forma-3d.uz/uz/catalog?page=4"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. У страниц пагинации свои description, в title и H1 есть «страница N» / «N-sahifa». Дублей нет. || Было: Страницы пагинации каталога (?page=2..4) повторяют description и H1 первой страницы, а title отличается только суффиксом «страница N». Canonical указывает на саму страницу, в sitemap этих URL нет — так и должно быть. Низкий приоритет.",
+    "details": "[Перепроверка 2026-10-30] Держится, регрессии нет. || Было: Было: Страницы пагинации каталога (?page=2..4) повторяют description и H1 первой страницы, а title отличается только суффиксом «страница N». Canonical указывает на саму страницу, в sitemap этих URL нет — так и должно быть. Низкий приоритет.",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -881,10 +929,10 @@
       "https://forma-3d.uz/uz",
       "https://forma-3d.uz/ru"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. По краулеру 0 изображений без alt (images_without_alt_total = 0). || Было: 4 логотипа клиентов без alt на главных /ru и /uz: /images/clients/baxt-textile.png, ngmk.png, nzbt.png, narbahor-textile.png.",
+    "details": "[Перепроверка 2026-10-30] Держится, регрессии нет. || Было: Было: 4 логотипа клиентов без alt на главных /ru и /uz: /images/clients/baxt-textile.png, ngmk.png, nzbt.png, narbahor-textile.png.",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -900,10 +948,10 @@
       "https://forma-3d.uz/ru/knowledge",
       "https://forma-3d.uz/ru/catalog"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Закрыто. H1 с ключами: «Филамент и запчасти Bambu Lab в Ташкенте», «Филамент Bambu Lab для 3D-принтера», «Филамент Bambu Lab оптом для бизнеса и учебных заведений», «Доставка и оплата филамента по Ташкенту и Узбекистану», «Контакты Forma 3D», «База знаний по 3D-печати и филаменту». Аналогично в /uz. || Было: H1 — слоганы без ключевых слов: главная «Всё для вашей 3D-печати. *» (со звёздочкой в заголовке), /business «Больше печати. Меньше забот.», /delivery «От нашего склада — к вашему принтеру», /contacts «Хорошей печати нужен хороший материал», /knowledge «От катушки к результату», /catalog «Филамент». Аналогично в /uz.",
+    "details": "[Перепроверка 2026-10-30] Держится, регрессии нет. || Было: Было: H1 — слоганы без ключевых слов: главная «Всё для вашей 3D-печати. *» (со звёздочкой в заголовке), /business «Больше печати. Меньше забот.», /delivery «От нашего склада — к вашему принтеру», /contacts «Хорошей печати нужен хороший материал», /knowledge «От катушки к результату», /catalog «Филамент». Аналогично в /uz.",
     "first_seen": "2026-10-29",
     "status": "fixed",
-    "last_checked": "2026-10-29-recheck",
+    "last_checked": "2026-10-30",
     "fixed_on": "2026-10-29"
   },
   {
@@ -913,10 +961,11 @@
     "urls": [
       "https://forma-3d.uz/sitemap.xml"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Осталась. У всех 236 URL одинаковый lastmod 2026-10-29T11:19:14.946Z: значение сменилось, но так и осталось временем генерации. || Было: У всех 236 URL одинаковый lastmod 2026-10-29T09:00:00.841Z (время генерации), поэтому поисковики не могут понять по нему, что действительно изменилось.",
+    "details": "[Перепроверка 2026-10-30] Закрыто: lastmod убран из sitemap полностью (0 тегов <lastmod> на 238 URL). || Было: Было: У всех 236 URL одинаковый lastmod 2026-10-29T09:00:00.841Z (время генерации), поэтому поисковики не могут понять по нему, что действительно изменилось.",
     "first_seen": "2026-10-29",
-    "status": "open",
-    "last_checked": "2026-10-29-recheck"
+    "status": "fixed",
+    "last_checked": "2026-10-30",
+    "fixed_on": "2026-10-30"
   },
   {
     "id": "hreflang-xdefault-001",
@@ -925,10 +974,11 @@
     "urls": [
       "https://forma-3d.uz/sitemap.xml"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Осталась. В HTML всех 250 страниц ru/uz/x-default, в sitemap у 236 URL только ru и uz. || Было: В HTML всех 250 страниц есть hreflang ru/uz/x-default (x-default → ru), а в sitemap только ru/uz без x-default. Это не ошибка, но лучше привести к одному виду. Код uz без uz-Latn допустим, пока нет кириллической версии.",
+    "details": "[Перепроверка 2026-10-30] Закрыто: x-default есть во всех 238 блоках <url> sitemap (→ /ru), в HTML всех 251 страниц ru/uz/x-default. || Было: Было: В HTML всех 250 страниц есть hreflang ru/uz/x-default (x-default → ru), а в sitemap только ru/uz без x-default. Это не ошибка, но лучше привести к одному виду. Код uz без uz-Latn допустим, пока нет кириллической версии.",
     "first_seen": "2026-10-29",
-    "status": "open",
-    "last_checked": "2026-10-29-recheck"
+    "status": "fixed",
+    "last_checked": "2026-10-30",
+    "fixed_on": "2026-10-30"
   },
   {
     "id": "robots-001",
@@ -941,10 +991,11 @@
       "https://forma-3d.uz/uz/cart",
       "https://forma-3d.uz/uz/account"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Осталась без изменений: Host: https://forma-3d.uz; /ru|uz/cart и /ru|uz/account под Disallow и одновременно noindex, follow. || Было: Директива Host: https://forma-3d.uz устарела (Яндекс не учитывает её с 2018 года). Вреда от неё нет, можно убрать. /cart и /account закрыты в robots.txt и одновременно помечены noindex, follow: из-за Disallow бот не увидит noindex. Ссылки на них есть на всех страницах, поэтому URL могут попасть в индекс без содержимого. Правил, закрывающих каталог или товары, нет.",
+    "details": "[Перепроверка 2026-10-30] Закрыто. robots.txt: «User-Agent: * / Allow: / / Disallow: /api/ / Sitemap: https://forma-3d.uz/sitemap.xml». Host убран, Disallow для cart/account снят. /ru|uz/cart и /ru|uz/account отдают 200 и meta robots «noindex, follow», теперь бот этот noindex видит. || Было: [Перепроверка 2026-10-29-recheck] Осталась без изменений: Host: https://forma-3d.uz; /ru|uz/cart и /ru|uz/account под Disallow и одновременно noindex, follow. || Было: Директива Host: https://forma-3d.uz устарела (Яндекс не учитывает её с 2018 года). Вреда от неё нет, можно убрать. /cart и /account закрыты в robots.txt и одновременно помечены noindex, follow: из-за Disallow бот не увидит noindex. Ссылки на них есть на всех страницах, поэтому URL могут попасть в индекс без содержимого. Правил, закрывающих каталог или товары, нет.",
     "first_seen": "2026-10-29",
-    "status": "open",
-    "last_checked": "2026-10-29-recheck"
+    "status": "fixed",
+    "last_checked": "2026-10-30",
+    "fixed_on": "2026-10-30"
   },
   {
     "id": "www-dns-001",
@@ -953,9 +1004,10 @@
     "urls": [
       "https://www.forma-3d.uz/ru"
     ],
-    "details": "[Перепроверка 2026-10-29-recheck] Осталась. www.forma-3d.uz снова не резолвится (NameResolutionError). http://forma-3d.uz/ru отдаёт 301 на https, это в порядке. || Было: www.forma-3d.uz не резолвится (NameResolutionError): кто наберёт адрес с www, получит ошибку. Рекомендуется добавить DNS-запись и 301-редирект на https://forma-3d.uz.",
+    "details": "[Перепроверка 2026-10-30] Закрыто. www.forma-3d.uz резолвится и отдаёт 301 на https://forma-3d.uz с сохранением пути (https://www.forma-3d.uz/ru/product/pla-basic-black → 301 → https://forma-3d.uz/ru/product/pla-basic-black). Лишние шаги в цепочке — отдельная проблема redirect-chain-001. || Было: Было: www.forma-3d.uz не резолвится (NameResolutionError): кто наберёт адрес с www, получит ошибку. Рекомендуется добавить DNS-запись и 301-редирект на https://forma-3d.uz.",
     "first_seen": "2026-10-29",
-    "status": "open",
-    "last_checked": "2026-10-29-recheck"
+    "status": "fixed",
+    "last_checked": "2026-10-30",
+    "fixed_on": "2026-10-30"
   }
 ]

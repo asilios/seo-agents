@@ -1,0 +1,4744 @@
+{
+ "checked_at": "2026-10-30 11:03",
+ "redirects": {
+  "http://www.forma-3d.uz/": {
+   "hops": [
+    [
+     301,
+     "https://www.forma-3d.uz/"
+    ],
+    [
+     301,
+     "https://forma-3d.uz/"
+    ],
+    [
+     308,
+     "/ru"
+    ]
+   ],
+   "final": "https://forma-3d.uz/ru",
+   "status": 200
+  },
+  "https://www.forma-3d.uz/": {
+   "hops": [
+    [
+     301,
+     "https://forma-3d.uz/"
+    ],
+    [
+     308,
+     "/ru"
+    ]
+   ],
+   "final": "https://forma-3d.uz/ru",
+   "status": 200
+  },
+  "http://www.forma-3d.uz/ru": {
+   "hops": [
+    [
+     301,
+     "https://www.forma-3d.uz/ru"
+    ],
+    [
+     301,
+     "https://forma-3d.uz/ru"
+    ]
+   ],
+   "final": "https://forma-3d.uz/ru",
+   "status": 200
+  },
+  "https://www.forma-3d.uz/ru": {
+   "hops": [
+    [
+     301,
+     "https://forma-3d.uz/ru"
+    ]
+   ],
+   "final": "https://forma-3d.uz/ru",
+   "status": 200
+  },
+  "https://www.forma-3d.uz/ru/product/pla-basic-black": {
+   "hops": [
+    [
+     301,
+     "https://forma-3d.uz/ru/product/pla-basic-black"
+    ]
+   ],
+   "final": "https://forma-3d.uz/ru/product/pla-basic-black",
+   "status": 200
+  },
+  "http://www.forma-3d.uz/ru/product/pla-basic-black": {
+   "hops": [
+    [
+     301,
+     "https://www.forma-3d.uz/ru/product/pla-basic-black"
+    ],
+    [
+     301,
+     "https://forma-3d.uz/ru/product/pla-basic-black"
+    ]
+   ],
+   "final": "https://forma-3d.uz/ru/product/pla-basic-black",
+   "status": 200
+  },
+  "http://forma-3d.uz/": {
+   "hops": [
+    [
+     301,
+     "https://forma-3d.uz/"
+    ],
+    [
+     308,
+     "/ru"
+    ]
+   ],
+   "final": "https://forma-3d.uz/ru",
+   "status": 200
+  },
+  "https://forma-3d.uz/": {
+   "hops": [
+    [
+     308,
+     "/ru"
+    ]
+   ],
+   "final": "https://forma-3d.uz/ru",
+   "status": 200
+  },
+  "http://forma-3d.uz/ru": {
+   "hops": [
+    [
+     301,
+     "https://forma-3d.uz/ru"
+    ]
+   ],
+   "final": "https://forma-3d.uz/ru",
+   "status": 200
+  },
+  "https://forma-3d.uz/ru/": {
+   "hops": [
+    [
+     308,
+     "/ru"
+    ]
+   ],
+   "final": "https://forma-3d.uz/ru",
+   "status": 200
+  },
+  "https://forma-3d.uz/ru/no-such-page-xyz": {
+   "hops": [],
+   "final": "https://forma-3d.uz/ru/no-such-page-xyz",
+   "status": 404
+  }
+ },
+ "pages": {
+  "https://forma-3d.uz/ru/delivery": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": {
+    "h2": "Вопросы о доставке и оплате",
+    "h3": [
+     "Как оформить и оплатить заказ?",
+     "Успею ли я получить филамент сегодня?",
+     "Доставляете ли вы в другие города Узбекистана?",
+     "Есть ли бесплатная доставка?",
+     "Как быстро приходят материалы под заказ?",
+     "Работаете ли вы с юрлицами?",
+     "Как вернуть товар?"
+    ],
+    "links": [
+     "/ru/business",
+     "/ru/catalog",
+     "/ru/returns"
+    ]
+   },
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": true
+  },
+  "https://forma-3d.uz/ru/catalog/parts": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/business": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-basic-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/petg-basic-black-spool",
+     "price": "175000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/offer": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/uz": {
+   "schema_types": [
+    "Organization",
+    "Store",
+    "Store"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/ru": {
+   "schema_types": [
+    "Organization",
+    "Store",
+    "Store"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/contacts": {
+   "schema_types": [
+    "Organization",
+    "Store",
+    "Store"
+   ],
+   "invalid_ld": 0,
+   "faq": {
+    "h2": "Частые вопросы",
+    "h3": [
+     "Как быстрее всего с нами связаться?",
+     "Можно ли забрать заказ самостоятельно?",
+     "Можно ли приехать без заказа и посмотреть товар?",
+     "Поможете выбрать материал или запчасть?",
+     "Работаете ли вы с компаниями и учебными заведениями?"
+    ],
+    "links": [
+     "/ru/business",
+     "/ru/catalog",
+     "/ru/catalog/parts",
+     "/ru/delivery"
+    ]
+   },
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-basic-gray-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/petg-basic-gray-spool",
+     "price": "175000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/asa-white-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/asa-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/asa-black-spool",
+     "price": "239000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/privacy": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/returns": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/knowledge": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/cart": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/paht-cf-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/paht-cf-black-spool",
+     "price": "1290000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/catalog": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-h2-04-hardened": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/hotend-h2-04-hardened",
+     "price": "379000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/uz/delivery": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": {
+    "h2": "Yetkazish va to‘lov bo‘yicha savollar",
+    "h3": [
+     "Buyurtmani qanday rasmiylashtirish va to‘lash mumkin?",
+     "Filamentni bugun olsam bo‘ladimi?",
+     "O‘zbekistonning boshqa shaharlariga yetkazasizmi?",
+     "Bepul yetkazish bormi?",
+     "Buyurtmaga keltiriladigan materiallar qancha vaqtda keladi?",
+     "Yuridik shaxslar bilan ishlaysizmi?",
+     "Mahsulotni qanday qaytarish mumkin?"
+    ],
+    "links": [
+     "/uz/business",
+     "/uz/catalog",
+     "/uz/returns"
+    ]
+   },
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": true,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/ru/product/hotend-a1-02": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/uz/catalog/parts": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/ru/product/textured-plate-180": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-a1-04-hardened": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-x1-04-hardened": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-h2-06-hardened": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/hotend-h2-06-hardened",
+     "price": "379000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-silicone-sock": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/smooth-pei-plate": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-p1-04": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-x1-06": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/catalog/parts?page=3": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-x1-04": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/catalog/parts?page=2": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-p1-06": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-p1-04-hardened": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-p1-02": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-a1-04-steel": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-a1-06": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/textured-plate": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/textured-plate",
+     "price": "329000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/hotend-x1c": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/hotend-x1c",
+     "price": "189000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/uz/business": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-basic-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/petg-basic-black-spool",
+     "price": "175000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/ru/product/filament-dryer": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/uz/offer": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/privacy": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-basic-gray-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/petg-basic-gray-spool",
+     "price": "175000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/asa-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/asa-black-spool",
+     "price": "239000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/asa-white-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/returns": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/paht-cf-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/paht-cf-black-spool",
+     "price": "1290000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/contacts": {
+   "schema_types": [
+    "Organization",
+    "Store",
+    "Store"
+   ],
+   "invalid_ld": 0,
+   "faq": {
+    "h2": "Ko‘p beriladigan savollar",
+    "h3": [
+     "Biz bilan qanday tezroq bog‘lanish mumkin?",
+     "Buyurtmani o‘zim olib ketsam bo‘ladimi?",
+     "Buyurtmasiz kelib, mahsulotni ko‘rsam bo‘ladimi?",
+     "Material yoki ehtiyot qism tanlashga yordam berasizmi?",
+     "Kompaniyalar va ta’lim muassasalari bilan ishlaysizmi?"
+    ],
+    "links": [
+     "/uz/business",
+     "/uz/catalog",
+     "/uz/catalog/parts",
+     "/uz/delivery"
+    ]
+   },
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/catalog": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/knowledge": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/cart": {
+   "schema_types": [],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-h2-04-hardened": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/hotend-h2-04-hardened",
+     "price": "379000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/ru/product/vacuum-storage-bags": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/reusable-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-beige-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-hf-orange": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/petg-hf-orange",
+     "price": "289000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-hf-gray-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-gray-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/catalog?page=4": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-green": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/pla-basic-green",
+     "price": "249000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-white": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/pla-matte-white",
+     "price": "269000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/catalog?page=3": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-hf-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-white-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-white-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-blue": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/pla-basic-blue",
+     "price": "249000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-black": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/pla-basic-black",
+     "price": "249000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-black-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-blue-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-gray-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-hf-white": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/ru/product/petg-hf-white",
+     "price": "289000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-red-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-red-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/catalog?page=2": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-gray-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/uz/product/hotend-a1-02": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-x1c": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/hotend-x1c",
+     "price": "189000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-p1-04": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/textured-plate": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/textured-plate",
+     "price": "329000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-a1-06": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-p1-04-hardened": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-x1-04": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-a1-04-steel": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-h2-06-hardened": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/hotend-h2-06-hardened",
+     "price": "379000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/InStock",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": false,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-a1-04-hardened": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/catalog/parts?page=3": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/textured-plate-180": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-p1-06": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-x1-06": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/smooth-pei-plate": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-silicone-sock": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/catalog/parts?page=2": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-x1-04-hardened": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/hotend-p1-02": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/ru/product/repair-extruders": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/repair-motors": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/repair-cables": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/repair-fans": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/maintenance-kit-p1s": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/repair-belts": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/repair-thermistors": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/repair-boards": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/maintenance-kit-a1": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/ams-feeding-rollers": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/ams-2-pro": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/desiccant": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/filament-cutter": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/nozzle-cleaning-kit": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/ams-buffer": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/cool-plate-supertack": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/glue-stick": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/engineering-plate": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/ams-lite": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/ams-hub": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/lubrication-kit": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/ams-ht": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/carbon-filter": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/ptfe-tubes": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/uz/product/filament-dryer": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-hf-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-blue-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/reusable-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-hf-gray-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-black-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-hf-white": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/petg-hf-white",
+     "price": "289000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-hf-orange": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/petg-hf-orange",
+     "price": "289000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-red-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-gray-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-blue": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/pla-basic-blue",
+     "price": "249000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/catalog?page=3": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/catalog?page=4": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-gray-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-beige-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/catalog?page=2": {
+   "schema_types": [
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-white": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/pla-matte-white",
+     "price": "269000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-black": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/pla-basic-black",
+     "price": "249000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-red-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-gray-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-green": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": true,
+   "offers": [
+    {
+     "@type": "Offer",
+     "url": "https://forma-3d.uz/uz/product/pla-basic-green",
+     "price": "249000",
+     "priceCurrency": "UZS",
+     "availability": "https://schema.org/PreOrder",
+     "itemCondition": "https://schema.org/NewCondition",
+     "seller": {
+      "@id": "https://forma-3d.uz/#organization"
+     }
+    }
+   ],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-white-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-white-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/vacuum-storage-bags": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-green-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-beige-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-navy-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-black-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-hf-transparent-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-hf-gray-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-transparent-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-green-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-beige-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-orange-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-yellow-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pa6-cf-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-metal-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-cf-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pc-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-wood-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-marble-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-glow-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pet-cf-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-sparkle-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pva-support-w-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-beige-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-orange-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-transparent-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-yellow-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-white-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-cf-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/tpu-95a-hf-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-galaxy-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/abs-white-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-hf-black-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/tpu-95a-hf-white-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/support-for-pla-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-silk-choice-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-hf-white-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/abs-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-green-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/petg-hf-transparent-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-gray-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/ru/product/pla-matte-navy-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false
+  },
+  "https://forma-3d.uz/uz/product/maintenance-kit-a1": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/repair-boards": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/repair-belts": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/repair-fans": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/repair-extruders": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/repair-thermistors": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/maintenance-kit-p1s": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/repair-motors": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/repair-cables": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/glue-stick": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/nozzle-cleaning-kit": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/cool-plate-supertack": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/filament-cutter": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/ams-2-pro": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/ams-ht": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/ams-feeding-rollers": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/engineering-plate": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/ams-buffer": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/ams-hub": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/carbon-filter": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/desiccant": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/lubrication-kit": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/ptfe-tubes": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/ams-lite": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-hf-transparent-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-hf-black-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-beige-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-transparent-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-yellow-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-orange-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-navy-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-green-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-black-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-hf-gray-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-beige-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-transparent-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-green-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-orange-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-basic-yellow-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-hf-white-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-gray-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/abs-white-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-white-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/tpu-95a-hf-white-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/support-for-pla-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-silk-choice-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-hf-transparent-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/abs-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-green-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/tpu-95a-hf-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-cf-black-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-beige-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-galaxy-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/petg-cf-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pet-cf-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-marble-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pa6-cf-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-metal-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-wood-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-glow-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pc-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pva-support-w-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-sparkle-request-spool": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  },
+  "https://forma-3d.uz/uz/product/pla-matte-navy-refill": {
+   "schema_types": [
+    "Product",
+    "BreadcrumbList"
+   ],
+   "invalid_ld": 0,
+   "faq": null,
+   "has_offer": false,
+   "offers": [],
+   "demo_footer": false,
+   "demo_prices": false,
+   "demo_batch": false,
+   "price_on_request": true,
+   "mentions_45000": false,
+   "mentions_50000": false,
+   "cyrillic_snippets": [],
+   "cyrillic_chars": 0
+  }
+ },
+ "faq_link_status": {
+  "/ru/business": 200,
+  "/ru/catalog": 200,
+  "/ru/catalog/parts": 200,
+  "/ru/delivery": 200,
+  "/ru/returns": 200,
+  "/uz/business": 200,
+  "/uz/catalog": 200,
+  "/uz/catalog/parts": 200,
+  "/uz/delivery": 200,
+  "/uz/returns": 200
+ }
+}
