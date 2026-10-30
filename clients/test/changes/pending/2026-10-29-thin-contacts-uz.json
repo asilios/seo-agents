@@ -1,7 +1,9 @@
 {
   "id": "2026-10-29-thin-contacts-uz",
   "url": "https://forma-3d.uz/uz/contacts",
-  "issue_ids": ["thin-content-001"],
+  "issue_ids": [
+    "thin-content-001"
+  ],
   "cluster": "Магазин филамента и запчастей Bambu Lab в Ташкенте (главная) + Доставка и оплата филамента по Ташкенту и Узбекистану",
   "word_count_now": 224,
   "word_count_target": "300+ (по crawl.py, вместе с меню и подвалом); блок ниже добавляет около 170 слов без учёта вопросов с [УТОЧНИТЬ]",
@@ -23,7 +25,7 @@
           },
           {
             "q_h3": "Buyurtmasiz kelib, mahsulotni ko‘rsam bo‘ladimi?",
-            "a": "[УТОЧНИТЬ: есть ли в пунктах выдачи витрина и можно ли купить на месте без заказа на сайте. До ответа этот вопрос не выводить]"
+            "a": "Yo‘q, bizda vitrina yo‘q: barcha mahsulotlar faqat buyurtma orqali sotiladi — saytda, +998 99 454-19-13 telefoni yoki Telegram @kemalsen orqali."
           },
           {
             "q_h3": "Material yoki ehtiyot qism tanlashga yordam berasizmi?",

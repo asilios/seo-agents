@@ -1,7 +1,9 @@
 {
   "id": "2026-10-29-thin-delivery-uz",
   "url": "https://forma-3d.uz/uz/delivery",
-  "issue_ids": ["thin-content-001"],
+  "issue_ids": [
+    "thin-content-001"
+  ],
   "cluster": "Доставка и оплата филамента по Ташкенту и Узбекистану",
   "word_count_now": 220,
   "word_count_target": "300+ (по crawl.py, вместе с меню и подвалом); блок ниже добавляет около 190 слов без учёта текста в [УТОЧНИТЬ]",
@@ -31,15 +33,15 @@
           },
           {
             "q_h3": "Bepul yetkazish bormi?",
-            "a": "Toshkent va Navoiyda olib ketish har doim bepul. [УТОЧНИТЬ: есть ли бесплатная курьерская доставка от определённой суммы или для оптовых заказов. Если нет — оставить только первое предложение]"
+            "a": "Toshkent va Navoiyda olib ketish har doim bepul. 1 000 000 so‘mdan boshlab buyurtmalarda yetkazib berish bepul."
           },
           {
             "q_h3": "Buyurtmaga keltiriladigan materiallar qancha vaqtda keladi?",
-            "a": "Maxsus plastiklarni — PLA-CF, PETG-CF, PC, PA-CF va PVA — buyurtmaga olib kelamiz. Yetkazib berish muddatini menejer buyurtma paytida aytadi. [УТОЧНИТЬ: типичный срок поставки позиций «под заказ»; если его нельзя назвать заранее — оставить фразу про менеджера без срока]"
+            "a": "Maxsus plastiklarni — PLA-CF, PETG-CF, PC, PA-CF va PVA — buyurtmaga olib kelamiz. Yetkazib berish muddati — 3 kungacha, aniq sanani menejer buyurtma paytida aytadi."
           },
           {
             "q_h3": "Yuridik shaxslar bilan ishlaysizmi?",
-            "a": "Ha. Print-fermalar, ustaxonalar va ta’lim muassasalariga hisob beramiz, ulgurji narxlar 5 ta g‘altakdan boshlanadi. [УТОЧНИТЬ: какие закрывающие документы выдаёте юрлицам (счёт-фактура, накладная, договор)]. Batafsil — «Biznes uchun ulgurji filament» sahifasida."
+            "a": "Ha. Print-fermalar, ustaxonalar va ta’lim muassasalariga hisob beramiz, ulgurji narxlar 5 ta g‘altakdan boshlanadi. Barcha kerakli yopuvchi hujjatlarni taqdim etamiz. Batafsil — «Biznes uchun ulgurji filament» sahifasida."
           },
           {
             "q_h3": "Mahsulotni qanday qaytarish mumkin?",
