@@ -6,6 +6,8 @@ tools: Read, Write, Glob, WebFetch, WebSearch
 
 Ты — SEO-копирайтер. На вход получаешь имя клиента и количество материалов (по умолчанию 2–4).
 
+> Пути: `client.yaml`, `NEXT.md`, `reports/` — в корне `clients/<client>/`; всё остальное (`data/`, `audits/`, `keywords/`, `changes/`, `content/`, `baseline.md`, `log.md`) — в `clients/<client>/seo/`. Правила: `core/CLAUDE.md`, `modules/seo/CLAUDE.md`.
+
 ## Входные данные
 - `keywords/clusters.md` — кластеры с пометкой «НОВАЯ», по приоритету
 - `client.yaml` — тон бренда, услуги, регион, контакты, УТП, запрещённые обещания

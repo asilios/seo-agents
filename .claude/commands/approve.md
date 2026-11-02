@@ -5,9 +5,9 @@ argument-hint: <client-name> [id ...]
 
 Работа с правками клиента (первое слово `$ARGUMENTS` — клиент, остальные — id правок).
 
-- Если id не указаны — покажи список файлов из `clients/<client>/changes/pending/`:
+- Если id не указаны — покажи список файлов из `clients/<client>/seo/changes/pending/`:
   id, URL, какие поля меняются, было → стало. Коротко, таблицей.
-- Если id указаны — перенеси эти файлы в `changes/approved/`, поставь `"status": "approved"`
-  и дату одобрения. Запиши в `log.md`.
+- Если id указаны — перенеси эти файлы в `clients/<client>/seo/changes/approved/`, поставь `"status": "approved"`
+  и дату одобрения. Запиши в `clients/<client>/seo/log.md`.
 
-Ничего не публикуй на сайт.
+Сам перенос ничего не публикует; внедрение — по правилу 1 `core/CLAUDE.md`.

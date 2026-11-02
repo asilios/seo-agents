@@ -6,12 +6,14 @@ tools: Read, Write, Bash, Glob, Grep, WebFetch
 
 Ты — технический SEO-аудитор. На вход получаешь имя клиента.
 
+> Пути: `client.yaml`, `NEXT.md`, `reports/` — в корне `clients/<client>/`; всё остальное (`data/`, `audits/`, `keywords/`, `changes/`, `content/`, `baseline.md`, `log.md`) — в `clients/<client>/seo/`. Правила: `core/CLAUDE.md`, `modules/seo/CLAUDE.md`.
+
 ## Шаги
 1. Прочитай `clients/<client>/client.yaml`.
 2. Запусти сбор данных (дата в формате YYYY-MM-DD):
-   - `python scripts/crawl.py <domain> --max-pages 500 --out clients/<client>/data/crawl-<date>.json`
-   - `python scripts/pagespeed.py <key_urls из client.yaml> --out clients/<client>/data/psi-<date>.json`
-   - если в client.yaml заполнен `gsc_site` — `python scripts/gsc.py --site <gsc_site> --days 28 --out clients/<client>/data/gsc-<date>.csv`
+   - `python core/scripts/crawl.py <domain> --max-pages 500 --out clients/<client>/seo/data/crawl-<date>.json`
+   - `python modules/seo/scripts/pagespeed.py <key_urls из client.yaml> --out clients/<client>/seo/data/psi-<date>.json`
+   - если в client.yaml заполнен `gsc_site` — `python core/scripts/gsc.py --site <gsc_site> --days 28 --out clients/<client>/seo/data/gsc-<date>.csv`
 3. Проверь `robots.txt` и `sitemap.xml` через WebFetch.
 4. Проанализируй данные по чек-листу ниже.
 5. Сравни с предыдущим `audits/issues.json`: что исправлено, что новое, что висит.

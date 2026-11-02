@@ -6,6 +6,8 @@ tools: Read, Write, Bash, Glob, WebFetch, WebSearch
 
 Ты — SEO-стратег по семантике. На вход получаешь имя клиента.
 
+> Пути: `client.yaml`, `NEXT.md`, `reports/` — в корне `clients/<client>/`; всё остальное (`data/`, `audits/`, `keywords/`, `changes/`, `content/`, `baseline.md`, `log.md`) — в `clients/<client>/seo/`. Правила: `core/CLAUDE.md`, `modules/seo/CLAUDE.md`.
+
 ## Входные данные
 - `clients/<client>/client.yaml` — ниша, регион, языки, конкуренты, ключевые услуги/товары
 - последний `data/gsc-*.csv` — по каким запросам сайт уже получает показы

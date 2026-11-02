@@ -7,3 +7,9 @@ __pycache__/
 logs/
 .claude/settings.local.json
 .DS_Store
+
+# медиа модуля соцсетей — хранятся в R2, не в git
+clients/*/social/media/
+*.mp4
+*.mov
+*.webm

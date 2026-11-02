@@ -3,7 +3,7 @@
 Ключ API (необязателен, но без него жёсткие лимиты): переменная окружения PSI_API_KEY.
 
 Пример:
-    python scripts/pagespeed.py https://example.uz https://example.uz/catalog --out clients/x/data/psi-2026-10-28.json
+    python modules/seo/scripts/pagespeed.py https://example.uz https://example.uz/catalog --out clients/x/seo/data/psi-2026-10-28.json
 """
 import argparse
 import json
@@ -15,7 +15,9 @@ from pathlib import Path
 import requests
 from dotenv import load_dotenv
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+# Корень репозитория — ближайшая папка вверх с CLAUDE.md и clients/ (скрипт может лежать на любой глубине).
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / "CLAUDE.md").exists() and (p / "clients").is_dir())
+load_dotenv(ROOT / ".env")
 
 API = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed"
 

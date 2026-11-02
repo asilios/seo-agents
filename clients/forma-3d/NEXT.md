@@ -1,5 +1,7 @@
 # Где остановились (2026-10-30)
 
+> 2026-11-02: папка клиента переименована `clients/test` → `clients/forma-3d`, данные SEO перенесены в `seo/`. Старые записи журнала ссылаются на прежние пути.
+
 Прочитай это первым, если продолжаешь работу по клиенту `test` (forma-3d.uz) на другом компьютере.
 
 ## Цель владельца
@@ -8,7 +10,7 @@
 ## Google Search Console — подключён (2026-11-02)
 - Ресурс `sc-domain:forma-3d.uz`, робот `seo-agents@seo-agents-513505.iam.gserviceaccount.com` (доступ работает), ключ в `secrets/gsc-key.json` — **только на рабочем компьютере**; на домашнем положить свой файл (в git его нет).
 - Sitemap отправлен 2026-10-30 (238 URL).
-- 2026-11-02: показов/кликов пока 0. Проверка URL: главные /ru, /uz, каталог, запчасти, доставка, бизнес — проиндексированы (краул 30.10); карточки товаров — «неизвестен Google» / «обнаружена, не проиндексирована». Данные: data/gsc-2026-11-02.csv, data/gsc-inspect-2026-11-02.json.
+- 2026-11-02: показов/кликов пока 0. Проверка URL: главные /ru, /uz, каталог, запчасти, доставка, бизнес — проиндексированы (краул 30.10); карточки товаров — «неизвестен Google» / «обнаружена, не проиндексирована». Данные: seo/data/gsc-2026-11-02.csv, seo/data/gsc-inspect-2026-11-02.json.
 - Ключ проходил через чат — владельцу предложено перевыпустить.
 
 ## Код сайта
@@ -20,14 +22,14 @@
 ## Публикация (с 2026-11-02)
 - Владелец разрешил сливать ветки сайта в main самим, после проверок из правила 1 CLAUDE.md. Цены, сроки, обещания — только с владельцем.
 - seo-3, seo-4, seo-5 — выложены. Вход в git: сайт — `https://kemalshen@github.com/...`, этот проект — `https://asilios@github.com/...`.
-- Цикл работы — routine/improve-cycle.md. Облачная задача «SEO forma-3d — еженедельный цикл» (trig_01SnqZYAaTRa9Xp8my6rNSTn, Opus): каждый понедельник 09:00 Ташкент (0 4 * * 1 UTC), https://claude.ai/code/routines/trig_01SnqZYAaTRa9Xp8my6rNSTn. В облаке нет ключа GSC — данные GSC подтягивать в чате.
+- Цикл работы — modules/seo/routine/improve-cycle.md. Облачная задача «SEO forma-3d — еженедельный цикл» (trig_01SnqZYAaTRa9Xp8my6rNSTn, Opus): каждый понедельник 09:00 Ташкент (0 4 * * 1 UTC), https://claude.ai/code/routines/trig_01SnqZYAaTRa9Xp8my6rNSTn. В облаке нет ключа GSC — данные GSC подтягивать в чате.
 
 ## Следующие задачи после GSC
 1. Отдельные страницы для статей базы знаний (`/ru/knowledge/<slug>`): сейчас статьи открываются модальным окном и не индексируются.
 2. 301 для 8 удалённых URL: product/hotend-h2d, hotend-h2c, hotend-p2s, paht-cf-request-spool (ru/uz) → ждём ответ владельца, на какие товары вести, или «сам подбери».
 3. Description `/uz/product/hotend-a1-04-steel` 165 символов → сократить до ≤160.
 4. Google Business Profile — создан владельцем 2026-11-02 (категория «3D-печать», добавить вторую — магазин). Проверить статус подтверждения. Яндекс Карты / 2GIS — ещё нет.
-5. Ежемесячно content-writer: 2–4 статьи под кластеры из keywords/clusters.md.
+5. Ежемесячно content-writer: 2–4 статьи под кластеры из seo/keywords/clusters.md.
 6. Яндекс Вебмастер — владелец подключает сам.
 
 ## Открытые вопросы владельцу
@@ -36,5 +38,5 @@
 - `PSI_API_KEY` пустой — PageSpeed не меряется.
 
 ## Состояние
-- Последний аудит: audits/2026-10-30.md — открыто: no-offer-001 (цены у 28/218), removed-products-404-001, redirect-chain-001 (low), long-desc-002.
-- changes/pending и changes/approved пусты, всё внедрённое — в changes/applied.
+- Последний аудит: seo/audits/2026-10-30.md — открыто: no-offer-001 (цены у 28/218), removed-products-404-001, redirect-chain-001 (low), long-desc-002.
+- seo/changes/pending и seo/changes/approved пусты, всё внедрённое — в seo/changes/applied.
