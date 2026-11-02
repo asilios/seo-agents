@@ -1,0 +1,114 @@
+{
+  "https://forma-3d.uz/ru": {
+    "verdict": "PASS",
+    "coverageState": "Страница отправлена и проиндексирована",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-10-30T17:30:57Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://forma-3d.uz/ru",
+    "userCanonical": "https://forma-3d.uz/ru",
+    "referringUrls": [
+      "https://forma-3d.uz/"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  "https://forma-3d.uz/uz": {
+    "verdict": "PASS",
+    "coverageState": "Страница отправлена и проиндексирована",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-10-30T13:21:39Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://forma-3d.uz/uz",
+    "userCanonical": "https://forma-3d.uz/uz",
+    "referringUrls": [
+      "https://forma-3d.uz/ru",
+      "https://forma-3d.uz/"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  "https://forma-3d.uz/ru/catalog": {
+    "verdict": "PASS",
+    "coverageState": "Страница отправлена и проиндексирована",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-10-30T14:08:50Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://forma-3d.uz/ru/catalog",
+    "userCanonical": "https://forma-3d.uz/ru/catalog",
+    "sitemap": [
+      "https://forma-3d.uz/sitemap.xml"
+    ],
+    "referringUrls": [
+      "https://forma-3d.uz/uz/business"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  "https://forma-3d.uz/ru/catalog/parts": {
+    "verdict": "PASS",
+    "coverageState": "Страница отправлена и проиндексирована",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-10-30T11:36:48Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://forma-3d.uz/ru/catalog/parts",
+    "userCanonical": "https://forma-3d.uz/ru/catalog/parts",
+    "referringUrls": [
+      "https://forma-3d.uz/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  "https://forma-3d.uz/ru/product/pla-basic-black": {
+    "verdict": "NEUTRAL",
+    "coverageState": "URL неизвестен Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+  },
+  "https://forma-3d.uz/ru/product/hotend-a1-04-steel": {
+    "verdict": "NEUTRAL",
+    "coverageState": "Обнаружена, не проиндексирована",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "sitemap": [
+      "https://forma-3d.uz/sitemap.xml"
+    ],
+    "referringUrls": [
+      "https://forma-3d.uz/uz/product/hotend-a1-04-steel"
+    ],
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+  },
+  "https://forma-3d.uz/ru/delivery": {
+    "verdict": "PASS",
+    "coverageState": "Страница отправлена и проиндексирована",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-10-30T14:14:05Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://forma-3d.uz/ru/delivery",
+    "userCanonical": "https://forma-3d.uz/ru/delivery",
+    "sitemap": [
+      "https://forma-3d.uz/sitemap.xml"
+    ],
+    "referringUrls": [
+      "https://forma-3d.uz/ru/product/petg-hf-transparent-spool"
+    ],
+    "crawledAs": "MOBILE"
+  },
+  "https://forma-3d.uz/ru/business": {
+    "verdict": "PASS",
+    "coverageState": "Страница отправлена и проиндексирована",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-10-30T11:15:23Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://forma-3d.uz/ru/business",
+    "userCanonical": "https://forma-3d.uz/ru/business",
+    "referringUrls": [
+      "https://forma-3d.uz/sitemap.xml"
+    ],
+    "crawledAs": "MOBILE"
+  }
+}

@@ -5,18 +5,11 @@
 ## Цель владельца
 Сайт forma-3d.uz — минимум первая страница поиска, в идеале топ. Работу приоритизировать по влиянию на позиции, а не только по закрытию пунктов аудита.
 
-## Сейчас в процессе: подключение Google Search Console
-- Этап 1 сделан: доменный ресурс `sc-domain:forma-3d.uz` подтверждён, `gsc_site` вписан в client.yaml.
-- Проверить, отправлен ли sitemap `https://forma-3d.uz/sitemap.xml` (Search Console → Файлы Sitemap).
-- **Этап 2 (делает владелец дома, на работе console.cloud.google.com заблокирован):**
-  1. console.cloud.google.com → New Project `seo-agents`.
-  2. Включить Google Search Console API: https://console.cloud.google.com/apis/library/searchconsole.googleapis.com
-  3. IAM & Admin → Service Accounts → Create service account `seo-agent` (роли не нужны).
-  4. Keys → Add key → JSON → сохранить как `secrets/gsc-key.json` (в git не попадает).
-- **Этап 3:** Search Console → Настройки → Пользователи и разрешения → добавить email робота с правом «Ограниченный».
-- Затем: проверить `python scripts/gsc.py --site sc-domain:forma-3d.uz --days 28 --out clients/test/data/gsc-YYYY-MM-DD.csv`. Первые 2–3 дня после подтверждения данные могут быть пустыми — это нормально.
-- Ключ `secrets/gsc-key.json` и `.env` через GitHub не синхронизируются — на каждом компьютере свои. В `.env`: `GSC_CREDENTIALS=secrets/gsc-key.json`.
-- Запасной вариант, если Cloud не откроется: вручную экспорт CSV из Search Console (Эффективность → Экспортировать) в `clients/test/data/`.
+## Google Search Console — подключён (2026-11-02)
+- Ресурс `sc-domain:forma-3d.uz`, робот `seo-agents@seo-agents-513505.iam.gserviceaccount.com` (доступ работает), ключ в `secrets/gsc-key.json` — **только на рабочем компьютере**; на домашнем положить свой файл (в git его нет).
+- Sitemap отправлен 2026-10-30 (238 URL).
+- 2026-11-02: показов/кликов пока 0. Проверка URL: главные /ru, /uz, каталог, запчасти, доставка, бизнес — проиндексированы (краул 30.10); карточки товаров — «неизвестен Google» / «обнаружена, не проиндексирована». Данные: data/gsc-2026-11-02.csv, data/gsc-inspect-2026-11-02.json.
+- Ключ проходил через чат — владельцу предложено перевыпустить.
 
 ## Код сайта
 - Репозиторий: https://github.com/kemalshen/forma-3d (Next.js 16). Railway деплоит `main` автоматически.
