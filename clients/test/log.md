@@ -29,3 +29,4 @@
 2026-11-02 | оркестратор | seo-4 выложена: 10 страниц статей отдают 200 с Article, 301 для удалённых товаров работают, sitemap 248, description hotend-a1-04-steel uz 140; 5 статей approved→applied | changes/applied/2026-11-02-article-*.json
 2026-11-02 | оркестратор | сайт: ветка seo-5 — перекрёстные ссылки в статье kakoy-filament-vybrat (ru/uz), вывод источников и блока «Ещё в базе знаний» на всех статьях; ждёт слияния | changes/applied/2026-11-02-article-kakoy-filament-vybrat.json
 2026-11-02 | владелец | создана карточка Google Business Profile (основная категория «3D-печать») | NEXT.md
+2026-11-02 | оркестратор | владелец разрешил публиковать без ручного одобрения: CLAUDE.md правило 1 и routine/improve-cycle.md обновлены (автослияние только после проверок; цены/сроки/обещания — с владельцем) | CLAUDE.md, routine/improve-cycle.md
