@@ -40,3 +40,12 @@
 ## Состояние
 - Последний аудит: seo/audits/2026-10-30.md — открыто: no-offer-001 (цены у 28/218), removed-products-404-001, redirect-chain-001 (low), long-desc-002.
 - seo/changes/pending и seo/changes/approved пусты, всё внедрённое — в seo/changes/applied.
+
+## Разработка модуля соцсетей и интерфейса (docs/prompt-social-module.md)
+- Фаза 0 (план) — одобрена 2026-11-02, кратко — docs/system-overview.md.
+- Фаза 1 (реорганизация) — сделана в ветке `phase-1-reorg`, ждёт «ок» владельца на слияние в master. Проверено: check_paths.py без ошибок, crawl/gsc из новых мест, сухие прогоны auditor и onpage-optimizer.
+- После слияния: обновить промпт облачной задачи (новые пути `clients/forma-3d/...`, `modules/seo/routine/...`) и сделать run now.
+
+## Блокеры облачной задачи (из лога первого запуска 2026-11-02)
+- Сеть окружения не пускает к forma-3d.uz (прокси 403) — владельцу добавить `forma-3d.uz`, `www.forma-3d.uz` в разрешённые.
+- Нет прав записи: Claude GitHub App не установлен на `asilios/seo-agents` (и нужен на `kemalshen/forma-3d`).
