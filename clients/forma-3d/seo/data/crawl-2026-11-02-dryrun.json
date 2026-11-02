@@ -1,0 +1,1180 @@
+{
+  "start": "https://forma-3d.uz/",
+  "crawled_at": "2026-11-02 16:10",
+  "summary": {
+    "pages_crawled": 40,
+    "status_4xx_5xx": [],
+    "errors": [],
+    "redirected": [
+      "https://forma-3d.uz"
+    ],
+    "missing_title": [],
+    "long_title": [],
+    "duplicate_titles": {
+      "Филамент и запчасти Bambu Lab в Ташкенте | Forma 3D": [
+        "https://forma-3d.uz",
+        "https://forma-3d.uz/ru"
+      ]
+    },
+    "missing_description": [],
+    "long_description": [],
+    "duplicate_descriptions": {
+      "Оригинальный филамент Bambu Lab, хотэнды, столы и запчасти в Ташкенте. Доставка в день заказа или на следующий, опт для бизнеса. Выберите материал в каталоге.": [
+        "https://forma-3d.uz",
+        "https://forma-3d.uz/ru"
+      ]
+    },
+    "no_h1": [],
+    "multiple_h1": [],
+    "thin_pages_lt250": [
+      "https://forma-3d.uz/ru/returns",
+      "https://forma-3d.uz/ru/offer",
+      "https://forma-3d.uz/ru/cart",
+      "https://forma-3d.uz/ru/privacy",
+      "https://forma-3d.uz/uz/returns"
+    ],
+    "noindex": [
+      "https://forma-3d.uz/ru/cart"
+    ],
+    "images_without_alt_total": 0,
+    "orphan_like_pages": [],
+    "pages_with_schema": 30,
+    "pages_with_hreflang": 40,
+    "queue_left_unvisited": 86
+  },
+  "pages": [
+    {
+      "url": "https://forma-3d.uz",
+      "status": 200,
+      "redirects": [
+        "https://forma-3d.uz/"
+      ],
+      "final_url": "https://forma-3d.uz/ru",
+      "response_ms": 236,
+      "title": "Филамент и запчасти Bambu Lab в Ташкенте | Forma 3D",
+      "title_len": 51,
+      "meta_description": "Оригинальный филамент Bambu Lab, хотэнды, столы и запчасти в Ташкенте. Доставка в день заказа или на следующий, опт для бизнеса. Выберите материал в каталоге.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru",
+      "h1": [
+        "Филамент и запчасти Bambu Lab в Ташкенте"
+      ],
+      "word_count": 518,
+      "images": 17,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Organization",
+        "Store",
+        "Store"
+      ],
+      "internal_links_out": 21,
+      "internal_links_in": 0
+    },
+    {
+      "url": "https://forma-3d.uz/ru/knowledge",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/knowledge",
+      "response_ms": 223,
+      "title": "База знаний по 3D-печати | Forma 3D",
+      "title_len": 35,
+      "meta_description": "Как выбрать филамент, чем отличаются PLA и PETG, как хранить материалы и обслуживать принтер.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/knowledge",
+      "h1": [
+        "База знаний по 3D-печати и филаменту"
+      ],
+      "word_count": 476,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [],
+      "internal_links_out": 20,
+      "internal_links_in": 35
+    },
+    {
+      "url": "https://forma-3d.uz/ru/business",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/business",
+      "response_ms": 226,
+      "title": "Филамент оптом в Ташкенте для бизнеса и школ | Forma 3D",
+      "title_len": 55,
+      "meta_description": "Филамент и запчасти Bambu Lab оптом от 5 катушек для принт-ферм, мастерских, школ и вузов. Счёт, договор, закрывающие документы. Запросите оптовые условия.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/business",
+      "h1": [
+        "Филамент Bambu Lab оптом для бизнеса и учебных заведений"
+      ],
+      "word_count": 266,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [],
+      "internal_links_out": 12,
+      "internal_links_in": 35
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/asa-black-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/asa-black-spool",
+      "response_ms": 241,
+      "title": "Bambu Lab ASA чёрный, катушка 1 кг | Forma 3D",
+      "title_len": 45,
+      "meta_description": "Bambu Lab ASA чёрный на катушке, 1 кг, 1,75 мм. Оригинальный филамент, доставка по Ташкенту в день заказа или на следующий. Цена 239 000 сум.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/asa-black-spool",
+      "h1": [
+        "Bambu Lab ASA чёрный — 1 кг на катушке"
+      ],
+      "word_count": 328,
+      "images": 5,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 18,
+      "internal_links_in": 12
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/paht-cf-black-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/paht-cf-black-spool",
+      "response_ms": 248,
+      "title": "Bambu Lab PAHT-CF чёрный, катушка 1 кг | Forma 3D",
+      "title_len": 49,
+      "meta_description": "Bambu Lab PAHT-CF чёрный на катушке, 1 кг, 1,75 мм. Оригинальный филамент, доставка по Ташкенту в день заказа или на следующий. Цена 1 290 000 сум.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/paht-cf-black-spool",
+      "h1": [
+        "Bambu Lab PAHT-CF чёрный — 1 кг на катушке"
+      ],
+      "word_count": 330,
+      "images": 5,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 18,
+      "internal_links_in": 11
+    },
+    {
+      "url": "https://forma-3d.uz/ru/returns",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/returns",
+      "response_ms": 229,
+      "title": "Возврат и обмен | Forma 3D",
+      "title_len": 26,
+      "meta_description": "Условия возврата и обмена товаров Forma 3D.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/returns",
+      "h1": [
+        "Возврат и обмен"
+      ],
+      "word_count": 135,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [],
+      "internal_links_out": 12,
+      "internal_links_in": 35
+    },
+    {
+      "url": "https://forma-3d.uz/ru/catalog",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/catalog",
+      "response_ms": 239,
+      "title": "Филамент Bambu Lab купить в Ташкенте — PLA, PETG | Forma 3D",
+      "title_len": 59,
+      "meta_description": "Филамент Bambu Lab 1,75 мм в Ташкенте: PLA, PETG, ABS, ASA, TPU и инженерные пластики. Доставка в день заказа или на следующий. Выберите материал и цвет.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/catalog",
+      "h1": [
+        "Филамент Bambu Lab для 3D-принтера"
+      ],
+      "word_count": 597,
+      "images": 18,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 40,
+      "internal_links_in": 34
+    },
+    {
+      "url": "https://forma-3d.uz/ru",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru",
+      "response_ms": 223,
+      "title": "Филамент и запчасти Bambu Lab в Ташкенте | Forma 3D",
+      "title_len": 51,
+      "meta_description": "Оригинальный филамент Bambu Lab, хотэнды, столы и запчасти в Ташкенте. Доставка в день заказа или на следующий, опт для бизнеса. Выберите материал в каталоге.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru",
+      "h1": [
+        "Филамент и запчасти Bambu Lab в Ташкенте"
+      ],
+      "word_count": 518,
+      "images": 17,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Organization",
+        "Store",
+        "Store"
+      ],
+      "internal_links_out": 21,
+      "internal_links_in": 35
+    },
+    {
+      "url": "https://forma-3d.uz/ru/offer",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/offer",
+      "response_ms": 243,
+      "title": "Публичная оферта | Forma 3D",
+      "title_len": 27,
+      "meta_description": "Публичная оферта интернет-магазина Forma 3D.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/offer",
+      "h1": [
+        "Публичная оферта"
+      ],
+      "word_count": 133,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [],
+      "internal_links_out": 12,
+      "internal_links_in": 34
+    },
+    {
+      "url": "https://forma-3d.uz/ru/cart",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/cart",
+      "response_ms": 267,
+      "title": "Корзина | Forma 3D",
+      "title_len": 18,
+      "meta_description": "Корзина Forma 3D.",
+      "meta_robots": "noindex, follow",
+      "canonical": "https://forma-3d.uz/ru/cart",
+      "h1": [
+        "Ваша следующая печать"
+      ],
+      "word_count": 126,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [],
+      "internal_links_out": 12,
+      "internal_links_in": 34
+    },
+    {
+      "url": "https://forma-3d.uz/ru/contacts",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/contacts",
+      "response_ms": 221,
+      "title": "Контакты и самовывоз в Ташкенте и Навои | Forma 3D",
+      "title_len": 50,
+      "meta_description": "Как связаться с Forma 3D: телефон, Telegram, часы работы и пункты самовывоза в Ташкенте и Навои. Поможем с выбором — напишите в Telegram!",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/contacts",
+      "h1": [
+        "Контакты Forma 3D"
+      ],
+      "word_count": 432,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Organization",
+        "Store",
+        "Store"
+      ],
+      "internal_links_out": 12,
+      "internal_links_in": 34
+    },
+    {
+      "url": "https://forma-3d.uz/ru/knowledge/petg-ili-pla",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/knowledge/petg-ili-pla",
+      "response_ms": 234,
+      "title": "PETG или PLA: что выбрать для детали — сравнение",
+      "title_len": 48,
+      "meta_description": "PETG или PLA: сравниваем прочность, термостойкость, печать и хранение по данным Bambu Lab. Таблица отличий и подсказки, какой пластик взять для детали.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/knowledge/petg-ili-pla",
+      "h1": [
+        "PETG или PLA: что выбрать для детали"
+      ],
+      "word_count": 953,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 22,
+      "internal_links_in": 8
+    },
+    {
+      "url": "https://forma-3d.uz/ru/catalog/parts",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/catalog/parts",
+      "response_ms": 228,
+      "title": "Запчасти Bambu Lab в Ташкенте — хотэнды, столы | Forma 3D",
+      "title_len": 57,
+      "meta_description": "Хотэнды и сопла, печатные столы, AMS и детали для ремонта Bambu Lab A1, P1S, X1C, H2D. Доставка по Ташкенту в день заказа или на следующий. Подберём по модели.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/catalog/parts",
+      "h1": [
+        "Запчасти и расходники для Bambu Lab"
+      ],
+      "word_count": 618,
+      "images": 18,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 32,
+      "internal_links_in": 34
+    },
+    {
+      "url": "https://forma-3d.uz/ru/knowledge/kakoy-filament-vybrat",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/knowledge/kakoy-filament-vybrat",
+      "response_ms": 251,
+      "title": "Какой филамент выбрать новичку: PLA, PETG, TPU",
+      "title_len": 46,
+      "meta_description": "Какой филамент выбрать для первой печати на Bambu Lab: чем отличаются PLA, PETG, TPU и ABS, что подходит для A1 и с какой катушки начать.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/knowledge/kakoy-filament-vybrat",
+      "h1": [
+        "Какой филамент выбрать новичку: с чего начать"
+      ],
+      "word_count": 1220,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 21,
+      "internal_links_in": 8
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/petg-basic-gray-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/petg-basic-gray-spool",
+      "response_ms": 222,
+      "title": "Bambu Lab PETG Basic серый, катушка 1 кг | Forma 3D",
+      "title_len": 51,
+      "meta_description": "Bambu Lab PETG Basic серый на катушке, 1 кг, 1,75 мм. Оригинальный филамент, доставка по Ташкенту в день заказа или на следующий. Цена 175 000 сум.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/petg-basic-gray-spool",
+      "h1": [
+        "Bambu Lab PETG Basic серый — 1 кг на катушке"
+      ],
+      "word_count": 313,
+      "images": 2,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 16,
+      "internal_links_in": 12
+    },
+    {
+      "url": "https://forma-3d.uz/ru/delivery",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/delivery",
+      "response_ms": 222,
+      "title": "Доставка филамента по Ташкенту и оплата | Forma 3D",
+      "title_len": 50,
+      "meta_description": "Доставка по Ташкенту в день заказа или на следующий, отправка в регионы, самовывоз в Ташкенте и Навои. Оплата Payme, Click, Humo. Узнайте условия.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/delivery",
+      "h1": [
+        "Доставка и оплата филамента по Ташкенту и Узбекистану"
+      ],
+      "word_count": 456,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [],
+      "internal_links_out": 12,
+      "internal_links_in": 34
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/hotend-h2-04-hardened",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/hotend-h2-04-hardened",
+      "response_ms": 230,
+      "title": "Закалённый хотэнд 0,4 мм для P2S, H2D, H2S | Forma 3D",
+      "title_len": 53,
+      "meta_description": "Закалённый хотэнд 0,4 мм для Bambu Lab P2S / H2S / H2D / H2C / X2D. Цена 379 000 сум. Доставка по Ташкенту в день заказа или на следующий.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/hotend-h2-04-hardened",
+      "h1": [
+        "Закалённый хотэнд 0,4 мм для Bambu Lab P2S / H2S / H2D / H2C / X2D"
+      ],
+      "word_count": 348,
+      "images": 5,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 18,
+      "internal_links_in": 6
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/asa-white-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/asa-white-spool",
+      "response_ms": 227,
+      "title": "Bambu Lab ASA белый, катушка 1 кг | Forma 3D",
+      "title_len": 44,
+      "meta_description": "Bambu Lab ASA белый на катушке, 1 кг, 1,75 мм. Оригинальный филамент, под заказ из Китая за 2–3 недели. Поможем с выбором.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/asa-white-spool",
+      "h1": [
+        "Bambu Lab ASA белый — 1 кг на катушке"
+      ],
+      "word_count": 314,
+      "images": 5,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 17,
+      "internal_links_in": 10
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/petg-basic-black-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/petg-basic-black-spool",
+      "response_ms": 239,
+      "title": "Bambu Lab PETG Basic чёрный, катушка 1 кг | Forma 3D",
+      "title_len": 52,
+      "meta_description": "Bambu Lab PETG Basic чёрный на катушке, 1 кг, 1,75 мм. Оригинальный филамент, доставка по Ташкенту в день заказа или на следующий. Цена 175 000 сум.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/petg-basic-black-spool",
+      "h1": [
+        "Bambu Lab PETG Basic чёрный — 1 кг на катушке"
+      ],
+      "word_count": 313,
+      "images": 2,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 16,
+      "internal_links_in": 14
+    },
+    {
+      "url": "https://forma-3d.uz/uz",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/uz",
+      "response_ms": 251,
+      "title": "Bambu Lab filament va ehtiyot qismlar Toshkentda | Forma 3D",
+      "title_len": 59,
+      "meta_description": "Original Bambu Lab filamenti, hotendlar, stollar va ehtiyot qismlar Toshkentda. Buyurtma kuni yoki ertasiga yetkazamiz, biznes uchun ulgurji. Katalogni ko‘ring!",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/uz",
+      "h1": [
+        "Toshkentda Bambu Lab filamenti va ehtiyot qismlari"
+      ],
+      "word_count": 483,
+      "images": 17,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Organization",
+        "Store",
+        "Store"
+      ],
+      "internal_links_out": 21,
+      "internal_links_in": 8
+    },
+    {
+      "url": "https://forma-3d.uz/ru/knowledge/kak-hranit-filament",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/knowledge/kak-hranit-filament",
+      "response_ms": 227,
+      "title": "Как хранить филамент между печатями и когда сушить",
+      "title_len": 50,
+      "meta_description": "Как хранить филамент, чтобы он не отсырел: пакеты с силикагелем, AMS, сушилка. Признаки влажного пластика и режимы сушки PLA и PETG по данным Bambu Lab.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/knowledge/kak-hranit-filament",
+      "h1": [
+        "Как хранить филамент между печатями"
+      ],
+      "word_count": 968,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 22,
+      "internal_links_in": 8
+    },
+    {
+      "url": "https://forma-3d.uz/ru/privacy",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/privacy",
+      "response_ms": 219,
+      "title": "Политика конфиденциальности | Forma 3D",
+      "title_len": 38,
+      "meta_description": "Политика обработки персональных данных Forma 3D.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/privacy",
+      "h1": [
+        "Конфиденциальность"
+      ],
+      "word_count": 132,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [],
+      "internal_links_out": 12,
+      "internal_links_in": 34
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/filament-dryer",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/filament-dryer",
+      "response_ms": 248,
+      "title": "Сушилка для филамента на 1–2 катушки в Ташкенте | Forma 3D",
+      "title_len": 58,
+      "meta_description": "Сушилка для филамента на 1–2 катушки. Под заказ из Китая за 2–3 недели.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/filament-dryer",
+      "h1": [
+        "Сушилка для филамента на 1–2 катушки"
+      ],
+      "word_count": 311,
+      "images": 4,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 18,
+      "internal_links_in": 8
+    },
+    {
+      "url": "https://forma-3d.uz/ru/knowledge/kogda-menyat-soplo",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/knowledge/kogda-menyat-soplo",
+      "response_ms": 225,
+      "title": "Когда менять сопло 3D-принтера Bambu Lab: признаки",
+      "title_len": 50,
+      "meta_description": "Когда менять сопло 3D-принтера: признаки засора и износа, когда хватит чистки, а когда нужен новый хотэнд, и зачем закалённое сопло для карбона.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/knowledge/kogda-menyat-soplo",
+      "h1": [
+        "Когда менять сопло 3D-принтера"
+      ],
+      "word_count": 1077,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 22,
+      "internal_links_in": 6
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/reusable-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/reusable-spool",
+      "response_ms": 232,
+      "title": "Многоразовая катушка Bambu Lab для рефиллов | Forma 3D",
+      "title_len": 54,
+      "meta_description": "Многоразовая катушка Bambu Lab для рефиллов. Оригинальная запчасть, под заказ из Китая за 2–3 недели. Подберём по модели.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/reusable-spool",
+      "h1": [
+        "Многоразовая катушка Bambu Lab для рефиллов"
+      ],
+      "word_count": 300,
+      "images": 5,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 18,
+      "internal_links_in": 5
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/vacuum-storage-bags",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/vacuum-storage-bags",
+      "response_ms": 232,
+      "title": "Вакуумные пакеты для катушек филамента в Ташкенте | Forma 3D",
+      "title_len": 60,
+      "meta_description": "Вакуумные пакеты для хранения катушек филамента. Под заказ из Китая за 2–3 недели.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/vacuum-storage-bags",
+      "h1": [
+        "Вакуумные пакеты для хранения катушек филамента"
+      ],
+      "word_count": 304,
+      "images": 4,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 18,
+      "internal_links_in": 3
+    },
+    {
+      "url": "https://forma-3d.uz/uz/knowledge",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/uz/knowledge",
+      "response_ms": 226,
+      "title": "3D-bosma bo‘yicha bilimlar bazasi | Forma 3D",
+      "title_len": 44,
+      "meta_description": "Filamentni qanday tanlash, PLA va PETG farqi, materiallarni saqlash va printerga xizmat ko‘rsatish.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/uz/knowledge",
+      "h1": [
+        "3D-bosma va filament bo‘yicha bilimlar bazasi"
+      ],
+      "word_count": 453,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [],
+      "internal_links_out": 20,
+      "internal_links_in": 7
+    },
+    {
+      "url": "https://forma-3d.uz/ru/knowledge/bambu-studio-nastroyka",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/knowledge/bambu-studio-nastroyka",
+      "response_ms": 226,
+      "title": "Настройка Bambu Studio для начинающих: первые шаги",
+      "title_len": 50,
+      "meta_description": "Bambu Studio для начинающих: русский язык, подключение принтера, профиль филамента, тип стола, нарезка и первая печать. Пошагово, по документации Bambu Lab.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/knowledge/bambu-studio-nastroyka",
+      "h1": [
+        "Настройка Bambu Studio для начинающих: первые шаги"
+      ],
+      "word_count": 1046,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 20,
+      "internal_links_in": 6
+    },
+    {
+      "url": "https://forma-3d.uz/uz/business",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/uz/business",
+      "response_ms": 231,
+      "title": "Ulgurji filament Toshkentda — biznes va maktablar | Forma 3D",
+      "title_len": 60,
+      "meta_description": "Print-fermalar, ustaxonalar, maktab va oliygohlar uchun Bambu Lab filamenti va ehtiyot qismlari ulgurji, 5 g‘altakdan. Hujjatlar bilan. Shartlarni so‘rang.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/uz/business",
+      "h1": [
+        "Biznes va ta’lim muassasalari uchun Bambu Lab filamenti ulgurji"
+      ],
+      "word_count": 256,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [],
+      "internal_links_out": 12,
+      "internal_links_in": 7
+    },
+    {
+      "url": "https://forma-3d.uz/uz/product/asa-black-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/uz/product/asa-black-spool",
+      "response_ms": 228,
+      "title": "Bambu Lab ASA qora, g‘altakda 1 kg | Forma 3D",
+      "title_len": 45,
+      "meta_description": "Bambu Lab ASA qora g‘altakda, 1 kg, 1,75 mm. Original filament. Toshkentda buyurtma kuni yoki ertasiga yetkazamiz. Narxi 239 000 so‘m.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/uz/product/asa-black-spool",
+      "h1": [
+        "Bambu Lab ASA qora — g‘altakda 1 kg"
+      ],
+      "word_count": 315,
+      "images": 5,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 18,
+      "internal_links_in": 4
+    },
+    {
+      "url": "https://forma-3d.uz/uz/product/paht-cf-black-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/uz/product/paht-cf-black-spool",
+      "response_ms": 231,
+      "title": "Bambu Lab PAHT-CF qora, g‘altakda 1 kg | Forma 3D",
+      "title_len": 49,
+      "meta_description": "Bambu Lab PAHT-CF qora g‘altakda, 1 kg, 1,75 mm. Original filament. Toshkentda buyurtma kuni yoki ertasiga yetkazamiz. Narxi 1 290 000 so‘m.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/uz/product/paht-cf-black-spool",
+      "h1": [
+        "Bambu Lab PAHT-CF qora — g‘altakda 1 kg"
+      ],
+      "word_count": 317,
+      "images": 5,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 18,
+      "internal_links_in": 4
+    },
+    {
+      "url": "https://forma-3d.uz/uz/returns",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/uz/returns",
+      "response_ms": 226,
+      "title": "Qaytarish va almashtirish | Forma 3D",
+      "title_len": 36,
+      "meta_description": "Forma 3D mahsulotlarini qaytarish va almashtirish shartlari.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/uz/returns",
+      "h1": [
+        "Qaytarish va almashtirish"
+      ],
+      "word_count": 134,
+      "images": 0,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [],
+      "internal_links_out": 12,
+      "internal_links_in": 7
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/pla-matte-gray-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/pla-matte-gray-spool",
+      "response_ms": 230,
+      "title": "Bambu Lab PLA Matte серый, катушка 1 кг | Forma 3D",
+      "title_len": 50,
+      "meta_description": "Bambu Lab PLA Matte серый на катушке, 1 кг, 1,75 мм. Оригинальный филамент, под заказ из Китая за 2–3 недели. Поможем с выбором.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/pla-matte-gray-spool",
+      "h1": [
+        "Bambu Lab PLA Matte серый — 1 кг на катушке"
+      ],
+      "word_count": 308,
+      "images": 3,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 21,
+      "internal_links_in": 5
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/petg-hf-white",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/petg-hf-white",
+      "response_ms": 253,
+      "title": "Bambu Lab PETG HF белый, катушка 1 кг | Forma 3D",
+      "title_len": 48,
+      "meta_description": "Bambu Lab PETG HF белый на катушке, 1 кг, 1,75 мм. Оригинальный филамент, под заказ из Китая за 2–3 недели. Цена 289 000 сум.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/petg-hf-white",
+      "h1": [
+        "Bambu Lab PETG HF белый — 1 кг на катушке"
+      ],
+      "word_count": 336,
+      "images": 2,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 20,
+      "internal_links_in": 3
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/pla-matte-beige-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/pla-matte-beige-spool",
+      "response_ms": 229,
+      "title": "Bambu Lab PLA Matte бежевый, катушка 1 кг | Forma 3D",
+      "title_len": 52,
+      "meta_description": "Bambu Lab PLA Matte бежевый на катушке, 1 кг, 1,75 мм. Оригинальный филамент, под заказ из Китая за 2–3 недели. Поможем с выбором.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/pla-matte-beige-spool",
+      "h1": [
+        "Bambu Lab PLA Matte бежевый — 1 кг на катушке"
+      ],
+      "word_count": 308,
+      "images": 3,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 21,
+      "internal_links_in": 5
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/pla-matte-black-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/pla-matte-black-spool",
+      "response_ms": 225,
+      "title": "Bambu Lab PLA Matte чёрный, катушка 1 кг | Forma 3D",
+      "title_len": 51,
+      "meta_description": "Bambu Lab PLA Matte чёрный на катушке, 1 кг, 1,75 мм. Оригинальный филамент, под заказ из Китая за 2–3 недели. Поможем с выбором.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/pla-matte-black-spool",
+      "h1": [
+        "Bambu Lab PLA Matte чёрный — 1 кг на катушке"
+      ],
+      "word_count": 308,
+      "images": 3,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 21,
+      "internal_links_in": 5
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/pla-basic-red-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/pla-basic-red-spool",
+      "response_ms": 227,
+      "title": "Bambu Lab PLA Basic красный, катушка 1 кг | Forma 3D",
+      "title_len": 52,
+      "meta_description": "Bambu Lab PLA Basic красный на катушке, 1 кг, 1,75 мм. Оригинальный филамент, под заказ из Китая за 2–3 недели. Поможем с выбором.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/pla-basic-red-spool",
+      "h1": [
+        "Bambu Lab PLA Basic красный — 1 кг на катушке"
+      ],
+      "word_count": 308,
+      "images": 3,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 25,
+      "internal_links_in": 3
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/pla-basic-blue-spool",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/pla-basic-blue-spool",
+      "response_ms": 225,
+      "title": "Bambu Lab PLA Basic синий, катушка 1 кг | Forma 3D",
+      "title_len": 50,
+      "meta_description": "Bambu Lab PLA Basic синий на катушке, 1 кг, 1,75 мм. Оригинальный филамент, под заказ из Китая за 2–3 недели. Поможем с выбором.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/pla-basic-blue-spool",
+      "h1": [
+        "Bambu Lab PLA Basic синий — 1 кг на катушке"
+      ],
+      "word_count": 308,
+      "images": 3,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 25,
+      "internal_links_in": 3
+    },
+    {
+      "url": "https://forma-3d.uz/ru/product/pla-matte-white",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/product/pla-matte-white",
+      "response_ms": 228,
+      "title": "Bambu Lab PLA Matte Ivory White, катушка 1 кг | Forma 3D",
+      "title_len": 56,
+      "meta_description": "Bambu Lab PLA Matte белый Ivory White на катушке, 1 кг, 1,75 мм. Оригинальный филамент, под заказ из Китая за 2–3 недели. Цена 269 000 сум.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/product/pla-matte-white",
+      "h1": [
+        "Bambu Lab PLA Matte белый Ivory White — 1 кг на катушке"
+      ],
+      "word_count": 336,
+      "images": 3,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 21,
+      "internal_links_in": 6
+    },
+    {
+      "url": "https://forma-3d.uz/ru/catalog?page=4",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://forma-3d.uz/ru/catalog?page=4",
+      "response_ms": 234,
+      "title": "Филамент Bambu Lab — страница 4 | Forma 3D",
+      "title_len": 42,
+      "meta_description": "Каталог филамента Bambu Lab, страница 4: PLA, PETG, ABS, ASA, TPU и инженерные пластики с доставкой по Ташкенту.",
+      "meta_robots": "",
+      "canonical": "https://forma-3d.uz/ru/catalog?page=4",
+      "h1": [
+        "Филамент Bambu Lab для 3D-принтера — страница 4"
+      ],
+      "word_count": 452,
+      "images": 9,
+      "images_no_alt": [],
+      "hreflang": [
+        "ru",
+        "uz",
+        "x-default"
+      ],
+      "schema_types": [
+        "BreadcrumbList"
+      ],
+      "internal_links_out": 26,
+      "internal_links_in": 2
+    }
+  ]
+}

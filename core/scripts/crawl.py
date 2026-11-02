@@ -1,7 +1,7 @@
 """Простой SEO-краулер: обходит сайт в пределах домена и собирает on-page данные.
 
 Пример:
-    python scripts/crawl.py https://example.uz --max-pages 500 --out clients/x/data/crawl-2026-10-28.json
+    python core/scripts/crawl.py https://example.uz --max-pages 500 --out clients/x/seo/data/crawl-2026-10-28.json
 """
 import argparse
 import json

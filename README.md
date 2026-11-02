@@ -1,7 +1,18 @@
 # SEO Agents
 
-Система из оркестратора и 5 агентов для SEO сайтов клиентов. Работает в Claude Code.
-Агенты ничего не публикуют сами — все правки ждут одобрения в `changes/pending/`.
+Система из оркестратора и агентов для сайтов клиентов. Работает в Claude Code. Модули: SEO (работает), соцсети (в разработке).
+Правки проходят `clients/<client>/seo/changes/pending → approved → applied`; публикация — только после автоматических проверок
+(правило 1 в `core/CLAUDE.md`).
+
+## Структура
+```
+CLAUDE.md              назначение, модули; импортирует core/CLAUDE.md и modules/seo/CLAUDE.md
+core/                  общие правила, скрипты (crawl.py, gsc.py)
+modules/seo/           правила SEO, цикл (routine/improve-cycle.md), скрипты (pagespeed.py)
+.claude/agents|commands  субагенты и команды
+clients/<client>/      client.yaml, NEXT.md, reports/, seo/ (baseline, data, audits, keywords, content, changes, log)
+docs/                  описание системы и задачи
+```
 
 ## Агенты
 | Агент | Задача | Частота |
@@ -12,21 +23,20 @@
 | content-writer | новые страницы и статьи | раз в месяц |
 | reporter | отчёт клиенту | раз в месяц |
 
-Оркестратор — `CLAUDE.md` + команды в `.claude/commands/`.
+Оркестратор — `CLAUDE.md` (+ `core/CLAUDE.md`, `modules/seo/CLAUDE.md`) и команды в `.claude/commands/`.
 
 ## Установка
 ```bash
 cd seo-agents
 pip install -r requirements.txt
-export PSI_API_KEY=...            # ключ PageSpeed Insights (Google Cloud → APIs → PageSpeed Insights API)
-export GSC_CREDENTIALS=/path/key.json   # JSON сервисного аккаунта с Search Console API
+cp .env.example .env              # PSI_API_KEY=..., GSC_CREDENTIALS=secrets/gsc-key.json (путь от корня репозитория)
 claude
 ```
 
 ### Доступ к Search Console клиента
 1. Google Cloud: создать проект, включить **Search Console API**, создать сервисный аккаунт, скачать JSON-ключ.
 2. Клиент добавляет email сервисного аккаунта в свою Search Console (Настройки → Пользователи, права «Ограниченный»).
-3. В `client.yaml` указать `gsc_site`: `sc-domain:example.uz` или `https://example.uz/`.
+3. В `clients/<client>/client.yaml` указать `gsc_site`: `sc-domain:example.uz` или `https://example.uz/`.
 
 Без GSC система работает, но без данных о запросах, кликах и позициях — отчёты будут бедными.
 
@@ -39,7 +49,7 @@ claude
 | `/approve <name> [id ...]` | показать / одобрить правки |
 
 ## Подключение клиента
-1. `/new-client acme` — создаст `clients/acme/`.
+1. `/new-client acme` — создаст `clients/acme/` по шаблону `clients/_template/`.
 2. Заполнить `clients/acme/client.yaml`.
 3. Ещё раз `/new-client acme` — аудит, ядро, baseline.
 
@@ -54,7 +64,7 @@ Claude Code в headless-режиме через cron на сервере:
 Для headless нужны разрешения на инструменты — см. `.claude/settings.json`.
 
 ## Следующие шаги
-- Публикатор: скрипт, который берёт `changes/approved/` и вносит правки через API CMS (WordPress REST API — проще всего начать с него).
+- Публикатор: скрипт, который берёт `seo/changes/approved/` и вносит правки через API CMS (WordPress REST API — проще всего начать с него).
 - Яндекс.Вебмастер API — для позиций в Яндексе.
 - Сервис позиций/частотности (например, DataForSEO), чтобы стратег опирался на реальную частотность.
 - Перенос на Claude Agent SDK, когда клиентов станет много: те же промпты агентов, плюс база и очередь.

@@ -6,6 +6,8 @@ tools: Read, Write, Bash, Glob, Grep
 
 Ты — аналитик, который готовит отчёт для клиента. Клиент — владелец бизнеса, а не SEO-специалист.
 
+> Пути: `client.yaml`, `NEXT.md`, `reports/` — в корне `clients/<client>/`; всё остальное (`data/`, `audits/`, `keywords/`, `changes/`, `content/`, `baseline.md`, `log.md`) — в `clients/<client>/seo/`. Правила: `core/CLAUDE.md`, `modules/seo/CLAUDE.md`.
+
 ## Входные данные
 - `baseline.md` — метрики на день старта
 - `data/gsc-*.csv` за текущий и прошлый месяц
@@ -16,10 +18,10 @@ tools: Read, Write, Bash, Glob, Grep
 
 ## Шаги
 1. Посчитай метрики скриптом, а не в уме:
-   `python scripts/gsc.py --compare clients/<client>/data/gsc-<prev>.csv clients/<client>/data/gsc-<curr>.csv`
+   `python core/scripts/gsc.py --compare clients/<client>/seo/data/gsc-<prev>.csv clients/<client>/seo/data/gsc-<curr>.csv`
    (клики, показы, CTR, средняя позиция, топ запросов и страниц, рост/падение).
 2. Посчитай по issues.json: сколько проблем закрыто за месяц, сколько открыто, сколько high.
-3. Напиши `reports/<YYYY-MM>.md`.
+3. Напиши `clients/<client>/reports/<YYYY-MM>.md`.
 
 ## Структура отчёта
 1. **Главное за месяц** — 3–5 пунктов простым языком.

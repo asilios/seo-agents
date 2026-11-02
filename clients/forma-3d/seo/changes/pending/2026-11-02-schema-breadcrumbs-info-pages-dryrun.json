@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-02-schema-breadcrumbs-info-pages-dryrun",
+  "kind": "dev_task",
+  "dryrun": true,
+  "url": "https://forma-3d.uz/ru/knowledge",
+  "urls_scope": [
+    "https://forma-3d.uz/ru/knowledge",
+    "https://forma-3d.uz/uz/knowledge",
+    "https://forma-3d.uz/ru/business",
+    "https://forma-3d.uz/uz/business",
+    "https://forma-3d.uz/ru/delivery",
+    "https://forma-3d.uz/uz/delivery"
+  ],
+  "issue_ids": [],
+  "source": "audits/2026-11-02-dryrun.md, раздел Schema.org: «Без разметки: /ru/knowledge, /uz/knowledge, /ru/business, /uz/business, /ru/delivery — можно добавить BreadcrumbList (низкий приоритет, в issue не вносится в сухом прогоне)». В crawl-2026-11-02-dryrun.json у этих 5 URL schema_types = []. /uz/delivery в выборку краула (40 стр.) не попал, его состояние не проверено, включён по аналогии с /ru/delivery.",
+  "cluster": "Филамент оптом для бизнеса, принт-ферм и учебных заведений; Доставка и оплата филамента по Ташкенту и Узбекистану; Информационные кластеры (база знаний)",
+  "priority": "low",
+  "changes": [
+    {
+      "field": "schema",
+      "type": "BreadcrumbList",
+      "current": "Разметки нет (schema_types: []). На карточках, каталоге и статьях BreadcrumbList уже есть (внедрено по 2026-10-29-schema-breadcrumbs), на этих трёх разделах — нет.",
+      "proposed": {
+        "rules": [
+          "Те же правила, что в changes/applied/2026-10-29-schema-breadcrumbs.json: разметка повторяет видимые крошки, на языке страницы; у последнего элемента нет item.",
+          "Названия уровней брать из видимых крошек или из пунктов меню сайта. Если видимых крошек на странице нет, разметку не добавлять, а сначала вывести крошки «Главная → <раздел>» в шаблоне (как на статьях).",
+          "Последний элемент = H1 страницы."
+        ],
+        "example_knowledge_ru": {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://forma-3d.uz/ru"},
+            {"@type": "ListItem", "position": 2, "name": "База знаний по 3D-печати и филаменту"}
+          ]
+        },
+        "example_business_ru": {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://forma-3d.uz/ru"},
+            {"@type": "ListItem", "position": 2, "name": "Филамент Bambu Lab оптом для бизнеса и учебных заведений"}
+          ]
+        },
+        "example_delivery_ru": {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://forma-3d.uz/ru"},
+            {"@type": "ListItem", "position": 2, "name": "Доставка и оплата филамента по Ташкенту и Узбекистану"}
+          ]
+        },
+        "example_knowledge_uz": {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Bosh sahifa", "item": "https://forma-3d.uz/uz"},
+            {"@type": "ListItem", "position": 2, "name": "3D-bosma va filament bo‘yicha bilimlar bazasi"}
+          ]
+        },
+        "example_business_uz": {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Bosh sahifa", "item": "https://forma-3d.uz/uz"},
+            {"@type": "ListItem", "position": 2, "name": "Biznes va ta’lim muassasalari uchun Bambu Lab filamenti ulgurji"}
+          ]
+        },
+        "note_uz_delivery": "H1 /uz/delivery в краулере 2026-11-02-dryrun нет — последний элемент взять из текущего H1 страницы."
+      },
+      "reason": "Доводит разметку крошек до единого вида по всему сайту: сейчас она есть на карточках, каталоге и статьях, но нет на трёх разделах. Для статей /knowledge/* родительский уровень «База знаний» становится размеченной страницей. Эффект небольшой (крошки в сниппете вместо URL), поэтому приоритет низкий."
+    }
+  ],
+  "status": "pending"
+}

@@ -6,6 +6,8 @@ tools: Read, Write, Glob, Grep, WebFetch
 
 Ты — on-page SEO-оптимизатор. На вход получаешь имя клиента.
 
+> Пути: `client.yaml`, `NEXT.md`, `reports/` — в корне `clients/<client>/`; всё остальное (`data/`, `audits/`, `keywords/`, `changes/`, `content/`, `baseline.md`, `log.md`) — в `clients/<client>/seo/`. Правила: `core/CLAUDE.md`, `modules/seo/CLAUDE.md`.
+
 ## Входные данные
 - `audits/issues.json` — открытые проблемы
 - `keywords/clusters.md` — какие запросы на какую страницу целятся

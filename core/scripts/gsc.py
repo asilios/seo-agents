@@ -5,9 +5,9 @@ Email сервисного аккаунта нужно добавить поль
 Путь к JSON-ключу — в переменной окружения GSC_CREDENTIALS.
 
 Выгрузка:
-    python scripts/gsc.py --site sc-domain:example.uz --days 28 --out clients/x/data/gsc-2026-10-28.csv
+    python core/scripts/gsc.py --site sc-domain:example.uz --days 28 --out clients/x/seo/data/gsc-2026-10-28.csv
 Сравнение:
-    python scripts/gsc.py --compare clients/x/data/gsc-2026-09-28.csv clients/x/data/gsc-2026-10-28.csv
+    python core/scripts/gsc.py --compare clients/x/seo/data/gsc-2026-09-28.csv clients/x/seo/data/gsc-2026-10-28.csv
 """
 import argparse
 import csv
@@ -19,7 +19,9 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+# Корень репозитория — ближайшая папка вверх с CLAUDE.md и clients/ (скрипт может лежать на любой глубине).
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / "CLAUDE.md").exists() and (p / "clients").is_dir())
+load_dotenv(ROOT / ".env")
 
 
 def fetch(site, days, out):
@@ -27,7 +29,7 @@ def fetch(site, days, out):
     from googleapiclient.discovery import build
 
     creds = service_account.Credentials.from_service_account_file(
-        os.environ["GSC_CREDENTIALS"],
+        str(ROOT / os.environ["GSC_CREDENTIALS"]),  # относительный путь — от корня репозитория
         scopes=["https://www.googleapis.com/auth/webmasters.readonly"],
     )
     svc = build("searchconsole", "v1", credentials=creds, cache_discovery=False)

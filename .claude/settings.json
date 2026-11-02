@@ -8,9 +8,19 @@
       "WebSearch",
       "Write(clients/**)",
       "Edit(clients/**)",
-      "Bash(python scripts/crawl.py:*)",
-      "Bash(python scripts/pagespeed.py:*)",
-      "Bash(python scripts/gsc.py:*)",
+      "Write(core/**)",
+      "Edit(core/**)",
+      "Write(modules/**)",
+      "Edit(modules/**)",
+      "Write(.claude/agents/**)",
+      "Edit(.claude/agents/**)",
+      "Write(.claude/commands/**)",
+      "Edit(.claude/commands/**)",
+      "Write(docs/**)",
+      "Edit(docs/**)",
+      "Bash(python core/scripts/crawl.py:*)",
+      "Bash(python core/scripts/gsc.py:*)",
+      "Bash(python modules/seo/scripts/pagespeed.py:*)",
       "Bash(cp -r clients/_template:*)",
       "Bash(mkdir -p clients/:*)",
       "Bash(mv clients/:*)"
@@ -19,10 +29,8 @@
       "Bash(curl:*)",
       "Bash(wget:*)",
       "Bash(rm:*)",
-      "Write(.claude/**)",
-      "Write(scripts/**)",
-      "Edit(.claude/**)",
-      "Edit(scripts/**)"
+      "Write(.claude/settings.json)",
+      "Edit(.claude/settings.json)"
     ]
   }
 }
