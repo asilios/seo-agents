@@ -46,6 +46,16 @@
 - Фаза 1 (реорганизация) — слита в master 2026-11-02 (1fbe93b). Проверено: check_paths.py без ошибок, crawl/gsc из новых мест, сухие прогоны auditor и onpage-optimizer.
 - Промпт облачной задачи обновлён под новые пути 2026-11-02. Run now — после того как владелец снимет блокеры ниже.
 
-## Блокеры облачной задачи (из лога первого запуска 2026-11-02)
-- Сеть окружения не пускает к forma-3d.uz (прокси 403) — владельцу добавить `forma-3d.uz`, `www.forma-3d.uz` в разрешённые.
-- Нет прав записи: Claude GitHub App не установлен на `asilios/seo-agents` (и нужен на `kemalshen/forma-3d`).
+## Блокеры облачной задачи — состояние на 2026-11-02 вечер
+Тестовая задача доступов: `trig_015dUL7Ce7HmwWStPLqgF89D` (Sonnet, только Bash; повторять через RemoteTrigger action `run`, лог — `get_run_log`; оставляет ветку `access-test-2026-11-02` — удалять).
+Последний тест (3-й):
+- запись в `kemalshen/forma-3d` — ✅ (claude.ai GitHub сейчас привязан к kemalshen);
+- запись в `asilios/seo-agents` — ❌ 403;
+- сайт forma-3d.uz из облака — ❌ прокси 403 (сеть окружения).
+Что сделать владельцу:
+1. Как asilios: https://github.com/asilios/seo-agents/settings/access → Add people → `kemalshen` → Write; принять приглашение под kemalshen.
+2. https://claude.ai/code/routines/trig_01SnqZYAaTRa9Xp8my6rNSTn → окружение Default → Network access → разрешить `forma-3d.uz`, `www.forma-3d.uz`.
+3. Потом повторить тест доступов; если всё ✅ — run now основной задачи `trig_01SnqZYAaTRa9Xp8my6rNSTn` и разобрать лог.
+
+## Следующий шаг разработки
+Фаза 2 по docs/prompt-social-module.md (профиль соцсетей, агенты social-*, проверки, команды) — ждёт «начинай» от владельца. План фаз — docs/system-overview.md.
