@@ -28,3 +28,4 @@
 2026-11-02 | оркестратор | сайт: ветка seo-4 (поверх seo-3) — 10 страниц статей /ru|uz/knowledge/<slug>, Article+BreadcrumbList, sitemap 248 URL, карточки ведут на статьи; сборка и локальная проверка пройдены; ждёт слияния | changes/approved/2026-11-02-article-*.json
 2026-11-02 | оркестратор | seo-4 выложена: 10 страниц статей отдают 200 с Article, 301 для удалённых товаров работают, sitemap 248, description hotend-a1-04-steel uz 140; 5 статей approved→applied | changes/applied/2026-11-02-article-*.json
 2026-11-02 | оркестратор | сайт: ветка seo-5 — перекрёстные ссылки в статье kakoy-filament-vybrat (ru/uz), вывод источников и блока «Ещё в базе знаний» на всех статьях; ждёт слияния | changes/applied/2026-11-02-article-kakoy-filament-vybrat.json
+2026-11-02 | владелец | создана карточка Google Business Profile (основная категория «3D-печать») | NEXT.md
