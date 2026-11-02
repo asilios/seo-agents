@@ -22,7 +22,7 @@
       "petg plastik"
     ]
   },
-  "status": "pending",
+  "status": "approved",
   "ru": {
     "title": "PETG или PLA: что выбрать для детали — сравнение",
     "description": "PETG или PLA: сравниваем прочность, термостойкость, печать и хранение по данным Bambu Lab. Таблица отличий и подсказки, какой пластик взять для детали.",
@@ -36,22 +36,76 @@
     "body_md": "# PETG yoki PLA: detal uchun qaysi birini tanlash kerak\n\nQisqa javob: PLA ni maketlar, prototiplar, dekor va qizimaydigan har qanday buyum uchun oling; PETG ni esa yuk tushadigan, ko‘chada yoki issiqlik yonida ishlaydigan funksional detallar uchun. Egilishdagi mustahkamlik bo‘yicha bu plastiklarning bazaviy versiyalari deyarli teng, ammo PETG zarba va issiqlikka yaxshiroq chidaydi, PLA esa osonroq bosiladi. Quyida PLA va PETG farqini bandma-band, Bambu Lab hujjatlaridagi raqamlar bilan ko‘rib chiqamiz.\n\n## PETG va PLA: jadvalda taqqoslash\n\nMa‘lumotlar Bambu Lab texnik varaqlari va material sahifalaridan olingan (PLA Basic, PETG Basic, PETG HF), havolalar maqola oxirida.\n\n| Ko‘rsatkich | PLA Basic | PETG Basic / PETG HF |\n|---|---|---|\n| Soplo harorati | 190–230 °C | 230–260 °C (PETG HF) |\n| Stol | Bambu Studio profili bo‘yicha | 65–75 °C, yelim bilan (PETG HF) |\n| Egilishdagi mustahkamlik | 76 MPa | 75 MPa (PETG Basic) |\n| Zarbaga chidamlilik | 20,6 kJ/m² | 34,2 kJ/m² (PETG Basic) |\n| Issiqlikdan deformatsiyalanish harorati | 54–57 °C | PLA dan yuqori |\n| Ko‘cha: suv, quyosh | issiqda yumshaydi | ishlab chiqaruvchi ko‘cha uchun tavsiya qiladi |\n| Quritgichda quritish | 50–55 °C, 8 soat | 65 °C, 8 soat (PETG HF) |\n| Saqlashdagi namlik | 20% dan past | 20% dan past, PETG HF ni ishlatishdan oldin quritish |\n| A1 seriyasidagi printerlar | mos | mos |\n\n## Qaysi biri mustahkamroq: PLA yoki PETG\n\nJavob qanday mustahkamlikni nazarda tutayotganingizga bog‘liq.\n\n- **Egilishda** bazaviy versiyalar deyarli teng: PLA Basic da 76 MPa, PETG Basic da 75 MPa. Bambu Lab PETG Basic mustahkamlik bo‘yicha PLA Basic ga tenglashganini ochiq yozadi.\n- **Zarbada** PETG ancha yaxshi: zarbaga chidamlilik 34,2 ga qarshi 20,6 kJ/m². Amalda PETG dan bosilgan detal yiqilish va zarbalarni yaxshiroq ko‘taradi va kamroq yoriladi.\n- **Issiqlikda** PLA tezroq taslim bo‘ladi. PLA Basic ning issiqlikdan deformatsiyalanish harorati 54–57 °C, PETG da bu ko‘rsatkich yuqoriroq. Detal yozda mashinada, quyosh tushadigan deraza tokchasida yoki issiq qism yonida tursa, PETG ni tanlang.\n\nXulosa: doimiy ishlaydigan mexanik detallar uchun PETG ishonchliroq. Aniqlik va tashqi ko‘rinish muhim bo‘lgan statik modellar uchun PLA to‘liq yetarli.\n\n## Issiqqa chidamlilik va ko‘cha\n\nBambu Lab PETG ning suv, ultrabinafsha nurlar va haroratga chidamliligini qayd etadi va uni ko‘chadagi buyumlar uchun foydali variant deb ataydi: balkondagi ushlagichlar, bog‘ uchun mahkamlagichlar, ko‘cha datchiklari korpuslari. PLA issiqqa chidamliligi past bo‘lgani uchun bunday vazifalarga kamroq mos keladi.\n\nDetal doim to‘g‘ridan-to‘g‘ri quyosh ostida tursa, [ASA](/uz/product/asa-black-spool) ga e‘tibor bering: Bambu Lab ma‘lumotlariga ko‘ra, u ultrabinafsha nurlar va eskirishga yuqori chidamli hamda ko‘chada uzoq ishlash uchun mo‘ljallangan. Lekin ASA uchun yopiq korpusli printer kerak — A1 va A1 mini uchun ishlab chiqaruvchi uni tavsiya etmaydi.\n\n## Bosish qulayligi\n\nPLA — boshlash uchun eng oson material: harorati past, korpusga talab yo‘q, Bambu Studio da tayyor profillar bor. U bilan toza sirt va mayda detallarni olish eng oson.\n\nPETG biroz ko‘proq e‘tibor talab qiladi:\n\n- soplo harorati yuqoriroq — PETG HF uchun 230–260 °C; Bambu Studio profili uni o‘zi qo‘yadi;\n- Bambu Lab tavsiyalarida PETG HF uchun stolga yelim surtish ko‘rsatilgan;\n- PETG namlikka sezgir: ishlab chiqaruvchi PETG HF ni ishlatishdan oldin quritishni va bosish vaqtida namlikni 20% dan past ushlashni tavsiya qiladi, ayniqsa bosma 6 soatdan uzoq davom etsa.\n\nYaxshi tomoni: Bambu Lab printerlarida ikkala material ham tayyor profillar bilan bosiladi, shuning uchun yangi boshlovchi uchun farq tuyulgandek katta emas.\n\n## PETG Basic yoki PETG HF\n\nIkkala versiya ham PETG. HF (High Flow) — yuqori tezlikda bosish uchun mo‘ljallangan liniya. [PETG Basic](/uz/product/petg-basic-black-spool) ko‘pchilik funksional detallarga mos keladi, [PETG HF](/uz/product/petg-hf-white) esa tezlik siz uchun muhim bo‘lsa. Har ikki holatda ham Bambu Studio da aynan o‘z versiyangiz profilini tanlang.\n\n## Saqlash va quritish\n\nSaqlash uchun Bambu Lab namlikni 20% dan past bo‘lishini ko‘rsatadi — ya‘ni namlik yutgichli germetik qadoq. Ishlab chiqaruvchi ma‘lumotlariga ko‘ra, quritish shkafidagi rejimlar: PLA — 50–55 °C, 8 soat; PETG HF — 65 °C, 8 soat. PETG ip tortib, sirt g‘adir-budur bo‘lib qolgan bo‘lsa, ehtimol uni quritish vaqti kelgan. Buning uchun [filament quritgich](/uz/product/filament-dryer) mos keladi.\n\n## Detalingiz uchun nimani tanlash kerak\n\n| Detal | Material |\n|---|---|\n| Figura, maket, suvenir | PLA Matte yoki PLA Basic |\n| Shakl va o‘lchamni tekshirish uchun prototip | PLA Basic |\n| Uy uchun organayzer, tagliq, ushlagich | PLA Basic |\n| Kronshteyn, mahkamlagich, yuk tushadigan detal | PETG |\n| Tushib ketishi yoki zarba olishi mumkin bo‘lgan detal | PETG |\n| Ko‘cha yoki balkon uchun detal | PETG, doimiy quyoshda — ASA (yopiq printer) |\n| Issiqlik yonida yoki mashinadagi detal | PETG yoki ASA |\n| Eng birinchi bosma | PLA |\n\n## Xulosa\n\nPETG yoki PLA — bu “umuman qaysi biri yaxshi” degan savol emas, balki detal qanday sharoitda ishlashi haqidagi savol. Detal tokchada tursa va chiroyli ko‘rinishi kerak bo‘lsa, [PLA Basic](/uz/product/pla-basic-black) yoki PLA Matte ni oling. Unga yuk tushsa, tushib ketsa, qizisa yoki ko‘chaga chiqarilsa — PETG. Ikkilanayotgan bo‘lsangiz, Telegramda [@kemalsen](https://t.me/kemalsen) ga yozing yoki +998 99 454-19-13 raqamiga qo‘ng‘iroq qiling (har kuni 09:00–21:00): detalingiz va printeringizga mos materialni tanlab beramiz.\n"
   },
   "internal_links": [
-    {"anchor_ru": "ASA", "anchor_uz": "ASA", "target": "/ru/product/asa-black-spool", "target_uz": "/uz/product/asa-black-spool"},
-    {"anchor_ru": "PETG Basic", "anchor_uz": "PETG Basic", "target": "/ru/product/petg-basic-black-spool", "target_uz": "/uz/product/petg-basic-black-spool"},
-    {"anchor_ru": "PETG HF", "anchor_uz": "PETG HF", "target": "/ru/product/petg-hf-white", "target_uz": "/uz/product/petg-hf-white"},
-    {"anchor_ru": "сушилка для филамента", "anchor_uz": "filament quritgich", "target": "/ru/product/filament-dryer", "target_uz": "/uz/product/filament-dryer"},
-    {"anchor_ru": "PLA Basic", "anchor_uz": "PLA Basic", "target": "/ru/product/pla-basic-black", "target_uz": "/uz/product/pla-basic-black"}
+    {
+      "anchor_ru": "ASA",
+      "anchor_uz": "ASA",
+      "target": "/ru/product/asa-black-spool",
+      "target_uz": "/uz/product/asa-black-spool"
+    },
+    {
+      "anchor_ru": "PETG Basic",
+      "anchor_uz": "PETG Basic",
+      "target": "/ru/product/petg-basic-black-spool",
+      "target_uz": "/uz/product/petg-basic-black-spool"
+    },
+    {
+      "anchor_ru": "PETG HF",
+      "anchor_uz": "PETG HF",
+      "target": "/ru/product/petg-hf-white",
+      "target_uz": "/uz/product/petg-hf-white"
+    },
+    {
+      "anchor_ru": "сушилка для филамента",
+      "anchor_uz": "filament quritgich",
+      "target": "/ru/product/filament-dryer",
+      "target_uz": "/uz/product/filament-dryer"
+    },
+    {
+      "anchor_ru": "PLA Basic",
+      "anchor_uz": "PLA Basic",
+      "target": "/ru/product/pla-basic-black",
+      "target_uz": "/uz/product/pla-basic-black"
+    }
   ],
   "sources": [
-    {"url": "https://wiki.bambulab.com/filament-acc/abs-asa-pc/bambu_pla_basic_technical_data_sheet.pdf", "title": "Bambu Lab, PLA Basic Technical Data Sheet V3.0", "used_for": "сопло 190–230 °C; изгиб 76 МПа; HDT 54/57 °C; сушка 50 °C 8 ч; хранение <20% RH с осушителем"},
-    {"url": "https://us.store.bambulab.com/products/pla-basic-gradient", "title": "Bambu Lab Store, PLA Basic Gradient", "used_for": "сушка PLA 55 °C 8 ч (верхняя граница диапазона 50–55 °C)"},
-    {"url": "https://us.store.bambulab.com/products/petg-basic", "title": "Bambu Lab Store, PETG Basic", "used_for": "прочность на изгиб 75 МПа против 76 МПа у PLA Basic; ударная вязкость 34,2 против 20,6 кДж/м²; стойкость к воде, УФ и температуре, выгодно для улицы"},
-    {"url": "https://us.store.bambulab.com/products/petg-hf", "title": "Bambu Lab Store, PETG HF", "used_for": "сопло 230–260 °C; стол 65–75 °C с клеем; сушка 65 °C 8 ч; влажность <20% при печати дольше 6 ч"},
-    {"url": "https://bambulab.com/en/filament/petg-hf", "title": "Bambu Lab, Ultimate Guide to PETG HF", "used_for": "PETG HF — высокоскоростная версия, сушить перед использованием"},
-    {"url": "https://us.store.bambulab.com/products/asa-filament", "title": "Bambu Lab Store, ASA", "used_for": "стойкость к УФ и старению, долгий срок на улице; требуется закрытый принтер"},
-    {"url": "https://bambulab.com/en/support/buying-guide/a1", "title": "Bambu Lab, A1 buying guide", "used_for": "PLA и PETG подходят для A1; ASA не рекомендуется"}
+    {
+      "url": "https://wiki.bambulab.com/filament-acc/abs-asa-pc/bambu_pla_basic_technical_data_sheet.pdf",
+      "title": "Bambu Lab, PLA Basic Technical Data Sheet V3.0",
+      "used_for": "сопло 190–230 °C; изгиб 76 МПа; HDT 54/57 °C; сушка 50 °C 8 ч; хранение <20% RH с осушителем"
+    },
+    {
+      "url": "https://us.store.bambulab.com/products/pla-basic-gradient",
+      "title": "Bambu Lab Store, PLA Basic Gradient",
+      "used_for": "сушка PLA 55 °C 8 ч (верхняя граница диапазона 50–55 °C)"
+    },
+    {
+      "url": "https://us.store.bambulab.com/products/petg-basic",
+      "title": "Bambu Lab Store, PETG Basic",
+      "used_for": "прочность на изгиб 75 МПа против 76 МПа у PLA Basic; ударная вязкость 34,2 против 20,6 кДж/м²; стойкость к воде, УФ и температуре, выгодно для улицы"
+    },
+    {
+      "url": "https://us.store.bambulab.com/products/petg-hf",
+      "title": "Bambu Lab Store, PETG HF",
+      "used_for": "сопло 230–260 °C; стол 65–75 °C с клеем; сушка 65 °C 8 ч; влажность <20% при печати дольше 6 ч"
+    },
+    {
+      "url": "https://bambulab.com/en/filament/petg-hf",
+      "title": "Bambu Lab, Ultimate Guide to PETG HF",
+      "used_for": "PETG HF — высокоскоростная версия, сушить перед использованием"
+    },
+    {
+      "url": "https://us.store.bambulab.com/products/asa-filament",
+      "title": "Bambu Lab Store, ASA",
+      "used_for": "стойкость к УФ и старению, долгий срок на улице; требуется закрытый принтер"
+    },
+    {
+      "url": "https://bambulab.com/en/support/buying-guide/a1",
+      "title": "Bambu Lab, A1 buying guide",
+      "used_for": "PLA и PETG подходят для A1; ASA не рекомендуется"
+    }
   ],
   "notes": "HDT для PETG HF в источниках расходится (страница магазина — 69 °C при 0,45 МПа, на форуме со ссылкой на TDS — 62 °C), поэтому в тексте цифра для PETG не приводится, только «выше, чем у PLA». Цены и наличие не упоминаются. Разметка: Article + BreadcrumbList; таблицы оставить HTML-таблицами (не картинками).",
   "created": "2026-11-02",
-  "agent": "content-writer"
+  "agent": "content-writer",
+  "approved_at": "2026-11-02"
 }

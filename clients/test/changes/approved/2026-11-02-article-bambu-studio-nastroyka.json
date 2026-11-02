@@ -20,7 +20,7 @@
       "bambu studio o‘rganish"
     ]
   },
-  "status": "pending",
+  "status": "approved",
   "ru": {
     "title": "Настройка Bambu Studio для начинающих: первые шаги",
     "description": "Bambu Studio для начинающих: русский язык, подключение принтера, профиль филамента, тип стола, нарезка и первая печать. Пошагово, по документации Bambu Lab.",
@@ -34,26 +34,96 @@
     "body_md": "# Bambu Studio sozlash: dastlabki qadamlar\n\nQisqa javob: Bambu Studio — Bambu Lab ning ochiq kodli bepul slaysari. Birinchi bosma uchun beshta qadam kifoya: dasturni o‘rnatib tilni tanlash, akkauntga kirib printerni bog‘lash, uchta presetni (printer, filament, jarayon) tanlash, stol turini ko‘rsatish, modelni slaysing qilib bosmaga yuborish. Quyida har bir qadam batafsil va yangi boshlovchilarning odatiy xatolari.\n\n## Bambu Studio nima\n\nBu slaysar dasturi: u 3D modelni (.stl yoki .3mf fayl) printer uchun ko‘rsatmalarga aylantiradi. Bambu Studio ni Bambu Lab PrusaSlicer asosida ishlab chiqqan, uning kodi GitHub da ochiq. Dasturda Bambu Lab printerlari va filamentlari uchun profillar allaqachon bor, shuning uchun parametrlarning ko‘pini qo‘lda kiritish shart emas.\n\n## 1-qadam. O‘rnatish va interfeys tili\n\nBambu Studio ni Bambu Lab ning rasmiy saytidan yuklab oling. Interfeys tilini dastur sozlamalarida (Preferences → Language) almashtirasiz. Ingliz tilidan tashqari rus tilidagi interfeys ham bor: u 1.8 versiyada hamjamiyat tarjimasi sifatida qo‘shilgan. Ishlab chiquvchilar ayrim tarjimalarda ba‘zi satrlar inglizcha qolishi mumkinligi haqida ogohlantiradi — bu normal holat. Bu maqolada tugmalar nomlari inglizcha interfeys bo‘yicha berilgan.\n\nBirinchi ishga tushirishda sozlash ustasi mintaqani tanlashni so‘raydi.\n\n## 2-qadam. Akkaunt va printerni ulash\n\n1. Bambu Lab akkauntingizga kiring yoki to‘g‘ridan-to‘g‘ri dasturda ro‘yxatdan o‘ting.\n2. Printerni bog‘lang — Bambu Handy mobil ilovasi yoki Bambu Studio orqali. Bambu Lab Bambu Handy ni tavsiya qiladi: u printerlarning barcha seriyalarini qo‘llab-quvvatlaydi.\n3. Vazifalarni Wi‑Fi orqali yuborish uchun Bambu Network plagini kerak, kompyuter va printer esa bitta lokal tarmoqda bo‘lishi lozim.\n\n## 3-qadam. Uchta preset: printer, filament, jarayon\n\nBambu Studio da bosma parametrlari uchta presetga jamlangan. Ularni bir marta tushunib olsangiz, keyin hammasi tezroq ketadi.\n\n### Printer\n\nO‘z modelingizni va soplo diametrini tanlang. Hotendni almashtirgan bo‘lsangiz, bu ayniqsa muhim: dasturdagi diametr o‘rnatilgan soploga mos kelishi kerak. A1 seriyasidagi printerlarda boshqa diametr yoki materialdagi soplo o‘rnatilgandan keyin Bambu Lab printer ekranidagi soplo ma‘lumotini ham yangilashni so‘raydi. 0,2, 0,4 va 0,6 mm li hotendlar [Bambu Lab ehtiyot qismlari](/uz/catalog/parts) bo‘limida.\n\n### Filament\n\nFilament profili — bu muayyan material uchun haroratlar, sovutish va uzatish parametrlari. Aynan o‘rnatilgan plastikning profilini tanlang: Bambu PLA Basic, Bambu PETG HF va hokazo. Bambu Lab filamentlari uchun profillar, jumladan oqim koeffitsienti, ishlab chiqaruvchi tomonidan allaqachon sozlangan, shuning uchun, masalan, [PLA Basic](/uz/product/pla-basic-black) bilan darhol bosishingiz mumkin. Boshqa ishlab chiqaruvchilarning filamenti oqimni moslashni talab qilishi mumkin — bu haqda quyida.\n\n### Jarayon\n\nJarayon preseti qatlam balandligi, devorlar, to‘ldirish, tayanchlar va tezliklarni belgilaydi. Qatlam balandligi preset nomida ko‘rsatilgan: u qancha kichik bo‘lsa, sirt shuncha toza, bosma esa shuncha uzoq davom etadi. Birinchi modellar uchun dastur standart taklif qiladigan presetni qoldiring va faqat haqiqatan kerakli narsani o‘zgartiring — masalan, osilib turgan qismlari bor model uchun tayanchlarni yoqing.\n\n## 4-qadam. Stol turi\n\nBambu Studio da bosma stoli turi tanlanadi va u printerga o‘rnatilgan stolga mos kelishi kerak: profildagi stol harorati va yelim bo‘yicha tavsiyalar shunga bog‘liq. Sizda [Textured PEI Plate](/uz/product/textured-plate) bo‘lsa, ro‘yxatdan aynan uni tanlang. Bosishdan oldin Bambu Lab stolni issiq suv va idish yuvish vositasi bilan yuvishni maslahat beradi — shunda birinchi qatlam yaxshiroq yopishadi.\n\n## 5-qadam. Slaysing, oldindan ko‘rish va yuborish\n\n1. Modelni dastur oynasiga sudrab olib keling yoki import orqali oching.\n2. Stolni slaysing qilish tugmasini bosing (Slice plate).\n3. Oldindan ko‘rishni (Preview) oching: qatlamlar, tayanchlar, taxminiy vaqt va filament sarfini tekshiring.\n4. Print plate ni bosing va vazifani printerga yuboring.\n\n### Agar sizda AMS bo‘lsa\n\nBosma boshlanganda Bambu Studio loyihadagi filamentlarni AMS ga o‘rnatilgan g‘altaklar bilan avtomatik moslashtiradi. Yuborishdan oldin shu moslikni tekshiring: slotdagi material va rang loyihada tanlanganiga mos kelishi kerak. TPU 95A HF AMS orqali bosilmaydi — Bambu Lab ma‘lumotlariga ko‘ra, u hech qaysi AMS tizimi bilan mos emas.\n\n## Kalibrlash: qachon kerak\n\nBambu Studio ning kalibrlash bo‘limida oqim dinamikasini kalibrlash (Flow Dynamics) va oqim miqdorini kalibrlash (Flow Rate) bor. Bambu Lab avval Flow Dynamics, keyin Flow Rate ni o‘tkazishni tavsiya qiladi. Bambu Lab filamenti ishlab chiqaruvchi profillarida allaqachon sozlangan, shuning uchun u bilan odatda kalibrlash shart emas. Ko‘pincha u boshqa brendlarning plastigi uchun kerak bo‘ladi: ularda oqim koeffitsienti farq qilishi mumkin va bu yuqori qatlamlarda ko‘rinadi.\n\nKalibrlashdan oldin filament quruq ekaniga ishonch hosil qiling. Bambu Lab ogohlantiradi: nam plastik ip tortadi, sirtni g‘adir-budur qiladi va o‘lchamlar aniqligini pasaytiradi, buni esa sozlamalar muammosi deb o‘ylash oson. Shubha bo‘lsa, avval g‘altakni [filament quritgich](/uz/product/filament-dryer) da quriting.\n\n## Yangi boshlovchilarning odatiy xatolari\n\n- **Boshqa material profili.** PLA tanlangan, PETG o‘rnatilgan: haroratlar to‘g‘ri kelmaydi va bosma chiqmaydi.\n- **Dasturdagi stol turi o‘rnatilgan stolga mos emas.**\n- **Hotend almashtirilgandan keyin Bambu Studio dagi soplo diametri haqiqiysiga mos emas.**\n- **Nam filament sozlamalar xatosi deb o‘ylanadi**: profil o‘zgartiriladi, sabab esa namlikda.\n- **Bir vaqtda juda ko‘p o‘zgartirish.** Aynan nima yordam berganini tushunish uchun bir vaqtda bitta parametrni o‘zgartiring.\n\n## Xulosa\n\nYangi boshlovchilar uchun Bambu Studio ni sozlash uchta narsaga borib taqaladi: soplo diametri bilan printerni, filament profilini va stol turini to‘g‘ri tanlash. Qolganini dastlab standart holatda qoldirish mumkin. O‘rganib olgach, tayanchlar, to‘ldirish va kalibrlashga o‘ting. Tayyor profilli Bambu Lab filamenti — [katalogimizda](/uz/catalog). Printeringiz modeli uchun material yoki hotend bo‘yicha maslahat kerak bo‘lsa, Telegramda [@kemalsen](https://t.me/kemalsen) ga yozing, har kuni 09:00 dan 21:00 gacha.\n"
   },
   "internal_links": [
-    {"anchor_ru": "запчастей для Bambu Lab", "anchor_uz": "Bambu Lab ehtiyot qismlari", "target": "/ru/catalog/parts", "target_uz": "/uz/catalog/parts"},
-    {"anchor_ru": "PLA Basic", "anchor_uz": "PLA Basic", "target": "/ru/product/pla-basic-black", "target_uz": "/uz/product/pla-basic-black"},
-    {"anchor_ru": "Textured PEI Plate", "anchor_uz": "Textured PEI Plate", "target": "/ru/product/textured-plate", "target_uz": "/uz/product/textured-plate"},
-    {"anchor_ru": "сушилке для филамента", "anchor_uz": "filament quritgich", "target": "/ru/product/filament-dryer", "target_uz": "/uz/product/filament-dryer"},
-    {"anchor_ru": "каталоге", "anchor_uz": "katalogimizda", "target": "/ru/catalog", "target_uz": "/uz/catalog"}
+    {
+      "anchor_ru": "запчастей для Bambu Lab",
+      "anchor_uz": "Bambu Lab ehtiyot qismlari",
+      "target": "/ru/catalog/parts",
+      "target_uz": "/uz/catalog/parts"
+    },
+    {
+      "anchor_ru": "PLA Basic",
+      "anchor_uz": "PLA Basic",
+      "target": "/ru/product/pla-basic-black",
+      "target_uz": "/uz/product/pla-basic-black"
+    },
+    {
+      "anchor_ru": "Textured PEI Plate",
+      "anchor_uz": "Textured PEI Plate",
+      "target": "/ru/product/textured-plate",
+      "target_uz": "/uz/product/textured-plate"
+    },
+    {
+      "anchor_ru": "сушилке для филамента",
+      "anchor_uz": "filament quritgich",
+      "target": "/ru/product/filament-dryer",
+      "target_uz": "/uz/product/filament-dryer"
+    },
+    {
+      "anchor_ru": "каталоге",
+      "anchor_uz": "katalogimizda",
+      "target": "/ru/catalog",
+      "target_uz": "/uz/catalog"
+    }
   ],
   "sources": [
-    {"url": "https://github.com/bambulab/BambuStudio", "title": "GitHub, bambulab/BambuStudio", "used_for": "открытый исходный код; основан на PrusaSlicer"},
-    {"url": "https://newreleases.io/project/github/bambulab/BambuStudio/release/v01.08.00.57", "title": "Bambu Studio v1.8 release notes", "used_for": "русский интерфейс — перевод сообщества с версии 1.8"},
-    {"url": "https://newreleases.io/project/github/bambulab/BambuStudio/release/v02.07.00.55", "title": "Bambu Studio v2.7 release notes", "used_for": "Preferences → Language; часть строк в переводах может оставаться на английском"},
-    {"url": "https://wiki.bambulab.com/en/software/bambu-studio/studio-quick-start", "title": "Bambu Lab Wiki, Bambu Studio Quick Start", "used_for": "выбор региона при первом запуске; вход/регистрация; привязка через Bambu Handy (рекомендуется) или Studio; плагин Bambu Network и одна локальная сеть; импорт .stl/.3mf, Slice, Preview"},
-    {"url": "https://wiki.bambulab.com/en/software/bambu-studio/filament-mapping-principle", "title": "Bambu Lab Wiki, Filament Mapping Principles", "used_for": "автоматическое сопоставление филаментов из нарезки с катушками в AMS"},
-    {"url": "https://wiki.bambulab.com/en/general/filament-guide-material-table", "title": "Bambu Lab Wiki, Filament guide — material table", "used_for": "совместимость материалов со столами; мыть стол горячей водой со средством для посуды"},
-    {"url": "https://wiki.bambulab.com/en/a1/maintenance/replace-hotend", "title": "Bambu Lab Wiki, Hotend Replacement for A1 Series", "used_for": "после смены диаметра или материала сопла обновить информацию о сопле на экране"},
-    {"url": "https://wiki.bambulab.com/en/software/bambu-studio/calibration_flow_rate", "title": "Bambu Lab Wiki, Flow Rate Calibration", "used_for": "калибровка во вкладке калибровки; сначала Flow Dynamics, затем Flow Rate"},
-    {"url": "https://wiki.bambulab.com/en/x1/manual/manual-flow-rate-tuning", "title": "Bambu Lab Wiki, Manual Flow Rate Tuning", "used_for": "профили Bambu с предустановленным коэффициентом потока; сторонний филамент может требовать подстройки"},
-    {"url": "https://wiki.bambulab.com/en/bambu-studio/ksrFDMTest", "title": "Bambu Lab Wiki, Quality Test Print and Calibration", "used_for": "влажный филамент имитирует проблемы калибровки"},
-    {"url": "https://us.store.bambulab.com/products/tpu-95a-hf", "title": "Bambu Lab Store, TPU 95A HF", "used_for": "не совместим со всеми сериями AMS"}
+    {
+      "url": "https://github.com/bambulab/BambuStudio",
+      "title": "GitHub, bambulab/BambuStudio",
+      "used_for": "открытый исходный код; основан на PrusaSlicer"
+    },
+    {
+      "url": "https://newreleases.io/project/github/bambulab/BambuStudio/release/v01.08.00.57",
+      "title": "Bambu Studio v1.8 release notes",
+      "used_for": "русский интерфейс — перевод сообщества с версии 1.8"
+    },
+    {
+      "url": "https://newreleases.io/project/github/bambulab/BambuStudio/release/v02.07.00.55",
+      "title": "Bambu Studio v2.7 release notes",
+      "used_for": "Preferences → Language; часть строк в переводах может оставаться на английском"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/software/bambu-studio/studio-quick-start",
+      "title": "Bambu Lab Wiki, Bambu Studio Quick Start",
+      "used_for": "выбор региона при первом запуске; вход/регистрация; привязка через Bambu Handy (рекомендуется) или Studio; плагин Bambu Network и одна локальная сеть; импорт .stl/.3mf, Slice, Preview"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/software/bambu-studio/filament-mapping-principle",
+      "title": "Bambu Lab Wiki, Filament Mapping Principles",
+      "used_for": "автоматическое сопоставление филаментов из нарезки с катушками в AMS"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/general/filament-guide-material-table",
+      "title": "Bambu Lab Wiki, Filament guide — material table",
+      "used_for": "совместимость материалов со столами; мыть стол горячей водой со средством для посуды"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/a1/maintenance/replace-hotend",
+      "title": "Bambu Lab Wiki, Hotend Replacement for A1 Series",
+      "used_for": "после смены диаметра или материала сопла обновить информацию о сопле на экране"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/software/bambu-studio/calibration_flow_rate",
+      "title": "Bambu Lab Wiki, Flow Rate Calibration",
+      "used_for": "калибровка во вкладке калибровки; сначала Flow Dynamics, затем Flow Rate"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/x1/manual/manual-flow-rate-tuning",
+      "title": "Bambu Lab Wiki, Manual Flow Rate Tuning",
+      "used_for": "профили Bambu с предустановленным коэффициентом потока; сторонний филамент может требовать подстройки"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/bambu-studio/ksrFDMTest",
+      "title": "Bambu Lab Wiki, Quality Test Print and Calibration",
+      "used_for": "влажный филамент имитирует проблемы калибровки"
+    },
+    {
+      "url": "https://us.store.bambulab.com/products/tpu-95a-hf",
+      "title": "Bambu Lab Store, TPU 95A HF",
+      "used_for": "не совместим со всеми сериями AMS"
+    }
   ],
   "notes": "Названия кнопок даны по английскому интерфейсу (Slice plate, Preview, Print plate): точные формулировки русского перевода не проверены. Есть ли узбекский интерфейс — не проверено, поэтому в uz-версии об этом не утверждается. Скриншоты не добавлялись — владелец может вставить свои (не брать с сайтов конкурентов). Конкретные значения высоты слоя намеренно не приводятся.",
   "created": "2026-11-02",
-  "agent": "content-writer"
+  "agent": "content-writer",
+  "approved_at": "2026-11-02"
 }

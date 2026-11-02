@@ -22,7 +22,7 @@
       "a1 hotend almashtirish"
     ]
   },
-  "status": "pending",
+  "status": "approved",
   "ru": {
     "title": "Когда менять сопло 3D-принтера Bambu Lab: признаки",
     "description": "Когда менять сопло 3D-принтера: признаки засора и износа, когда хватит чистки, а когда нужен новый хотэнд, и зачем закалённое сопло для карбона.",
@@ -36,28 +36,107 @@
     "body_md": "# Soploni qachon almashtirish kerak\n\nQisqa javob: tozalagandan keyin ham tiqilish qaytaversa, soplo uzoq vaqt ishlagan va boshqa sababsiz bosma sifati tushib ketgan bo‘lsa yoki uglerod va shisha tolali abraziv plastiklarga o‘tayotgan bo‘lsangiz, soploni almashtirish vaqti keldi — bunday plastiklar uchun toblangan soplo kerak. Soplolar vaqt o‘tishi bilan PLA va PETG bilan bosganda ham yeyiladi, abraziv materiallar bilan esa ancha tezroq. Quyida belgilar, tekshirish tartibi va Bambu Lab uchun yangi hotend tanlashni ko‘rib chiqamiz.\n\n## Tiqilish yoki yeyilish: farqi nimada\n\n- **Tiqilish** — ichkarida nimadir plastik oqimiga xalaqit beradi: qotib qolgan filament, axlat, to‘ldiruvchi zarralari. Odatda uni tozalab bo‘ladi.\n- **Yeyilish** — soploning o‘zi o‘zgaradi: abraziv zarralar uning ichki yuzalarini yeyib yuboradi. Bu yerda tozalash yordam bermaydi, almashtirish kerak.\n\nBelgilari o‘xshash, shuning uchun oddiydan boshlash kerak: boshqa sabablarni istisno qiling va soploni tozalang.\n\n## Soplo bilan muammo belgilari\n\nPrusa Research bilim bazasiga ko‘ra, soplo tiqilishi quyidagicha namoyon bo‘ladi:\n\n- plastik soplodan chiqmaydi;\n- chiziqlar odatdagidan sezilarli ingichka va stolga yomon yopishadi;\n- siqib chiqarilgan plastik buralib, soploga yopishib qoladi;\n- ekstruder chiqillaydi — qarshilik oshgani sababli motor qadamlarni o‘tkazib yuboradi.\n\nBambu Lab filamentning o‘zidagi zarralar sabab bo‘ladigan qisman tiqilishlarni alohida tasvirlaydi — masalan, uglerod tolali yoki yaltiroq zarrali plastiklarda.\n\nBelgilar oddiy soploda abraziv plastik bilan bosgandan keyin paydo bo‘lgan bo‘lsa yoki soplo uzoq vaqtdan beri ishlayotgan bo‘lsa, bu yeyilishdan shubhalanishga asos.\n\n## Avval boshqa sabablarni istisno qiling\n\n1. **Harorat.** Uzatish bilan muammo bo‘lganda Bambu Lab birinchi navbatda soplo, shuningdek stol harorati to‘g‘ri belgilanganini tekshirishni maslahat beradi: noto‘g‘ri harorat ham oqimga xalaqit beradi.\n2. **Nam filament.** Iplar, g‘adir-budur sirt va noaniq o‘lchamlar — namlikning odatiy oqibatlari. Soploni ayblashdan oldin g‘altakni quriting.\n3. **Filament sifati.** Bambu Lab ma‘lumotlariga ko‘ra, sifatsiz filamentdagi notekis diametr va aralashmalar tiqilish sabablaridan biri.\n4. **Kamerada yumshash.** Shishalanish harorati past plastiklar yopiq korpusda bosilganda yumshashi mumkin — Bambu Lab buni tiqilish sabablari qatorida keltiradi.\n5. **Profil.** Bambu Studio da aynan printerga o‘rnatilgan material profili va soplo diametri tanlanganini tekshiring.\n\n## Tozalash yoki almashtirish\n\n**Qachon tozalash yetarli.** Bambu Lab ning har bir printer seriyasi uchun hotendni tozalash yo‘riqnomasi bor (A1 va A1 mini, X1 va P1, H2 va boshqalar). Ishlab chiqaruvchi uzatish normal holga kelguncha jarayonni takrorlashni maslahat beradi. Tozalash uchun [soploni tozalash ignalari va cho‘tkalari](/uz/product/nozzle-cleaning-kit) asqatadi.\n\n**Qachon almashtirish kerak:**\n\n- yuqoridagi sabablar istisno qilingan bo‘lsa ham, tiqilish qayta-qayta qaytadi;\n- soplo uzoq ishlagan: Prusa bilim bazasida eski yoki faol ishlatilgan soploni tozalashdan ko‘ra almashtirish ba‘zan oqilonaroq ekani ochiq aytilgan;\n- oddiy po‘lat soploda abraziv materiallar bilan bosgansiz;\n- abraziv plastiklarga o‘tyapsiz va sizga toblangan hotend kerak.\n\n## Po‘lat yoki toblangan soplo\n\nBambu Lab tushuntiradi: abraziv filamentlar — uglerod tolali, shisha tolali, metall to‘ldiruvchili va qorong‘ida yonuvchi — tarkibida jilvir qog‘ozidek ta‘sir qiladigan zarralar bor. Ular soploning ichki yuzalarini va ekstruder tishli g‘ildiraklarini yeyib yuboradi, zanglamaydigan po‘latdan qilingan qismlar esa tez yeyiladi. Toblangan po‘lat qattiqroq va yeyilishga yaxshiroq chidaydi.\n\nAmaliy xulosa:\n\n- **PLA, PETG, TPU, ABS, ASA** — oddiy po‘lat hotend, masalan [A1 hotend 0,4 mm (po‘lat)](/uz/product/hotend-a1-04-steel);\n- **PLA-CF, PETG-CF, PA-CF, qorong‘ida yonuvchi va boshqa abraziv plastiklar** — toblangan: [A1 / A1 mini uchun toblangan hotend 0,4 mm](/uz/product/hotend-a1-04-hardened) yoki [P1P / P1S uchun](/uz/product/hotend-p1-04-hardened). Toblangan hotendlar X1 / X1C va H2 uchun ham bor.\n\nP1S uchun Bambu Lab abraziv plastiklarga moslashtirish uchun yangilanishni tasvirlaydi, unga faqat toblangan hotend emas, ekstruder ham kiradi.\n\n## 0,2, 0,4 yoki 0,6 mm\n\n- **0,4 mm** — standart diametr, ko‘pchilik vazifalarga mos.\n- **0,2 mm** — mayda detallar va ingichka yozuvlar uchun; bosma ancha uzoq davom etadi. Masalan, [A1 / A1 mini uchun 0,2 mm li hotend](/uz/product/hotend-a1-02).\n- **0,6 mm** — yirik va mustahkam detallar uchun: tezroq bosadi, lekin qatlamlar dag‘alroq. Ayrim armirlangan materiallar uchun Bambu Lab texnik varaqlarida 0,6 mm ni tavsiya etilgan diametr sifatida belgilaydi (masalan, ABS-GF uchun).\n\nDiametrni almashtirgandan keyin uni Bambu Studio da tanlashni unutmang.\n\n## Bambu Lab A1 da hotendni qanday almashtirish\n\nA1 va A1 mini da hotend tez yechiladigan: Bambu Lab yozishicha, asbobsiz konstruksiya tufayli soplo bir necha daqiqada almashtiriladi. Harakatlar tartibi — Bambu Lab wiki sidagi Hotend Replacement for A1 Series rasmiy yo‘riqnomasida. Ikki narsani oldindan bilib qo‘ygan ma‘qul:\n\n- boshqa diametr yoki materialdagi soplo o‘rnatsangiz, printer ekranidagi soplo ma‘lumotini yangilang va Bambu Studio da ham o‘sha diametrni tanlang;\n- soplo yechilmasa, sababi hotend va isitish bloki orasida qolgan plastik bo‘lishi mumkin: past haroratda bunday hotendni yechib bo‘lmaydi. Bu holat uchun Bambu Lab da alohida yo‘riqnoma bor.\n\nP1 va X1 uchun hotendni almashtirish Bambu Lab wiki sida tegishli seriyaning texnik xizmat bo‘limida tasvirlangan.\n\n## Hotendni qanday tanlash kerak\n\nTanlash uchun uchta narsa kerak: printer modeli, kerakli diametr va qaysi material bilan bosmoqchi ekaningiz. Po‘lat yoki toblangan hotend kerakligi materialga bog‘liq. Barcha variantlar [Bambu Lab ehtiyot qismlari](/uz/catalog/parts) bo‘limida. Pozitsiya buyurtma asosida bo‘lsa, narx va muddatni rasmiylashtirishdan oldin tasdiqlaymiz.\n\n## Xulosa\n\nSoploni kalendar bo‘yicha emas, belgilarga qarab almashtirish kerak: tozalagandan keyin tiqilish qaytadi, soplo uzoq ishlagan va sifat tushgan yoki abraziv plastiklarga o‘tyapsiz. Almashtirishdan oldin haroratni, nam filamentni va noto‘g‘ri profilni istisno qiling — bu tezroq va arzonroq. Qaysi hotend mos kelishini bilmayapsizmi? Telegramda [@kemalsen](https://t.me/kemalsen) ga yozing yoki +998 99 454-19-13 raqamiga qo‘ng‘iroq qiling (har kuni 09:00–21:00).\n"
   },
   "internal_links": [
-    {"anchor_ru": "иглы и щётки для чистки сопла", "anchor_uz": "soploni tozalash ignalari va cho‘tkalari", "target": "/ru/product/nozzle-cleaning-kit", "target_uz": "/uz/product/nozzle-cleaning-kit"},
-    {"anchor_ru": "хотэнд A1 0,4 мм (сталь)", "anchor_uz": "A1 hotend 0,4 mm (po‘lat)", "target": "/ru/product/hotend-a1-04-steel", "target_uz": "/uz/product/hotend-a1-04-steel"},
-    {"anchor_ru": "закалённый хотэнд 0,4 мм для A1 / A1 mini", "anchor_uz": "A1 / A1 mini uchun toblangan hotend 0,4 mm", "target": "/ru/product/hotend-a1-04-hardened", "target_uz": "/uz/product/hotend-a1-04-hardened"},
-    {"anchor_ru": "для P1P / P1S", "anchor_uz": "P1P / P1S uchun", "target": "/ru/product/hotend-p1-04-hardened", "target_uz": "/uz/product/hotend-p1-04-hardened"},
-    {"anchor_ru": "хотэнд 0,2 мм для A1 / A1 mini", "anchor_uz": "A1 / A1 mini uchun 0,2 mm li hotend", "target": "/ru/product/hotend-a1-02", "target_uz": "/uz/product/hotend-a1-02"},
-    {"anchor_ru": "запчастей для Bambu Lab", "anchor_uz": "Bambu Lab ehtiyot qismlari", "target": "/ru/catalog/parts", "target_uz": "/uz/catalog/parts"}
+    {
+      "anchor_ru": "иглы и щётки для чистки сопла",
+      "anchor_uz": "soploni tozalash ignalari va cho‘tkalari",
+      "target": "/ru/product/nozzle-cleaning-kit",
+      "target_uz": "/uz/product/nozzle-cleaning-kit"
+    },
+    {
+      "anchor_ru": "хотэнд A1 0,4 мм (сталь)",
+      "anchor_uz": "A1 hotend 0,4 mm (po‘lat)",
+      "target": "/ru/product/hotend-a1-04-steel",
+      "target_uz": "/uz/product/hotend-a1-04-steel"
+    },
+    {
+      "anchor_ru": "закалённый хотэнд 0,4 мм для A1 / A1 mini",
+      "anchor_uz": "A1 / A1 mini uchun toblangan hotend 0,4 mm",
+      "target": "/ru/product/hotend-a1-04-hardened",
+      "target_uz": "/uz/product/hotend-a1-04-hardened"
+    },
+    {
+      "anchor_ru": "для P1P / P1S",
+      "anchor_uz": "P1P / P1S uchun",
+      "target": "/ru/product/hotend-p1-04-hardened",
+      "target_uz": "/uz/product/hotend-p1-04-hardened"
+    },
+    {
+      "anchor_ru": "хотэнд 0,2 мм для A1 / A1 mini",
+      "anchor_uz": "A1 / A1 mini uchun 0,2 mm li hotend",
+      "target": "/ru/product/hotend-a1-02",
+      "target_uz": "/uz/product/hotend-a1-02"
+    },
+    {
+      "anchor_ru": "запчастей для Bambu Lab",
+      "anchor_uz": "Bambu Lab ehtiyot qismlari",
+      "target": "/ru/catalog/parts",
+      "target_uz": "/uz/catalog/parts"
+    }
   ],
   "sources": [
-    {"url": "https://help.prusa3d.com/article/clogged-nozzle-hotend-mk3s-mk2-5s_2008", "title": "Prusa Knowledge Base, Clogged nozzle/hotend", "used_for": "симптомы засора (пластик не выходит, тонкие линии, закручивается и липнет к соплу, щелчки экструдера); старое/активно использованное сопло лучше заменить"},
-    {"url": "https://help.prusa3d.com/article/regular-maintenance-mini-mini_133222", "title": "Prusa Knowledge Base, Regular maintenance (MINI/MINI+)", "used_for": "сопла изнашиваются даже при печати только PLA и PETG; абразивные материалы — намного быстрее"},
-    {"url": "https://wiki.bambulab.com/en/p1/manual/p1s-extruder-upgrade", "title": "Bambu Lab Wiki, P1S Abrasive Filament Extruder Upgrade Guide", "used_for": "абразивные филаменты (CF, GF, металлонаполненные, светящиеся) истирают сопло и шестерни экструдера из нержавеющей стали; закалённая сталь; апгрейд хотэнда и экструдера P1S"},
-    {"url": "https://wiki.bambulab.com/en/a1-mini/troubleshooting/nozzle-clog", "title": "Bambu Lab Wiki, A1/A1 mini Nozzle/Hotend Unclogging Procedure", "used_for": "частичный засор частицами в филаменте (углеволокно, блёстки)"},
-    {"url": "https://wiki.bambulab.com/en/x1/troubleshooting/nozzle-clog", "title": "Bambu Lab Wiki, Nozzle/Hotend Unclogging Procedure for X1/P1", "used_for": "повторять чистку до нормальной подачи; филамент с низкой температурой стеклования размягчается в закрытом корпусе"},
-    {"url": "https://wiki.bambulab.com/en/knowledge-sharing/how_to_avoid_nozzle_clogs", "title": "Bambu Lab Wiki, How to Avoid Nozzle Clogs", "used_for": "непостоянный диаметр и примеси в некачественном филаменте; сначала проверить температуру сопла"},
-    {"url": "https://wiki.bambulab.com/en/filament-acc/filament/print-quality/clog", "title": "Bambu Lab Wiki, 3D Printer Clog", "used_for": "неверные температуры сопла и стола мешают потоку"},
-    {"url": "https://wiki.bambulab.com/en/bambu-studio/ksrFDMTest", "title": "Bambu Lab Wiki, Quality Test Print and Calibration", "used_for": "последствия влажного филамента"},
-    {"url": "https://wiki.bambulab.com/en/a1/maintenance/replace-hotend", "title": "Bambu Lab Wiki, Hotend Replacement for A1 Series", "used_for": "безинструментальная замена за несколько минут; обновить информацию о сопле на экране"},
-    {"url": "https://wiki.bambulab.com/en/a1-mini/maintenance/clean-hotend-assembly", "title": "Bambu Lab Wiki, Nozzle stuck (A1 mini)", "used_for": "остаток пластика между быстросъёмным хотэндом и нагревательным блоком не даёт снять сопло при низкой температуре"},
-    {"url": "https://wiki.bambulab.com/en/x1/maintenance/replace-hotend", "title": "Bambu Lab Wiki, Replace hotend (X1)", "used_for": "инструкции по замене для X1/P1 в разделе обслуживания"},
-    {"url": "https://wiki.bambulab.com/filament-acc/absgf-pa6gf/2450f3fe0251448c91c5a191b7cb6a1e.pdf", "title": "Bambu Lab, ABS-GF Technical Data Sheet V1.0", "used_for": "диаметры 0,4 / 0,6 (рекомендуемый) / 0,8 мм"}
+    {
+      "url": "https://help.prusa3d.com/article/clogged-nozzle-hotend-mk3s-mk2-5s_2008",
+      "title": "Prusa Knowledge Base, Clogged nozzle/hotend",
+      "used_for": "симптомы засора (пластик не выходит, тонкие линии, закручивается и липнет к соплу, щелчки экструдера); старое/активно использованное сопло лучше заменить"
+    },
+    {
+      "url": "https://help.prusa3d.com/article/regular-maintenance-mini-mini_133222",
+      "title": "Prusa Knowledge Base, Regular maintenance (MINI/MINI+)",
+      "used_for": "сопла изнашиваются даже при печати только PLA и PETG; абразивные материалы — намного быстрее"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/p1/manual/p1s-extruder-upgrade",
+      "title": "Bambu Lab Wiki, P1S Abrasive Filament Extruder Upgrade Guide",
+      "used_for": "абразивные филаменты (CF, GF, металлонаполненные, светящиеся) истирают сопло и шестерни экструдера из нержавеющей стали; закалённая сталь; апгрейд хотэнда и экструдера P1S"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/a1-mini/troubleshooting/nozzle-clog",
+      "title": "Bambu Lab Wiki, A1/A1 mini Nozzle/Hotend Unclogging Procedure",
+      "used_for": "частичный засор частицами в филаменте (углеволокно, блёстки)"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/x1/troubleshooting/nozzle-clog",
+      "title": "Bambu Lab Wiki, Nozzle/Hotend Unclogging Procedure for X1/P1",
+      "used_for": "повторять чистку до нормальной подачи; филамент с низкой температурой стеклования размягчается в закрытом корпусе"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/knowledge-sharing/how_to_avoid_nozzle_clogs",
+      "title": "Bambu Lab Wiki, How to Avoid Nozzle Clogs",
+      "used_for": "непостоянный диаметр и примеси в некачественном филаменте; сначала проверить температуру сопла"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/filament-acc/filament/print-quality/clog",
+      "title": "Bambu Lab Wiki, 3D Printer Clog",
+      "used_for": "неверные температуры сопла и стола мешают потоку"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/bambu-studio/ksrFDMTest",
+      "title": "Bambu Lab Wiki, Quality Test Print and Calibration",
+      "used_for": "последствия влажного филамента"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/a1/maintenance/replace-hotend",
+      "title": "Bambu Lab Wiki, Hotend Replacement for A1 Series",
+      "used_for": "безинструментальная замена за несколько минут; обновить информацию о сопле на экране"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/a1-mini/maintenance/clean-hotend-assembly",
+      "title": "Bambu Lab Wiki, Nozzle stuck (A1 mini)",
+      "used_for": "остаток пластика между быстросъёмным хотэндом и нагревательным блоком не даёт снять сопло при низкой температуре"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/x1/maintenance/replace-hotend",
+      "title": "Bambu Lab Wiki, Replace hotend (X1)",
+      "used_for": "инструкции по замене для X1/P1 в разделе обслуживания"
+    },
+    {
+      "url": "https://wiki.bambulab.com/filament-acc/absgf-pa6gf/2450f3fe0251448c91c5a191b7cb6a1e.pdf",
+      "title": "Bambu Lab, ABS-GF Technical Data Sheet V1.0",
+      "used_for": "диаметры 0,4 / 0,6 (рекомендуемый) / 0,8 мм"
+    }
   ],
   "notes": "Сроков службы сопла в часах или катушках в тексте нет: официальных цифр Bambu Lab не нашёл, а цифры из блогов не проверяемы. Хотэнды H2D/H2C/P2S не упоминаются отдельными ссылками — эти карточки удалены (removed-products-404-001). У хотэндов A1/P1 на сайте «Цена по запросу» и «Под заказ · 2–3 недели», поэтому в тексте «цену и срок подтвердим перед оформлением». Статья даёт 5 входящих ссылок на карточки хотэндов (у них меньше всего входящих ссылок по аудиту).",
   "created": "2026-11-02",
-  "agent": "content-writer"
+  "agent": "content-writer",
+  "approved_at": "2026-11-02"
 }

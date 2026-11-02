@@ -22,7 +22,7 @@
       "3d bosma materiallari"
     ]
   },
-  "status": "pending",
+  "status": "approved",
   "ru": {
     "title": "Какой филамент выбрать новичку: PLA, PETG, TPU",
     "description": "Какой филамент выбрать для первой печати на Bambu Lab: чем отличаются PLA, PETG, TPU и ABS, что подходит для A1 и с какой катушки начать.",
@@ -36,25 +36,92 @@
     "body_md": "# Qaysi filamentni tanlash kerak: nimadan boshlash\n\nQisqa javob: Bambu Lab printerida 3D bosmani endi boshlayotgan bo‘lsangiz, PLA oling. U eng oson bosiladi, yopiq kamera talab qilmaydi va ko‘pchilik maishiy, o‘quv hamda dekorativ vazifalar uchun yetarli. Ikkinchi navbatda PETG ni o‘rganing — yuk tushadigan, qiziydigan yoki ko‘chada turadigan detallar uchun. Quyida vazifangiz va printer modelingizga qarab qaysi filamentni tanlash kerakligini hamda 3D bosma materiallari bir-biridan nimasi bilan farq qilishini ko‘rib chiqamiz.\n\n## Sotib olishdan oldin nimani tekshirish kerak\n\n### Diametr va format\n\nBambu Lab printerlari diametri 1,75 mm bo‘lgan filament bilan ishlaydi. [Bambu Lab filamenti katalogimizdagi](/uz/catalog) barcha mahsulotlar aynan shunday, 1 kg li g‘altaklarda. Ayrim pozitsiyalar refill ko‘rinishida sotiladi: bu o‘sha 1 kg plastik, faqat g‘altaksiz. Refill qayta ishlatiladigan Bambu Lab g‘altagiga o‘rnatiladi, shuning uchun bunday g‘altagingiz bo‘lsa, har buyurtmada yangi g‘altak uchun pul to‘lashingiz shart emas.\n\n### Printer modeli\n\nHar bir plastik har bir printerga mos kelavermaydi. A1 seriyasi (A1 va A1 mini, ochiq korpus) uchun Bambu Lab PLA, PETG va TPU ni mos materiallar qatoriga, ABS, ASA, PC, PA hamda uglerod yoki shisha tolali kompozitlarni esa tavsiya etilmaydiganlar qatoriga kiritadi. Sababi — ochiq korpus: yuqori haroratli plastikdan zich to‘ldirilgan katta detallarda qiyshayish va qatlamlarning zaif yopishishi xavfi oshadi. Printeringiz yopiq korpusli bo‘lsa, tanlov kengroq, lekin birinchi bosmalar uchun mantiq o‘sha: PLA dan boshlang.\n\n### Vazifa\n\nAvval nimani bosishingizni hal qiling: figuralar va maketlar, organayzer va ushlagichlar, ta‘mirlash uchun detallar yoki egiluvchan qoplamalar. Material tanlovi boshqa har qanday narsadan ko‘ra aynan vazifaga bog‘liq.\n\n## 3D bosma materiallari: taqqoslash\n\n| Material | Nima uchun mos | Yangi boshlovchi uchun qiyinligi | Nimaga e‘tibor berish kerak |\n|---|---|---|---|\n| PLA (Basic, Matte) | maketlar, prototiplar, dekor, o‘quv modellari | past | qizdirilganda yumshaydi, issiq joylar uchun emas |\n| PETG (Basic, HF) | funksional detallar, mahkamlagichlar, ko‘cha uchun buyumlar | o‘rtacha | quruq plastik kerak, stolga — yelim |\n| TPU 95A HF | egiluvchan detallar: qoplamalar, amortizatorlar, g‘iloflar | o‘rtacha | AMS bilan mos emas, tashqi g‘altakdan bosiladi |\n| ABS / ASA | issiqqa chidamli detallar, ASA — ko‘cha uchun | o‘rtachadan yuqori | yopiq printer kerak, A1 da tavsiya etilmaydi |\n| PLA-CF, PETG-CF, PA-CF | qattiq muhandislik detallari | yuqori | abraziv, toblangan soplo kerak |\n\nQiyinlik bahosi — xaridorlar bilan ishlash tajribamizga asoslangan. Qolgan ma‘lumotlar Bambu Lab hujjatlaridan olingan (havolalar sahifa oxirida).\n\n## Nega PLA eng yaxshi birinchi filament\n\n- **Oson bosiladi va arzon.** Bambu Lab PLA Basic texnik varag‘ida PLA ni aynan shunday ta‘riflaydi va uni 3D bosmadagi eng keng tarqalgan material deb ataydi: uning qattiqligi va mustahkamligi ko‘pchilik vazifalar uchun yetarli.\n- **Tayyor profil.** Bambu Lab ma‘lumotlariga ko‘ra, PLA Basic uchun soplo harorati 190–230 °C. Uni qo‘lda tanlash shart emas: Bambu Studio da ishlab chiqaruvchi profilini tanlang, slaysar parametrlarni o‘zi qo‘yadi.\n- **Har qanday Bambu Lab printeriga mos**, jumladan korpussiz A1 va A1 mini ga ham.\n- **Cheklov — issiqlik.** Bambu Lab texnik varag‘iga ko‘ra, PLA Basic ning issiqlikdan deformatsiyalanish harorati 54–57 °C (sinovdagi yukka qarab). Yozda mashina ichida, batareya yoki issiq qismlar yonida turadigan detallarni PETG yoki ASA dan bosgan ma‘qul.\n\n### PLA Basic yoki PLA Matte\n\nIkkala liniya ham PLA, ikkalasi ham bir xil oson bosiladi. Farq tashqi ko‘rinish va mustahkamlikda:\n\n- **PLA Matte** yaltiramaydigan mat sirt beradi, unda qatlamlar kamroq ko‘rinadi. Figuralar, maketlar, sovg‘alar va tashqi ko‘rinishi muhim bo‘lgan korpuslar uchun yaxshi. Ko‘rish: [PLA Matte oq](/uz/product/pla-matte-white).\n- **PLA Basic** mustahkamroq: Bambu Lab ma‘lumotlariga ko‘ra, egilishdagi mustahkamlik PLA Basic da 76 MPa, PLA Matte da 53 MPa. Ushlagich, kronshteyn va sinishga ishlaydigan detallar uchun [PLA Basic](/uz/product/pla-basic-black) oling.\n\n### Birinchi qaysi rangni olish kerak\n\nBirinchi g‘altak uchun neytral rang qulay — oq, kulrang yoki qora: u deyarli har qanday modelga mos keladi. Yorqin ranglar va maxsus effektlarni (silk, marmar, qorong‘ida yonuvchi) sozlamalarga ishonchingiz komil bo‘lgandan keyin oling.\n\n## PETG qachon kerak\n\nPETG — o‘rganishga arziydigan ikkinchi material. Bambu Lab ma‘lumotlariga ko‘ra, PETG Basic ning egilishdagi mustahkamligi PLA Basic darajasida, zarbaga chidamliligi esa yuqoriroq: detal zarba va yiqilishni yaxshiroq ko‘taradi. Ishlab chiqaruvchi PETG ning suv, ultrabinafsha nurlar va haroratga chidamliligini ham qayd etadi va uni ko‘chadagi buyumlar uchun foydali variant deb ataydi.\n\nNimani hisobga olish kerak:\n\n- bosish harorati PLA dan yuqori, lekin Bambu Studio profili buni hisobga oladi;\n- Bambu Lab PETG HF ni ishlatishdan oldin quritishni tavsiya qiladi, ochilgan g‘altakni esa quruq joyda saqlash kerak;\n- Bambu Lab ning PETG HF bo‘yicha tavsiyalarida stol uchun yelim ko‘rsatilgan.\n\nBoshlash uchun [PETG Basic](/uz/product/petg-basic-black-spool) mos keladi. Ikki materialning batafsil taqqoslanishi bilim bazamizdagi “PETG yoki PLA” maqolasida.\n\n## TPU: egiluvchan detal kerak bo‘lsa\n\nTPU — qoplamalar, amortizatorlar, tasmalar va g‘iloflar uchun egiluvchan plastik. Bambu Lab da bu [TPU 95A HF](/uz/product/tpu-95a-hf-black-spool). Oldindan bilib qo‘ying: ishlab chiqaruvchi ma‘lumotlariga ko‘ra, u hech qaysi AMS tizimi bilan mos emas va ishlatishdan oldin quritilishi kerak. Demak, uni tashqi g‘altak ushlagichidan va bitta rangda bosasiz. TPU ga PLA bilan bir necha g‘altak tajriba orttirgandan keyin o‘tgan ma‘qul.\n\n## ABS, ASA va muhandislik plastiklari — birinchi g‘altak uchun emas\n\n- **ABS va ASA** PLA ga qaraganda ko‘proq issiqlikka chidaydi, ASA esa Bambu Lab ma‘lumotlariga ko‘ra ultrabinafsha nurlarga chidamli va ko‘chada uzoq ishlash uchun mo‘ljallangan. Biroq ASA uchun ishlab chiqaruvchi yopiq korpusli printer talab qiladi, A1 uchun esa ikkala materialni ham tavsiya etmaydi.\n- **Uglerod tolali kompozitlar** (PLA-CF, PETG-CF, PA-CF) abraziv. Bambu Lab ogohlantiradi: tola zarralari po‘lat soplo va ekstruder tishli g‘ildiraklarini tez yeyib yuboradi, shuning uchun bunday materiallarga toblangan hotend kerak. Mos hotendlar [Bambu Lab ehtiyot qismlari](/uz/catalog/parts) bo‘limida. Muhandislik plastiklarini buyurtma asosida olib kelamiz.\n\n## Birinchi filamentni tanlash: qisqa ro‘yxat\n\n1. Printer modelini tekshiring: A1 va A1 mini uchun PLA, PETG va TPU dan tanlang.\n2. Birinchi bosmalar — PLA Basic (mustahkamroq) yoki PLA Matte (chiroyliroq).\n3. Ko‘cha, yuk yoki issiqlik uchun detallar kerak bo‘lsa — PETG g‘altagini qo‘shing.\n4. Egiluvchanlik kerak bo‘lsa — tashqi g‘altakdan TPU.\n5. Ochilgan g‘altaklarni silikagelli germetik paketda saqlang: saqlash haqida alohida maqolamiz bor.\n6. Bambu Studio da aynan o‘rnatilgan materialning profilini tanlang.\n\n## Xulosa\n\nQaysi filamentni tanlashni bilmasangiz, bir-ikki g‘altak PLA dan boshlang: bu muvaffaqiyatli birinchi bosmalarga eng qisqa yo‘l. Jiddiyroq vazifalar paydo bo‘lganda PETG ni qo‘shing, egiluvchan va muhandislik materiallarini esa undan keyin. Printeringiz va detalingizga nima mos kelishiga ishonchingiz komil emasmi? Telegramda [@kemalsen](https://t.me/kemalsen) ga yozing yoki +998 99 454-19-13 raqamiga qo‘ng‘iroq qiling (har kuni 09:00–21:00) — vazifangizga mos materialni tanlab beramiz.\n"
   },
   "internal_links": [
-    {"anchor_ru": "каталоге филамента Bambu Lab", "anchor_uz": "Bambu Lab filamenti katalogimizdagi", "target": "/ru/catalog", "target_uz": "/uz/catalog"},
-    {"anchor_ru": "PLA Matte белый", "anchor_uz": "PLA Matte oq", "target": "/ru/product/pla-matte-white", "target_uz": "/uz/product/pla-matte-white"},
-    {"anchor_ru": "PLA Basic", "anchor_uz": "PLA Basic", "target": "/ru/product/pla-basic-black", "target_uz": "/uz/product/pla-basic-black"},
-    {"anchor_ru": "PETG Basic", "anchor_uz": "PETG Basic", "target": "/ru/product/petg-basic-black-spool", "target_uz": "/uz/product/petg-basic-black-spool"},
-    {"anchor_ru": "TPU 95A HF", "anchor_uz": "TPU 95A HF", "target": "/ru/product/tpu-95a-hf-black-spool", "target_uz": "/uz/product/tpu-95a-hf-black-spool"},
-    {"anchor_ru": "запчастей для Bambu Lab", "anchor_uz": "Bambu Lab ehtiyot qismlari", "target": "/ru/catalog/parts", "target_uz": "/uz/catalog/parts"}
+    {
+      "anchor_ru": "каталоге филамента Bambu Lab",
+      "anchor_uz": "Bambu Lab filamenti katalogimizdagi",
+      "target": "/ru/catalog",
+      "target_uz": "/uz/catalog"
+    },
+    {
+      "anchor_ru": "PLA Matte белый",
+      "anchor_uz": "PLA Matte oq",
+      "target": "/ru/product/pla-matte-white",
+      "target_uz": "/uz/product/pla-matte-white"
+    },
+    {
+      "anchor_ru": "PLA Basic",
+      "anchor_uz": "PLA Basic",
+      "target": "/ru/product/pla-basic-black",
+      "target_uz": "/uz/product/pla-basic-black"
+    },
+    {
+      "anchor_ru": "PETG Basic",
+      "anchor_uz": "PETG Basic",
+      "target": "/ru/product/petg-basic-black-spool",
+      "target_uz": "/uz/product/petg-basic-black-spool"
+    },
+    {
+      "anchor_ru": "TPU 95A HF",
+      "anchor_uz": "TPU 95A HF",
+      "target": "/ru/product/tpu-95a-hf-black-spool",
+      "target_uz": "/uz/product/tpu-95a-hf-black-spool"
+    },
+    {
+      "anchor_ru": "запчастей для Bambu Lab",
+      "anchor_uz": "Bambu Lab ehtiyot qismlari",
+      "target": "/ru/catalog/parts",
+      "target_uz": "/uz/catalog/parts"
+    }
   ],
   "sources": [
-    {"url": "https://wiki.bambulab.com/filament-acc/abs-asa-pc/bambu_pla_basic_technical_data_sheet.pdf", "title": "Bambu Lab, PLA Basic Technical Data Sheet V3.0", "used_for": "PLA — самый распространённый, простой и недорогой; сопло 190–230 °C; HDT 54 °C (1,8 МПа) / 57 °C (0,45 МПа); прочность на изгиб 76 МПа"},
-    {"url": "https://us.store.bambulab.com/products/pla-matte", "title": "Bambu Lab Store, PLA Matte", "used_for": "прочность на изгиб 53 МПа; матовая поверхность, слои менее заметны"},
-    {"url": "https://us.store.bambulab.com/products/petg-basic", "title": "Bambu Lab Store, PETG Basic", "used_for": "прочность PETG Basic на уровне PLA Basic, ударная вязкость выше; стойкость к воде, УФ и температуре, выгодный вариант для улицы"},
-    {"url": "https://us.store.bambulab.com/products/petg-hf", "title": "Bambu Lab Store, PETG HF", "used_for": "сушка перед использованием; стол с клеем"},
-    {"url": "https://us.store.bambulab.com/products/tpu-95a-hf", "title": "Bambu Lab Store, TPU 95A HF", "used_for": "не совместим со всеми сериями AMS; сушить перед использованием"},
-    {"url": "https://bambulab.com/en/support/buying-guide/a1", "title": "Bambu Lab, A1 buying guide", "used_for": "для A1 подходят PLA, PETG, TPU; не рекомендуются ABS, ASA, PC, PA, PA-CF/GF, PET-CF/GF; риск коробления и слабого сцепления слоёв"},
-    {"url": "https://us.store.bambulab.com/products/asa-filament", "title": "Bambu Lab Store, ASA", "used_for": "стойкость к УФ и старению на улице; требуется принтер с закрытым корпусом"},
-    {"url": "https://wiki.bambulab.com/en/p1/manual/p1s-extruder-upgrade", "title": "Bambu Lab Wiki, P1S Abrasive Filament Extruder Upgrade Guide", "used_for": "абразивные филаменты (CF, GF и др.) быстро изнашивают стальные сопло и шестерни экструдера; закалённая сталь"},
-    {"url": "https://forma-3d.uz/ru/knowledge", "title": "Сайт клиента, /ru/knowledge (FAQ)", "used_for": "1,75 мм, катушки 1 кг, рефилл без катушки для многоразовой катушки, инженерные пластики под заказ"}
+    {
+      "url": "https://wiki.bambulab.com/filament-acc/abs-asa-pc/bambu_pla_basic_technical_data_sheet.pdf",
+      "title": "Bambu Lab, PLA Basic Technical Data Sheet V3.0",
+      "used_for": "PLA — самый распространённый, простой и недорогой; сопло 190–230 °C; HDT 54 °C (1,8 МПа) / 57 °C (0,45 МПа); прочность на изгиб 76 МПа"
+    },
+    {
+      "url": "https://us.store.bambulab.com/products/pla-matte",
+      "title": "Bambu Lab Store, PLA Matte",
+      "used_for": "прочность на изгиб 53 МПа; матовая поверхность, слои менее заметны"
+    },
+    {
+      "url": "https://us.store.bambulab.com/products/petg-basic",
+      "title": "Bambu Lab Store, PETG Basic",
+      "used_for": "прочность PETG Basic на уровне PLA Basic, ударная вязкость выше; стойкость к воде, УФ и температуре, выгодный вариант для улицы"
+    },
+    {
+      "url": "https://us.store.bambulab.com/products/petg-hf",
+      "title": "Bambu Lab Store, PETG HF",
+      "used_for": "сушка перед использованием; стол с клеем"
+    },
+    {
+      "url": "https://us.store.bambulab.com/products/tpu-95a-hf",
+      "title": "Bambu Lab Store, TPU 95A HF",
+      "used_for": "не совместим со всеми сериями AMS; сушить перед использованием"
+    },
+    {
+      "url": "https://bambulab.com/en/support/buying-guide/a1",
+      "title": "Bambu Lab, A1 buying guide",
+      "used_for": "для A1 подходят PLA, PETG, TPU; не рекомендуются ABS, ASA, PC, PA, PA-CF/GF, PET-CF/GF; риск коробления и слабого сцепления слоёв"
+    },
+    {
+      "url": "https://us.store.bambulab.com/products/asa-filament",
+      "title": "Bambu Lab Store, ASA",
+      "used_for": "стойкость к УФ и старению на улице; требуется принтер с закрытым корпусом"
+    },
+    {
+      "url": "https://wiki.bambulab.com/en/p1/manual/p1s-extruder-upgrade",
+      "title": "Bambu Lab Wiki, P1S Abrasive Filament Extruder Upgrade Guide",
+      "used_for": "абразивные филаменты (CF, GF и др.) быстро изнашивают стальные сопло и шестерни экструдера; закалённая сталь"
+    },
+    {
+      "url": "https://forma-3d.uz/ru/knowledge",
+      "title": "Сайт клиента, /ru/knowledge (FAQ)",
+      "used_for": "1,75 мм, катушки 1 кг, рефилл без катушки для многоразовой катушки, инженерные пластики под заказ"
+    }
   ],
   "notes": "Цены и наличие в текст не вписаны: на сайте у большинства карточек статус «Под заказ · 2–3 недели», цены меняются — пусть пользователь смотрит карточку. Ссылки на соседние статьи («PETG или PLA», хранение) даны текстом без URL: страниц /knowledge/<slug> ещё нет; после публикации всех пяти заменить на ссылки. Для страницы рекомендуется разметка Article + BreadcrumbList, hreflang ru/uz/x-default, canonical на себя.",
   "created": "2026-11-02",
-  "agent": "content-writer"
+  "agent": "content-writer",
+  "approved_at": "2026-11-02"
 }
