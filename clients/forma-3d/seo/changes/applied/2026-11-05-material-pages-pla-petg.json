@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-05-material-pages-pla-petg",
+  "type": "new_pages",
+  "cluster": ["PLA пластик Bambu Lab", "PETG пластик Bambu Lab"],
+  "reason": "Срез выдачи seo/data/serp-2026-11-02-weekly.md: по «pla пластик купить ташкент» сайт #28 (общий /ru/catalog), по «petg пластик ташкент» и «pla plastik narxi toshkent» — нет в топ-30; конкуренты liniya3d.uz и bambu.uz ранжируются отдельными страницами под материал.",
+  "urls": [
+    "https://forma-3d.uz/ru/catalog/pla",
+    "https://forma-3d.uz/uz/catalog/pla",
+    "https://forma-3d.uz/ru/catalog/petg",
+    "https://forma-3d.uz/uz/catalog/petg"
+  ],
+  "after": {
+    "ru/catalog/pla": {"title": "PLA пластик Bambu Lab купить в Ташкенте | Forma 3D", "h1": "PLA пластик Bambu Lab для 3D-принтера"},
+    "uz/catalog/pla": {"title": "Bambu Lab PLA plastik sotib olish, Toshkent | Forma 3D", "h1": "3D-printer uchun Bambu Lab PLA plastik"},
+    "ru/catalog/petg": {"title": "PETG пластик Bambu Lab купить в Ташкенте | Forma 3D", "h1": "PETG пластик Bambu Lab для 3D-принтера"},
+    "uz/catalog/petg": {"title": "Bambu Lab PETG plastik sotib olish, Toshkent | Forma 3D", "h1": "3D-printer uchun Bambu Lab PETG plastik"}
+  },
+  "also": "Из источников статей kakoy-filament-vybrat и kak-hranit-filament убраны 2 служебные записи «Сайт клиента…» (кириллица на /uz, внутренняя пометка).",
+  "not_changed": "Цены, наличие, сроки — не трогались; на новых страницах показываются те же карточки и цены, что в каталоге.",
+  "site_commit": "https://github.com/kemalshen/forma-3d/commit/8de7383",
+  "approved_by": "оркестратор по прямой команде владельца в чате 2026-11-05 («ВЫЛОЖИ ПРАВКИ»)",
+  "applied": "2026-11-05"
+}
