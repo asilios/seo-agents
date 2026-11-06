@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-06-from-price",
+  "type": "content",
+  "cluster": ["все товары без цены"],
+  "reason": "Цена есть только у 14 из 109 товаров (no-offer-001). Конкуренты liniya3d.uz и bambu.uz показывают цену в сниппете. Владелец решил временно указать «от 200 000 сум», пока нет реальных цен.",
+  "scope": "88 товаров без цены (филамент, хотэнды, пластины, AMS, ремонт, сушилка, наборы). 7 мелких расходников остаются «Цена по запросу»: glue-stick, ptfe-tubes, desiccant, hotend-silicone-sock, nozzle-cleaning-kit, filament-cutter, vacuum-storage-bags.",
+  "after": {
+    "карточка в каталоге": "ru «от 200 000 сум» / uz «200 000 so‘mdan»",
+    "страница товара": "то же + «точную цену назовём при заказе» / «aniq narxni buyurtmada aytamiz»",
+    "meta description": "ru «Цена от 200 000 сум.» / uz «Narxi 200 000 so‘mdan.», включая позиции «под заказ» и «цвет на выбор»"
+  },
+  "not_changed": "JSON-LD Offer: в разметке только реальные цены (Google требует совпадения цены в разметке с фактической). Корзина: для товаров без цены по-прежнему «Узнать цену». Description hotend-a1-04-steel (одобренный владельцем override) не менялся.",
+  "code": "app/catalog.ts: FROM_PRICE, NO_FROM_PRICE, fromPrice(); app/seo.ts: productDescription; app/store.tsx: ProductCard и detail-price",
+  "checks": "tsc без ошибок, next build, локально: hotend-a1-04-hardened ru/uz, pla-basic-white-spool, support-for-pla-request-spool, pla-silk-choice-spool (uz) — «от 200 000» в карточке и description, Offer нет; glue-stick — «Цена по запросу»; pla-basic-black — 249 000 и Offer без изменений; /ru/catalog/parts — карточки «от 200 000 сум». Архив пересобран заменой 3 файлов (до правки совпадали с HEAD), 153 файла.",
+  "site_commit": "https://github.com/kemalshen/forma-3d/commit/898a326",
+  "approved_by": "владелец в чате 2026-11-06 («напиши везде от 200 000 сум где нет цены пока что»; мелочь исключить, в разметку не ставить)",
+  "applied": "2026-11-06",
+  "todo": "Когда владелец даст реальные цены — внести в данные товаров и убрать FROM_PRICE."
+}
