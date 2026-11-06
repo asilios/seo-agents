@@ -25,8 +25,8 @@ regions: ["Ташкент", "Навои", "Узбекистан"]
 country: UZ
 
 models:
-  - {id: perplexity, enabled: true}
-  - {id: openai, enabled: true}
+  - {id: perplexity, enabled: true, api_model: "fast"}   # effort-пресет Agent API; Sonar Chat Completions закрыт 2026-09-27
+  - {id: openai, enabled: true, api_model: "gpt-6-luna", search_tool: "web_search"}   # дешёвая; поддержку поиска проверит пробный прогон
   - {id: gemini, enabled: false}
   - {id: claude, enabled: false}
 

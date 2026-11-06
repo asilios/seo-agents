@@ -22,7 +22,7 @@
 | `geo-onsite-optimizer` | answer-first тексты, FAQ, JSON-LD, llms.txt, согласованность данных (Фаза 4) | после замера |
 | `geo-offsite-agent` | черновики заявок, PR, запросов отзывов — только в очередь (Фаза 5, общий с `local-offpage`) | после анализа |
 
-Мониторинг — **скрипт**, не агент: geo_monitor.py в `modules/geo/scripts/` (Фаза 2, ещё не написан). Прогон идёт через GitHub Actions
+Мониторинг — **скрипт**, не агент: geo_monitor.py + geo_providers.py + geo_parse.py в `modules/geo/scripts/` (Фаза 2: план по умолчанию, вызовы только с `--execute`). Прогон идёт через GitHub Actions
 (`.github/workflows/geo-weekly.yml`, Фаза 6) с секретами репозитория: в облачной задаче Claude ключей нет.
 
 ## Данные клиента (`clients/<client>/geo/`)

@@ -1,61 +1,61 @@
 id,text,lang,intent,region,priority,status
-q001,"Где купить оригинальный филамент Bambu Lab в Ташкенте?",ru,supplier,Ташкент,1,pending
-q002,"Где в Узбекистане купить запчасти для Bambu Lab?",ru,supplier,Узбекистан,1,pending
-q003,"Где в Ташкенте купить хотэнд для Bambu Lab A1?",ru,supplier,Ташкент,1,pending
-q004,"Какой магазин в Ташкенте продаёт пластик для 3D-принтера с доставкой?",ru,supplier,Ташкент,1,pending
-q005,"Где купить печатную пластину Textured PEI для Bambu Lab в Ташкенте?",ru,supplier,Ташкент,2,pending
-q006,"Где купить AMS Lite для Bambu Lab A1 в Узбекистане?",ru,supplier,Узбекистан,2,pending
-q007,"Где заказать филамент оптом для принт-фермы в Узбекистане?",ru,supplier,Узбекистан,1,pending
-q008,"Кто поставляет филамент для школ и учебных заведений с 3D-печатью в Ташкенте?",ru,supplier,Ташкент,3,pending
-q009,"Где купить сопла для Bambu Lab P1S в Ташкенте?",ru,supplier,Ташкент,2,pending
-q010,"Где в Ташкенте купить PETG пластик для 3D-принтера?",ru,supplier,Ташкент,1,pending
-q011,"Где купить PLA пластик Bambu Lab в Ташкенте?",ru,supplier,Ташкент,1,pending
-q012,"Где купить сушилку для филамента в Ташкенте?",ru,supplier,Ташкент,3,pending
-q013,"Где заказать запчасти для ремонта Bambu Lab X1C в Узбекистане?",ru,supplier,Узбекистан,2,pending
-q014,"Есть ли в Навои магазин филамента для 3D-принтеров?",ru,supplier,Навои,3,pending
-q015,"Где купить ABS или ASA пластик для 3D-печати в Ташкенте?",ru,supplier,Ташкент,2,pending
-q016,"Где купить TPU филамент для 3D-принтера в Ташкенте?",ru,supplier,Ташкент,3,pending
-q017,"Toshkentda original Bambu Lab filamentini qayerdan sotib olsa bo‘ladi?",uz,supplier,Toshkent,1,pending
-q018,"O‘zbekistonda Bambu Lab ehtiyot qismlarini qayerdan olish mumkin?",uz,supplier,O‘zbekiston,1,pending
-q019,"Toshkentda Bambu Lab A1 uchun hotendni qayerdan sotib olish mumkin?",uz,supplier,Toshkent,1,pending
-q020,"3D printer uchun plastikni Toshkentda yetkazib berish bilan qayerdan olsa bo‘ladi?",uz,supplier,Toshkent,1,pending
-q021,"Bambu Lab uchun bosma stolini (PEI plate) Toshkentda qayerdan olsa bo‘ladi?",uz,supplier,Toshkent,2,pending
-q022,"3D printer uchun filamentni ulgurji qayerdan sotib olsa bo‘ladi?",uz,supplier,O‘zbekiston,2,pending
-q023,"Toshkentda PETG plastikni qayerdan sotib olish mumkin?",uz,supplier,Toshkent,1,pending
-q024,"Toshkentda Bambu Lab PLA plastik qayerda sotiladi?",uz,supplier,Toshkent,1,pending
-q025,"Navoiyda 3D printer filamenti sotadigan do‘kon bormi?",uz,supplier,Navoiy,3,pending
-q026,"Какой магазин лучше для покупки филамента Bambu Lab в Ташкенте?",ru,compare,Ташкент,1,pending
-q027,"Какие магазины 3D-принтеров и филамента есть в Ташкенте и чем они отличаются?",ru,compare,Ташкент,1,pending
-q028,"Чем отличается Bambu Lab PLA Basic от PLA Matte?",ru,compare,,3,pending
-q029,"Где выгоднее покупать запчасти для Bambu Lab в Узбекистане: на OLX, в магазине или заказывать из Китая?",ru,compare,Узбекистан,2,pending
-q030,"Кто в Узбекистане официальный дистрибьютор Bambu Lab и где ещё можно купить оригинал?",ru,compare,Узбекистан,2,pending
-q031,"AMS Lite или AMS 2 Pro — что выбрать для Bambu Lab?",ru,compare,,3,pending
-q032,"Toshkentda Bambu Lab filamentini qaysi do‘kondan olgan yaxshi?",uz,compare,Toshkent,1,pending
-q033,"PLA Basic bilan PLA Matte o‘rtasida qanday farq bor?",uz,compare,,3,pending
-q034,"O‘zbekistonda Bambu Lab ehtiyot qismlarini OLX‘dan olgan yaxshimi yoki do‘kondanmi?",uz,compare,O‘zbekiston,2,pending
-q035,"AMS Lite yoki AMS 2 Pro — qaysi birini tanlash kerak?",uz,compare,,3,pending
-q036,"O‘zbekistonda Bambu Lab rasmiy distribyutori kim va original mahsulotni yana qayerdan olish mumkin?",uz,compare,O‘zbekiston,2,pending
-q037,"Сколько стоит катушка PLA Bambu Lab 1 кг в Ташкенте?",ru,price,Ташкент,1,pending
-q038,"Цена хотэнда для Bambu Lab A1 в Ташкенте",ru,price,Ташкент,1,pending
-q039,"Сколько стоит PETG HF Bambu Lab в Узбекистане?",ru,price,Узбекистан,2,pending
-q040,"Цена печатной пластины Textured PEI для Bambu Lab в Ташкенте",ru,price,Ташкент,2,pending
-q041,"Сколько стоит AMS Lite в Ташкенте?",ru,price,Ташкент,2,pending
-q042,"Оптовые цены на филамент Bambu Lab для принт-фермы в Узбекистане",ru,price,Узбекистан,2,pending
-q043,"Сколько стоит доставка филамента для 3D-принтера по Ташкенту?",ru,price,Ташкент,3,pending
-q044,"Toshkentda Bambu Lab PLA 1 kg narxi qancha?",uz,price,Toshkent,1,pending
-q045,"Bambu Lab A1 hotend narxi Toshkentda qancha?",uz,price,Toshkent,1,pending
-q046,"Bambu Lab PETG HF narxi O‘zbekistonda qancha?",uz,price,O‘zbekiston,2,pending
-q047,"AMS Lite narxi Toshkentda qancha?",uz,price,Toshkent,2,pending
-q048,"Bambu Lab filamentining ulgurji narxlari O‘zbekistonda qancha?",uz,price,O‘zbekiston,2,pending
-q049,"Какие магазины для 3D-принтеров есть в Ташкенте рядом со мной?",ru,local,Ташкент,1,pending
-q050,"Магазин запчастей для 3D-принтеров в Навои",ru,local,Навои,3,pending
-q051,"Магазин с самовывозом филамента Bambu Lab в Ташкенте",ru,local,Ташкент,2,pending
-q052,"Какой магазин доставляет филамент для 3D-принтера по Ташкенту в день заказа?",ru,local,Ташкент,2,pending
-q053,"Toshkentda 3D printer do‘konlari qaysilar?",uz,local,Toshkent,1,pending
-q054,"Navoiyda 3D printer ehtiyot qismlari do‘koni",uz,local,Navoiy,3,pending
-q055,"Toshkentda Bambu Lab filamentini bugun yetkazib beradigan do‘kon qaysi?",uz,local,Toshkent,2,pending
-q056,"Какой филамент выбрать новичку для Bambu Lab A1?",ru,info,,3,pending
-q057,"Как часто менять сопло на Bambu Lab?",ru,info,,3,pending
-q058,"Как хранить филамент PLA, чтобы он не отсырел?",ru,info,,3,pending
-q059,"Bambu Lab A1 uchun boshlovchiga qaysi filament mos?",uz,info,,3,pending
-q060,"Filamentni qanday saqlash kerak, namlanib qolmasligi uchun?",uz,info,,3,pending
+q001,"Где купить оригинальный филамент Bambu Lab в Ташкенте?",ru,supplier,Ташкент,1,approved
+q002,"Где в Узбекистане купить запчасти для Bambu Lab?",ru,supplier,Узбекистан,1,approved
+q003,"Где в Ташкенте купить хотэнд для Bambu Lab A1?",ru,supplier,Ташкент,1,approved
+q004,"Какой магазин в Ташкенте продаёт пластик для 3D-принтера с доставкой?",ru,supplier,Ташкент,1,approved
+q005,"Где купить печатную пластину Textured PEI для Bambu Lab в Ташкенте?",ru,supplier,Ташкент,2,approved
+q006,"Где купить AMS Lite для Bambu Lab A1 в Узбекистане?",ru,supplier,Узбекистан,2,approved
+q007,"Где заказать филамент оптом для принт-фермы в Узбекистане?",ru,supplier,Узбекистан,1,approved
+q008,"Кто поставляет филамент для школ и учебных заведений с 3D-печатью в Ташкенте?",ru,supplier,Ташкент,3,approved
+q009,"Где купить сопла для Bambu Lab P1S в Ташкенте?",ru,supplier,Ташкент,2,approved
+q010,"Где в Ташкенте купить PETG пластик для 3D-принтера?",ru,supplier,Ташкент,1,approved
+q011,"Где купить PLA пластик Bambu Lab в Ташкенте?",ru,supplier,Ташкент,1,approved
+q012,"Где купить сушилку для филамента в Ташкенте?",ru,supplier,Ташкент,3,approved
+q013,"Где заказать запчасти для ремонта Bambu Lab X1C в Узбекистане?",ru,supplier,Узбекистан,2,approved
+q014,"Есть ли в Навои магазин филамента для 3D-принтеров?",ru,supplier,Навои,3,approved
+q015,"Где купить ABS или ASA пластик для 3D-печати в Ташкенте?",ru,supplier,Ташкент,2,approved
+q016,"Где купить TPU филамент для 3D-принтера в Ташкенте?",ru,supplier,Ташкент,3,approved
+q017,"Toshkentda original Bambu Lab filamentini qayerdan sotib olsa bo‘ladi?",uz,supplier,Toshkent,1,approved
+q018,"O‘zbekistonda Bambu Lab ehtiyot qismlarini qayerdan olish mumkin?",uz,supplier,O‘zbekiston,1,approved
+q019,"Toshkentda Bambu Lab A1 uchun hotendni qayerdan sotib olish mumkin?",uz,supplier,Toshkent,1,approved
+q020,"3D printer uchun plastikni Toshkentda yetkazib berish bilan qayerdan olsa bo‘ladi?",uz,supplier,Toshkent,1,approved
+q021,"Bambu Lab uchun bosma stolini (PEI plate) Toshkentda qayerdan olsa bo‘ladi?",uz,supplier,Toshkent,2,approved
+q022,"3D printer uchun filamentni ulgurji qayerdan sotib olsa bo‘ladi?",uz,supplier,O‘zbekiston,2,approved
+q023,"Toshkentda PETG plastikni qayerdan sotib olish mumkin?",uz,supplier,Toshkent,1,approved
+q024,"Toshkentda Bambu Lab PLA plastik qayerda sotiladi?",uz,supplier,Toshkent,1,approved
+q025,"Navoiyda 3D printer filamenti sotadigan do‘kon bormi?",uz,supplier,Navoiy,3,approved
+q026,"Какой магазин лучше для покупки филамента Bambu Lab в Ташкенте?",ru,compare,Ташкент,1,approved
+q027,"Какие магазины 3D-принтеров и филамента есть в Ташкенте и чем они отличаются?",ru,compare,Ташкент,1,approved
+q028,"Чем отличается Bambu Lab PLA Basic от PLA Matte?",ru,compare,,3,approved
+q029,"Где выгоднее покупать запчасти для Bambu Lab в Узбекистане: на OLX, в магазине или заказывать из Китая?",ru,compare,Узбекистан,2,approved
+q030,"Кто в Узбекистане официальный дистрибьютор Bambu Lab и где ещё можно купить оригинал?",ru,compare,Узбекистан,2,approved
+q031,"AMS Lite или AMS 2 Pro — что выбрать для Bambu Lab?",ru,compare,,3,approved
+q032,"Toshkentda Bambu Lab filamentini qaysi do‘kondan olgan yaxshi?",uz,compare,Toshkent,1,approved
+q033,"PLA Basic bilan PLA Matte o‘rtasida qanday farq bor?",uz,compare,,3,approved
+q034,"O‘zbekistonda Bambu Lab ehtiyot qismlarini OLX‘dan olgan yaxshimi yoki do‘kondanmi?",uz,compare,O‘zbekiston,2,approved
+q035,"AMS Lite yoki AMS 2 Pro — qaysi birini tanlash kerak?",uz,compare,,3,approved
+q036,"O‘zbekistonda Bambu Lab rasmiy distribyutori kim va original mahsulotni yana qayerdan olish mumkin?",uz,compare,O‘zbekiston,2,approved
+q037,"Сколько стоит катушка PLA Bambu Lab 1 кг в Ташкенте?",ru,price,Ташкент,1,approved
+q038,"Цена хотэнда для Bambu Lab A1 в Ташкенте",ru,price,Ташкент,1,approved
+q039,"Сколько стоит PETG HF Bambu Lab в Узбекистане?",ru,price,Узбекистан,2,approved
+q040,"Цена печатной пластины Textured PEI для Bambu Lab в Ташкенте",ru,price,Ташкент,2,approved
+q041,"Сколько стоит AMS Lite в Ташкенте?",ru,price,Ташкент,2,approved
+q042,"Оптовые цены на филамент Bambu Lab для принт-фермы в Узбекистане",ru,price,Узбекистан,2,approved
+q043,"Сколько стоит доставка филамента для 3D-принтера по Ташкенту?",ru,price,Ташкент,3,approved
+q044,"Toshkentda Bambu Lab PLA 1 kg narxi qancha?",uz,price,Toshkent,1,approved
+q045,"Bambu Lab A1 hotend narxi Toshkentda qancha?",uz,price,Toshkent,1,approved
+q046,"Bambu Lab PETG HF narxi O‘zbekistonda qancha?",uz,price,O‘zbekiston,2,approved
+q047,"AMS Lite narxi Toshkentda qancha?",uz,price,Toshkent,2,approved
+q048,"Bambu Lab filamentining ulgurji narxlari O‘zbekistonda qancha?",uz,price,O‘zbekiston,2,approved
+q049,"Какие магазины для 3D-принтеров есть в Ташкенте рядом со мной?",ru,local,Ташкент,1,approved
+q050,"Магазин запчастей для 3D-принтеров в Навои",ru,local,Навои,3,approved
+q051,"Магазин с самовывозом филамента Bambu Lab в Ташкенте",ru,local,Ташкент,2,approved
+q052,"Какой магазин доставляет филамент для 3D-принтера по Ташкенту в день заказа?",ru,local,Ташкент,2,approved
+q053,"Toshkentda 3D printer do‘konlari qaysilar?",uz,local,Toshkent,1,approved
+q054,"Navoiyda 3D printer ehtiyot qismlari do‘koni",uz,local,Navoiy,3,approved
+q055,"Toshkentda Bambu Lab filamentini bugun yetkazib beradigan do‘kon qaysi?",uz,local,Toshkent,2,approved
+q056,"Какой филамент выбрать новичку для Bambu Lab A1?",ru,info,,3,approved
+q057,"Как часто менять сопло на Bambu Lab?",ru,info,,3,approved
+q058,"Как хранить филамент PLA, чтобы он не отсырел?",ru,info,,3,approved
+q059,"Bambu Lab A1 uchun boshlovchiga qaysi filament mos?",uz,info,,3,approved
+q060,"Filamentni qanday saqlash kerak, namlanib qolmasligi uchun?",uz,info,,3,approved
