@@ -1,4 +1,4 @@
-# Где остановились (2026-11-02, еженедельный запуск)
+# Где остановились (2026-11-06, еженедельный запуск)
 
 > 2026-11-02: папка клиента переименована `clients/test` → `clients/forma-3d`, данные SEO перенесены в `seo/`. Старые записи журнала ссылаются на прежние пути.
 
@@ -34,6 +34,13 @@
 - Новые конкуренты в выдаче: layerone.uz, levelstore.uz, globel.uz (в client.yaml пока не добавлены).
 - Подсказка для запусков: системный `python` не видит requests — использовать `/usr/bin/python3`. И не писать в bash `cat > файл` без heredoc: команда зависает в ожидании ввода.
 
+## Еженедельный запуск 2026-11-06 (облако)
+- Сайт из облака снова недоступен (curl: CONNECT 403). По инструкции задачи блокировка не обходилась: аудит и выкладка пропущены. Владельцу повторно — разрешить forma-3d.uz и www.forma-3d.uz в Network access окружения задачи.
+- Срез выдачи: seo/data/serp-2026-11-06-weekly.md. Рост: ehtiyot qismlar 6→3, bambu lab filament toshkent 14→11, хотэнд a1 19→15, бренд 5→1. Падение: запчасти bambu lab ташкент 13→17. PLA/PETG-страниц в выдаче ещё нет (выложены 05.11).
+- Следующее действие: страница «Хотэнды и сопла» /ru|uz/catalog/hotends — seo/changes/pending/2026-11-06-category-hotends.json (по образцу app/material-pages.ts). Внедрить при доступе к сайту или в чате.
+- Пагинацию /uz/catalog/parts?page=3 пока не трогать: она на #3 по «ehtiyot qismlar».
+- Отчёт: reports/weekly-2026-11-06.md.
+
 ## Следующие задачи после GSC
 1. Отдельные страницы для статей базы знаний (`/ru/knowledge/<slug>`): сейчас статьи открываются модальным окном и не индексируются.
 2. 301 для 8 удалённых URL: product/hotend-h2d, hotend-h2c, hotend-p2s, paht-cf-request-spool (ru/uz) → ждём ответ владельца, на какие товары вести, или «сам подбери».
@@ -49,7 +56,7 @@
 
 ## Состояние
 - Последний аудит: seo/audits/2026-10-30.md — открыто: no-offer-001 (цены у 28/218), removed-products-404-001, redirect-chain-001 (low), long-desc-002.
-- seo/changes/pending и seo/changes/approved пусты, всё внедрённое — в seo/changes/applied.
+- seo/changes/pending: 2026-11-06-category-hotends.json (ждёт внедрения); approved пуст; внедрённое — в seo/changes/applied.
 
 ## Разработка модуля соцсетей и интерфейса (docs/prompt-social-module.md)
 - Фаза 0 (план) — одобрена 2026-11-02, кратко — docs/system-overview.md.

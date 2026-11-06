@@ -1,0 +1,15 @@
+{
+  "id": "2026-11-06-category-hotends",
+  "type": "new_pages",
+  "status": "pending",
+  "created": "2026-11-06",
+  "cluster": ["хотэнды Bambu Lab", "сопла Bambu Lab"],
+  "reason": "Срез seo/data/serp-2026-11-06-weekly.md: «хотэнд bambu lab a1 купить ташкент» — #15 общим /ru/catalog/parts (растёт с #19), «сопло bambu lab 0.4 купить» — нет в топ-30. В топе карточки маркетплейсов. Отдельной страницы под категорию «Хотэнды и сопла» (7 товаров в parts-source.json) нет.",
+  "proposal": "Посадочные /ru|uz/catalog/hotends — каталог запчастей с фильтром категории «Хотэнды и сопла», свой title/description/H1, вводный текст (как выбрать хотэнд под A1/P1/X1, ссылка на статью kogda-menyat-soplo), крошки Главная → Запчасти → Хотэнды, пагинация, +2 URL в sitemap. По образцу app/material-pages.ts (PLA/PETG).",
+  "draft_meta": {
+    "ru/catalog/hotends": {"title": "Хотэнды и сопла Bambu Lab в Ташкенте | Forma 3D", "h1": "Хотэнды и сопла для Bambu Lab A1, P1S, X1C"},
+    "uz/catalog/hotends": {"title": "Bambu Lab hotend va soplolari, Toshkent | Forma 3D", "h1": "Bambu Lab A1, P1S, X1C uchun hotend va soplolar"}
+  },
+  "not_changed": "Цены, наличие, сроки — не трогаются; на странице те же карточки и цены, что в каталоге запчастей.",
+  "blocked_by": "Выкладка из облака невозможна: forma-3d.uz закрыт сетью окружения (нельзя проверить живой сайт после слияния). Внедрить при следующем запуске с доступом или в чате."
+}
