@@ -16,7 +16,7 @@ ROOT = next(p for p in Path(__file__).resolve().parents if (p / "CLAUDE.md").exi
 SOURCES = ["CLAUDE.md", "core/**/*.md", "modules/**/*.md", ".claude/agents/*.md", ".claude/commands/*.md"]
 # Пути, которые проверяем: начинаются с известных корней репозитория или с подпапок клиента.
 REPO_ROOTS = ("core/", "modules/", "clients/", ".claude/", "docs/")
-CLIENT_RELATIVE = ("seo/", "data/", "audits/", "keywords/", "changes/", "content/", "reports/")
+CLIENT_RELATIVE = ("seo/", "geo/", "data/", "audits/", "keywords/", "changes/", "content/", "reports/")
 TEMPLATE_PART = re.compile(r"<[^>]+>|YYYY|\*|\.\.\.|…|\{")
 
 
@@ -29,7 +29,7 @@ def check(client: str) -> list[str]:
             if path.startswith(REPO_ROOTS):
                 base = ROOT
             elif path.startswith(CLIENT_RELATIVE):
-                base = ROOT / "clients" / client / ("" if path.startswith(("seo/", "reports/")) else "seo")
+                base = ROOT / "clients" / client / ("" if path.startswith(("seo/", "geo/", "reports/")) else "seo")
             else:
                 continue
             parts = []

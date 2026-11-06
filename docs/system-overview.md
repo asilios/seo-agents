@@ -5,6 +5,7 @@
 
 ## Модули
 - **SEO** — работает. Цель: первая страница поиска / топ. Правила `modules/seo/CLAUDE.md`, цикл `modules/seo/routine/improve-cycle.md`.
+- **GEO** — Фаза 1 готова (2026-11-06): правила `modules/geo/CLAUDE.md`, профиль и 60 вопросов к ИИ для forma-3d на утверждении. План: `docs/geo-architecture.md`.
 - **Соцсети** — в разработке по `docs/prompt-social-module.md` (план, тексты, видео, публикация).
 - **Интерфейс (dashboard)** — в разработке, Фаза 5.
 
@@ -14,6 +15,7 @@ CLAUDE.md                 назначение и модули; импортир
 core/CLAUDE.md            общие правила: синхронизация, публикация через проверки, без выдуманных фактов, журнал
 core/scripts/             crawl.py, gsc.py, check_paths.py (проверка путей)
 modules/seo/              CLAUDE.md, routine/improve-cycle.md, scripts/pagespeed.py
+modules/geo/              CLAUDE.md, scripts/schema.sql, scripts/validate_geo.py (Фаза 2+: geo_monitor.py и др.)
 .claude/agents/           auditor, keyword-strategist, onpage-optimizer, content-writer, reporter (+ social-* в Фазе 2)
 .claude/commands/         new-client, weekly, monthly, approve
 clients/<client>/         client.yaml, NEXT.md, reports/, seo/ (baseline, data, audits, keywords, content, changes, log)

@@ -1,0 +1,27 @@
+# GEO-профиль клиента. Заполняется вручную при подключении модуля GEO.
+# Схема: core/schemas/geo-profile.schema.json. Проверка: python modules/geo/scripts/validate_geo.py --client <client>
+
+niche: ""                 # чем занимается клиент и для кого, 1–3 предложения
+                          # (например: «стоматологическая клиника для семей в Самарканде»;
+                          #  «оптовый поставщик упаковки для кафе в Ташкенте»)
+
+brand:
+  name: ""
+  domain: ""              # без https:// и www
+  aliases: []             # транслит, кириллица, без пробелов, домен
+
+competitors: []           # - {name: "", domain: "", aliases: [], note: ""}
+
+languages: [ru]           # ru | uz (латиница) | en
+regions: []               # города для локальных вопросов
+country: UZ               # ISO-код страны
+
+models:                   # какие ИИ опрашивать; api_model и search_tool заполняет Фаза 2
+  - {id: perplexity, enabled: true}
+  - {id: openai, enabled: true}
+  - {id: gemini, enabled: false}
+  - {id: claude, enabled: false}
+
+runs_per_query: 3         # 3–5
+budget_usd_per_week: 5    # жёсткий предел на клиента
+min_mentions_for_position: 5

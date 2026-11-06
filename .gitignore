@@ -13,3 +13,7 @@ clients/*/social/media/
 *.mp4
 *.mov
 *.webm
+
+# модуль GEO: сырые ответы ИИ и производная база
+clients/*/geo/runs/
+clients/*/geo/geo.db

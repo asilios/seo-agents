@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GEO-профиль клиента (clients/<client>/geo/profile.yaml)",
+  "type": "object",
+  "required": ["niche", "brand", "languages", "models", "runs_per_query", "budget_usd_per_week"],
+  "additionalProperties": false,
+  "properties": {
+    "niche": {
+      "type": "string", "minLength": 10,
+      "description": "Чем занимается клиент и для кого, 1–3 предложения. Из этого текста Query Mapper понимает нишу."
+    },
+    "brand": {
+      "type": "object", "required": ["name", "domain"], "additionalProperties": false,
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "domain": {"type": "string", "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}$", "description": "Без https:// и www."},
+        "aliases": {"type": "array", "items": {"type": "string", "minLength": 1},
+                    "description": "Написания бренда: транслит, кириллица, без пробелов, домен."}
+      }
+    },
+    "competitors": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["name", "domain"], "additionalProperties": false,
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "domain": {"type": "string", "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}$"},
+          "aliases": {"type": "array", "items": {"type": "string"}},
+          "note": {"type": "string"}
+        }
+      }
+    },
+    "languages": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"enum": ["ru", "uz", "en"]},
+      "description": "uz — латиница (uz-Latn)."
+    },
+    "regions": {"type": "array", "items": {"type": "string"}, "description": "Города и страны для локальных вопросов."},
+    "country": {"type": "string", "pattern": "^[A-Z]{2}$", "description": "ISO-код страны для геопараметров поиска, где API их поддерживает."},
+    "models": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "required": ["id", "enabled"], "additionalProperties": false,
+        "properties": {
+          "id": {"enum": ["openai", "perplexity", "gemini", "claude"]},
+          "enabled": {"type": "boolean"},
+          "api_model": {"type": "string", "description": "Заполняется в Фазе 2 по документации провайдера."},
+          "search_tool": {"type": "string"}
+        }
+      }
+    },
+    "runs_per_query": {"type": "integer", "minimum": 3, "maximum": 5},
+    "budget_usd_per_week": {"type": "number", "exclusiveMinimum": 0, "description": "Жёсткий предел на клиента."},
+    "min_mentions_for_position": {"type": "integer", "minimum": 1, "default": 5,
+                                  "description": "Меньше упоминаний — среднюю позицию не считаем."}
+  }
+}

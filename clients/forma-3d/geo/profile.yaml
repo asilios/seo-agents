@@ -1,0 +1,35 @@
+# GEO-профиль forma-3d. Схема: core/schemas/geo-profile.schema.json
+# Данные взяты из client.yaml и seo/data/serp-2026-11-06-weekly.md.
+
+niche: "Интернет-магазин филамента, запчастей и расходников для 3D-принтеров Bambu Lab в Ташкенте: доставка по Узбекистану, оптовые поставки для принт-ферм, мастерских и учебных заведений."
+
+brand:
+  name: "Forma 3D"
+  domain: "forma-3d.uz"
+  aliases: ["Forma3D", "Форма-3D", "Форма 3D", "Форма 3Д", "forma-3d.uz"]
+
+competitors:
+  - {name: "DIYShop", domain: "diyshop.uz"}
+  - {name: "Bambu.uz", domain: "bambu.uz", aliases: ["Bambu UZ"], note: "называет себя официальным дистрибьютором Bambu Lab"}
+  - {name: "Liniya3D", domain: "liniya3d.uz", aliases: ["Линия 3D", "Linia3D"]}
+  - {name: "3Dbozor", domain: "3dbozor.uz", aliases: ["3D Bozor", "3Д базар"]}
+  - {name: "3D Reality", domain: "3d-reality.uz", aliases: ["3d-reality"]}
+  # найдены в выдаче 2026-11-02/06, в client.yaml пока не добавлены — владельцу на подтверждение
+  - {name: "LayerOne", domain: "layerone.uz", note: "из выдачи, не подтверждён"}
+  - {name: "LevelStore", domain: "levelstore.uz", note: "из выдачи, не подтверждён"}
+  - {name: "Globel", domain: "globel.uz", note: "из выдачи, не подтверждён"}
+  # UVIX3D назван в обзоре от ИИ Google (запчасти Bambu Lab, Ташкент); его домена нет в данных — добавить после проверки
+
+languages: [ru, uz]
+regions: ["Ташкент", "Навои", "Узбекистан"]
+country: UZ
+
+models:
+  - {id: perplexity, enabled: true}
+  - {id: openai, enabled: true}
+  - {id: gemini, enabled: false}
+  - {id: claude, enabled: false}
+
+runs_per_query: 3
+budget_usd_per_week: 5
+min_mentions_for_position: 5
