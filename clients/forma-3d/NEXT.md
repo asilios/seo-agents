@@ -1,4 +1,4 @@
-# Где остановились (2026-11-06, еженедельный запуск)
+# Где остановились (2026-11-07, еженедельный запуск)
 
 > 2026-11-02: папка клиента переименована `clients/test` → `clients/forma-3d`, данные SEO перенесены в `seo/`. Старые записи журнала ссылаются на прежние пути.
 
@@ -41,6 +41,14 @@
 - Пагинацию /uz/catalog/parts?page=3 пока не трогать: она на #3 по «ehtiyot qismlar».
 - Отчёт: reports/weekly-2026-11-06.md.
 
+## Еженедельный запуск 2026-11-07 (облако)
+- **Сайт из облака снова доступен** (curl 200; для urllib нужен User-Agent, иначе Cloudflare 403). Полный цикл: аудит, выкладка, проверка живого сайта.
+- Аудит seo/audits/2026-11-07.md: 252/252 URL — 200, 0 ошибок; закрыты removed-products-404-001, long-desc-002, long-desc-003 (исправлен в этом же запуске); открыты no-offer-001, redirect-chain-001, schema-breadcrumb-001 (нет JSON-LD на /business, /delivery, /knowledge).
+- **Выложено (349fab6):** страница «Хотэнды и сопла» /ru|uz/catalog/hotends (app/part-pages.ts по образцу material-pages.ts; 15 товаров; крошки Главная → Запчасти → Хотэнды; sitemap 254); сокращение description у товаров «под заказ». Живой сайт: 254/254 URL прошли все проверки.
+- Срез выдачи: seo/data/serp-2026-11-07-weekly.md. Запчасти 17→9, филамент 19→17, /ru/catalog/petg впервые в выдаче (#24), «bambu lab hotend toshkent» #2 (карточка). Бренд 1→2.
+- Через 1–2 недели проверить: «хотэнд bambu lab ташкент» (#18 общим parts), «хотэнд…a1 купить» (#16), «сопло bambu lab 0.4» (нет), появилась ли /catalog/hotends; PLA-страница в выдаче (пока нет).
+- Следующее: BreadcrumbList на /business, /delivery, /knowledge (schema-breadcrumb-001, черновик — seo/changes/pending/2026-11-02-schema-breadcrumbs-info-pages-dryrun.json); затем страница ABS/ASA или TPU.
+
 ## GEO — видимость в ответах ИИ (2026-11-06)
 - Фаза 1 готова: `geo/profile.yaml` (2 модели — Perplexity и OpenAI, бюджет $5/нед, 3 прогона на вопрос), `geo/queries.csv` — **60 вопросов к ИИ, все `pending`** (supplier 25, compare 11, price 12, local 7, info 5; ru 36, uz 24).
 - **Нужно от владельца:** просмотреть список и утвердить (поменять `status` на `approved`), вычеркнуть лишнее. Приоритет 1 — главные коммерческие вопросы; на бюджет $5 первый замер пойдёт по приоритетам 1–2.
@@ -64,12 +72,11 @@
 
 ## Открытые вопросы владельцу
 - Срок «под заказ»: владелец сказал «до 3 дней», на сайте (`ORDER_LEAD_TIME` в app/stock.ts) «2–3 недели». Что верно?
-- Куда вести 301 со старых товаров (см. п. 2).
 - `PSI_API_KEY` пустой — PageSpeed не меряется.
 
 ## Состояние
-- Последний аудит: seo/audits/2026-10-30.md — открыто: no-offer-001 (цены у 28/218), removed-products-404-001, redirect-chain-001 (low), long-desc-002.
-- seo/changes/pending: 2026-11-06-category-hotends.json (ждёт внедрения); approved пуст; внедрённое — в seo/changes/applied.
+- Последний аудит: seo/audits/2026-11-07.md — открыто: no-offer-001 (цены у 28/218), redirect-chain-001 (low), schema-breadcrumb-001 (low).
+- seo/changes/pending: 2026-11-02-schema-breadcrumbs-info-pages-dryrun.json; approved пуст; хотэнды внедрены 2026-11-07 — seo/changes/applied/2026-11-06-category-hotends.json.
 
 ## Разработка модуля соцсетей и интерфейса (docs/prompt-social-module.md)
 - Фаза 0 (план) — одобрена 2026-11-02, кратко — docs/system-overview.md.

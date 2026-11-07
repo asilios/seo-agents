@@ -267,8 +267,10 @@
     ],
     "details": "meta description 165 символов (>160): «Bambu Lab A1 mini uchun Textured PEI Plate 180 mm bosma stoli. Narxi 200 000 so‘mdan. Original ehtiyot qism, Xitoydan 2–3 hafta ichida buyurtma asosida olib kelamiz.» Появилось после правки «от 200 000» (2026-11-06). Русская версия — 140 симв. Единственная страница из 265 с description >160; нарушает проверку перед слиянием (description ≤160).",
     "first_seen": "2026-11-07",
-    "status": "open",
-    "last_checked": "2026-11-07"
+    "status": "fixed",
+    "last_checked": "2026-11-07",
+    "fixed_at": "2026-11-07",
+    "fix_note": "forma-3d 349fab6: description на живом сайте 144 символа"
   },
   {
     "id": "schema-breadcrumb-001",
