@@ -17,7 +17,9 @@
    - GSC (если есть ключ): `python core/scripts/gsc.py --site <gsc_site> --days 28 --out clients/<client>/seo/data/gsc-YYYY-MM-DD.csv`
      и сравнение с прошлой выгрузкой (`--compare`). Проверка индексации ключевых URL (URL Inspection).
    - Срез выдачи по 10–15 главным запросам из `seo/keywords/clusters.md` (поиск с location Uzbekistan) →
-     `seo/data/serp-YYYY-MM-DD.md`, сравнение позиций с прошлым срезом.
+     `seo/data/serp-YYYY-MM-DD.md`, сравнение позиций с прошлым срезом. Таблицу писать в формате прошлых срезов
+     (колонки «Запрос» и «forma-3d.uz сейчас») и сразу выполнить `python modules/seo/scripts/positions.py import --client <client>` —
+     так обновляются `seo/data/positions.csv` и экран «Клиенты».
    - Аудит: субагент `auditor` (краул, ошибки, регрессии).
 
 3. **Анализ — что сейчас сильнее всего тормозит рост.** Ранжировать гипотезы по

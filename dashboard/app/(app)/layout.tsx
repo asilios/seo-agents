@@ -7,6 +7,8 @@ export const dynamic = "force-dynamic";
 
 const NAV = [
   { href: "/", label: t.nav.overview },
+  { href: "/clients", label: t.nav.clients },
+  { href: "/agents", label: t.nav.agents },
   { href: "/setup", label: t.nav.setup },
   { href: "/tasks", label: t.nav.tasks },
   { href: "/keys", label: t.nav.keys },
