@@ -7,7 +7,7 @@
 - **SEO** — работает. Цель: первая страница поиска / топ. Правила `modules/seo/CLAUDE.md`, цикл `modules/seo/routine/improve-cycle.md`.
 - **GEO** — Фаза 1 готова (2026-11-06): правила `modules/geo/CLAUDE.md`, профиль и 60 вопросов к ИИ для forma-3d на утверждении. План: `docs/geo-architecture.md`.
 - **Соцсети** — в разработке по `docs/prompt-social-module.md` (план, тексты, видео, публикация).
-- **Интерфейс (dashboard)** — в разработке, Фаза 5.
+- **Интерфейс (dashboard)** — `dashboard/` (v1: что ввести перед началом, действия админа, ключи, новый клиент), план — `docs/dashboard-plan.md`; остальные экраны Фазы 5 — дальше.
 
 ## Структура
 ```
@@ -20,6 +20,8 @@ modules/geo/              CLAUDE.md, scripts/schema.sql, scripts/validate_geo.py
 .claude/commands/         new-client, weekly, monthly, approve
 clients/<client>/         client.yaml, NEXT.md, reports/, seo/ (baseline, data, audits, keywords, content, changes, log)
 clients/_template/        шаблон новой папки клиента; папки на «_» циклы all пропускают
+core/setup/               requirements.yaml — что нужно для работы; status.yaml — отметки админа
+dashboard/                интерфейс (Next.js, Railway)
 docs/                     этот обзор и задачи
 ```
 

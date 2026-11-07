@@ -85,6 +85,11 @@
 - Последний аудит: seo/audits/2026-11-07.md — открыто: no-offer-001 (цены у 28/218), redirect-chain-001 (low), schema-breadcrumb-001 (low).
 - seo/changes/pending: 2026-11-02-schema-breadcrumbs-info-pages-dryrun.json; approved пуст; хотэнды внедрены 2026-11-07 — seo/changes/applied/2026-11-06-category-hotends.json.
 
+## Интерфейс и очередь действий (2026-11-07)
+- Действия для админа и владельца теперь в `admin/tasks.yaml` (11 открытых), требования — `core/setup/requirements.yaml`; сводка — `/status` или `python core/scripts/admin_status.py --client forma-3d`.
+- Интерфейс `dashboard/` (ветка `dashboard-v1`, ждёт «ок» владельца на слияние в master): Railway + вход через GitHub. Чтобы запустить — `dashboard/README.md` (OAuth App, сервис Railway с Root Directory `dashboard`, 4 переменные).
+- Semrush не подключаем (решение владельца 2026-11-07): нет базы Узбекистана, дорого. Вместо него — DataForSEO, Яндекс Вебмастер/Wordstat, Bing Webmaster.
+
 ## Разработка модуля соцсетей и интерфейса (docs/prompt-social-module.md)
 - Фаза 0 (план) — одобрена 2026-11-02, кратко — docs/system-overview.md.
 - Фаза 1 (реорганизация) — слита в master 2026-11-02 (1fbe93b). Проверено: check_paths.py без ошибок, crawl/gsc из новых мест, сухие прогоны auditor и onpage-optimizer.

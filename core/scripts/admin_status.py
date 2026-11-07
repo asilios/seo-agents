@@ -74,10 +74,13 @@ def auto_check(check: str, client: str | None, env: dict) -> bool | None:
             return (ROOT / val).exists() or Path(val).exists()
         return bool(val)
     base = ROOT / "clients" / client
-    if kind == "field":
-        node = load_yaml(base / "client.yaml", {})
-        for part in arg.split("."):
+    if kind in ("field", "filefield"):
+        file, key = ("client.yaml", arg) if kind == "field" else arg.split(":", 1)
+        node = load_yaml(base / file, {})
+        for part in key.split("."):
             node = node.get(part) if isinstance(node, dict) else None
+        if isinstance(node, list):  # как в интерфейсе: [""] из шаблона — не заполнено
+            return any(x not in ("", None) for x in node)
         return bool(node)
     if kind == "file":
         return (base / arg).exists()

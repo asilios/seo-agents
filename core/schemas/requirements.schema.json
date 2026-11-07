@@ -20,8 +20,8 @@
       "who": {"enum": ["admin", "owner"], "default": "admin", "description": "admin — тот, кто ведёт систему; owner — владелец бизнеса клиента."},
       "check": {
         "type": "string",
-        "description": "Автопроверка. secret:NAME — переменная задана в окружении/.env (в интерфейсе — секрет репозитория); field:path.to.key — поле client.yaml заполнено (true, непустая строка или список); file:path — файл в папке клиента есть; count:path:col=value>=N — в CSV не меньше N строк с col=value; manual — только отметка админа в status-файле.",
-        "pattern": "^(secret:[A-Z0-9_]+|field:[a-z0-9_.]+|file:[^:]+|count:[^:]+:[a-z_]+=[a-z_]+>=[0-9]+|manual)$"
+        "description": "Автопроверка. secret:NAME — переменная задана в окружении/.env (в интерфейсе — секрет репозитория); field:path.to.key — поле client.yaml заполнено (true, непустая строка или список); file:path — файл в папке клиента есть; filefield:path:key — в YAML-файле клиента поле заполнено; count:path:col=value>=N — в CSV не меньше N строк с col=value; manual — только отметка админа в status-файле.",
+        "pattern": "^(secret:[A-Z0-9_]+|field:[a-z0-9_.]+|file:[^:]+|filefield:[^:]+:[a-z0-9_.]+|count:[^:]+:[a-z_]+=[a-z_]+>=[0-9]+|manual)$"
       },
       "required": {"type": "boolean", "description": "true — без этого система или модуль не работает; false — работает хуже."},
       "docs": {"type": "string", "description": "Ссылка на инструкцию."}

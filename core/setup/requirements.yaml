@@ -113,7 +113,7 @@
     - Homepage URL и Callback URL — адрес сервиса на Railway (…/api/auth/callback/github)
     - Client ID и Client secret — в переменные сервиса на Railway
   cost: бесплатно (Railway — по тарифу)
-  check: secret:GITHUB_CLIENT_ID
+  check: manual   # интерфейс сам отмечает «готово», когда вход настроен
   required: false
 
 # ── каждый клиент ───────────────────────────────────────
@@ -232,7 +232,7 @@
   where: clients/<client>/geo/profile.yaml
   how:
     - /geo-map <client>
-  check: file:geo/profile.yaml
+  check: filefield:geo/profile.yaml:niche
   required: false
 
 - id: geo-queries
