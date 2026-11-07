@@ -33,6 +33,14 @@ class ProviderError(Exception):
     pass
 
 
+class FatalProviderError(ProviderError):
+    """Повторять бессмысленно: нет денег на счёте, неверный ключ, нет доступа. Прогон останавливается."""
+
+
+FATAL_MARKERS = ("insufficient_quota", "credit_balance_exhausted", "billing_hard_limit_reached",
+                 "invalid_api_key")
+
+
 def estimate_call_usd(provider: str, api_model: str) -> tuple[float, bool]:
     """(верхняя оценка вызова, известна ли цена модели)."""
     if provider == "openai" and api_model in PRICES["openai"]:
@@ -57,6 +65,8 @@ def _post(url: str, key: str, body: dict, retries: int = 3) -> tuple[dict, int]:
         except urllib.error.HTTPError as e:
             msg = e.read().decode("utf-8", "replace")[:300]
             last = f"HTTP {e.code}: {msg}"
+            if e.code in (401, 403) or any(m in msg for m in FATAL_MARKERS):
+                raise FatalProviderError(last)
             if e.code in (429, 500, 502, 503, 504) and attempt < retries:
                 time.sleep(2 ** (attempt + 1))
                 continue

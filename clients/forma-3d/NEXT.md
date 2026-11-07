@@ -55,6 +55,8 @@
 - Нужны API-ключи Perplexity и OpenAI: положить в `.env` (локально) и в секреты репозитория `asilios/seo-agents` (для GitHub Actions). В чат ключи не присылать.
 - Конкуренты layerone.uz, levelstore.uz, globel.uz в профиле помечены «не подтверждён». UVIX3D (назван в обзоре Google) пока без домена.
 - Дальше: Фаза 2 — `geo_monitor.py` (адаптеры Perplexity и OpenAI, разбор ответов, бюджет), сухой прогон на 5 вопросах.
+- 2026-11-07: пробный прогон только ChatGPT (Perplexity владелец пока не подключает). Ключ OpenAI сохранён в облачном окружении `seo-agents` (прокси подставляет его сам; для скрипта `OPENAI_API_KEY=proxy-injected`) и принят API, но **на счёте OpenAI нет денег** — 0 ответов, $0. Нужно: пополнить баланс на platform.openai.com → Billing, затем
+  `OPENAI_API_KEY=proxy-injected python modules/geo/scripts/geo_monitor.py --client forma-3d --limit-queries 5 --models openai --execute` (≤ $0.48).
 
 ## Следующие задачи после GSC
 1. Отдельные страницы для статей базы знаний (`/ru/knowledge/<slug>`): сейчас статьи открываются модальным окном и не индексируются.

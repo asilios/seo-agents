@@ -136,8 +136,11 @@ def main() -> int:
     raw_dir.mkdir(parents=True, exist_ok=True)
     skip = done_keys(obs, week)
     spent, n_ok, n_err, n_mention, stopped = 0.0, 0, 0, 0, False
+    dead: dict[str, str] = {}  # модель -> причина остановки (нет денег, неверный ключ)
     for q in queries:
         for m in models:
+            if m["id"] in dead:
+                continue
             ctx = {"key": keys[m["id"]], "api_model": m.get("api_model"), "country": profile.get("country"),
                    "city": None}
             for attempt in range(1, runs + 1):
@@ -162,6 +165,9 @@ def main() -> int:
                     (raw_dir / f"{m['id']}__{q['id']}__{attempt}.json").write_text(
                         json.dumps({"question": q["text"], "text": r["text"], "response": r["raw"]},
                                    ensure_ascii=False), encoding="utf-8")
+                except gp.FatalProviderError as e:  # нет денег / неверный ключ: не ответ модели, в данные не пишем
+                    dead[m["id"]] = str(e)[:300]
+                    break
                 except gp.ProviderError as e:
                     row.update(status="error", error=str(e)[:300])
                 except Exception as e:  # не молча: ошибка уходит в данные
@@ -179,6 +185,10 @@ def main() -> int:
         if stopped:
             break
     print(f"Готово: ok {n_ok}, ошибок/пустых {n_err}, клиент назван в {n_mention} ответах; потрачено ≈ ${spent:.3f}")
+    for mid, why in dead.items():
+        print(f"Модель {mid} отключена до конца прогона: {why}")
+    if dead and not n_ok:
+        return 2
     if stopped:
         print(f"Остановлено: достигнут бюджет ${budget:.2f}. Недосчитанное — повторный запуск продолжит с места остановки.")
     return 0 if n_ok or not n_err else 1
