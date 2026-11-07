@@ -1,0 +1,23 @@
+site-code-access:
+  status: done
+  note: репозиторий kemalshen/forma-3d, Railway выкладывает main; слияние после проверок разрешено 2026-11-02
+  updated: 2026-11-02
+site-network:
+  status: done
+  note: 2026-11-07 облачная задача видит сайт (для urllib нужен User-Agent); 02.11 и 06.11 было закрыто
+  updated: 2026-11-07
+yandex-webmaster:
+  status: partial
+  note: владелец подключает сам, в client.yaml пока false
+  updated: 2026-11-07
+bing-webmaster:
+  status: missing
+  updated: 2026-11-07
+business-profile:
+  status: partial
+  note: создан владельцем 2026-11-02, подтверждение не проверено
+  updated: 2026-11-07
+maps-directories:
+  status: missing
+  note: тексты для GBP, 2GIS, Яндекс Карт, OLX, Instagram готовы (коммит e7e3793), не размещены
+  updated: 2026-11-07

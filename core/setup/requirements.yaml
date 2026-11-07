@@ -1,0 +1,249 @@
+# Что нужно для работы. Схема: core/schemas/requirements.schema.json
+# Статусы ручных пунктов и пометки: core/setup/status.yaml (система) и clients/<client>/admin/setup.yaml (клиент).
+# Проверка: python core/scripts/admin_status.py [--client <client>]
+# Значения ключей сюда не пишутся никогда.
+
+# ── система ─────────────────────────────────────────────
+- id: repo-access
+  scope: system
+  module: core
+  kind: access
+  title: Доступ на запись к asilios/seo-agents для всех, кто ведёт систему
+  unlocks: облачная задача и второй аккаунт могут сохранять результаты
+  where: github.com/asilios/seo-agents → Settings → Collaborators
+  how:
+    - Под asilios открыть Settings → Collaborators → Add people
+    - Добавить kemalshen с правом Write и принять приглашение под kemalshen
+  check: manual
+  required: true
+
+- id: gsc-key
+  scope: system
+  module: seo
+  kind: secret
+  title: Ключ сервисного аккаунта Google Search Console
+  unlocks: показы, клики, позиции и индексация из GSC — главный замер цели
+  where: файл secrets/gsc-key.json + GSC_CREDENTIALS в .env; для GitHub Actions — секрет репозитория
+  how:
+    - Google Cloud → проект → Search Console API включён → сервисный аккаунт → Keys → Add key (JSON)
+    - Положить файл в secrets/gsc-key.json, в .env — GSC_CREDENTIALS=secrets/gsc-key.json
+    - Email сервисного аккаунта добавить в Search Console клиента (Пользователи, «Ограниченный»)
+  cost: бесплатно
+  check: secret:GSC_CREDENTIALS
+  required: true
+
+- id: psi-key
+  scope: system
+  module: seo
+  kind: secret
+  title: Ключ PageSpeed Insights API
+  unlocks: замер скорости страниц в аудите (без ключа — ошибка 429)
+  where: .env → PSI_API_KEY
+  how:
+    - Google Cloud → APIs & Services → включить PageSpeed Insights API
+    - Credentials → Create credentials → API key, ограничить ключ этим API
+  cost: бесплатно
+  check: secret:PSI_API_KEY
+  required: false
+
+- id: openai-key
+  scope: system
+  module: geo
+  kind: secret
+  title: Ключ OpenAI с балансом
+  unlocks: замер видимости в ChatGPT
+  where: .env или секреты репозитория → OPENAI_API_KEY; в облаке — окружение seo-agents (защищённая форма)
+  how:
+    - platform.openai.com → API keys → Create new secret key
+    - Settings → Billing → пополнить баланс ($10–20 хватит на несколько недель)
+  cost: до $5 в неделю по бюджету профиля GEO
+  check: secret:OPENAI_API_KEY
+  required: false
+
+- id: anthropic-key
+  scope: system
+  module: geo
+  kind: secret
+  title: Ключ Claude API (console.anthropic.com)
+  unlocks: замер видимости в Claude
+  where: .env или секреты репозитория → ANTHROPIC_API_KEY (подписка claude.ai не подходит; в облачную форму не вводится)
+  how:
+    - console.anthropic.com → API keys → Create key
+    - Billing → пополнить баланс
+  cost: пробный прогон 5 вопросов ≤ $3.30
+  check: secret:ANTHROPIC_API_KEY
+  required: false
+
+- id: perplexity-key
+  scope: system
+  module: geo
+  kind: secret
+  title: Ключ Perplexity API
+  unlocks: замер видимости в Perplexity
+  where: .env или секреты репозитория → PERPLEXITY_API_KEY
+  how:
+    - perplexity.ai → Settings → API → Generate key, пополнить баланс
+  cost: ≤ $0.21 за пробный прогон
+  check: secret:PERPLEXITY_API_KEY
+  required: false
+
+- id: dataforseo
+  scope: system
+  module: seo
+  kind: secret
+  title: Доступ к DataForSEO (позиции и частотность Google + Яндекс по Узбекистану)
+  unlocks: автоматический замер позиций вместо ручных срезов, объёмы запросов
+  where: .env или секреты репозитория → DATAFORSEO_LOGIN, DATAFORSEO_PASSWORD
+  how:
+    - dataforseo.com → регистрация → пополнить баланс
+    - Dashboard → API access → логин и пароль API
+  cost: оплата за запрос; 30 запросов в неделю — центы
+  check: secret:DATAFORSEO_LOGIN
+  required: false
+
+- id: dashboard-oauth
+  scope: system
+  module: dashboard
+  kind: secret
+  title: GitHub OAuth App для входа в интерфейс
+  unlocks: вход в интерфейс через GitHub
+  where: переменные сервиса dashboard на Railway → GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET, AUTH_SECRET, ALLOWED_GITHUB_USERS
+  how:
+    - github.com → Settings → Developer settings → OAuth Apps → New OAuth App
+    - Homepage URL и Callback URL — адрес сервиса на Railway (…/api/auth/callback/github)
+    - Client ID и Client secret — в переменные сервиса на Railway
+  cost: бесплатно (Railway — по тарифу)
+  check: secret:GITHUB_CLIENT_ID
+  required: false
+
+# ── каждый клиент ───────────────────────────────────────
+- id: client-card
+  scope: client
+  module: core
+  kind: data
+  title: Карточка клиента заполнена (домен, языки, регион, услуги)
+  unlocks: аудит, семантика, все агенты
+  where: clients/<client>/client.yaml
+  how:
+    - /new-client <name> создаст папку, заполнить domain, languages, region, services, contacts
+  check: field:domain
+  required: true
+
+- id: gsc-access
+  scope: client
+  module: seo
+  kind: access
+  title: Робот добавлен в Search Console клиента
+  unlocks: данные GSC по этому сайту
+  where: client.yaml → gsc_site; Search Console → Настройки → Пользователи
+  how:
+    - Владелец сайта добавляет email сервисного аккаунта с правом «Ограниченный»
+    - В client.yaml указать gsc_site (sc-domain:example.uz)
+  who: owner
+  check: field:gsc_site
+  required: true
+
+- id: site-code-access
+  scope: client
+  module: seo
+  kind: access
+  title: Доступ к коду сайта и разрешение выкладывать
+  unlocks: агенты сами вносят правки на сайт (иначе — только рекомендации)
+  where: репозиторий сайта клиента
+  how:
+    - Владелец даёт доступ на запись к репозиторию сайта (или к CMS)
+    - Записать в NEXT.md, в какую ветку и как идёт выкладка
+  who: owner
+  check: manual
+  required: false
+
+- id: site-network
+  scope: client
+  module: core
+  kind: access
+  title: Облачная задача видит сайт клиента
+  unlocks: еженедельный аудит и проверка живого сайта из облака
+  where: claude.ai → облачная задача → окружение → Network access
+  how:
+    - Разрешить домен клиента и www-домен в сетевом доступе окружения
+  check: manual
+  required: true
+
+- id: yandex-webmaster
+  scope: client
+  module: seo
+  kind: account
+  title: Яндекс Вебмастер подключён
+  unlocks: индексация и запросы в Яндексе (около 22% поиска в Узбекистане)
+  where: webmaster.yandex.ru; client.yaml → yandex_webmaster
+  how:
+    - Добавить сайт, подтвердить мета-тегом или файлом
+    - Отправить sitemap
+  who: owner
+  check: field:yandex_webmaster
+  required: false
+
+- id: bing-webmaster
+  scope: client
+  module: geo
+  kind: account
+  title: Bing Webmaster Tools подключён, sitemap отправлен
+  unlocks: сайт в индексе Bing — через него ищет ChatGPT
+  where: bing.com/webmasters
+  how:
+    - Войти, «Импортировать из Google Search Console» (быстрее всего)
+    - Sitemaps → отправить sitemap.xml
+  cost: бесплатно
+  check: manual
+  required: false
+
+- id: business-profile
+  scope: client
+  module: geo
+  kind: account
+  title: Google Business Profile подтверждён
+  unlocks: карты, локальная выдача, обзоры от ИИ по запросам «… ташкент»
+  where: business.google.com
+  how:
+    - Пройти подтверждение (звонок, SMS или видео), заполнить категории, часы, фото
+  who: owner
+  check: manual
+  required: false
+
+- id: maps-directories
+  scope: client
+  module: geo
+  kind: account
+  title: Карточки на картах и площадках (2GIS, Яндекс Карты, OLX и др.)
+  unlocks: внешние упоминания — из них ИИ собирает ответы
+  where: clients/<client>/admin/tasks.yaml — задачи с готовыми текстами
+  how:
+    - Разместить по задачам с kind external в очереди «Действия»
+  who: owner
+  check: manual
+  required: false
+
+- id: geo-profile
+  scope: client
+  module: geo
+  kind: data
+  title: GEO-профиль клиента
+  unlocks: замер видимости в ответах ИИ
+  where: clients/<client>/geo/profile.yaml
+  how:
+    - /geo-map <client>
+  check: file:geo/profile.yaml
+  required: false
+
+- id: geo-queries
+  scope: client
+  module: geo
+  kind: decision
+  title: Вопросы к ИИ утверждены (не меньше 30)
+  unlocks: еженедельный замер
+  where: clients/<client>/geo/queries.csv → status approved
+  how:
+    - Просмотреть список, вычеркнуть лишнее, поставить approved
+  who: owner
+  check: count:geo/queries.csv:status=approved>=30
+  required: false

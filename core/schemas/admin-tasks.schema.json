@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Очередь действий для админа и владельца (clients/<client>/admin/tasks.yaml)",
+  "description": "Всё, что агенты не могут сделать сами: внешние площадки, ключи, решения владельца. Агенты добавляют задачи сюда, а не прозой в NEXT.md. Читают интерфейс (экран «Действия») и core/scripts/admin_status.py.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "who", "title", "why", "priority", "status", "created", "source"],
+    "additionalProperties": false,
+    "properties": {
+      "id": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$", "description": "Дата создания + короткое имя."},
+      "who": {"enum": ["admin", "owner"], "description": "admin — ведёт систему; owner — владелец бизнеса клиента."},
+      "kind": {"enum": ["action", "decision", "external"], "default": "action",
+               "description": "action — сделать; decision — ответить на вопрос (ответ в answer); external — разместить на внешней площадке по готовому тексту."},
+      "title": {"type": "string", "minLength": 3},
+      "why": {"type": "string", "description": "Зачем и что даст — простыми словами."},
+      "blocks": {"type": "array", "items": {"type": "string"}, "description": "Что стоит, пока задача не сделана (id требований, циклов или правок)."},
+      "steps": {"type": "array", "items": {"type": "string"}},
+      "draft": {"type": ["string", "null"], "description": "Путь к готовому тексту в репозитории или коммит."},
+      "priority": {"type": "integer", "minimum": 1, "maximum": 3, "description": "1 — блокирует работу или сильнее всего влияет на цель; 3 — когда будет время."},
+      "status": {"enum": ["open", "done", "skipped"]},
+      "created": {"type": "string", "format": "date"},
+      "source": {"type": "string", "description": "Кто поставил: агент или оркестратор."},
+      "done_at": {"type": ["string", "null"], "format": "date"},
+      "answer": {"type": ["string", "null"], "description": "Ответ на decision или комментарий админа."}
+    }
+  }
+}

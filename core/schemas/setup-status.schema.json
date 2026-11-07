@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Отметки админа по требованиям (core/setup/status.yaml, clients/<client>/admin/setup.yaml)",
+  "description": "Ключ — id из core/setup/requirements.yaml. Нужны для пунктов check: manual и для пояснений, когда автопроверка не видит ключ (например, ключ хранится в облачном окружении).",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "required": ["status", "updated"],
+    "additionalProperties": false,
+    "properties": {
+      "status": {"enum": ["done", "partial", "missing", "not_needed"]},
+      "note": {"type": "string"},
+      "updated": {"type": "string", "format": "date"}
+    }
+  }
+}

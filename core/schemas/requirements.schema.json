@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Что нужно для работы системы и клиента (core/setup/requirements.yaml)",
+  "description": "Список требований: ключи, аккаунты, доступы, данные, решения. Читают скрипт core/scripts/admin_status.py и интерфейс (экран «Перед началом»). Значения ключей здесь не хранятся никогда.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "scope", "module", "kind", "title", "unlocks", "how", "check", "required"],
+    "additionalProperties": false,
+    "properties": {
+      "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+      "scope": {"enum": ["system", "client"], "description": "system — один раз на всю систему; client — для каждого клиента."},
+      "module": {"enum": ["core", "seo", "geo", "social", "dashboard"]},
+      "kind": {"enum": ["secret", "account", "access", "data", "decision"]},
+      "title": {"type": "string", "minLength": 3},
+      "unlocks": {"type": "string", "description": "Что заработает, когда требование выполнено."},
+      "where": {"type": "string", "description": "Куда вводить или где это находится."},
+      "how": {"type": "array", "items": {"type": "string"}, "minItems": 1, "description": "Пошаговая инструкция для админа."},
+      "cost": {"type": "string"},
+      "who": {"enum": ["admin", "owner"], "default": "admin", "description": "admin — тот, кто ведёт систему; owner — владелец бизнеса клиента."},
+      "check": {
+        "type": "string",
+        "description": "Автопроверка. secret:NAME — переменная задана в окружении/.env (в интерфейсе — секрет репозитория); field:path.to.key — поле client.yaml заполнено (true, непустая строка или список); file:path — файл в папке клиента есть; count:path:col=value>=N — в CSV не меньше N строк с col=value; manual — только отметка админа в status-файле.",
+        "pattern": "^(secret:[A-Z0-9_]+|field:[a-z0-9_.]+|file:[^:]+|count:[^:]+:[a-z_]+=[a-z_]+>=[0-9]+|manual)$"
+      },
+      "required": {"type": "boolean", "description": "true — без этого система или модуль не работает; false — работает хуже."},
+      "docs": {"type": "string", "description": "Ссылка на инструкцию."}
+    }
+  }
+}

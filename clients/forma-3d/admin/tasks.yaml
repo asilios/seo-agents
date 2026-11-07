@@ -1,0 +1,168 @@
+- id: 2026-11-07-openai-balance
+  who: admin
+  kind: action
+  title: Пополнить баланс OpenAI
+  why: ключ принят, но на счёте 0 — замер видимости в ChatGPT не идёт
+  blocks: [openai-key, geo-weekly]
+  steps:
+    - platform.openai.com → Settings → Billing → Add credits ($10–20)
+    - Написать в чат «пополнил» — запустим пробный прогон 5 вопросов (≤ $0.48)
+  draft: null
+  priority: 1
+  status: open
+  created: 2026-11-07
+  source: оркестратор
+  done_at: null
+  answer: null
+- id: 2026-11-07-price-list
+  who: owner
+  kind: decision
+  title: Прислать прайс — товар и цена в сумах
+  why: публиковать настоящие цены вместо «от 200 000 сум» разрешено 07.11, но цен в данных нет (price null у большинства товаров); без цен ИИ отвечает на вопросы о цене по OLX
+  blocks: [no-offer-001, FROM_PRICE]
+  steps:
+    - Таблица «товар → цена» (можно фото прайса или выгрузку)
+  draft: null
+  priority: 1
+  status: open
+  created: 2026-11-07
+  source: оркестратор
+  done_at: null
+  answer: null
+- id: 2026-11-07-order-lead-time
+  who: owner
+  kind: decision
+  title: Срок «под заказ» — «до 3 дней» или «2–3 недели»?
+  why: на сайте (ORDER_LEAD_TIME в app/stock.ts) написано «2–3 недели», владелец говорил «до 3 дней»; на вопрос ответил «да» — срок не уточнён
+  blocks: [ORDER_LEAD_TIME]
+  steps:
+    - Ответить одним вариантом
+  draft: null
+  priority: 2
+  status: open
+  created: 2026-11-07
+  source: оркестратор
+  done_at: null
+  answer: null
+- id: 2026-11-02-redirects-removed-products
+  who: owner
+  kind: decision
+  title: Куда вести 301 для 8 удалённых URL
+  why: product/hotend-h2d, hotend-h2c, hotend-p2s, paht-cf-request-spool (ru/uz) удалены; без редиректа теряется накопленный вес
+  blocks: [redirects]
+  steps:
+    - Назвать товары, на которые вести, или ответить «сам подбери»
+  draft: null
+  priority: 2
+  status: open
+  created: 2026-11-02
+  source: оркестратор
+  done_at: null
+  answer: null
+- id: 2026-11-07-business-profile-verify
+  who: owner
+  kind: action
+  title: Подтвердить Google Business Profile и добавить категорию «Магазин»
+  why: карты и локальная выдача по запросам «… ташкент»; профиль создан 02.11, подтверждение не проверено
+  blocks: [business-profile]
+  steps:
+    - business.google.com → пройти подтверждение
+    - Добавить вторую категорию — магазин; часы, фото, ссылку на сайт
+  draft: clients/forma-3d/seo/offpage/listings-2026-11-06.md
+  priority: 1
+  status: open
+  created: 2026-11-07
+  source: оркестратор
+  done_at: null
+  answer: null
+- id: 2026-11-07-olx-listings
+  who: owner
+  kind: external
+  title: Разместить объявления на OLX
+  why: OLX назван в 8 из 8 ответов ИИ в срезе 07.11 (оценка, не метрика); Forma 3D там нет
+  blocks: [maps-directories]
+  steps:
+    - Войти в OLX, создать объявления по готовым текстам (по группам товаров), фото, ссылка на сайт
+  draft: clients/forma-3d/seo/offpage/listings-2026-11-06.md
+  priority: 1
+  status: open
+  created: 2026-11-07
+  source: оркестратор
+  done_at: null
+  answer: null
+- id: 2026-11-07-2gis-yandex-maps
+  who: owner
+  kind: external
+  title: Карточки в 2GIS и Яндекс Картах
+  why: на вопросы «какие магазины есть / рядом со мной» ИИ советует искать там; карточек Forma 3D нет
+  blocks: [maps-directories]
+  steps:
+    - Добавить организацию по готовым текстам, адрес пункта выдачи, часы, телефон
+  draft: clients/forma-3d/seo/offpage/listings-2026-11-06.md
+  priority: 2
+  status: open
+  created: 2026-11-07
+  source: оркестратор
+  done_at: null
+  answer: null
+- id: 2026-11-07-client-reviews
+  who: owner
+  kind: action
+  title: Попросить отзывы у клиентов (NGMK, Narbahor Textile и др.)
+  why: отзывы на картах и в Google — сигнал доверия для поиска и ИИ; писать отзывы за клиентов нельзя
+  blocks: [business-profile]
+  steps:
+    - Отправить клиентам ссылку на отзыв в Google Business Profile после подтверждения
+  draft: null
+  priority: 2
+  status: open
+  created: 2026-11-07
+  source: оркестратор
+  done_at: null
+  answer: null
+- id: 2026-11-07-bing-webmaster
+  who: admin
+  kind: action
+  title: Подключить Bing Webmaster Tools и отправить sitemap
+  why: ChatGPT ищет через Bing; есть ли сайт в индексе Bing — не проверено
+  blocks: [bing-webmaster]
+  steps:
+    - bing.com/webmasters → импорт из Google Search Console
+    - Sitemaps → https://forma-3d.uz/sitemap.xml
+  draft: null
+  priority: 2
+  status: open
+  created: 2026-11-07
+  source: оркестратор
+  done_at: null
+  answer: null
+- id: 2026-11-07-gsc-key-rotate
+  who: admin
+  kind: action
+  title: Перевыпустить ключ сервисного аккаунта GSC
+  why: старый ключ проходил через чат; новый положить в secrets/ на обоих компьютерах (и в секреты репозитория для Actions)
+  blocks: [gsc-key]
+  steps:
+    - Google Cloud → сервисный аккаунт seo-agents → Keys → удалить старый, создать новый JSON
+  draft: null
+  priority: 2
+  status: open
+  created: 2026-11-07
+  source: оркестратор
+  done_at: null
+  answer: null
+- id: 2026-11-07-competitors-confirm
+  who: admin
+  kind: decision
+  title: Подтвердить новых конкурентов для профиля
+  why: найдены в выдаче и ответах ИИ, в профиле не подтверждены — layerone.uz, levelstore.uz, globel.uz, uchd.uz, print3dlab.uz, filament.uz
+  blocks: []
+  steps:
+    - Ответить, кого добавить в client.yaml и geo/profile.yaml
+  draft: null
+  priority: 3
+  status: open
+  created: 2026-11-07
+  source: оркестратор
+  done_at: null
+  answer: null

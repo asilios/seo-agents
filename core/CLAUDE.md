@@ -33,6 +33,19 @@ clients/<client>/
 `<module>/changes/pending/` → `approved/` → `applied/`. Файл переносится целиком, в нём
 ставится `status` и дата (`approved_at`, `applied_at`).
 
+## Требования и действия админа
+
+Всё, что агенты не могут сделать сами, — в машиночитаемых файлах (их показывают `/status` и интерфейс):
+- `core/setup/requirements.yaml` — что нужно для работы (ключи, аккаунты, доступы); отметки админа —
+  `core/setup/status.yaml` и `clients/<client>/admin/setup.yaml`.
+- `clients/<client>/admin/tasks.yaml` — очередь действий для админа (`who: admin`) и владельца сайта (`who: owner`):
+  вопросы, внешние площадки, ключи, решения. Схема — `core/schemas/admin-tasks.schema.json`.
+- Агент, которому нужно действие человека, **добавляет задачу в `tasks.yaml`** (id `YYYY-MM-DD-короткое-имя`,
+  `why` — простыми словами, `blocks` — что стоит, `draft` — путь к готовому тексту). В `NEXT.md` и отчёте —
+  только ссылка на задачу. Ответы владельца — в `answer`, статус — `done`/`skipped`
+  (`python core/scripts/admin_status.py task <client> <id> --status done --answer "..."`).
+- Проверка данных и сводка: `python core/scripts/admin_status.py [--client <client>]`.
+
 ## Жёсткие правила
 
 1. **Публикация — автоматически, но только через проверки** (разрешено владельцем 2026-11-02:

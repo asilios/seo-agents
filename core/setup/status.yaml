@@ -1,0 +1,16 @@
+repo-access:
+  status: missing
+  note: на 2026-11-02 запись в asilios/seo-agents из облачной задачи давала 403; kemalshen не добавлен — проверить
+  updated: 2026-11-07
+gsc-key:
+  status: partial
+  note: ключ только на рабочем компьютере (secrets/gsc-key.json); в облаке и GitHub Actions нет; ключ проходил через чат — перевыпустить
+  updated: 2026-11-07
+openai-key:
+  status: partial
+  note: ключ сохранён в облачном окружении seo-agents и принят API, но баланс 0 (credit_balance_exhausted)
+  updated: 2026-11-07
+perplexity-key:
+  status: not_needed
+  note: владелец решил пока не подключать (2026-11-07)
+  updated: 2026-11-07
