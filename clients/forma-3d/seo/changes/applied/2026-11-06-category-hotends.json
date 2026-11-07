@@ -1,0 +1,51 @@
+{
+  "id": "2026-11-06-category-hotends",
+  "type": "new_pages",
+  "status": "applied",
+  "created": "2026-11-06",
+  "cluster": [
+    "хотэнды Bambu Lab",
+    "сопла Bambu Lab"
+  ],
+  "reason": "Срез seo/data/serp-2026-11-06-weekly.md: «хотэнд bambu lab a1 купить ташкент» — #15 общим /ru/catalog/parts (растёт с #19), «сопло bambu lab 0.4 купить» — нет в топ-30. В топе карточки маркетплейсов. Отдельной страницы под категорию «Хотэнды и сопла» (7 товаров в parts-source.json) нет.",
+  "proposal": "Посадочные /ru|uz/catalog/hotends — каталог запчастей с фильтром категории «Хотэнды и сопла», свой title/description/H1, вводный текст (как выбрать хотэнд под A1/P1/X1, ссылка на статью kogda-menyat-soplo), крошки Главная → Запчасти → Хотэнды, пагинация, +2 URL в sitemap. По образцу app/material-pages.ts (PLA/PETG).",
+  "draft_meta": {
+    "ru/catalog/hotends": {
+      "title": "Хотэнды и сопла Bambu Lab в Ташкенте | Forma 3D",
+      "h1": "Хотэнды и сопла для Bambu Lab A1, P1S, X1C"
+    },
+    "uz/catalog/hotends": {
+      "title": "Bambu Lab hotend va soplolari, Toshkent | Forma 3D",
+      "h1": "Bambu Lab A1, P1S, X1C uchun hotend va soplolar"
+    }
+  },
+  "not_changed": "Цены, наличие, сроки — не трогаются; на странице те же карточки и цены, что в каталоге запчастей.",
+  "approved_at": "2026-11-07",
+  "applied_at": "2026-11-07",
+  "implemented": {
+    "site_branch": "seo-auto-2026-11-07",
+    "commit": "3599245",
+    "merge_commit": "349fab6",
+    "files": [
+      "app/part-pages.ts (новый)",
+      "app/seo.ts",
+      "app/store.tsx",
+      "forma-3d-source.tar.gz"
+    ],
+    "meta": {
+      "ru/catalog/hotends": {
+        "title": "Хотэнды и сопла Bambu Lab купить в Ташкенте | Forma 3D",
+        "description": "Оригинальные хотэнды Bambu Lab в Ташкенте: 0,4 мм для A1, P1S, X1C, закалённые для CF/GF, 0,2 и 0,6 мм, хотэнды для P2S и H2D. Подберём по модели.",
+        "h1": "Хотэнды и сопла для Bambu Lab A1, P1S, X1C"
+      },
+      "uz/catalog/hotends": {
+        "title": "Bambu Lab hotend va soplolari, Toshkent | Forma 3D",
+        "description": "Toshkentda original Bambu Lab hotendlari: A1, P1S, X1C uchun 0,4 mm, CF/GF uchun toblangan, 0,2 va 0,6 mm, P2S va H2D uchun. Modelga qarab tanlaymiz.",
+        "h1": "Bambu Lab A1, P1S, X1C uchun hotend va soplolar"
+      }
+    },
+    "also": "ссылка на страницу из текста /ru|uz/catalog/parts; BreadcrumbList Главная → Запчасти → Хотэнды; sitemap 252→254; FAQ запчастей остаётся только на общей странице. Попутно: сокращение description у товаров «под заказ» — /uz/product/textured-plate-180 165→~144 (long-desc-003).",
+    "checks": "pnpm typecheck, pnpm build; локально 254/254 URL sitemap — 200, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ; Playwright: переходы parts↔hotends и «назад» без ошибок; архив пересобран (отличаются только .env.example и README.md — давнее расхождение)"
+  },
+  "recheck": "Через 1–2 недели: «хотэнд bambu lab ташкент» (#18 /ru/catalog/parts), «хотэнд bambu lab a1 купить ташкент» (#16), «сопло bambu lab 0.4 купить» (нет в топ-30), «bambu lab hotend toshkent» (#2 карточкой) — см. seo/data/serp-2026-11-07-weekly.md"
+}
