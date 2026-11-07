@@ -57,6 +57,8 @@
 - Дальше: Фаза 2 — `geo_monitor.py` (адаптеры Perplexity и OpenAI, разбор ответов, бюджет), сухой прогон на 5 вопросах.
 - 2026-11-07: пробный прогон только ChatGPT (Perplexity владелец пока не подключает). Ключ OpenAI сохранён в облачном окружении `seo-agents` (прокси подставляет его сам; для скрипта `OPENAI_API_KEY=proxy-injected`) и принят API, но **на счёте OpenAI нет денег** — 0 ответов, $0. Нужно: пополнить баланс на platform.openai.com → Billing, затем
   `OPENAI_API_KEY=proxy-injected python modules/geo/scripts/geo_monitor.py --client forma-3d --limit-queries 5 --models openai --execute` (≤ $0.48).
+- 2026-11-07: **Claude** — адаптер `ask_claude` (SDK `anthropic`, `web_search_20260209`, claude-opus-5-5, fallbacks=default) написан, в профиле включён, **вживую не проверен**: из облака Claude API без своего ключа отвечает 401, а форма секретов ключи Anthropic не принимает. Запуск — локально с `ANTHROPIC_API_KEY` в `.env` или в GitHub Actions: `python modules/geo/scripts/geo_monitor.py --client forma-3d --limit-queries 5 --models claude --execute` (≤ $3.30). Модели без ключа монитор теперь пропускает.
+- 2026-11-07: срез «вслепую» через субагентов (оценка, не метрика) — geo/manual/2026-11-07-claude-proxy-slice.md: Forma 3D 0/8, OLX 8/8, bambu.uz 5/8, справочники goldenpages/yellowpages/prom.uz. Следствие: выложить объявления на OLX и карточки в справочниках — сильнее правок сайта.
 
 ## Следующие задачи после GSC
 1. Отдельные страницы для статей базы знаний (`/ru/knowledge/<slug>`): сейчас статьи открываются модальным окном и не индексируются.

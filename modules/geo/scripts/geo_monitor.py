@@ -127,8 +127,11 @@ def main() -> int:
     keys = {m["id"]: os.environ.get(gp.KEY_ENV[m["id"]], "") for m in models}
     missing = [gp.KEY_ENV[k] for k, v in keys.items() if not v]
     if missing:
-        print(f"ОШИБКА: нет ключей в окружении или .env: {missing}")
-        return 2
+        print(f"предупреждение: нет ключей в окружении или .env: {missing} — эти модели пропущены")
+        models = [m for m in models if keys[m["id"]]]
+        if not models:
+            print("ОШИБКА: ни для одной модели нет ключа")
+            return 2
 
     # ── прогон ──
     obs = base / "observations.jsonl"

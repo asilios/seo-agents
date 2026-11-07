@@ -3,6 +3,8 @@
 Документация сверена 2026-11-06:
 - Perplexity: POST https://api.perplexity.ai/v1/agent (Sonar Chat Completions закрыт 27.09.2026);
   ответ: output[] -> message.content[].text + annotations[url_citation]; usage.cost.total_cost.
+- Claude: Messages API через официальный SDK `anthropic`, серверный инструмент web_search_20260209;
+  ответ: content[] -> text (+ citations web_search_result_location) и web_search_tool_result; usage.server_tool_use.
 - OpenAI: POST https://api.openai.com/v1/responses, tools=[{"type":"web_search"}];
   ответ: output[] -> message.content[].text + annotations[url_citation]; web_search_call — число поисков.
 
@@ -18,14 +20,17 @@ import urllib.request
 PRICES = {
     "openai": {"gpt-6-luna": (0.10, 0.50), "gpt-6-astra": (10.0, 50.0), "_search_call": 0.01},
     "perplexity": {"_search_call": 0.0025},
+    "claude": {"claude-opus-5-5": (4.0, 20.0), "claude-sonnet-5-5": (2.0, 10.0), "_search_call": 0.01},
 }
+# Claude кладёт результаты поиска в контекст: вход заметно больше, чем у остальных
+EST_INPUT_TOKENS_CLAUDE = 40_000
 # Верхняя оценка одного вызова для плана (до запуска): токены и число поисков
 EST_INPUT_TOKENS = 12_000
 EST_OUTPUT_TOKENS = 1_500
 EST_SEARCHES = 3
 FALLBACK_CALL_USD = 0.15  # если модель не в таблице цен — пессимистично, с предупреждением
 
-DEFAULTS = {"openai": "gpt-6-luna", "perplexity": "fast"}  # perplexity: effort-пресет Agent API
+DEFAULTS = {"openai": "gpt-6-luna", "perplexity": "fast", "claude": "claude-opus-5-5"}  # perplexity: effort-пресет Agent API
 TIMEOUT_S = 120
 
 
@@ -49,6 +54,9 @@ def estimate_call_usd(provider: str, api_model: str) -> tuple[float, bool]:
     if provider == "perplexity":
         # токены Sonar-класса ($0.25/$2.5) + поиск; стоимость сама вернётся в usage.cost
         return (EST_INPUT_TOKENS * 0.25 + EST_OUTPUT_TOKENS * 2.5) / 1e6 + EST_SEARCHES * PRICES["perplexity"]["_search_call"], True
+    if provider == "claude" and api_model in PRICES["claude"]:
+        i, o = PRICES["claude"][api_model]
+        return (EST_INPUT_TOKENS_CLAUDE * i + EST_OUTPUT_TOKENS * o) / 1e6 + EST_SEARCHES * PRICES["claude"]["_search_call"], True
     return FALLBACK_CALL_USD, False
 
 
@@ -147,6 +155,71 @@ def ask_openai(question: str, ctx: dict) -> dict:
             "api_model_version": resp.get("model"), "cost_usd": cost, "cost_is_actual": actual, "raw": resp}
 
 
-ADAPTERS = {"perplexity": ask_perplexity, "openai": ask_openai}
+def ask_claude(question: str, ctx: dict) -> dict:
+    import anthropic  # только здесь: остальным провайдерам SDK не нужен
+
+    api_model = ctx.get("api_model") or DEFAULTS["claude"]
+    tool = {"type": "web_search_20260209", "name": "web_search", "max_uses": 5}
+    if ctx.get("country"):
+        tool["user_location"] = {"type": "approximate", "country": ctx["country"]}
+        if ctx.get("city"):
+            tool["user_location"]["city"] = ctx["city"]
+    client = anthropic.Anthropic(api_key=ctx["key"], max_retries=3, timeout=TIMEOUT_S)
+    messages = [{"role": "user", "content": question}]
+    t0 = time.time()
+    usage_in = usage_out = searches = 0
+    try:
+        for _ in range(4):  # pause_turn: серверный поиск может прервать ход — продолжаем тем же запросом
+            resp = client.beta.messages.create(
+                model=api_model, max_tokens=16000, messages=messages, tools=[tool],
+                output_config={"effort": "medium"},
+                # при отказе по политике ответит модель-замена; какая ответила — в api_model_version
+                betas=["server-side-fallback-2026-07-01"], fallbacks="default",
+            )
+            usage_in += resp.usage.input_tokens or 0
+            usage_out += resp.usage.output_tokens or 0
+            stu = getattr(resp.usage, "server_tool_use", None)
+            searches += (getattr(stu, "web_search_requests", 0) or 0) if stu else 0
+            if resp.stop_reason != "pause_turn":
+                break
+            messages = [messages[0], {"role": "assistant", "content": resp.content}]
+    except (anthropic.AuthenticationError, anthropic.PermissionDeniedError) as e:
+        raise FatalProviderError(f"HTTP {e.status_code}: {e.message}"[:300])
+    except anthropic.APIStatusError as e:
+        msg = f"HTTP {e.status_code}: {e.message}"
+        if any(m in msg.lower() for m in ("credit balance", "billing")):
+            raise FatalProviderError(msg[:300])
+        raise ProviderError(msg[:300])
+    except anthropic.APIConnectionError as e:
+        raise ProviderError(f"сеть: {e}"[:300])
+    if resp.stop_reason == "refusal":
+        raise ProviderError(f"отказ модели: {getattr(resp.stop_details, 'category', None)}")
+
+    text_parts, cites, seen = [], [], set()
+    def add(url, title):
+        if url and url not in seen:
+            seen.add(url)
+            cites.append({"url": url, "title": title or ""})
+    for b in resp.content:
+        if b.type == "text":
+            text_parts.append(b.text)
+            for c in getattr(b, "citations", None) or []:
+                add(getattr(c, "url", None), getattr(c, "title", None))
+    for b in resp.content:  # источники поиска, даже если в тексте нет сносок (как у Perplexity)
+        if b.type == "web_search_tool_result" and isinstance(b.content, list):
+            for r in b.content:
+                add(getattr(r, "url", None), getattr(r, "title", None))
+    price = PRICES["claude"].get(api_model)
+    if price:
+        cost = (usage_in * price[0] + usage_out * price[1]) / 1e6 + searches * PRICES["claude"]["_search_call"]
+        actual = resp.model == api_model  # ответила замена — цена по тарифу исходной модели, оценка
+    else:
+        cost, actual = estimate_call_usd("claude", api_model)[0], False
+    return {"text": "".join(text_parts), "citations": cites, "latency_ms": int((time.time() - t0) * 1000),
+            "searches": searches, "api_model_version": resp.model, "cost_usd": cost, "cost_is_actual": actual,
+            "raw": resp.to_dict()}
+
+
+ADAPTERS = {"perplexity": ask_perplexity, "openai": ask_openai, "claude": ask_claude}
 KEY_ENV = {"perplexity": "PERPLEXITY_API_KEY", "openai": "OPENAI_API_KEY",
            "gemini": "GEMINI_API_KEY", "claude": "ANTHROPIC_API_KEY"}
