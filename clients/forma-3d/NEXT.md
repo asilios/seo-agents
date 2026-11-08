@@ -1,4 +1,4 @@
-# Где остановились (2026-11-07, еженедельный запуск)
+# Где остановились (2026-11-08, еженедельный запуск)
 
 > 2026-11-02: папка клиента переименована `clients/test` → `clients/forma-3d`, данные SEO перенесены в `seo/`. Старые записи журнала ссылаются на прежние пути.
 
@@ -49,6 +49,13 @@
 - Через 1–2 недели проверить: «хотэнд bambu lab ташкент» (#18 общим parts), «хотэнд…a1 купить» (#16), «сопло bambu lab 0.4» (нет), появилась ли /catalog/hotends; PLA-страница в выдаче (пока нет).
 - Следующее: BreadcrumbList на /business, /delivery, /knowledge (schema-breadcrumb-001, черновик — seo/changes/pending/2026-11-02-schema-breadcrumbs-info-pages-dryrun.json); затем страница ABS/ASA или TPU.
 
+## Еженедельный запуск 2026-11-08 (облако)
+- Сайт доступен. Аудит seo/audits/2026-11-08.md: 254/254 URL — 200, регрессий нет. Новые: forbidden-claim-uzcard-001 (medium — UzCard на /ru|uz/delivery и в FAQ /catalog/parts; править только с согласия владельца, вопрос в отчёте), internal-links-hotends-001 (low — на /catalog/hotends ссылки только с /catalog/parts).
+- **Выложено (f5c98fd, правка 5939ef7):** /ru|uz/catalog/abs-asa (4 товара) и /ru|uz/catalog/tpu (2 товара) по образцу PLA/PETG; плитки на главной ведут на них; sitemap 258. Живой сайт 258/258 прошли проверки.
+- Срез seo/data/serp-2026-11-08-weekly.md: все 15 запросов без изменений с 07.11 (прошли сутки — сравнивать лучше через неделю). abs/tpu пластик ташкент — нас нет в топ-30.
+- Через 1–2 недели проверить: /catalog/hotends, /catalog/pla, /catalog/abs-asa, /catalog/tpu в выдаче.
+- Следующее: ссылки на /catalog/hotends из меню/подвала и с карточек хотэндов (internal-links-hotends-001); BreadcrumbList на /business, /delivery, /knowledge (на /delivery и /knowledge сначала вывести видимые крошки); убрать UzCard — после ответа владельца.
+
 ## GEO — видимость в ответах ИИ (2026-11-06)
 - Фаза 1 готова: `geo/profile.yaml` (2 модели — Perplexity и OpenAI, бюджет $5/нед, 3 прогона на вопрос), `geo/queries.csv` — **60 вопросов к ИИ, все `pending`** (supplier 25, compare 11, price 12, local 7, info 5; ru 36, uz 24).
 - **Нужно от владельца:** просмотреть список и утвердить (поменять `status` на `approved`), вычеркнуть лишнее. Приоритет 1 — главные коммерческие вопросы; на бюджет $5 первый замер пойдёт по приоритетам 1–2.
@@ -75,14 +82,15 @@
 - Вход в git на рабочем компьютере: push в kemalshen/forma-3d — через URL https://kemalshen@github.com/kemalshen/forma-3d.git (окно Git Credential Manager).
 
 ## Открытые вопросы владельцу
+- 2026-11-08: убрать UzCard с /delivery и из FAQ /catalog/parts? (в client.yaml — запрещено, на сайте ещё указан)
 - 2026-11-07: владелец разрешил публиковать настоящие цены вместо «от 200 000 сум». Самих цен в данных нет (price: null у большинства товаров) — ждём прайс от владельца (товар → цена в сумах), затем внести в app/data и убрать FROM_PRICE, добавить Offer в JSON-LD.
 - 2026-11-07: на вопрос о сроке «под заказ» («2–3 недели» или «до 3 дней») владелец ответил «да» — срок не уточнён, переспросить.
 - Срок «под заказ»: владелец сказал «до 3 дней», на сайте (`ORDER_LEAD_TIME` в app/stock.ts) «2–3 недели». Что верно?
 - `PSI_API_KEY` пустой — PageSpeed не меряется.
 
 ## Состояние
-- Последний аудит: seo/audits/2026-11-07.md — открыто: no-offer-001 (цены у 28/218), redirect-chain-001 (low), schema-breadcrumb-001 (low).
-- seo/changes/pending: 2026-11-02-schema-breadcrumbs-info-pages-dryrun.json; approved пуст; хотэнды внедрены 2026-11-07 — seo/changes/applied/2026-11-06-category-hotends.json.
+- Последний аудит: seo/audits/2026-11-08.md — открыто: no-offer-001 (цены у 28/218), forbidden-claim-uzcard-001 (ждёт владельца), internal-links-hotends-001 (low), redirect-chain-001 (low), schema-breadcrumb-001 (low).
+- seo/changes/pending: 2026-11-02-schema-breadcrumbs-info-pages-dryrun.json; approved пуст; последнее внедрённое — seo/changes/applied/2026-11-08-material-pages-abs-asa-tpu.json.
 
 ## Разработка модуля соцсетей и интерфейса (docs/prompt-social-module.md)
 - Фаза 0 (план) — одобрена 2026-11-02, кратко — docs/system-overview.md.

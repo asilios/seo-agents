@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-08-material-pages-abs-asa-tpu",
+  "type": "new_pages",
+  "status": "applied",
+  "created": "2026-11-08",
+  "cluster": ["ABS / ASA пластик Bambu Lab", "TPU пластик Bambu Lab"],
+  "reason": "NEXT.md (07.11): следующая страница по образцу PLA/PETG — ABS/ASA или TPU. Срез seo/data/serp-2026-11-08-weekly.md: «abs пластик ташкент» и «tpu пластик ташкент» — сайта нет в топ-30; у конкурентов отдельные страницы по материалу (3d-reality.uz /product_category/abs #10 и /tpu #16, liniya3d.uz /filament/abs/ #19, bambu.uz /pages/filament-tpu.php #17, 3dbozor.uz TPU #28); в топ-10 профильной страницы по TPU нет ни у кого. На главной уже есть плитки «ABS / ASA» и «TPU».",
+  "proposal": "Посадочные /ru|uz/catalog/abs-asa (4 товара: ABS и ASA чёрный/белый) и /ru|uz/catalog/tpu (2 товара: TPU 95A HF чёрный/белый) — каталог филамента с фильтром материала, свои title/description/H1, вводный текст, ссылки на статьи, крошки Главная → Каталог → материал, +4 URL в sitemap.",
+  "meta": {
+    "ru/catalog/abs-asa": {"title": "ABS и ASA пластик Bambu Lab купить в Ташкенте | Forma 3D", "h1": "ABS и ASA пластик Bambu Lab для 3D-принтера"},
+    "uz/catalog/abs-asa": {"title": "Bambu Lab ABS va ASA plastik, Toshkent | Forma 3D", "h1": "3D-printer uchun Bambu Lab ABS va ASA plastik"},
+    "ru/catalog/tpu": {"title": "TPU пластик Bambu Lab купить в Ташкенте | Forma 3D", "h1": "Гибкий TPU пластик Bambu Lab для 3D-принтера"},
+    "uz/catalog/tpu": {"title": "Bambu Lab TPU plastik sotib olish, Toshkent | Forma 3D", "h1": "3D-printer uchun egiluvchan Bambu Lab TPU plastik"}
+  },
+  "facts_source": "Только факты из статей сайта kakoy-filament-vybrat и petg-ili-pla (данные Bambu Lab): ASA устойчив к УФ, ABS/ASA — закрытый корпус, для A1 не рекомендованы; TPU подходит для A1, не совместим с AMS.",
+  "not_changed": "Цены, наличие, сроки, обещания — не трогались; на страницах те же карточки, что в каталоге.",
+  "approved_at": "2026-11-08",
+  "applied_at": "2026-11-08",
+  "implemented": {
+    "site_branch": "seo-auto-2026-11-08",
+    "commit": "5939ef7",
+    "merge_commit": "f5c98fd",
+    "files": ["app/material-pages.ts", "app/seo.ts", "forma-3d-source.tar.gz"],
+    "checks_before_merge": "pnpm typecheck, pnpm build — без ошибок; локально 258/258 URL sitemap — 200, один h1, title ≤60, description ≤160, нет кириллицы на /uz, нет [УТОЧНИТЬ; Playwright: /ru/catalog/tpu (2 карточки), переход с /uz по плитке на /uz/catalog/abs-asa (4 карточки), без ошибок JS; архив пересобран, отличается от кода только давними .env.example и README.md",
+    "checks_live": "через ~2,5 мин после push: sitemap 258, 258/258 URL прошли те же проверки"
+  },
+  "recheck": "через 1–2 недели: «abs пластик ташкент», «tpu пластик ташкент» — появились ли /catalog/abs-asa и /catalog/tpu"
+}
