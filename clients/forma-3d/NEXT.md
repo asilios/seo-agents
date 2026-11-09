@@ -84,7 +84,7 @@
 - Готов `modules/seo/scripts/keyword_volumes.py`. Список 316 запросов — `seo/data/queries-to-check.txt`.
 - **Нужно от владельца:** загрузить список в Google Keyword Planner (гео Узбекистан) или Яндекс Wordstat, скачать CSV и положить в чат или в `seo/data/`.
 - Затем: `keyword_volumes.py import --client forma-3d --source planner --file <файл>` и `score` -> `seo/keywords/priorities.md`; после этого пересобрать приоритеты в clusters.md и список запросов для недельного среза выдачи.
-- Цифры пока не получены, приоритеты в clusters.md по-прежнему экспертные.
+- Итог 2026-11-09: Keyword Planner требует способ оплаты (не подключаем); Wordstat по Узбекистану показывает единицы запросов (seo/data/wordstat-2026-11-09.md) — для приоритетов не годится. Приоритеты строим по GSC (реальные показы), срезам выдачи и конкурентам; keyword_volumes.py остаётся для будущих выгрузок. Заготовка wordstat-template.csv больше не нужна.
 - GSC встроен: после выгрузки `gsc.py` запускать `keyword_volumes.py gsc` и `score`; шаг прописан в недельном цикле. Ключ GSC — только на рабочем компьютере; показов пока 0.
 
 ## Следующие задачи после GSC
