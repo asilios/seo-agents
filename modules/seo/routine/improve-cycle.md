@@ -16,6 +16,9 @@
 2. **Замер — что изменилось с прошлого раза.**
    - GSC (если есть ключ): `python core/scripts/gsc.py --site <gsc_site> --days 28 --out clients/<client>/seo/data/gsc-YYYY-MM-DD.csv`
      и сравнение с прошлой выгрузкой (`--compare`). Проверка индексации ключевых URL (URL Inspection).
+     Затем `python modules/seo/scripts/keyword_volumes.py gsc --client <client>` и `... score --client <client>`:
+     реальные запросы сайта, «быстрые победы» на позициях 8–30 и запросы GSC вне ядра — в `seo/keywords/priorities.md`.
+     Запросы вне ядра с показами — кандидаты в кластеры для `keyword-strategist`. Нет показов — так и писать.
    - Срез выдачи по 10–15 главным запросам из `seo/keywords/clusters.md` (поиск с location Uzbekistan) →
      `seo/data/serp-YYYY-MM-DD.md`, сравнение позиций с прошлым срезом.
    - Аудит: субагент `auditor` (краул, ошибки, регрессии).
