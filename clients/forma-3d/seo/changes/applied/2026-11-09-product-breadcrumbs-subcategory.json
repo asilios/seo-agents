@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-09-product-breadcrumbs-subcategory",
+  "type": "internal-links + schema",
+  "issue": ["internal-links-hotends-001", "internal-links-materials-001"],
+  "why": "/uz/catalog/hotends попала в выдачу (#2 по «bambu lab hotend toshkent»), но на хотэнды ведут только 3 страницы, на abs-asa и tpu — только главная. Крошки товаров давали ссылку лишь на /catalog или /catalog/parts.",
+  "what": "На страницах товаров видимые хлебные крошки и BreadcrumbList получили промежуточный уровень: Главная → Запчасти → Хотэнды и сопла → товар; Главная → Каталог → PLA/PETG/ABS и ASA/TPU пластик → товар. 146 карточек (ru+uz): pla 80, hotends 30, petg 24, abs-asa 8, tpu 4.",
+  "files": ["app/seo.ts (productSubcategory, breadcrumbTrail)", "app/store.tsx (крошки на странице товара)", "forma-3d-source.tar.gz"],
+  "checks": "typecheck, build, локально 258/258 URL — 200, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ; Playwright: переход по крошке на /ru/catalog/hotends (15 товаров) и /uz/catalog/petg (12); архив пересобран и сверен",
+  "branch": "seo-auto-2026-11-09",
+  "commit": "https://github.com/kemalshen/forma-3d/commit/729b3db",
+  "status": "applied",
+  "approved_at": "2026-11-09",
+  "applied_at": "2026-11-09"
+}

@@ -1,4 +1,4 @@
-# Где остановились (2026-11-08, еженедельный запуск)
+# Где остановились (2026-11-09, еженедельный запуск)
 
 > 2026-11-02: папка клиента переименована `clients/test` → `clients/forma-3d`, данные SEO перенесены в `seo/`. Старые записи журнала ссылаются на прежние пути.
 
@@ -49,6 +49,13 @@
 - Через 1–2 недели проверить: «хотэнд bambu lab ташкент» (#18 общим parts), «хотэнд…a1 купить» (#16), «сопло bambu lab 0.4» (нет), появилась ли /catalog/hotends; PLA-страница в выдаче (пока нет).
 - Следующее: BreadcrumbList на /business, /delivery, /knowledge (schema-breadcrumb-001, черновик — seo/changes/pending/2026-11-02-schema-breadcrumbs-info-pages-dryrun.json); затем страница ABS/ASA или TPU.
 
+## Еженедельный запуск 2026-11-09 (облако)
+- Сайт доступен. Аудит seo/audits/2026-11-09.md (до выкладки): 258/258 URL — 200, регрессий нет. Новое: internal-links-materials-001 (low — на /catalog/abs-asa и /tpu ведёт только главная).
+- Срез seo/data/serp-2026-11-09-weekly.md: **/uz/catalog/hotends — #2 по «bambu lab hotend toshkent»** (первая из новых категорий в выдаче). За неделю: запчасти 13→8, ehtiyot qismlar 6→3, bambu lab filament toshkent 14→12, бренд 5→2. «pla пластик купить ташкент» — /ru/catalog выпал из топ-30.
+- **Выложено (729b3db):** крошки товаров (видимые + BreadcrumbList) ведут на категорию: Запчасти → Хотэнды и сопла; Каталог → PLA/PETG/ABS и ASA/TPU. 146 карточек. Живой сайт 258/258 прошли проверки. internal-links-hotends-001 закрыт.
+- Через 1–2 недели: /ru/catalog/hotends, /catalog/pla, abs-asa, tpu в выдаче; «pla пластик купить ташкент».
+- Следующее: ссылки на ABS/ASA, TPU, хотэнды в меню — **ждёт согласия владельца** (меню = дизайн); без владельца можно — блок ссылок на все материалы в вводном тексте /catalog и на страницах материалов (перекрёстно PLA↔ABS/TPU); BreadcrumbList на /business, /delivery, /knowledge.
+
 ## Еженедельный запуск 2026-11-08 (облако)
 - Сайт доступен. Аудит seo/audits/2026-11-08.md: 254/254 URL — 200, регрессий нет. Новые: forbidden-claim-uzcard-001 (medium — UzCard на /ru|uz/delivery и в FAQ /catalog/parts; править только с согласия владельца, вопрос в отчёте), internal-links-hotends-001 (low — на /catalog/hotends ссылки только с /catalog/parts).
 - **Выложено (f5c98fd, правка 5939ef7):** /ru|uz/catalog/abs-asa (4 товара) и /ru|uz/catalog/tpu (2 товара) по образцу PLA/PETG; плитки на главной ведут на них; sitemap 258. Живой сайт 258/258 прошли проверки.
@@ -82,6 +89,7 @@
 - Вход в git на рабочем компьютере: push в kemalshen/forma-3d — через URL https://kemalshen@github.com/kemalshen/forma-3d.git (окно Git Credential Manager).
 
 ## Открытые вопросы владельцу
+- 2026-11-09: добавить в меню ABS/ASA, TPU и «Хотэнды и сопла» рядом с PLA/PETG?
 - 2026-11-08: убрать UzCard с /delivery и из FAQ /catalog/parts? (в client.yaml — запрещено, на сайте ещё указан)
 - 2026-11-07: владелец разрешил публиковать настоящие цены вместо «от 200 000 сум». Самих цен в данных нет (price: null у большинства товаров) — ждём прайс от владельца (товар → цена в сумах), затем внести в app/data и убрать FROM_PRICE, добавить Offer в JSON-LD.
 - 2026-11-07: на вопрос о сроке «под заказ» («2–3 недели» или «до 3 дней») владелец ответил «да» — срок не уточнён, переспросить.
@@ -89,8 +97,8 @@
 - `PSI_API_KEY` пустой — PageSpeed не меряется.
 
 ## Состояние
-- Последний аудит: seo/audits/2026-11-08.md — открыто: no-offer-001 (цены у 28/218), forbidden-claim-uzcard-001 (ждёт владельца), internal-links-hotends-001 (low), redirect-chain-001 (low), schema-breadcrumb-001 (low).
-- seo/changes/pending: 2026-11-02-schema-breadcrumbs-info-pages-dryrun.json; approved пуст; последнее внедрённое — seo/changes/applied/2026-11-08-material-pages-abs-asa-tpu.json.
+- Последний аудит: seo/audits/2026-11-09.md — открыто: no-offer-001 (цены у 28/218), forbidden-claim-uzcard-001 (ждёт владельца), internal-links-materials-001 (low, частично — крошки 729b3db), redirect-chain-001 (low), schema-breadcrumb-001 (low). internal-links-hotends-001 закрыт 2026-11-09.
+- seo/changes/pending: 2026-11-02-schema-breadcrumbs-info-pages-dryrun.json; approved пуст; последнее внедрённое — seo/changes/applied/2026-11-09-product-breadcrumbs-subcategory.json.
 
 ## Разработка модуля соцсетей и интерфейса (docs/prompt-social-module.md)
 - Фаза 0 (план) — одобрена 2026-11-02, кратко — docs/system-overview.md.
