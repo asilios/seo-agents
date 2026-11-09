@@ -30,40 +30,85 @@
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://forma-3d.uz/ru"},
-            {"@type": "ListItem", "position": 2, "name": "База знаний по 3D-печати и филаменту"}
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://forma-3d.uz/ru"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "База знаний по 3D-печати и филаменту"
+            }
           ]
         },
         "example_business_ru": {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://forma-3d.uz/ru"},
-            {"@type": "ListItem", "position": 2, "name": "Филамент Bambu Lab оптом для бизнеса и учебных заведений"}
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://forma-3d.uz/ru"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Филамент Bambu Lab оптом для бизнеса и учебных заведений"
+            }
           ]
         },
         "example_delivery_ru": {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://forma-3d.uz/ru"},
-            {"@type": "ListItem", "position": 2, "name": "Доставка и оплата филамента по Ташкенту и Узбекистану"}
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://forma-3d.uz/ru"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Доставка и оплата филамента по Ташкенту и Узбекистану"
+            }
           ]
         },
         "example_knowledge_uz": {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Bosh sahifa", "item": "https://forma-3d.uz/uz"},
-            {"@type": "ListItem", "position": 2, "name": "3D-bosma va filament bo‘yicha bilimlar bazasi"}
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Bosh sahifa",
+              "item": "https://forma-3d.uz/uz"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "3D-bosma va filament bo‘yicha bilimlar bazasi"
+            }
           ]
         },
         "example_business_uz": {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Bosh sahifa", "item": "https://forma-3d.uz/uz"},
-            {"@type": "ListItem", "position": 2, "name": "Biznes va ta’lim muassasalari uchun Bambu Lab filamenti ulgurji"}
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Bosh sahifa",
+              "item": "https://forma-3d.uz/uz"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Biznes va ta’lim muassasalari uchun Bambu Lab filamenti ulgurji"
+            }
           ]
         },
         "note_uz_delivery": "H1 /uz/delivery в краулере 2026-11-02-dryrun нет — последний элемент взять из текущего H1 страницы."
@@ -71,5 +116,7 @@
       "reason": "Доводит разметку крошек до единого вида по всему сайту: сейчас она есть на карточках, каталоге и статьях, но нет на трёх разделах. Для статей /knowledge/* родительский уровень «База знаний» становится размеченной страницей. Эффект небольшой (крошки в сниппете вместо URL), поэтому приоритет низкий."
     }
   ],
-  "status": "pending"
+  "status": "applied",
+  "applied_at": "2026-11-09",
+  "commit": "308fab5 (kemalshen/forma-3d)"
 }
