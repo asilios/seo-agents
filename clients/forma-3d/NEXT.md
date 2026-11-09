@@ -74,6 +74,12 @@
 - 2026-11-07: **Claude** — адаптер `ask_claude` (SDK `anthropic`, `web_search_20260209`, claude-opus-5-5, fallbacks=default) написан, в профиле включён, **вживую не проверен**: из облака Claude API без своего ключа отвечает 401, а форма секретов ключи Anthropic не принимает. Запуск — локально с `ANTHROPIC_API_KEY` в `.env` или в GitHub Actions: `python modules/geo/scripts/geo_monitor.py --client forma-3d --limit-queries 5 --models claude --execute` (≤ $3.30). Модели без ключа монитор теперь пропускает.
 - 2026-11-07: срез «вслепую» через субагентов (оценка, не метрика) — geo/manual/2026-11-07-claude-proxy-slice.md: Forma 3D 0/8, OLX 8/8, bambu.uz 5/8, справочники goldenpages/yellowpages/prom.uz. Следствие: выложить объявления на OLX и карточки в справочниках — сильнее правок сайта.
 
+## Частотность запросов (2026-11-09)
+- Готов `modules/seo/scripts/keyword_volumes.py`. Список 316 запросов — `seo/data/queries-to-check.txt`.
+- **Нужно от владельца:** загрузить список в Google Keyword Planner (гео Узбекистан) или Яндекс Wordstat, скачать CSV и положить в чат или в `seo/data/`.
+- Затем: `keyword_volumes.py import --client forma-3d --source planner --file <файл>` и `score` -> `seo/keywords/priorities.md`; после этого пересобрать приоритеты в clusters.md и список запросов для недельного среза выдачи.
+- Цифры пока не получены, приоритеты в clusters.md по-прежнему экспертные.
+
 ## Следующие задачи после GSC
 1. Отдельные страницы для статей базы знаний (`/ru/knowledge/<slug>`): сейчас статьи открываются модальным окном и не индексируются.
 2. 301 для 8 удалённых URL: product/hotend-h2d, hotend-h2c, hotend-p2s, paht-cf-request-spool (ru/uz) → ждём ответ владельца, на какие товары вести, или «сам подбери».
