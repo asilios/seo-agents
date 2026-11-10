@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-10-material-cross-links",
+  "issue": "internal-links-materials-001",
+  "type": "internal-links",
+  "pages": ["/ru|uz/catalog", "/ru|uz/catalog/pla", "/ru|uz/catalog/petg", "/ru|uz/catalog/abs-asa", "/ru|uz/catalog/tpu"],
+  "change": "Вводный текст общего каталога филамента: «Выбрать по материалу: PLA пластик, PETG пластик, ABS и ASA пластик, гибкий TPU пластик» (uz: «Material bo‘yicha tanlash: …»). На странице каждого материала — «Другие материалы:» со ссылками на остальные три (раньше — одна ссылка на соседний материал). Код: app/material-pages.ts (MATERIAL_LINK_TEXT), app/store.tsx.",
+  "why": "На /catalog/abs-asa и /catalog/tpu вели только главная и карточки (5 и 3 страницы); PLA/PETG/ABS/TPU-запросы не в топ-30, у конкурентов (liniya3d.uz, 3d-reality.uz) отдельные страницы материалов ранжируются.",
+  "status": "applied",
+  "approved_at": "2026-11-10",
+  "applied_at": "2026-11-10",
+  "commit": "https://github.com/kemalshen/forma-3d/commit/0dae89f",
+  "checks": "tsc, next build, локально 258/258 URL — 200, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ; архив пересобран и сверен (расходятся только .env.example и README.md, как раньше); живой сайт после выкладки (~110 с) 258/258 прошли те же проверки",
+  "recheck": "2026-11-17: позиции «pla пластик купить ташкент», «petg пластик ташкент», «abs пластик ташкент», «tpu пластик ташкент»"
+}

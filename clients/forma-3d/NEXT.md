@@ -1,4 +1,4 @@
-# Где остановились (2026-11-09, еженедельный запуск)
+# Где остановились (2026-11-10, еженедельный запуск)
 
 > 2026-11-02: папка клиента переименована `clients/test` → `clients/forma-3d`, данные SEO перенесены в `seo/`. Старые записи журнала ссылаются на прежние пути.
 
@@ -48,6 +48,13 @@
 - Срез выдачи: seo/data/serp-2026-11-07-weekly.md. Запчасти 17→9, филамент 19→17, /ru/catalog/petg впервые в выдаче (#24), «bambu lab hotend toshkent» #2 (карточка). Бренд 1→2.
 - Через 1–2 недели проверить: «хотэнд bambu lab ташкент» (#18 общим parts), «хотэнд…a1 купить» (#16), «сопло bambu lab 0.4» (нет), появилась ли /catalog/hotends; PLA-страница в выдаче (пока нет).
 - Следующее: BreadcrumbList на /business, /delivery, /knowledge (schema-breadcrumb-001, черновик — seo/changes/pending/2026-11-02-schema-breadcrumbs-info-pages-dryrun.json); затем страница ABS/ASA или TPU.
+
+## Еженедельный запуск 2026-11-10 (облако)
+- Сайт доступен. Аудит seo/audits/2026-11-10.md (до выкладки): 258/258 URL — 200, регрессий нет; закрыт schema-breadcrumb-001. Открыты: no-offer-001, forbidden-claim-uzcard-001 (ждёт владельца), internal-links-materials-001 (осталось только меню — ждёт владельца), redirect-chain-001.
+- Срез seo/data/serp-2026-11-10-weekly.md: **/ru/catalog/hotends впервые в выдаче — #15** по «хотэнд…a1 купить»; bambu lab filament toshkent 12→10; «пластик для 3d принтера ташкент» впервые #26. Выпали из топ-30 (были на краю): филамент bambu lab ташкент (#19), petg пластик ташкент (#28), хотэнд bambu lab ташкент (#17) — проверить 17.11, шум или падение.
+- **Выложено (0dae89f):** перекрёстные ссылки материалов — «Выбрать по материалу» на /catalog, «Другие материалы» на /catalog/pla, petg, abs-asa, tpu. Живой сайт 258/258 прошли проверки.
+- Через неделю: pla/petg/abs/tpu пластик ташкент — появились ли страницы материалов в топ-30.
+- Следующее без владельца: FAQ на страницах материалов (вопросы из статей сайта, без цен и сроков) или страница категории запчастей «Печатные столы» (textured plate #5 карточкой). С владельцем: меню, UzCard, прайс, срок «под заказ».
 
 ## Еженедельный запуск 2026-11-09 (облако)
 - Сайт доступен. Аудит seo/audits/2026-11-09.md (до выкладки): 258/258 URL — 200, регрессий нет. Новое: internal-links-materials-001 (low — на /catalog/abs-asa и /tpu ведёт только главная).
@@ -110,8 +117,8 @@
 - `PSI_API_KEY` пустой — PageSpeed не меряется.
 
 ## Состояние
-- Последний аудит: seo/audits/2026-11-09.md — открыто: no-offer-001 (цены у 28/218), forbidden-claim-uzcard-001 (ждёт владельца), internal-links-materials-001 (low, частично — крошки 729b3db), redirect-chain-001 (low), schema-breadcrumb-001 (low). internal-links-hotends-001 закрыт 2026-11-09.
-- seo/changes/pending: 2026-11-02-schema-breadcrumbs-info-pages-dryrun.json; approved пуст; последнее внедрённое — seo/changes/applied/2026-11-09-product-breadcrumbs-subcategory.json.
+- Последний аудит: seo/audits/2026-11-10.md — открыто: no-offer-001 (цены у 28/218), forbidden-claim-uzcard-001 (ждёт владельца), internal-links-materials-001 (low, осталось меню — ждёт владельца), redirect-chain-001 (low). schema-breadcrumb-001 закрыт 2026-11-09.
+- seo/changes/pending и approved пусты; последнее внедрённое — seo/changes/applied/2026-11-10-material-cross-links.json.
 
 ## Разработка модуля соцсетей и интерфейса (docs/prompt-social-module.md)
 - Фаза 0 (план) — одобрена 2026-11-02, кратко — docs/system-overview.md.
