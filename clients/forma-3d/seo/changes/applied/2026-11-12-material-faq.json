@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-12-material-faq",
+  "issue": null,
+  "type": "content-faq",
+  "pages": ["/ru|uz/catalog/pla", "/ru|uz/catalog/petg", "/ru|uz/catalog/abs-asa", "/ru|uz/catalog/tpu"],
+  "change": "Блок «Частые вопросы» (H2 + вопросы H3) под списком товаров на страницах материалов, ru и uz: PLA — 4 вопроса (где купить в Ташкенте, Basic или Matte, температура печати, нагрев и улица), PETG — 4 (где купить, отличие от PLA, температура, сушка), ABS/ASA — 3 (где купить, печать на A1, отличие ASA от ABS), TPU — 4 (где купить, печать на A1, AMS, сушка). Ссылки на статьи базы знаний и карточки товаров. Код: app/material-pages.ts (MATERIAL_FAQ), app/store.tsx. Без FAQPage-разметки.",
+  "why": "Страницы материалов выложены 05–08.11, но по русским запросам «pla/petg/abs/tpu пластик ташкент» их нет в топ-30 или они на краю (petg #26, pla plastik narxi #12→#21); на странице был один абзац, у конкурентов (liniya3d.uz/filament/petg и др.) текста о материале больше. FAQ добавляет ответы на частые вопросы под эти запросы.",
+  "sources": "Только факты из статей сайта «PETG или PLA», «Какой филамент выбрать», «Как хранить филамент» (данные Bambu Lab). Без цен, сроков, скидок и новых обещаний; доставка — ссылкой на /delivery; UzCard не упоминается.",
+  "status": "applied",
+  "approved_at": "2026-11-12",
+  "applied_at": "2026-11-12",
+  "commit": "https://github.com/kemalshen/forma-3d/commit/9d3805c",
+  "branch_commits": ["55e6493", "bd271da"],
+  "checks": "tsc, next build, локально 258/258 URL — 200, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ; FAQ виден в HTML с сервера; архив пересобран и сверен (расходятся только .env.example и README.md, как раньше)",
+  "recheck": "2026-11-19: «pla пластик купить ташкент», «petg пластик ташкент», «pla plastik narxi toshkent», «abs пластик ташкент», «tpu пластик ташкент»"
+}
