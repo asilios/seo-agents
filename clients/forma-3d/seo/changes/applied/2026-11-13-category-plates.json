@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-13-category-plates",
+  "issue": null,
+  "type": "new-category-page",
+  "pages": ["/ru/catalog/plates", "/uz/catalog/plates"],
+  "change": "Страница категории «Печатные столы»: каталог запчастей с фильтром «Печатные пластины» (5 карточек: Textured PEI 180 и 256 мм, Smooth PEI, Cool Plate SuperTack, Engineering Plate), свои title/description/H1, вводный текст ru/uz со ссылками на клей-карандаш, статью Bambu Studio (выбор типа стола) и все запчасти; крошки Главная → Запчасти → Печатные столы + BreadcrumbList; в крошках карточек столов — ссылка на категорию; ссылка из вводного текста /catalog/parts; sitemap 258 → 260. Код: app/part-pages.ts, app/seo.ts, app/store.tsx.",
+  "why": "Кластер «Печатные столы» в clusters.md без целевой страницы; «textured pei plate bambu lab ташкент» — #4 карточкой, /uz карточка #10; страница категорий хотэндов дала рост (хотэнд…a1 купить 25→14, /ru/catalog/hotends).",
+  "sources": "Совместимость — из данных товаров сайта (parts.ts: 180 мм — A1 mini; 256 мм — A1/P1/X1; Engineering — P1/X1). Описание поверхностей — общие сведения производителя Bambu Lab. Без цен, наличия, сроков и новых обещаний.",
+  "status": "applied",
+  "approved_at": "2026-11-13",
+  "applied_at": "2026-11-13",
+  "commit": "https://github.com/kemalshen/forma-3d/commit/fd5d321",
+  "branch_commits": ["8ced8f3", "29c2316"],
+  "checks": "tsc, next build, локально 260/260 URL — 200, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ; архив пересобран и сверен (расходятся только .env.example и README.md, как раньше); живой сайт через ~80 с — 260/260 прошли те же проверки",
+  "recheck": "2026-11-20: «textured pei plate bambu lab ташкент», «печатный стол bambu lab ташкент», «bambu lab stol toshkent»; появилась ли /catalog/plates в выдаче"
+}

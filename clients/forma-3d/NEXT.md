@@ -1,4 +1,4 @@
-# Где остановились (2026-11-12, еженедельный запуск)
+# Где остановились (2026-11-13, еженедельный запуск)
 
 > 2026-11-02: папка клиента переименована `clients/test` → `clients/forma-3d`, данные SEO перенесены в `seo/`. Старые записи журнала ссылаются на прежние пути.
 
@@ -48,6 +48,14 @@
 - Срез выдачи: seo/data/serp-2026-11-07-weekly.md. Запчасти 17→9, филамент 19→17, /ru/catalog/petg впервые в выдаче (#24), «bambu lab hotend toshkent» #2 (карточка). Бренд 1→2.
 - Через 1–2 недели проверить: «хотэнд bambu lab ташкент» (#18 общим parts), «хотэнд…a1 купить» (#16), «сопло bambu lab 0.4» (нет), появилась ли /catalog/hotends; PLA-страница в выдаче (пока нет).
 - Следующее: BreadcrumbList на /business, /delivery, /knowledge (schema-breadcrumb-001, черновик — seo/changes/pending/2026-11-02-schema-breadcrumbs-info-pages-dryrun.json); затем страница ABS/ASA или TPU.
+
+## Еженедельный запуск 2026-11-13 (облако)
+- Сайт доступен. Аудит seo/audits/2026-11-13.md (до выкладки): 258/258 URL — 200, регрессий нет. Новое: photo-placeholder-001 (low — «Фото уточняется» на 25 карточках, нужны фото от владельца). Открыто 5.
+- **Выложено (fd5d321):** страница «Печатные столы» /ru|uz/catalog/plates (app/part-pages.ts slug plates, 5 столов, крошки, ссылка с /catalog/parts; sitemap 260). Живой сайт 260/260 прошли проверки.
+- Срез seo/data/serp-2026-11-13-weekly.md — **неполный**: Firecrawl «Insufficient credits» на 7-м запросе (сняты 6 из 17, выдача урезана до 4–18 результатов). «хотэнд bambu lab a1 купить ташкент» 25→14 (/ru/catalog/hotends).
+- Firecrawl: задача срабатывает почти ежедневно, ~100 кредитов на срез — кредитов не хватает. В следующий запуск снимать сначала запросы 7–17 (textured pei, бренд, хотэнды, ehtiyot qismlar, pla plastik narxi, abs/tpu).
+- 2026-11-20 проверить: textured pei plate / печатный стол bambu lab ташкент — появилась ли /catalog/plates.
+- Следующее без владельца: дожим «хотэнд…a1» (#14) — ссылки/текст на карточках A1; FAQPage-разметка для FAQ материалов (аудитор отметил, что её нет). С владельцем: фото, меню, UzCard, прайс, срок «под заказ».
 
 ## Еженедельный запуск 2026-11-12 (облако)
 - Сайт доступен. Аудит seo/audits/2026-11-12.md: 258/258 URL — 200, регрессий нет, новых проблем нет; 0dae89f работает (на /catalog/abs-asa ссылаются 12 страниц, на /tpu — 10). Открыты прежние 4: forbidden-claim-uzcard-001, no-offer-001, internal-links-materials-001 (меню), redirect-chain-001.
@@ -125,8 +133,8 @@
 - `PSI_API_KEY` пустой — PageSpeed не меряется.
 
 ## Состояние
-- Последний аудит: seo/audits/2026-11-12.md (без изменений с 10.11) — открыто: no-offer-001 (цены у 28/218), forbidden-claim-uzcard-001 (ждёт владельца), internal-links-materials-001 (low, осталось меню — ждёт владельца), redirect-chain-001 (low). schema-breadcrumb-001 закрыт 2026-11-09.
-- seo/changes/pending и approved пусты; последнее внедрённое — seo/changes/applied/2026-11-12-material-faq.json.
+- Последний аудит: seo/audits/2026-11-13.md — открыто: photo-placeholder-001 (low, нужны фото), no-offer-001 (цены у 28/218), forbidden-claim-uzcard-001 (ждёт владельца), internal-links-materials-001 (low, осталось меню — ждёт владельца), redirect-chain-001 (low). schema-breadcrumb-001 закрыт 2026-11-09.
+- seo/changes/pending и approved пусты; последнее внедрённое — seo/changes/applied/2026-11-13-category-plates.json.
 
 ## Разработка модуля соцсетей и интерфейса (docs/prompt-social-module.md)
 - Фаза 0 (план) — одобрена 2026-11-02, кратко — docs/system-overview.md.
