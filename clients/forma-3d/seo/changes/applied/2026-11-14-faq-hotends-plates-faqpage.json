@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-14-faq-hotends-plates-faqpage",
+  "issue": null,
+  "type": "content-faq+schema",
+  "pages": ["/ru/catalog/hotends", "/uz/catalog/hotends", "/ru/catalog/plates", "/uz/catalog/plates", "/ru|uz/catalog/pla", "/ru|uz/catalog/petg", "/ru|uz/catalog/abs-asa", "/ru|uz/catalog/tpu"],
+  "change": "1) Блок «Частые вопросы» на /catalog/hotends (5 вопросов: где купить сопло 0,4 мм в Ташкенте, как заменить сопло на A1/A1 mini, когда менять сопло, обычное или закалённое, 0,2/0,4/0,6 мм) и на /catalog/plates (4 вопроса: где купить, какой стол к A1 mini и к A1/P1S/X1C, Textured/Smooth/SuperTack, тип стола в Bambu Studio), ru и uz, со ссылками на карточки и статьи. 2) Разметка FAQPage (JSON-LD) по тем же вопросам на /catalog/hotends, plates, pla, petg, abs-asa, tpu — только стр. 1, текст совпадает с видимым. /catalog/parts намеренно без FAQPage: в его FAQ есть UzCard (forbidden-claim-uzcard-001). Код: app/part-pages.ts (PART_FAQ), app/store.tsx, app/seo.ts (faqJsonLd), app/[lang]/[[...path]]/page.tsx.",
+  "why": "Срез 14.11: по «сопло bambu lab 0.4 купить» и «сопло для 3d принтера bambu lab ташкент» сайта нет в топ-30, хотя есть страница «Хотэнды и сопла»; по «хотэнд bambu lab ташкент» ранжируется карточка, а не категория. Аудит 14.11: видимые FAQ есть, разметки FAQPage нет ни на одной странице.",
+  "sources": "Факты — из статей сайта «Когда менять сопло» (kogda-menyat-soplo) и «Настройка Bambu Studio» (bambu-studio-nastroyka), вводных текстов категорий и карточек товаров. Без цен, наличия, новых сроков и обещаний; про срок «под заказ» — только «подтвердим перед оформлением», как в статье.",
+  "status": "applied",
+  "approved_at": "2026-11-14",
+  "applied_at": "2026-11-14",
+  "commit": "https://github.com/kemalshen/forma-3d/commit/06e80d5",
+  "branch_commits": ["d31fce4", "1520318"],
+  "checks": "pnpm typecheck, pnpm build, локально 260/260 URL из sitemap — 200 без редиректа, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ, JSON-LD парсится, FAQPage на 12 страницах; архив пересобран и сверен (расходятся только .env.example и README.md, как раньше); живой сайт через ~3 мин — 260/260 прошли те же проверки, FAQPage на 12 страницах",
+  "recheck": "2026-11-21: «сопло bambu lab 0.4 купить», «сопло для 3d принтера bambu lab ташкент», «хотэнд bambu lab ташкент» (категория вместо карточки), «textured pei plate bambu lab ташкент»"
+}

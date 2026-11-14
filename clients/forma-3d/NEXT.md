@@ -1,4 +1,4 @@
-# Где остановились (2026-11-13, еженедельный запуск)
+# Где остановились (2026-11-14, еженедельный запуск)
 
 > 2026-11-02: папка клиента переименована `clients/test` → `clients/forma-3d`, данные SEO перенесены в `seo/`. Старые записи журнала ссылаются на прежние пути.
 
@@ -48,6 +48,13 @@
 - Срез выдачи: seo/data/serp-2026-11-07-weekly.md. Запчасти 17→9, филамент 19→17, /ru/catalog/petg впервые в выдаче (#24), «bambu lab hotend toshkent» #2 (карточка). Бренд 1→2.
 - Через 1–2 недели проверить: «хотэнд bambu lab ташкент» (#18 общим parts), «хотэнд…a1 купить» (#16), «сопло bambu lab 0.4» (нет), появилась ли /catalog/hotends; PLA-страница в выдаче (пока нет).
 - Следующее: BreadcrumbList на /business, /delivery, /knowledge (schema-breadcrumb-001, черновик — seo/changes/pending/2026-11-02-schema-breadcrumbs-info-pages-dryrun.json); затем страница ABS/ASA или TPU.
+
+## Еженедельный запуск 2026-11-14 (облако)
+- Сайт доступен. Аудит seo/audits/2026-11-14.md (до выкладки): 260/260 URL — 200, регрессий нет. Новое: pagination-out-of-range-001 (low — ?page=N сверх числа страниц отдаёт 200 с canonical на себя; ссылок на такие URL нет). Открыто 6.
+- Срез seo/data/serp-2026-11-14-weekly.md — полный (17 запросов). Запчасти 8→6, bambu lab hotend toshkent #2, ehtiyot qismlar #4, textured pei #4, filament toshkent #9, филамент bambu lab ташкент #19. «сопло…» — нет; /uz/catalog/pla выпала по pla plastik narxi; /catalog/plates в выдаче ещё нет.
+- **Выложено (06e80d5):** FAQ на /ru|uz/catalog/hotends (про сопла) и /catalog/plates; FAQPage JSON-LD на hotends, plates, pla, petg, abs-asa, tpu. /catalog/parts без FAQPage, пока там UzCard. Живой сайт 260/260 прошли проверки.
+- 2026-11-21 проверить: «сопло bambu lab 0.4 купить», «сопло для 3d принтера bambu lab ташкент», «хотэнд bambu lab ташкент» (категория или карточка), textured pei / /catalog/plates.
+- Следующее без владельца: pagination-out-of-range-001 (404 или noindex для ?page сверх числа страниц); ссылки на /catalog/hotends и /catalog/plates со страниц материалов/главной в пределах SEO-блоков; дожим «pla plastik narxi toshkent» (/uz/catalog/pla). С владельцем: UzCard, прайс, срок «под заказ», меню, фото.
 
 ## Еженедельный запуск 2026-11-13 (облако)
 - Сайт доступен. Аудит seo/audits/2026-11-13.md (до выкладки): 258/258 URL — 200, регрессий нет. Новое: photo-placeholder-001 (low — «Фото уточняется» на 25 карточках, нужны фото от владельца). Открыто 5.
@@ -133,8 +140,8 @@
 - `PSI_API_KEY` пустой — PageSpeed не меряется.
 
 ## Состояние
-- Последний аудит: seo/audits/2026-11-13.md — открыто: photo-placeholder-001 (low, нужны фото), no-offer-001 (цены у 28/218), forbidden-claim-uzcard-001 (ждёт владельца), internal-links-materials-001 (low, осталось меню — ждёт владельца), redirect-chain-001 (low). schema-breadcrumb-001 закрыт 2026-11-09.
-- seo/changes/pending и approved пусты; последнее внедрённое — seo/changes/applied/2026-11-13-category-plates.json.
+- Последний аудит: seo/audits/2026-11-14.md — открыто: pagination-out-of-range-001 (low, новое), photo-placeholder-001 (low, нужны фото), no-offer-001 (цены у 28/218), forbidden-claim-uzcard-001 (ждёт владельца), internal-links-materials-001 (low, осталось меню — ждёт владельца), redirect-chain-001 (low). schema-breadcrumb-001 закрыт 2026-11-09.
+- seo/changes/pending и approved пусты; последнее внедрённое — seo/changes/applied/2026-11-14-faq-hotends-plates-faqpage.json.
 
 ## Разработка модуля соцсетей и интерфейса (docs/prompt-social-module.md)
 - Фаза 0 (план) — одобрена 2026-11-02, кратко — docs/system-overview.md.
