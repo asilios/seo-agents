@@ -41,7 +41,8 @@ VOLUME_COLS = ["avg. monthly searches", "average monthly searches", "volume", "s
 def norm(q):
     """Единая форма запроса для сопоставления: нижний регистр, ё→е, без лишних пробелов и кавычек."""
     q = q.lower().replace("ё", "е").strip().strip('"[]!+')
-    return re.sub(r"\s+", " ", q)
+    q = re.sub(r"[-‘’'`]", " ", q)  # Keyword Planner убирает дефисы и апострофы: pa6-cf -> pa6 cf, do‘koni -> do koni
+    return re.sub(r"\s+", " ", q).strip()
 
 
 # ---------- чтение кластеров ----------
