@@ -101,6 +101,23 @@
   check: secret:DATAFORSEO_LOGIN
   required: false
 
+- id: gads-keyword-planner
+  scope: system
+  module: seo
+  kind: secret
+  title: Google Ads API (Keyword Planner) — частотность запросов
+  unlocks: средний месячный объём, конкуренция и ставки по запросам ядра (Узбекистан); приоритеты кластеров перестают быть только экспертной оценкой
+  where: .env → GOOGLE_ADS_DEVELOPER_TOKEN, GOOGLE_ADS_CLIENT_ID, GOOGLE_ADS_CLIENT_SECRET, GOOGLE_ADS_REFRESH_TOKEN, GOOGLE_ADS_CUSTOMER_ID (+ GOOGLE_ADS_LOGIN_CUSTOMER_ID, если через MCC)
+  how:
+    - ads.google.com → создать аккаунт Google Ads (или взять существующий); для API лучше менеджерский аккаунт (MCC)
+    - В MCC → Инструменты → Центр API → получить developer token и подать заявку на Basic access (одобрение может занять несколько дней)
+    - Google Cloud → включить Google Ads API → OAuth client (Desktop) → выпустить refresh token со scope https://www.googleapis.com/auth/adwords
+    - Записать значения в .env (не в чат); в GOOGLE_ADS_CUSTOMER_ID — ID аккаунта без дефисов
+    - Проверка без вызова API — python modules/seo/scripts/gads_volumes.py --client <client> --dry-run
+  cost: бесплатно; без расходов в аккаунте Google отдаёт диапазоны вместо точных чисел
+  check: secret:GOOGLE_ADS_DEVELOPER_TOKEN
+  required: false
+
 - id: dashboard-oauth
   scope: system
   module: dashboard
