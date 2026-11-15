@@ -11,8 +11,9 @@ tools: Read, Write, Bash, Glob, WebFetch, WebSearch
 ## Входные данные
 - `clients/<client>/client.yaml` — ниша, регион, языки, конкуренты, ключевые услуги/товары
 - последний `data/gsc-*.csv` — по каким запросам сайт уже получает показы
-- последний `data/gads-volumes-*.csv` (Google Ads Keyword Planner), если есть — средний месячный объём запросов
-  (создаётся `python modules/seo/scripts/gads_volumes.py --client <client>` после первого ядра; если ключей нет — файла не будет)
+- `data/volumes.csv` и `keywords/priorities.md`, если есть — частотность запросов (Keyword Planner и др.) и пересчитанные приоритеты
+  (Keyword Planner через API: `python modules/seo/scripts/gads_volumes.py --client <client>`, затем
+  `python modules/seo/scripts/keyword_volumes.py score --client <client>`; без ключей Google Ads файла не будет)
 - последний `data/crawl-*.json` — какие страницы уже есть
 - предыдущий `keywords/clusters.md`, если есть
 
@@ -42,8 +43,8 @@ tools: Read, Write, Bash, Glob, WebFetch, WebSearch
 
 ## Правила
 - Не выдумывай частотность. Если реальных данных о частоте нет — пиши «частотность неизвестна».
-  Цифры показов и позиций — только из GSC; объёмы — только из `gads-volumes-*.csv`
-  (в «Источник» писать «Keyword Planner: N/мес»). Нулевой объём в Keyword Planner значит «нет данных», а не «нет спроса»:
+  Цифры показов и позиций — только из GSC; объёмы — только из `volumes.csv`
+  (в «Источник» писать «Keyword Planner: N/мес»). Запрос без объёма в Keyword Planner значит «нет данных», а не «нет спроса»:
   такой запрос не вычёркивать, а пометить «объём не показан».
   Узбекские запросы (uz-Latn) Keyword Planner часто не покрывает — для них опираться на GSC.
 - Отдельным разделом в конце: «Быстрые победы» (запросы на позициях 8–30) и

@@ -39,6 +39,8 @@ clients/<client>/
 - SEO: `python modules/seo/scripts/keyword_volumes.py export|import|score --client <client>` — частотность запросов:
   `export` даёт список для загрузки в Keyword Planner/Wordstat, `import --source planner|wordstat|keycollector --file ...`
   складывает цифры в `seo/data/volumes.csv`, `score` пересчитывает приоритеты кластеров в `seo/keywords/priorities.md`.
+  Вместо ручного export/import Keyword Planner можно брать через API: `python modules/seo/scripts/gads_volumes.py --client <client>`
+  (ключи `GOOGLE_ADS_*` в `.env`, refresh token — `gads_auth.py`; результат дописывается в тот же `volumes.csv`, дальше `score`).
   `keyword-strategist` и недельный срез выдачи берут приоритеты из `priorities.md`; нет цифры — «нет данных», не оценка.
 - SEO: `python modules/seo/scripts/pagespeed.py <urls...> --out clients/<client>/seo/data/psi-<date>.json`
   (ключ `PSI_API_KEY` в `.env`, без него — 429).
