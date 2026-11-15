@@ -5,7 +5,7 @@
 
 Ключи (в .env, не в чате): GOOGLE_ADS_DEVELOPER_TOKEN, GOOGLE_ADS_CLIENT_ID, GOOGLE_ADS_CLIENT_SECRET,
 GOOGLE_ADS_REFRESH_TOKEN (получить: gads_auth.py), GOOGLE_ADS_CUSTOMER_ID (без дефисов);
-через MCC — GOOGLE_ADS_LOGIN_CUSTOMER_ID. Версия API — GOOGLE_ADS_API_VERSION (по умолчанию v21).
+через MCC — GOOGLE_ADS_LOGIN_CUSTOMER_ID. Версия API — GOOGLE_ADS_API_VERSION (по умолчанию v24).
 
 Запуск из корня репозитория:
     python modules/seo/scripts/gads_volumes.py --client forma-3d --dry-run   # только показать запросы
@@ -71,7 +71,7 @@ def fetch_batch(token, keywords, lang):
     import requests
 
     cid = os.environ["GOOGLE_ADS_CUSTOMER_ID"].replace("-", "")
-    version = os.environ.get("GOOGLE_ADS_API_VERSION", "v21")
+    version = os.environ.get("GOOGLE_ADS_API_VERSION", "v24")
     headers = {
         "Authorization": f"Bearer {token}",
         "developer-token": os.environ["GOOGLE_ADS_DEVELOPER_TOKEN"],
@@ -126,7 +126,7 @@ def main():
             w.writeheader()
         w.writerows(out)
     nonzero = sum(1 for o in out if o["volume"] > 0)
-    print(f"Записано: {len(out)} (с объёмом > 0: {nonzero}), без данных: {skipped} → {path}")
+    print(f"Записано: {len(out)} (с объёмом > 0: {nonzero}), без данных: {skipped} в {path}")
     print(f"Дальше: python modules/seo/scripts/keyword_volumes.py score --client {a.client}")
 
 

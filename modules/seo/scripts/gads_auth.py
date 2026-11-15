@@ -38,7 +38,7 @@ def main():
     out = ROOT / "secrets" / "gads-refresh-token.txt"
     out.parent.mkdir(exist_ok=True)
     out.write_text(creds.refresh_token, encoding="utf-8")
-    print(f"Готово. Refresh token сохранён в {out}. Скопируйте его в .env → GOOGLE_ADS_REFRESH_TOKEN и удалите файл.")
+    print(f"Готово. Refresh token сохранён в {out}. Скопируйте его в .env в GOOGLE_ADS_REFRESH_TOKEN и удалите файл.")
 
 
 if __name__ == "__main__":
