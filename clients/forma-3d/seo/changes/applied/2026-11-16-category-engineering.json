@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-16-category-engineering",
+  "issue": "pla-pagination-links-001",
+  "type": "new-category+fix",
+  "status": "applied",
+  "approved_at": "2026-11-16",
+  "applied_at": "2026-11-16",
+  "pages": [
+    "/ru/catalog/engineering",
+    "/uz/catalog/engineering",
+    "/ru|uz/catalog/hotends (ссылка)",
+    "/ru|uz/catalog/pla, petg, abs-asa, tpu, /catalog (ссылка «Другие материалы»/«Выбрать по материалу»)",
+    "/ru|uz/catalog/pla?page=N"
+  ],
+  "change": "1) Новая посадочная страница «Инженерные пластики» /ru|uz/catalog/engineering (кластер «Инженерные и композитные пластики», приоритет 1 по частотности, страницы не было): 6 товаров — PLA-CF, PETG-CF, PET-CF, PAHT-CF, PA6-CF, PC; title/description/H1, вводный текст, 4 частых вопроса + FAQPage, крошки, sitemap 262. Факты — из статьи «Какой филамент выбрать» (Bambu Lab), срок «под заказ» — общий ORDER_LEAD_TIME сайта, цен нет. 2) Ссылка с /catalog/hotends на эту страницу; ссылки на категории внутри текстов при переходе внутри сайта выставляют правильный фильтр (catGo). 3) Пагинация: кнопки страниц на /catalog/pla вели на /catalog?page=N — теперь на /catalog/pla?page=N (pla-pagination-links-001).",
+  "files": [
+    "app/material-pages.ts",
+    "app/seo.ts",
+    "app/store.tsx",
+    "app/part-pages.ts",
+    "app/catalog.ts",
+    "forma-3d-source.tar.gz"
+  ],
+  "commits": {
+    "code": "ed80cf5",
+    "archive": "0697b3c",
+    "merge": "06cd5fb"
+  },
+  "checks": "typecheck, build, локально 262/262 URL sitemap — 200, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ, JSON-LD валиден; архив сверен; живой сайт через ~90 с — 262/262 прошли"
+}
