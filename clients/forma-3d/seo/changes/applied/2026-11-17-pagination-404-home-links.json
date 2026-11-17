@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-17-pagination-404-home-links",
+  "issue": "pagination-out-of-range-001, internal-links-materials-001",
+  "type": "technical-fix+internal-links",
+  "status": "applied",
+  "approved_at": "2026-11-17",
+  "applied_at": "2026-11-17",
+  "pages": ["/ru", "/uz", "/ru|uz/catalog*?page=N"],
+  "change": "1) Номера страниц каталога сверх последней (?page=N > числа страниц раздела с фильтрами по умолчанию, 18 товаров на страницу) отдают 404 с noindex вместо копии последней страницы (pagination-out-of-range-001). Функция catalogPageCount в app/seo.ts, проверка в app/[lang]/[[...path]]/page.tsx. 2) Главная: кнопка «Сопла и хотэнды» / «Soplo va hotendlar» ведёт на /catalog/hotends вместо общего /catalog/parts (анкор совпадает с запросами «хотэнд/сопло bambu lab», главная ранжируется по ним вместо раздела). 3) Главная, блок «Изделия наших клиентов»: в существующем тексте слова PAHT-CF, PETG, ASA стали ссылками на /catalog/engineering, /catalog/petg, /catalog/abs-asa (стиль ссылок — как в других текстовых блоках). Текст, цены, обещания не менялись.",
+  "files": ["app/seo.ts", "app/[lang]/[[...path]]/page.tsx", "app/store.tsx", "app/globals.css", "forma-3d-source.tar.gz"],
+  "commits": {"code": "c0a9976", "archive": "29b6593", "merge": "67a589e"},
+  "checks": "typecheck, build без ошибок; локально 262/262 URL sitemap — 200, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ; ?page сверх последней — 404 noindex, существующие страницы — 200; архив пересобран и сверен (кроме давних .env.example, README.md); живой сайт через ~1 мин — 262/262 прошли, 404/200 пагинации как локально"
+}

@@ -1,0 +1,2240 @@
+{
+ "https://forma-3d.uz/ru/catalog": {
+  "real_pages": 4,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog?page=2",
+    "robots": "",
+    "title": "Филамент Bambu Lab — страница 2 | Forma 3D",
+    "h1": [
+     "Филамент Bambu Lab для 3D-принтера — страница 2"
+    ],
+    "products": 28,
+    "prod_hash": "bfa179f6",
+    "page_links": [
+     "/ru/catalog?page=2",
+     "/ru/catalog?page=3",
+     "/ru/catalog?page=4"
+    ]
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog?page=3",
+    "robots": "",
+    "title": "Филамент Bambu Lab — страница 3 | Forma 3D",
+    "h1": [
+     "Филамент Bambu Lab для 3D-принтера — страница 3"
+    ],
+    "products": 30,
+    "prod_hash": "cc2f7312",
+    "page_links": [
+     "/ru/catalog?page=2",
+     "/ru/catalog?page=3",
+     "/ru/catalog?page=4"
+    ]
+   },
+   "4": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog?page=4",
+    "robots": "",
+    "title": "Филамент Bambu Lab — страница 4 | Forma 3D",
+    "h1": [
+     "Филамент Bambu Lab для 3D-принтера — страница 4"
+    ],
+    "products": 11,
+    "prod_hash": "e123dcfd",
+    "page_links": [
+     "/ru/catalog?page=2",
+     "/ru/catalog?page=3",
+     "/ru/catalog?page=4"
+    ]
+   },
+   "5": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog?page=5",
+    "robots": "",
+    "title": "Филамент Bambu Lab — страница 5 | Forma 3D",
+    "h1": [
+     "Филамент Bambu Lab для 3D-принтера — страница 4"
+    ],
+    "products": 11,
+    "prod_hash": "e123dcfd",
+    "page_links": [
+     "/ru/catalog?page=2",
+     "/ru/catalog?page=3",
+     "/ru/catalog?page=4"
+    ]
+   },
+   "6": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog?page=6",
+    "robots": "",
+    "title": "Филамент Bambu Lab — страница 6 | Forma 3D",
+    "h1": [
+     "Филамент Bambu Lab для 3D-принтера — страница 4"
+    ],
+    "products": 11,
+    "prod_hash": "e123dcfd",
+    "page_links": [
+     "/ru/catalog?page=2",
+     "/ru/catalog?page=3",
+     "/ru/catalog?page=4"
+    ]
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog?page=99",
+    "robots": "",
+    "title": "Филамент Bambu Lab — страница 99 | Forma 3D",
+    "h1": [
+     "Филамент Bambu Lab для 3D-принтера — страница 4"
+    ],
+    "products": 11,
+    "prod_hash": "e123dcfd",
+    "page_links": [
+     "/ru/catalog?page=2",
+     "/ru/catalog?page=3",
+     "/ru/catalog?page=4"
+    ]
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog",
+    "robots": "",
+    "title": "Филамент Bambu Lab купить в Ташкенте — PLA, PETG | Forma 3D",
+    "h1": [
+     "Филамент Bambu Lab для 3D-принтера"
+    ],
+    "products": 25,
+    "prod_hash": "54409319",
+    "page_links": [
+     "/ru/catalog?page=2",
+     "/ru/catalog?page=3",
+     "/ru/catalog?page=4"
+    ]
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog",
+    "robots": "",
+    "title": "Филамент Bambu Lab купить в Ташкенте — PLA, PETG | Forma 3D",
+    "h1": [
+     "Филамент Bambu Lab для 3D-принтера"
+    ],
+    "products": 25,
+    "prod_hash": "54409319",
+    "page_links": [
+     "/ru/catalog?page=2",
+     "/ru/catalog?page=3",
+     "/ru/catalog?page=4"
+    ]
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog",
+    "robots": "",
+    "title": "Филамент Bambu Lab купить в Ташкенте — PLA, PETG | Forma 3D",
+    "h1": [
+     "Филамент Bambu Lab для 3D-принтера"
+    ],
+    "products": 25,
+    "prod_hash": "54409319",
+    "page_links": [
+     "/ru/catalog?page=2",
+     "/ru/catalog?page=3",
+     "/ru/catalog?page=4"
+    ]
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog",
+    "robots": "",
+    "title": "Филамент Bambu Lab купить в Ташкенте — PLA, PETG | Forma 3D",
+    "h1": [
+     "Филамент Bambu Lab для 3D-принтера"
+    ],
+    "products": 25,
+    "prod_hash": "54409319",
+    "page_links": [
+     "/ru/catalog?page=2",
+     "/ru/catalog?page=3",
+     "/ru/catalog?page=4"
+    ]
+   }
+  }
+ },
+ "https://forma-3d.uz/ru/catalog/parts": {
+  "real_pages": 3,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/parts?page=2",
+    "robots": "",
+    "title": "Запчасти Bambu Lab — страница 2 | Forma 3D",
+    "h1": [
+     "Запчасти и расходники для Bambu Lab — страница 2"
+    ],
+    "products": 21,
+    "prod_hash": "348e5f1e",
+    "page_links": [
+     "/ru/catalog/parts?page=2",
+     "/ru/catalog/parts?page=3"
+    ]
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/parts?page=3",
+    "robots": "",
+    "title": "Запчасти Bambu Lab — страница 3 | Forma 3D",
+    "h1": [
+     "Запчасти и расходники для Bambu Lab — страница 3"
+    ],
+    "products": 12,
+    "prod_hash": "a463026b",
+    "page_links": [
+     "/ru/catalog/parts?page=2",
+     "/ru/catalog/parts?page=3"
+    ]
+   },
+   "4": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/parts?page=4",
+    "robots": "",
+    "title": "Запчасти Bambu Lab — страница 4 | Forma 3D",
+    "h1": [
+     "Запчасти и расходники для Bambu Lab — страница 3"
+    ],
+    "products": 12,
+    "prod_hash": "a463026b",
+    "page_links": [
+     "/ru/catalog/parts?page=2",
+     "/ru/catalog/parts?page=3"
+    ]
+   },
+   "5": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/parts?page=5",
+    "robots": "",
+    "title": "Запчасти Bambu Lab — страница 5 | Forma 3D",
+    "h1": [
+     "Запчасти и расходники для Bambu Lab — страница 3"
+    ],
+    "products": 12,
+    "prod_hash": "a463026b",
+    "page_links": [
+     "/ru/catalog/parts?page=2",
+     "/ru/catalog/parts?page=3"
+    ]
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/parts?page=99",
+    "robots": "",
+    "title": "Запчасти Bambu Lab — страница 99 | Forma 3D",
+    "h1": [
+     "Запчасти и расходники для Bambu Lab — страница 3"
+    ],
+    "products": 12,
+    "prod_hash": "a463026b",
+    "page_links": [
+     "/ru/catalog/parts?page=2",
+     "/ru/catalog/parts?page=3"
+    ]
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/parts",
+    "robots": "",
+    "title": "Запчасти Bambu Lab в Ташкенте — хотэнды, столы | Forma 3D",
+    "h1": [
+     "Запчасти и расходники для Bambu Lab"
+    ],
+    "products": 18,
+    "prod_hash": "594516db",
+    "page_links": [
+     "/ru/catalog/parts?page=2",
+     "/ru/catalog/parts?page=3"
+    ]
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/parts",
+    "robots": "",
+    "title": "Запчасти Bambu Lab в Ташкенте — хотэнды, столы | Forma 3D",
+    "h1": [
+     "Запчасти и расходники для Bambu Lab"
+    ],
+    "products": 18,
+    "prod_hash": "594516db",
+    "page_links": [
+     "/ru/catalog/parts?page=2",
+     "/ru/catalog/parts?page=3"
+    ]
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/parts",
+    "robots": "",
+    "title": "Запчасти Bambu Lab в Ташкенте — хотэнды, столы | Forma 3D",
+    "h1": [
+     "Запчасти и расходники для Bambu Lab"
+    ],
+    "products": 18,
+    "prod_hash": "594516db",
+    "page_links": [
+     "/ru/catalog/parts?page=2",
+     "/ru/catalog/parts?page=3"
+    ]
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/parts",
+    "robots": "",
+    "title": "Запчасти Bambu Lab в Ташкенте — хотэнды, столы | Forma 3D",
+    "h1": [
+     "Запчасти и расходники для Bambu Lab"
+    ],
+    "products": 18,
+    "prod_hash": "594516db",
+    "page_links": [
+     "/ru/catalog/parts?page=2",
+     "/ru/catalog/parts?page=3"
+    ]
+   }
+  }
+ },
+ "https://forma-3d.uz/ru/catalog/hotends": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/hotends?page=2",
+    "robots": "",
+    "title": "Хотэнды и сопла Bambu Lab — страница 2 | Forma 3D",
+    "h1": [
+     "Хотэнды и сопла для Bambu Lab A1, P1S, X1C"
+    ],
+    "products": 16,
+    "prod_hash": "0645e2fe",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/hotends?page=3",
+    "robots": "",
+    "title": "Хотэнды и сопла Bambu Lab — страница 3 | Forma 3D",
+    "h1": [
+     "Хотэнды и сопла для Bambu Lab A1, P1S, X1C"
+    ],
+    "products": 16,
+    "prod_hash": "0645e2fe",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/hotends?page=99",
+    "robots": "",
+    "title": "Хотэнды и сопла Bambu Lab — страница 99 | Forma 3D",
+    "h1": [
+     "Хотэнды и сопла для Bambu Lab A1, P1S, X1C"
+    ],
+    "products": 16,
+    "prod_hash": "0645e2fe",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/hotends",
+    "robots": "",
+    "title": "Хотэнды и сопла Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Хотэнды и сопла для Bambu Lab A1, P1S, X1C"
+    ],
+    "products": 16,
+    "prod_hash": "0645e2fe",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/hotends",
+    "robots": "",
+    "title": "Хотэнды и сопла Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Хотэнды и сопла для Bambu Lab A1, P1S, X1C"
+    ],
+    "products": 16,
+    "prod_hash": "0645e2fe",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/hotends",
+    "robots": "",
+    "title": "Хотэнды и сопла Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Хотэнды и сопла для Bambu Lab A1, P1S, X1C"
+    ],
+    "products": 16,
+    "prod_hash": "0645e2fe",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/hotends",
+    "robots": "",
+    "title": "Хотэнды и сопла Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Хотэнды и сопла для Bambu Lab A1, P1S, X1C"
+    ],
+    "products": 16,
+    "prod_hash": "0645e2fe",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/ru/catalog/plates": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/plates?page=2",
+    "robots": "",
+    "title": "Печатные столы Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Печатные столы Bambu Lab для A1, A1 mini, P1S, X1C"
+    ],
+    "products": 6,
+    "prod_hash": "4b463997",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/plates?page=3",
+    "robots": "",
+    "title": "Печатные столы Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Печатные столы Bambu Lab для A1, A1 mini, P1S, X1C"
+    ],
+    "products": 6,
+    "prod_hash": "4b463997",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/plates?page=99",
+    "robots": "",
+    "title": "Печатные столы Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Печатные столы Bambu Lab для A1, A1 mini, P1S, X1C"
+    ],
+    "products": 6,
+    "prod_hash": "4b463997",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/plates",
+    "robots": "",
+    "title": "Печатные столы Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Печатные столы Bambu Lab для A1, A1 mini, P1S, X1C"
+    ],
+    "products": 6,
+    "prod_hash": "4b463997",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/plates",
+    "robots": "",
+    "title": "Печатные столы Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Печатные столы Bambu Lab для A1, A1 mini, P1S, X1C"
+    ],
+    "products": 6,
+    "prod_hash": "4b463997",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/plates",
+    "robots": "",
+    "title": "Печатные столы Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Печатные столы Bambu Lab для A1, A1 mini, P1S, X1C"
+    ],
+    "products": 6,
+    "prod_hash": "4b463997",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/plates",
+    "robots": "",
+    "title": "Печатные столы Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Печатные столы Bambu Lab для A1, A1 mini, P1S, X1C"
+    ],
+    "products": 6,
+    "prod_hash": "4b463997",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/ru/catalog/pla": {
+  "real_pages": 3,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/pla?page=2",
+    "robots": "",
+    "title": "PLA пластик Bambu Lab — страница 2 | Forma 3D",
+    "h1": [
+     "PLA пластик Bambu Lab для 3D-принтера — страница 2"
+    ],
+    "products": 27,
+    "prod_hash": "ba9b305d",
+    "page_links": [
+     "/ru/catalog/pla?page=2",
+     "/ru/catalog/pla?page=3"
+    ]
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/pla?page=3",
+    "robots": "",
+    "title": "PLA пластик Bambu Lab — страница 3 | Forma 3D",
+    "h1": [
+     "PLA пластик Bambu Lab для 3D-принтера — страница 3"
+    ],
+    "products": 4,
+    "prod_hash": "b0539ddd",
+    "page_links": [
+     "/ru/catalog/pla?page=2",
+     "/ru/catalog/pla?page=3"
+    ]
+   },
+   "4": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/pla?page=4",
+    "robots": "",
+    "title": "PLA пластик Bambu Lab — страница 4 | Forma 3D",
+    "h1": [
+     "PLA пластик Bambu Lab для 3D-принтера — страница 3"
+    ],
+    "products": 4,
+    "prod_hash": "b0539ddd",
+    "page_links": [
+     "/ru/catalog/pla?page=2",
+     "/ru/catalog/pla?page=3"
+    ]
+   },
+   "5": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/pla?page=5",
+    "robots": "",
+    "title": "PLA пластик Bambu Lab — страница 5 | Forma 3D",
+    "h1": [
+     "PLA пластик Bambu Lab для 3D-принтера — страница 3"
+    ],
+    "products": 4,
+    "prod_hash": "b0539ddd",
+    "page_links": [
+     "/ru/catalog/pla?page=2",
+     "/ru/catalog/pla?page=3"
+    ]
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/pla?page=99",
+    "robots": "",
+    "title": "PLA пластик Bambu Lab — страница 99 | Forma 3D",
+    "h1": [
+     "PLA пластик Bambu Lab для 3D-принтера — страница 3"
+    ],
+    "products": 4,
+    "prod_hash": "b0539ddd",
+    "page_links": [
+     "/ru/catalog/pla?page=2",
+     "/ru/catalog/pla?page=3"
+    ]
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/pla",
+    "robots": "",
+    "title": "PLA пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "PLA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 21,
+    "prod_hash": "3920b4db",
+    "page_links": [
+     "/ru/catalog/pla?page=2",
+     "/ru/catalog/pla?page=3"
+    ]
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/pla",
+    "robots": "",
+    "title": "PLA пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "PLA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 21,
+    "prod_hash": "3920b4db",
+    "page_links": [
+     "/ru/catalog/pla?page=2",
+     "/ru/catalog/pla?page=3"
+    ]
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/pla",
+    "robots": "",
+    "title": "PLA пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "PLA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 21,
+    "prod_hash": "3920b4db",
+    "page_links": [
+     "/ru/catalog/pla?page=2",
+     "/ru/catalog/pla?page=3"
+    ]
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/pla",
+    "robots": "",
+    "title": "PLA пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "PLA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 21,
+    "prod_hash": "3920b4db",
+    "page_links": [
+     "/ru/catalog/pla?page=2",
+     "/ru/catalog/pla?page=3"
+    ]
+   }
+  }
+ },
+ "https://forma-3d.uz/ru/catalog/petg": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/petg?page=2",
+    "robots": "",
+    "title": "PETG пластик Bambu Lab — страница 2 | Forma 3D",
+    "h1": [
+     "PETG пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 13,
+    "prod_hash": "3c0d0330",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/petg?page=3",
+    "robots": "",
+    "title": "PETG пластик Bambu Lab — страница 3 | Forma 3D",
+    "h1": [
+     "PETG пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 13,
+    "prod_hash": "3c0d0330",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/petg?page=99",
+    "robots": "",
+    "title": "PETG пластик Bambu Lab — страница 99 | Forma 3D",
+    "h1": [
+     "PETG пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 13,
+    "prod_hash": "3c0d0330",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/petg",
+    "robots": "",
+    "title": "PETG пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "PETG пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 13,
+    "prod_hash": "3c0d0330",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/petg",
+    "robots": "",
+    "title": "PETG пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "PETG пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 13,
+    "prod_hash": "3c0d0330",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/petg",
+    "robots": "",
+    "title": "PETG пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "PETG пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 13,
+    "prod_hash": "3c0d0330",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/petg",
+    "robots": "",
+    "title": "PETG пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "PETG пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 13,
+    "prod_hash": "3c0d0330",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/ru/catalog/abs-asa": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/abs-asa?page=2",
+    "robots": "",
+    "title": "ABS / ASA пластик Bambu Lab — страница 2 | Forma 3D",
+    "h1": [
+     "ABS и ASA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 4,
+    "prod_hash": "2cb58a5b",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/abs-asa?page=3",
+    "robots": "",
+    "title": "ABS / ASA пластик Bambu Lab — страница 3 | Forma 3D",
+    "h1": [
+     "ABS и ASA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 4,
+    "prod_hash": "2cb58a5b",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/abs-asa?page=99",
+    "robots": "",
+    "title": "ABS / ASA пластик Bambu Lab — страница 99 | Forma 3D",
+    "h1": [
+     "ABS и ASA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 4,
+    "prod_hash": "2cb58a5b",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/abs-asa",
+    "robots": "",
+    "title": "ABS и ASA пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "ABS и ASA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 4,
+    "prod_hash": "2cb58a5b",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/abs-asa",
+    "robots": "",
+    "title": "ABS и ASA пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "ABS и ASA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 4,
+    "prod_hash": "2cb58a5b",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/abs-asa",
+    "robots": "",
+    "title": "ABS и ASA пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "ABS и ASA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 4,
+    "prod_hash": "2cb58a5b",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/abs-asa",
+    "robots": "",
+    "title": "ABS и ASA пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "ABS и ASA пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 4,
+    "prod_hash": "2cb58a5b",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/ru/catalog/tpu": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/tpu?page=2",
+    "robots": "",
+    "title": "TPU пластик Bambu Lab — страница 2 | Forma 3D",
+    "h1": [
+     "Гибкий TPU пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 2,
+    "prod_hash": "895c4de3",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/tpu?page=3",
+    "robots": "",
+    "title": "TPU пластик Bambu Lab — страница 3 | Forma 3D",
+    "h1": [
+     "Гибкий TPU пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 2,
+    "prod_hash": "895c4de3",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/tpu?page=99",
+    "robots": "",
+    "title": "TPU пластик Bambu Lab — страница 99 | Forma 3D",
+    "h1": [
+     "Гибкий TPU пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 2,
+    "prod_hash": "895c4de3",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/tpu",
+    "robots": "",
+    "title": "TPU пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Гибкий TPU пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 2,
+    "prod_hash": "895c4de3",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/tpu",
+    "robots": "",
+    "title": "TPU пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Гибкий TPU пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 2,
+    "prod_hash": "895c4de3",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/tpu",
+    "robots": "",
+    "title": "TPU пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Гибкий TPU пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 2,
+    "prod_hash": "895c4de3",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/tpu",
+    "robots": "",
+    "title": "TPU пластик Bambu Lab купить в Ташкенте | Forma 3D",
+    "h1": [
+     "Гибкий TPU пластик Bambu Lab для 3D-принтера"
+    ],
+    "products": 2,
+    "prod_hash": "895c4de3",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/ru/catalog/engineering": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/engineering?page=2",
+    "robots": "",
+    "title": "Инженерные пластики Bambu Lab — страница 2 | Forma 3D",
+    "h1": [
+     "Инженерные пластики Bambu Lab: углеволокно и поликарбонат"
+    ],
+    "products": 6,
+    "prod_hash": "637ed9f7",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/engineering?page=3",
+    "robots": "",
+    "title": "Инженерные пластики Bambu Lab — страница 3 | Forma 3D",
+    "h1": [
+     "Инженерные пластики Bambu Lab: углеволокно и поликарбонат"
+    ],
+    "products": 6,
+    "prod_hash": "637ed9f7",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/engineering?page=99",
+    "robots": "",
+    "title": "Инженерные пластики Bambu Lab — страница 99 | Forma 3D",
+    "h1": [
+     "Инженерные пластики Bambu Lab: углеволокно и поликарбонат"
+    ],
+    "products": 6,
+    "prod_hash": "637ed9f7",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/engineering",
+    "robots": "",
+    "title": "Инженерный пластик Bambu Lab в Ташкенте: CF, PC | Forma 3D",
+    "h1": [
+     "Инженерные пластики Bambu Lab: углеволокно и поликарбонат"
+    ],
+    "products": 6,
+    "prod_hash": "637ed9f7",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/engineering",
+    "robots": "",
+    "title": "Инженерный пластик Bambu Lab в Ташкенте: CF, PC | Forma 3D",
+    "h1": [
+     "Инженерные пластики Bambu Lab: углеволокно и поликарбонат"
+    ],
+    "products": 6,
+    "prod_hash": "637ed9f7",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/engineering",
+    "robots": "",
+    "title": "Инженерный пластик Bambu Lab в Ташкенте: CF, PC | Forma 3D",
+    "h1": [
+     "Инженерные пластики Bambu Lab: углеволокно и поликарбонат"
+    ],
+    "products": 6,
+    "prod_hash": "637ed9f7",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/ru/catalog/engineering",
+    "robots": "",
+    "title": "Инженерный пластик Bambu Lab в Ташкенте: CF, PC | Forma 3D",
+    "h1": [
+     "Инженерные пластики Bambu Lab: углеволокно и поликарбонат"
+    ],
+    "products": 6,
+    "prod_hash": "637ed9f7",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/uz/catalog": {
+  "real_pages": 4,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog?page=2",
+    "robots": "",
+    "title": "Bambu Lab filament — 2-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab filamenti — 2-sahifa"
+    ],
+    "products": 28,
+    "prod_hash": "154ba9e2",
+    "page_links": [
+     "/uz/catalog?page=2",
+     "/uz/catalog?page=3",
+     "/uz/catalog?page=4"
+    ]
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog?page=3",
+    "robots": "",
+    "title": "Bambu Lab filament — 3-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab filamenti — 3-sahifa"
+    ],
+    "products": 30,
+    "prod_hash": "5df9d029",
+    "page_links": [
+     "/uz/catalog?page=2",
+     "/uz/catalog?page=3",
+     "/uz/catalog?page=4"
+    ]
+   },
+   "4": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog?page=4",
+    "robots": "",
+    "title": "Bambu Lab filament — 4-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab filamenti — 4-sahifa"
+    ],
+    "products": 11,
+    "prod_hash": "3c51975d",
+    "page_links": [
+     "/uz/catalog?page=2",
+     "/uz/catalog?page=3",
+     "/uz/catalog?page=4"
+    ]
+   },
+   "5": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog?page=5",
+    "robots": "",
+    "title": "Bambu Lab filament — 5-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab filamenti — 4-sahifa"
+    ],
+    "products": 11,
+    "prod_hash": "3c51975d",
+    "page_links": [
+     "/uz/catalog?page=2",
+     "/uz/catalog?page=3",
+     "/uz/catalog?page=4"
+    ]
+   },
+   "6": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog?page=6",
+    "robots": "",
+    "title": "Bambu Lab filament — 6-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab filamenti — 4-sahifa"
+    ],
+    "products": 11,
+    "prod_hash": "3c51975d",
+    "page_links": [
+     "/uz/catalog?page=2",
+     "/uz/catalog?page=3",
+     "/uz/catalog?page=4"
+    ]
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog?page=99",
+    "robots": "",
+    "title": "Bambu Lab filament — 99-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab filamenti — 4-sahifa"
+    ],
+    "products": 11,
+    "prod_hash": "3c51975d",
+    "page_links": [
+     "/uz/catalog?page=2",
+     "/uz/catalog?page=3",
+     "/uz/catalog?page=4"
+    ]
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog",
+    "robots": "",
+    "title": "Bambu Lab filament sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab filamenti"
+    ],
+    "products": 25,
+    "prod_hash": "8bc31fd6",
+    "page_links": [
+     "/uz/catalog?page=2",
+     "/uz/catalog?page=3",
+     "/uz/catalog?page=4"
+    ]
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog",
+    "robots": "",
+    "title": "Bambu Lab filament sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab filamenti"
+    ],
+    "products": 25,
+    "prod_hash": "8bc31fd6",
+    "page_links": [
+     "/uz/catalog?page=2",
+     "/uz/catalog?page=3",
+     "/uz/catalog?page=4"
+    ]
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog",
+    "robots": "",
+    "title": "Bambu Lab filament sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab filamenti"
+    ],
+    "products": 25,
+    "prod_hash": "8bc31fd6",
+    "page_links": [
+     "/uz/catalog?page=2",
+     "/uz/catalog?page=3",
+     "/uz/catalog?page=4"
+    ]
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog",
+    "robots": "",
+    "title": "Bambu Lab filament sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab filamenti"
+    ],
+    "products": 25,
+    "prod_hash": "8bc31fd6",
+    "page_links": [
+     "/uz/catalog?page=2",
+     "/uz/catalog?page=3",
+     "/uz/catalog?page=4"
+    ]
+   }
+  }
+ },
+ "https://forma-3d.uz/uz/catalog/parts": {
+  "real_pages": 3,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/parts?page=2",
+    "robots": "",
+    "title": "Bambu Lab ehtiyot qismlari — 2-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab uchun ehtiyot qismlar va sarf materiallari — 2-sahifa"
+    ],
+    "products": 21,
+    "prod_hash": "f24d9d2c",
+    "page_links": [
+     "/uz/catalog/parts?page=2",
+     "/uz/catalog/parts?page=3"
+    ]
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/parts?page=3",
+    "robots": "",
+    "title": "Bambu Lab ehtiyot qismlari — 3-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab uchun ehtiyot qismlar va sarf materiallari — 3-sahifa"
+    ],
+    "products": 12,
+    "prod_hash": "0cd5e84d",
+    "page_links": [
+     "/uz/catalog/parts?page=2",
+     "/uz/catalog/parts?page=3"
+    ]
+   },
+   "4": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/parts?page=4",
+    "robots": "",
+    "title": "Bambu Lab ehtiyot qismlari — 4-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab uchun ehtiyot qismlar va sarf materiallari — 3-sahifa"
+    ],
+    "products": 12,
+    "prod_hash": "0cd5e84d",
+    "page_links": [
+     "/uz/catalog/parts?page=2",
+     "/uz/catalog/parts?page=3"
+    ]
+   },
+   "5": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/parts?page=5",
+    "robots": "",
+    "title": "Bambu Lab ehtiyot qismlari — 5-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab uchun ehtiyot qismlar va sarf materiallari — 3-sahifa"
+    ],
+    "products": 12,
+    "prod_hash": "0cd5e84d",
+    "page_links": [
+     "/uz/catalog/parts?page=2",
+     "/uz/catalog/parts?page=3"
+    ]
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/parts?page=99",
+    "robots": "",
+    "title": "Bambu Lab ehtiyot qismlari — 99-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab uchun ehtiyot qismlar va sarf materiallari — 3-sahifa"
+    ],
+    "products": 12,
+    "prod_hash": "0cd5e84d",
+    "page_links": [
+     "/uz/catalog/parts?page=2",
+     "/uz/catalog/parts?page=3"
+    ]
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/parts",
+    "robots": "",
+    "title": "Bambu Lab ehtiyot qismlari Toshkentda | Forma 3D",
+    "h1": [
+     "Bambu Lab uchun ehtiyot qismlar va sarf materiallari"
+    ],
+    "products": 18,
+    "prod_hash": "2f304b42",
+    "page_links": [
+     "/uz/catalog/parts?page=2",
+     "/uz/catalog/parts?page=3"
+    ]
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/parts",
+    "robots": "",
+    "title": "Bambu Lab ehtiyot qismlari Toshkentda | Forma 3D",
+    "h1": [
+     "Bambu Lab uchun ehtiyot qismlar va sarf materiallari"
+    ],
+    "products": 18,
+    "prod_hash": "2f304b42",
+    "page_links": [
+     "/uz/catalog/parts?page=2",
+     "/uz/catalog/parts?page=3"
+    ]
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/parts",
+    "robots": "",
+    "title": "Bambu Lab ehtiyot qismlari Toshkentda | Forma 3D",
+    "h1": [
+     "Bambu Lab uchun ehtiyot qismlar va sarf materiallari"
+    ],
+    "products": 18,
+    "prod_hash": "2f304b42",
+    "page_links": [
+     "/uz/catalog/parts?page=2",
+     "/uz/catalog/parts?page=3"
+    ]
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/parts",
+    "robots": "",
+    "title": "Bambu Lab ehtiyot qismlari Toshkentda | Forma 3D",
+    "h1": [
+     "Bambu Lab uchun ehtiyot qismlar va sarf materiallari"
+    ],
+    "products": 18,
+    "prod_hash": "2f304b42",
+    "page_links": [
+     "/uz/catalog/parts?page=2",
+     "/uz/catalog/parts?page=3"
+    ]
+   }
+  }
+ },
+ "https://forma-3d.uz/uz/catalog/hotends": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/hotends?page=2",
+    "robots": "",
+    "title": "Bambu Lab hotend va soplolari — 2-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, P1S, X1C uchun hotend va soplolar"
+    ],
+    "products": 16,
+    "prod_hash": "3d1e855a",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/hotends?page=3",
+    "robots": "",
+    "title": "Bambu Lab hotend va soplolari — 3-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, P1S, X1C uchun hotend va soplolar"
+    ],
+    "products": 16,
+    "prod_hash": "3d1e855a",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/hotends?page=99",
+    "robots": "",
+    "title": "Bambu Lab hotend va soplolari — 99-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, P1S, X1C uchun hotend va soplolar"
+    ],
+    "products": 16,
+    "prod_hash": "3d1e855a",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/hotends",
+    "robots": "",
+    "title": "Bambu Lab hotend va soplolari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, P1S, X1C uchun hotend va soplolar"
+    ],
+    "products": 16,
+    "prod_hash": "3d1e855a",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/hotends",
+    "robots": "",
+    "title": "Bambu Lab hotend va soplolari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, P1S, X1C uchun hotend va soplolar"
+    ],
+    "products": 16,
+    "prod_hash": "3d1e855a",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/hotends",
+    "robots": "",
+    "title": "Bambu Lab hotend va soplolari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, P1S, X1C uchun hotend va soplolar"
+    ],
+    "products": 16,
+    "prod_hash": "3d1e855a",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/hotends",
+    "robots": "",
+    "title": "Bambu Lab hotend va soplolari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, P1S, X1C uchun hotend va soplolar"
+    ],
+    "products": 16,
+    "prod_hash": "3d1e855a",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/uz/catalog/plates": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/plates?page=2",
+    "robots": "",
+    "title": "Bambu Lab bosma stollari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, A1 mini, P1S, X1C uchun bosma stollari"
+    ],
+    "products": 6,
+    "prod_hash": "4c0f0585",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/plates?page=3",
+    "robots": "",
+    "title": "Bambu Lab bosma stollari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, A1 mini, P1S, X1C uchun bosma stollari"
+    ],
+    "products": 6,
+    "prod_hash": "4c0f0585",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/plates?page=99",
+    "robots": "",
+    "title": "Bambu Lab bosma stollari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, A1 mini, P1S, X1C uchun bosma stollari"
+    ],
+    "products": 6,
+    "prod_hash": "4c0f0585",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/plates",
+    "robots": "",
+    "title": "Bambu Lab bosma stollari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, A1 mini, P1S, X1C uchun bosma stollari"
+    ],
+    "products": 6,
+    "prod_hash": "4c0f0585",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/plates",
+    "robots": "",
+    "title": "Bambu Lab bosma stollari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, A1 mini, P1S, X1C uchun bosma stollari"
+    ],
+    "products": 6,
+    "prod_hash": "4c0f0585",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/plates",
+    "robots": "",
+    "title": "Bambu Lab bosma stollari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, A1 mini, P1S, X1C uchun bosma stollari"
+    ],
+    "products": 6,
+    "prod_hash": "4c0f0585",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/plates",
+    "robots": "",
+    "title": "Bambu Lab bosma stollari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab A1, A1 mini, P1S, X1C uchun bosma stollari"
+    ],
+    "products": 6,
+    "prod_hash": "4c0f0585",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/uz/catalog/pla": {
+  "real_pages": 3,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/pla?page=2",
+    "robots": "",
+    "title": "Bambu Lab PLA plastik — 2-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PLA plastik — 2-sahifa"
+    ],
+    "products": 27,
+    "prod_hash": "80aa68c6",
+    "page_links": [
+     "/uz/catalog/pla?page=2",
+     "/uz/catalog/pla?page=3"
+    ]
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/pla?page=3",
+    "robots": "",
+    "title": "Bambu Lab PLA plastik — 3-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PLA plastik — 3-sahifa"
+    ],
+    "products": 4,
+    "prod_hash": "d6be8073",
+    "page_links": [
+     "/uz/catalog/pla?page=2",
+     "/uz/catalog/pla?page=3"
+    ]
+   },
+   "4": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/pla?page=4",
+    "robots": "",
+    "title": "Bambu Lab PLA plastik — 4-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PLA plastik — 3-sahifa"
+    ],
+    "products": 4,
+    "prod_hash": "d6be8073",
+    "page_links": [
+     "/uz/catalog/pla?page=2",
+     "/uz/catalog/pla?page=3"
+    ]
+   },
+   "5": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/pla?page=5",
+    "robots": "",
+    "title": "Bambu Lab PLA plastik — 5-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PLA plastik — 3-sahifa"
+    ],
+    "products": 4,
+    "prod_hash": "d6be8073",
+    "page_links": [
+     "/uz/catalog/pla?page=2",
+     "/uz/catalog/pla?page=3"
+    ]
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/pla?page=99",
+    "robots": "",
+    "title": "Bambu Lab PLA plastik — 99-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PLA plastik — 3-sahifa"
+    ],
+    "products": 4,
+    "prod_hash": "d6be8073",
+    "page_links": [
+     "/uz/catalog/pla?page=2",
+     "/uz/catalog/pla?page=3"
+    ]
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/pla",
+    "robots": "",
+    "title": "Bambu Lab PLA plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PLA plastik"
+    ],
+    "products": 21,
+    "prod_hash": "9a804164",
+    "page_links": [
+     "/uz/catalog/pla?page=2",
+     "/uz/catalog/pla?page=3"
+    ]
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/pla",
+    "robots": "",
+    "title": "Bambu Lab PLA plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PLA plastik"
+    ],
+    "products": 21,
+    "prod_hash": "9a804164",
+    "page_links": [
+     "/uz/catalog/pla?page=2",
+     "/uz/catalog/pla?page=3"
+    ]
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/pla",
+    "robots": "",
+    "title": "Bambu Lab PLA plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PLA plastik"
+    ],
+    "products": 21,
+    "prod_hash": "9a804164",
+    "page_links": [
+     "/uz/catalog/pla?page=2",
+     "/uz/catalog/pla?page=3"
+    ]
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/pla",
+    "robots": "",
+    "title": "Bambu Lab PLA plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PLA plastik"
+    ],
+    "products": 21,
+    "prod_hash": "9a804164",
+    "page_links": [
+     "/uz/catalog/pla?page=2",
+     "/uz/catalog/pla?page=3"
+    ]
+   }
+  }
+ },
+ "https://forma-3d.uz/uz/catalog/petg": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/petg?page=2",
+    "robots": "",
+    "title": "Bambu Lab PETG plastik — 2-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PETG plastik"
+    ],
+    "products": 13,
+    "prod_hash": "9c38617a",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/petg?page=3",
+    "robots": "",
+    "title": "Bambu Lab PETG plastik — 3-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PETG plastik"
+    ],
+    "products": 13,
+    "prod_hash": "9c38617a",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/petg?page=99",
+    "robots": "",
+    "title": "Bambu Lab PETG plastik — 99-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PETG plastik"
+    ],
+    "products": 13,
+    "prod_hash": "9c38617a",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/petg",
+    "robots": "",
+    "title": "Bambu Lab PETG plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PETG plastik"
+    ],
+    "products": 13,
+    "prod_hash": "9c38617a",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/petg",
+    "robots": "",
+    "title": "Bambu Lab PETG plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PETG plastik"
+    ],
+    "products": 13,
+    "prod_hash": "9c38617a",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/petg",
+    "robots": "",
+    "title": "Bambu Lab PETG plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PETG plastik"
+    ],
+    "products": 13,
+    "prod_hash": "9c38617a",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/petg",
+    "robots": "",
+    "title": "Bambu Lab PETG plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab PETG plastik"
+    ],
+    "products": 13,
+    "prod_hash": "9c38617a",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/uz/catalog/abs-asa": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/abs-asa?page=2",
+    "robots": "",
+    "title": "Bambu Lab ABS / ASA plastik — 2-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab ABS va ASA plastik"
+    ],
+    "products": 4,
+    "prod_hash": "13f16a9d",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/abs-asa?page=3",
+    "robots": "",
+    "title": "Bambu Lab ABS / ASA plastik — 3-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab ABS va ASA plastik"
+    ],
+    "products": 4,
+    "prod_hash": "13f16a9d",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/abs-asa?page=99",
+    "robots": "",
+    "title": "Bambu Lab ABS / ASA plastik — 99-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab ABS va ASA plastik"
+    ],
+    "products": 4,
+    "prod_hash": "13f16a9d",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/abs-asa",
+    "robots": "",
+    "title": "Bambu Lab ABS va ASA plastik, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab ABS va ASA plastik"
+    ],
+    "products": 4,
+    "prod_hash": "13f16a9d",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/abs-asa",
+    "robots": "",
+    "title": "Bambu Lab ABS va ASA plastik, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab ABS va ASA plastik"
+    ],
+    "products": 4,
+    "prod_hash": "13f16a9d",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/abs-asa",
+    "robots": "",
+    "title": "Bambu Lab ABS va ASA plastik, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab ABS va ASA plastik"
+    ],
+    "products": 4,
+    "prod_hash": "13f16a9d",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/abs-asa",
+    "robots": "",
+    "title": "Bambu Lab ABS va ASA plastik, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun Bambu Lab ABS va ASA plastik"
+    ],
+    "products": 4,
+    "prod_hash": "13f16a9d",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/uz/catalog/tpu": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/tpu?page=2",
+    "robots": "",
+    "title": "Bambu Lab TPU plastik — 2-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun egiluvchan Bambu Lab TPU plastik"
+    ],
+    "products": 2,
+    "prod_hash": "8788c7f3",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/tpu?page=3",
+    "robots": "",
+    "title": "Bambu Lab TPU plastik — 3-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun egiluvchan Bambu Lab TPU plastik"
+    ],
+    "products": 2,
+    "prod_hash": "8788c7f3",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/tpu?page=99",
+    "robots": "",
+    "title": "Bambu Lab TPU plastik — 99-sahifa | Forma 3D",
+    "h1": [
+     "3D-printer uchun egiluvchan Bambu Lab TPU plastik"
+    ],
+    "products": 2,
+    "prod_hash": "8788c7f3",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/tpu",
+    "robots": "",
+    "title": "Bambu Lab TPU plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun egiluvchan Bambu Lab TPU plastik"
+    ],
+    "products": 2,
+    "prod_hash": "8788c7f3",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/tpu",
+    "robots": "",
+    "title": "Bambu Lab TPU plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun egiluvchan Bambu Lab TPU plastik"
+    ],
+    "products": 2,
+    "prod_hash": "8788c7f3",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/tpu",
+    "robots": "",
+    "title": "Bambu Lab TPU plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun egiluvchan Bambu Lab TPU plastik"
+    ],
+    "products": 2,
+    "prod_hash": "8788c7f3",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/tpu",
+    "robots": "",
+    "title": "Bambu Lab TPU plastik sotib olish, Toshkent | Forma 3D",
+    "h1": [
+     "3D-printer uchun egiluvchan Bambu Lab TPU plastik"
+    ],
+    "products": 2,
+    "prod_hash": "8788c7f3",
+    "page_links": []
+   }
+  }
+ },
+ "https://forma-3d.uz/uz/catalog/engineering": {
+  "real_pages": 1,
+  "pages": {
+   "2": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/engineering?page=2",
+    "robots": "",
+    "title": "Bambu Lab muhandislik plastiklari — 2-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab muhandislik plastiklari: uglerod tola va polikarbonat"
+    ],
+    "products": 6,
+    "prod_hash": "b5acbe8f",
+    "page_links": []
+   },
+   "3": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/engineering?page=3",
+    "robots": "",
+    "title": "Bambu Lab muhandislik plastiklari — 3-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab muhandislik plastiklari: uglerod tola va polikarbonat"
+    ],
+    "products": 6,
+    "prod_hash": "b5acbe8f",
+    "page_links": []
+   },
+   "99": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/engineering?page=99",
+    "robots": "",
+    "title": "Bambu Lab muhandislik plastiklari — 99-sahifa | Forma 3D",
+    "h1": [
+     "Bambu Lab muhandislik plastiklari: uglerod tola va polikarbonat"
+    ],
+    "products": 6,
+    "prod_hash": "b5acbe8f",
+    "page_links": []
+   },
+   "0": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/engineering",
+    "robots": "",
+    "title": "Bambu Lab muhandislik plastiklari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab muhandislik plastiklari: uglerod tola va polikarbonat"
+    ],
+    "products": 6,
+    "prod_hash": "b5acbe8f",
+    "page_links": []
+   },
+   "-1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/engineering",
+    "robots": "",
+    "title": "Bambu Lab muhandislik plastiklari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab muhandislik plastiklari: uglerod tola va polikarbonat"
+    ],
+    "products": 6,
+    "prod_hash": "b5acbe8f",
+    "page_links": []
+   },
+   "abc": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/engineering",
+    "robots": "",
+    "title": "Bambu Lab muhandislik plastiklari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab muhandislik plastiklari: uglerod tola va polikarbonat"
+    ],
+    "products": 6,
+    "prod_hash": "b5acbe8f",
+    "page_links": []
+   },
+   "1": {
+    "status": 200,
+    "location": null,
+    "x_robots": null,
+    "canonical": "https://forma-3d.uz/uz/catalog/engineering",
+    "robots": "",
+    "title": "Bambu Lab muhandislik plastiklari, Toshkent | Forma 3D",
+    "h1": [
+     "Bambu Lab muhandislik plastiklari: uglerod tola va polikarbonat"
+    ],
+    "products": 6,
+    "prod_hash": "b5acbe8f",
+    "page_links": []
+   }
+  }
+ }
+}
