@@ -26,7 +26,7 @@
 
 ## GSC и PageSpeed для облака (2026-11-17, чат)
 - Сделано: `core/scripts/fetch_google_data.py` + GitHub Actions `.github/workflows/seo-google-data.yml` (пн 02:00 UTC, за 2 часа до облачного цикла, и вручную). Данные коммитятся в seo/data/, облачный цикл их читает (improve-cycle.md, шаг 2).
-- **Нужно от владельца (как asilios):** https://github.com/asilios/seo-agents/settings/secrets/actions → добавить `GSC_KEY_JSON` (весь JSON-ключ сервисного аккаунта; лучше перевыпущенный — старый проходил через чат) и `PSI_API_KEY`; затем Actions → «SEO — данные Google» → Run workflow.
+- **Нужно от владельца (как asilios):** https://github.com/asilios/seo-agents/settings/secrets/actions → добавить `GSC_KEY_JSON` (весь текущий JSON-ключ сервисного аккаунта; перевыпускать владелец не стал, 2026-11-17) и `PSI_API_KEY`; затем Actions → «SEO — данные Google» → Run workflow.
 - Пока секретов нет, workflow отрабатывает без ошибок, но данных не будет.
 
 ## Еженедельный запуск 2026-11-17 (облако)
