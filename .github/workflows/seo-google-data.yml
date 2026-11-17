@@ -1,0 +1,69 @@
+# Еженедельная выгрузка Search Console и PageSpeed для всех клиентов.
+# Облачная задача Claude не хранит ключей, поэтому данные готовит GitHub Actions с секретами репозитория
+# и коммитит их в clients/<client>/seo/data/. Облачный цикл (пн 04:00 UTC) читает свежие файлы.
+#
+# Секреты репозитория (Settings → Secrets and variables → Actions):
+#   GSC_KEY_JSON  — содержимое JSON-ключа сервисного аккаунта Search Console (весь файл целиком)
+#   PSI_API_KEY   — ключ PageSpeed Insights API
+name: SEO — данные Google
+
+on:
+  schedule:
+    - cron: "0 2 * * 1"   # пн 07:00 Ташкент, за 2 часа до облачного цикла
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-google-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Зависимости
+        run: pip install requests google-api-python-client google-auth python-dotenv PyYAML
+
+      - name: Ключ Search Console
+        env:
+          GSC_KEY_JSON: ${{ secrets.GSC_KEY_JSON }}
+        run: |
+          if [ -n "$GSC_KEY_JSON" ]; then
+            mkdir -p secrets
+            printf '%s' "$GSC_KEY_JSON" > secrets/gsc-key.json
+            echo "GSC_CREDENTIALS=secrets/gsc-key.json" >> "$GITHUB_ENV"
+          else
+            echo "Секрет GSC_KEY_JSON не задан — GSC будет пропущен"
+          fi
+
+      - name: Выгрузка
+        env:
+          PSI_API_KEY: ${{ secrets.PSI_API_KEY }}
+        run: python core/scripts/fetch_google_data.py
+
+      - name: Удалить ключ
+        if: always()
+        run: rm -f secrets/gsc-key.json
+
+      - name: Коммит данных
+        if: always()
+        run: |
+          git config user.name "seo-agents-bot"
+          git config user.email "seo-agents-bot@users.noreply.github.com"
+          git add clients/*/seo/data/
+          if git diff --cached --quiet; then
+            echo "Новых данных нет"
+            exit 0
+          fi
+          git commit -m "Данные Google (GSC, PageSpeed) за $(date -u +%F)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

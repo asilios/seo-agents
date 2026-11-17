@@ -14,7 +14,11 @@
    Пути: `client.yaml`, `NEXT.md`, `reports/` — в `clients/<client>/`; остальное SEO — в `clients/<client>/seo/`.
 
 2. **Замер — что изменилось с прошлого раза.**
-   - GSC (если есть ключ): `python core/scripts/gsc.py --site <gsc_site> --days 28 --out clients/<client>/seo/data/gsc-YYYY-MM-DD.csv`
+   - GSC и PageSpeed. В облаке ключей нет: их выгружает GitHub Actions (`.github/workflows/seo-google-data.yml`,
+     пн 02:00 UTC) и коммитит `seo/data/gsc-YYYY-MM-DD.csv`, `gsc-queries.csv`, `psi-YYYY-MM-DD.json`. После `git pull`
+     взять самые свежие файлы; если им больше 7 дней или их нет — так и написать в отчёте («Actions не отработал»).
+     Локально с ключом можно вручную: `python core/scripts/fetch_google_data.py --client <client>` или по шагам:
+     `python core/scripts/gsc.py --site <gsc_site> --days 28 --out clients/<client>/seo/data/gsc-YYYY-MM-DD.csv`
      и сравнение с прошлой выгрузкой (`--compare`). Проверка индексации ключевых URL (URL Inspection).
      Затем `python modules/seo/scripts/keyword_volumes.py gsc --client <client>` и `... score --client <client>`:
      реальные запросы сайта, «быстрые победы» на позициях 8–30 и запросы GSC вне ядра — в `seo/keywords/priorities.md`.

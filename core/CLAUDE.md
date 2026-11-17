@@ -65,4 +65,7 @@ clients/<client>/
 - `gsc.py` — Google Search Console: `python core/scripts/gsc.py --site <gsc_site> --days 28 --out <файл.csv>`,
   сравнение: `--compare <prev.csv> <curr.csv>`. Ключ — `GSC_CREDENTIALS` в `.env` (путь от корня репозитория).
 
+- `fetch_google_data.py` — GSC + PageSpeed по всем клиентам за раз (без ключа шаг пропускается). Его же запускает
+  GitHub Actions `seo-google-data.yml` с секретами `GSC_KEY_JSON` и `PSI_API_KEY` — так данные попадают в облачный цикл.
+
 Скрипты запускаются из корня репозитория.

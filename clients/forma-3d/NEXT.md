@@ -24,6 +24,11 @@
 - seo-3, seo-4, seo-5 — выложены. Вход в git: сайт — `https://kemalshen@github.com/...`, этот проект — `https://asilios@github.com/...`.
 - Цикл работы — modules/seo/routine/improve-cycle.md. Облачная задача «SEO forma-3d — еженедельный цикл» (trig_01SnqZYAaTRa9Xp8my6rNSTn, Opus): каждый понедельник 09:00 Ташкент (0 4 * * 1 UTC), https://claude.ai/code/routines/trig_01SnqZYAaTRa9Xp8my6rNSTn. В облаке нет ключа GSC — данные GSC подтягивать в чате.
 
+## GSC и PageSpeed для облака (2026-11-17, чат)
+- Сделано: `core/scripts/fetch_google_data.py` + GitHub Actions `.github/workflows/seo-google-data.yml` (пн 02:00 UTC, за 2 часа до облачного цикла, и вручную). Данные коммитятся в seo/data/, облачный цикл их читает (improve-cycle.md, шаг 2).
+- **Нужно от владельца (как asilios):** https://github.com/asilios/seo-agents/settings/secrets/actions → добавить `GSC_KEY_JSON` (весь JSON-ключ сервисного аккаунта; лучше перевыпущенный — старый проходил через чат) и `PSI_API_KEY`; затем Actions → «SEO — данные Google» → Run workflow.
+- Пока секретов нет, workflow отрабатывает без ошибок, но данных не будет.
+
 ## Еженедельный запуск 2026-11-17 (облако)
 - Сайт доступен. Аудит seo/audits/2026-11-17.md: 262 URL sitemap + 14 пагинации — 276/276 OK; pla-pagination-links-001 подтверждён на живом. Новое (low): internal-links-trailing-slash-001 — ссылки на главную (логотип, крошка, подвал) ведут на /ru/ и /uz/ → 308 на /ru, /uz.
 - Срез seo/data/serp-2026-11-17-weekly.md (15 запросов, ~90 кредитов; сравнение с 16.11 — разница в 1 день): ehtiyot qismlar #3, filament toshkent #8; «хуже» запчасти 6→19, сопло 10→нет, хотэнд 15→19, textured pei 4→8 — вероятно колебания выдачи (сайт не менялся, регрессий нет). /catalog/engineering в выдаче ещё нет; «pla-cf…» — карточка #19.
