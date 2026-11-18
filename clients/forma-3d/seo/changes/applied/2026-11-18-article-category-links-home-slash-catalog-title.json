@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-18-article-category-links-home-slash-catalog-title",
+  "issue": "internal-links-trailing-slash-001, internal-links-materials-001",
+  "type": "internal-links+technical-fix+meta",
+  "status": "applied",
+  "approved_at": "2026-11-18",
+  "applied_at": "2026-11-18",
+  "pages": ["/ru|uz/knowledge/*", "все страницы (ссылки на главную)", "/ru/catalog"],
+  "change": "1) Статьи базы знаний (app/data/articles.json, ru и uz): к существующим предложениям добавлены ссылки на разделы — kakoy-filament-vybrat → /catalog/pla, /catalog/petg, /catalog/tpu; petg-ili-pla → /catalog/petg, /catalog/pla; bambu-studio-nastroyka → /catalog/plates; kogda-menyat-soplo → /catalog/hotends (плюс прежняя /catalog/parts). Новых утверждений, цен, сроков нет. Ссылки из статей при клике выставляют фильтр каталога (catGo). 2) Ссылки на главную (логотип, крошки, подвал, переключатель языка) ведут на /ru и /uz без слэша вместо /ru/ → 308 (internal-links-trailing-slash-001): Link и nav в app/store.tsx, initialPath в app/[lang]/[[...path]]/page.tsx. 3) /ru/catalog: title «Филамент Bambu Lab купить в Ташкенте — PLA, PETG | Forma 3D» → «Пластик для 3D-принтера Bambu Lab в Ташкенте | Forma 3D»; description начинается с «Пластик для 3D-принтера — филамент Bambu Lab 1,75 мм…» (запрос «пластик для 3d принтера ташкент» — сайта нет в топ-30). H1 «Филамент Bambu Lab для 3D-принтера» и uz-версия не менялись (bambu lab filament toshkent — #8).",
+  "files": ["app/data/articles.json", "app/store.tsx", "app/[lang]/[[...path]]/page.tsx", "app/seo.ts", "forma-3d-source.tar.gz"],
+  "commits": {"code": "d961c91", "archive": "b5c6d78", "merge": "78d8091"},
+  "checks": "typecheck, build без ошибок; локально 262/262 URL sitemap — 200, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ, ссылок href=\"/ru/\" и \"/uz/\" нет; ?page=99 — 404; клики в браузере (статья → /ru/catalog/pla с фильтром PLA, крошка → /ru, RU→UZ → /uz) без ошибок JS; архив пересобран и сверен (кроме давних .env.example, README.md)"
+}
