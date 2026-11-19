@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-19-faq-material-links-tpu-synonyms",
+  "issue": "internal-links-materials-001; кластеры «ABS и ASA пластик», «TPU гибкий пластик», «Хранение филамента»",
+  "type": "internal-links+content",
+  "status": "applied",
+  "approved_at": "2026-11-19",
+  "applied_at": "2026-11-19",
+  "pages": ["/ru|uz/catalog/pla", "/ru|uz/catalog/petg", "/ru|uz/catalog/tpu", "/ru|uz/catalog/engineering"],
+  "change": "Внутри существующих ответов FAQ (app/material-pages.ts, ru и uz), без новых утверждений: 1) /catalog/pla, вопрос про нагрев и улицу — «PETG или ASA» стали ссылками на /catalog/petg и /catalog/abs-asa; 2) /catalog/engineering, вопрос про A1 — «TPU» стал ссылкой на /catalog/tpu; 3) /catalog/petg и /catalog/tpu, вопросы про сушку — «силикагелем / silikagelli» стали ссылками на /product/desiccant (Keyword Planner: «silikagel» 40 в месяц); 4) вводный текст /ru/catalog/tpu: «TPU (ТПУ, его ещё называют флекс-пластиком)» — под запросы «тпу пластик» и «флекс пластик» (по 10 в месяц). Цен, сроков, обещаний нет.",
+  "files": ["app/material-pages.ts", "forma-3d-source.tar.gz"],
+  "commits": {"code": "fdb6e44", "archive": "4208d2c", "merge": "7ee0bab"},
+  "checks": "typecheck, build без ошибок; локально 262/262 URL sitemap — 200, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ; ссылки отрисованы (abs-asa, tpu, desiccant), markdown-разметка в HTML и JSON-LD не протекла; архив пересобран и сверен (кроме давних .env.example, README.md); живой сайт: правка видна через ~70 с, 262/262 прошли те же проверки"
+}
