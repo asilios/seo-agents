@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-20-article-links-engineering-abs-hotends",
+  "issue": "входящие ссылки на /catalog/engineering и /catalog/abs-asa (аудит 19.11: ни одна статья на них не ссылалась); кластеры «Инженерные пластики», «ABS и ASA пластик», «Хотэнды и сопла»",
+  "type": "internal-links",
+  "status": "applied",
+  "approved_at": "2026-11-20",
+  "applied_at": "2026-11-20",
+  "pages": ["/ru|uz/knowledge/kakoy-filament-vybrat", "/ru|uz/knowledge/kogda-menyat-soplo", "/ru|uz/knowledge/kak-hranit-filament"],
+  "change": "Только ссылки на существующие слова в текстах статей (app/data/articles.json, ru и uz), без новых утверждений: 1) «Какой филамент выбрать»: «Инженерные пластики / Muhandislik plastiklarini» → /catalog/engineering; ссылка про подходящие хотэнды переведена с /catalog/parts на /catalog/hotends («Хотэнды и сопла» / «hotend va soplolar»); «PETG или ASA» (про нагрев) → /catalog/petg и /catalog/abs-asa; 2) «Когда менять сопло»: «с углеволокном / uglerod tolali» → /catalog/engineering; 3) «Как хранить филамент» (раньше без ссылок на разделы): «PETG и TPU» → /catalog/petg и /catalog/tpu. Цен, сроков, обещаний нет.",
+  "files": ["app/data/articles.json", "forma-3d-source.tar.gz"],
+  "commits": {"code": "b6f8ea8", "archive": "6724f40", "merge": "4f0bae1"},
+  "checks": "typecheck, build без ошибок; локально 262/262 URL sitemap — 200, один h1, title ≤60, description ≤160, без кириллицы на /uz, без [УТОЧНИТЬ; ссылки отрисованы в 6 статьях (ru+uz), markdown не протёк; архив пересобран и сверен (кроме давних .env.example, README.md); живой сайт: правка видна через ~75 с, 262/262 прошли те же проверки"
+}
