@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-22-product-section-link",
+  "issue": "по запросам «pla пластик купить ташкент», «хотэнд bambu lab ташкент», «хотэнд…a1 купить» Google показывает главную, а не разделы /catalog/pla и /catalog/hotends; страниц материалов PLA/PETG нет в топ-30 (срезы 21–22.11). Карточки ссылались на свой раздел только хлебной крошкой",
+  "type": "internal-links",
+  "status": "applied",
+  "approved_at": "2026-11-22",
+  "applied_at": "2026-11-22",
+  "pages": ["164 карточки товаров ru+uz, у которых есть посадочный раздел: PLA, PETG, ABS/ASA, TPU, инженерные пластики, хотэнды и сопла, печатные столы"],
+  "change": "Во вкладке «О материале» / «О товаре» (текст есть в HTML с сервера) после общего абзаца — одна строка со ссылкой на раздел: ru «Другие цвета и серии — в разделе PLA пластик Bambu Lab.» (для запчастей — «Другие версии и модели — в разделе Хотэнды и сопла Bambu Lab.»), uz «Boshqa ranglar va seriyalar — PLA plastik bo‘limida.» / «Boshqa versiyalar va modellar — Hotend va soplolar bo‘limida.». Анкор — название раздела из хлебных крошек (+ «Bambu Lab» на ru). Цен, сроков, обещаний, новых утверждений нет. Код: app/store.tsx.",
+  "checks": "pnpm typecheck, pnpm build — без ошибок; локально 262/262 URL sitemap: 200 без редиректа, один H1, title ≤60, description ≤160, без кириллицы на /uz/*, без «[УТОЧНИТЬ»; архив forma-3d-source.tar.gz пересобран и сверен с кодом (расходятся только давние .env.example и README.md); живой сайт через ~70 с: 262/262, строка со ссылкой на 164 карточках",
+  "commits": {"code": "e56a703", "archive": "3d4c404", "merge": "caa5708"},
+  "measure": "сравнить срезы выдачи через 1–2 недели: появятся ли /catalog/pla, /catalog/petg, /catalog/hotends вместо главной по своим запросам"
+}
